@@ -70,6 +70,6 @@ We use a standardised naming scheme to more easily identify the purpose of each 
 
 ### Attribution
 
-**Banner Text:**  [Pixelated font](https://www.dafont.com/pixelated.font) by Skylar Park [License](http://creativecommons.org/licenses/by-sa/3.0/)\n
+**Banner Text:**  [Pixelated font](https://www.dafont.com/pixelated.font) by Skylar Park [License](http://creativecommons.org/licenses/by-sa/3.0/)\
                   [Skew it](https://www.dafont.com/skew-it.font) by Prask
                   
