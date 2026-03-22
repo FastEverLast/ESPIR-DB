@@ -25,7 +25,7 @@ All files should follow the `<brand>_<model>.yaml` naming scheme and please also
 
 * :white_check_mark: `LG_OLED65C8PUA.yaml`
 * :x: `LG_OLED65C8PUA.txt` (wrong extension)
-* :x: `lg_oled65c8pua.yaml` (model numbers not capitalized)
+* :x: `lg_oled65c8pua.yaml` (model numbers not capitalised)
 * :x: `tv.yaml` (too generic)
 
 Files should contain a snippet of the ESPHome code, oragnised as shown:
