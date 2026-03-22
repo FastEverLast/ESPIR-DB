@@ -15,7 +15,7 @@ If you would like to add IR codes the repository is lacking, **please do so!**
 
 This repo is organised in the following fashion in descending order:
 ```diff 
-Device Type > Device Brand > @@Device Series@@ (if known/applicable)
+@@Device Type > Device Brand > Device Series@@ (if known/applicable)
 ```
 
 All files should follow the `<brand>_<model>.yaml` naming scheme and please also ensure the letters in the model name is capatalised:
