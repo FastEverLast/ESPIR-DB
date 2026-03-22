@@ -4,6 +4,9 @@
     A collective of IR codes for a variety of <a href="https://esphome.io/">ESPHome</a> Projects
 </p>
 
+> [!NOTE]
+> This project is not officially associated with Nabu Casa, Home Assistant or ESPHome
+
 > [!IMPORTANT]
 > By submitting you agree to license your work under the [CC0-1.0 license](https://choosealicense.com/licenses/cc0-1.0/). 
 
