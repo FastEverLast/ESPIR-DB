@@ -1,4 +1,4 @@
-<img src="https://github.com/fasteverlast/ESPIR-DB/assets/banner" width="200%" />
+<img src="https://github.com/fasteverlast/ESPIR-DB/assets/banner.png" width="200%" />
 
 <p align="center">
     A collective of IR codes for a variety of <a href="https://esphome.io/">ESPHome</a> Projects
@@ -15,7 +15,7 @@ If you would like to add IR codes the repository is lacking, **please do so!**
 
 This repo is organised in the following fashion in descending order:
 ```diff 
-+Device Type+ > !Device Brand! > @@Device Series@@ (if known/applicable)
+Device Type > Device Brand > @@Device Series@@ (if known/applicable)
 ```
 
 All files should follow the `<brand>_<model>.yaml` naming scheme and please also ensure the letters in the model name is capatalised:
