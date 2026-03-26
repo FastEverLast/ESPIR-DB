@@ -47,26 +47,26 @@ It's helpful to add further information as a comment directly into the yaml file
 
 We use a standardised naming scheme to more easily identify the purpose of each template. `(Attribution to` [Flipper IRDB](https://github.com/Lucaslhm/Flipper-IRDB/tree/main) `for coming up with this naming scheme)`
 
-| Audio / Video Devices  | ACs       | LEDs            |
-| ---------------------- | --------- | --------------- |
-| `Power`                | `Off`     | `Power_off`     |
-| `Vol_up`               | `Cool_hi` | `Power_on`      |
-| `Vol_dn`               | `Cool_lo` | `Brightness_up` |
-| `Next`                 | `Heat_hi` | `Brightness_dn` |
-| `Prev`                 | `Heat_lo` | `Red`           |
-| `Mute`                 | `Dh`      | `Green`         |
-| `Play`                 |           | `Blue`          |
-| `Pause`                |           | `White`         |
-| `Play_pause`           |           | `Yellow`        |
-| `Ok`                   |           |                 |
-| `Up`                   |           |                 |
-| `Down`                 |           |                 |
-| `Left`                 |           |                 |
-| `Right`                |           |                 |
-| `Back`                 |           |                 |
-| `Sleep`                |           |                 |
-| `Ch_next`              |           |                 |
-| `Ch_prev`              |           |                 |
+| Audio / Video Devices | Fans          | ACs       | LEDs            |
+|-----------------------|---------------|-----------|-----------------|
+| `Power`               | `Power`       | `Off`     | `Power_off`     |
+| `Vol_up`              | `Occ_lr`      | `Cool_hi` | `Power_on`      |
+| `Vol_dn`              | `Occ_updn`    | `Cool_lo` | `Brightness_up` |
+| `Next`                | `Mode_tgl`    | `Heat_hi` | `Brightness_dn` |
+| `Prev`                | `Display_tgl` | `Heat_lo` | `Red`           |
+| `Mute`                | `Speed_up`    | `Dh`      | `Green`         |
+| `Play`                | `Speed_dn`    |           | `Blue`          |
+| `Pause`               |               |           | `White`         |
+| `Play_pause`          |               |           | `Yellow`        |
+| `Ok`                  |               |           |                 |
+| `Up`                  |               |           |                 |
+| `Down`                |               |           |                 |
+| `Left`                |               |           |                 |
+| `Right`               |               |           |                 |
+| `Back`                |               |           |                 |
+| `Sleep`               |               |           |                 |
+| `Ch_next`             |               |           |                 |
+| `Ch_prev`             |               |           |                 |
 
 
 
