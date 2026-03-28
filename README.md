@@ -1,4 +1,4 @@
-<img src="https://github.com/FastEverLast/ESPIR-DB/blob/main/assets/banner.png" width="200%" />
+<img src="https://github.com/FastEverLast/ESPIR-DB/blob/main/.others/assets/banner.png" width="200%" />
 
 <p align="center">
     A collective of IR codes for a variety of <a href="https://esphome.io/">ESPHome</a> Projects
