@@ -1,0 +1,252 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1A
+        command: 0x0C
+    
+- platform: template
+  name: "Tray"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1A
+        command: 0x2D
+    
+- platform: template
+  name: "Door"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [892, -884, 1780, -1769, 893, -883, 1781, -1772, 1754, -5346, 1755, -1795, 866, -909, 1755, -1796, 1754, -910, 863, -908, 867, -909, 866, -908, 867, -908, 867, -76355, 867, -910, 1754, -1794, 867, -909, 1755, -1795, 1755, -5346, 1755, -1796, 865, -909, 1755, -1795, 1755, -908, 866, -908, 867, -910, 865, -910, 865, -908, 867]
+    
+- platform: template
+  name: "Repeat"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1A
+        command: 0x1D
+    
+- platform: template
+  name: "Prog"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1A
+        command: 0x24
+    
+- platform: template
+  name: "Random"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1A
+        command: 0x1C
+    
+- platform: template
+  name: "1"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1A
+        command: 0x01
+    
+- platform: template
+  name: "2"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1A
+        command: 0x02
+    
+- platform: template
+  name: "3"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1A
+        command: 0x03
+    
+- platform: template
+  name: "4"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1A
+        command: 0x04
+    
+- platform: template
+  name: "5"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1A
+        command: 0x05
+    
+- platform: template
+  name: "6"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1A
+        command: 0x06
+    
+- platform: template
+  name: "7"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1A
+        command: 0x07
+    
+- platform: template
+  name: "8"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1A
+        command: 0x08
+    
+- platform: template
+  name: "9"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1A
+        command: 0x09
+    
+- platform: template
+  name: "0"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1A
+        command: 0x00
+    
+- platform: template
+  name: "Display"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1A
+        command: 0x0F
+    
+- platform: template
+  name: "Scroll"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1A
+        command: 0x0B
+    
+- platform: template
+  name: "Cdr"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1A
+        command: 0x3F
+    
+- platform: template
+  name: "Cd"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x3F
+    
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1A
+        command: 0x12
+
+- platform: template
+  name: "Prev"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1A
+        command: 0x21
+    
+- platform: template
+  name: "Next"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1A
+        command: 0x20
+    
+- platform: template
+  name: "Cancel"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1A
+        command: 0x31
+    
+- platform: template
+  name: "Rev"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1A
+        command: 0x32
+    
+- platform: template
+  name: "Ff"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1A
+        command: 0x34
+    
+- platform: template
+  name: "Pause"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1A
+        command: 0x30
+    
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1A
+        command: 0x36
+    
+- platform: template
+  name: "Play"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1A
+        command: 0x35
+    
+- platform: template
+  name: "Tr_incr"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1A
+        command: 0x32
+
+- platform: template
+  name: "Rec"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1A
+        command: 0x37
+    
+- platform: template
+  name: "Rec_type"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [891, -884, 1780, -1770, 891, -883, 1781, -1770, 1780, -5321, 891, -883, 1781, -1770, 891, -883, 892, -884, 1780, -881, 893, -1771, 1780, -1771, 1779, -76330, 890, -885, 1755, -1793, 893, -884, 1756, -1795, 1755, -5345, 891, -884, 1756, -1796, 890, -884, 891, -884, 1756, -906, 892, -1772, 1755, -1795, 1755]
+    
+- platform: template
+  name: "Source"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1A
+        command: 0x38
+    
+- platform: template
+  name: "Scan"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1A
+        command: 0x2B
+    
+- platform: template
+  name: "Dimmer"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1781, -881, 920, -1744, 919, -856, 1781, -1767, 1783, -4432, 919, -854, 921, -854, 921, -1743, 920, -855, 920, -855, 1782, -881, 920, -856, 919, -855, 920, -855, 920, -854, 921, -76301, 1782, -883, 918, -1742, 921, -857, 1780, -1768, 1782, -4430, 921, -853, 922, -853, 922, -1742, 921, -855, 920, -856, 1781, -880, 921, -856, 919, -854, 921, -854, 921, -855, 920]
+    
+- platform: template
+  name: "Enter"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1A
+        command: 0x17

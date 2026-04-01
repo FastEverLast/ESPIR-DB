@@ -1,0 +1,127 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xFD02
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xFE01
+        
+- platform: template
+  name: "Func"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xFF00
+        
+- platform: template
+  name: "Mem"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xFB04
+        
+- platform: template
+  name: "Eq"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xFA05
+        
+- platform: template
+  name: "Mo_st"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF906
+        
+- platform: template
+  name: "Light"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF609
+        
+- platform: template
+  name: "Id3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF20D
+        
+- platform: template
+  name: "P_mode"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xEB14
+        
+- platform: template
+  name: "Pair"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xE916
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF50A
+        
+- platform: template
+  name: "Vol_down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF10E
+        
+- platform: template
+  name: "Fold_10_m_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF708
+        
+- platform: template
+  name: "Fold_10_m_down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF30C
+        
+- platform: template
+  name: "Tun_minus"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xEF10
+        
+- platform: template
+  name: "Tun_plus"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xED12
+        
+- platform: template
+  name: "Tun_play"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xEE11
+        
+- platform: template
+  name: "Tun_stop"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xEA15
+        

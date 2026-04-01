@@ -1,0 +1,134 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6A00
+        command: 0xBF40
+        
+- platform: template
+  name: "Input"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6A00
+        command: 0xA15E
+        
+- platform: template
+  name: "Natural"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6A00
+        command: 0x9E61
+        
+- platform: template
+  name: "Cinema"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6A00
+        command: 0x9C63
+        
+- platform: template
+  name: "Dynamic"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6A00
+        command: 0x946B
+        
+- platform: template
+  name: "User1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6A00
+        command: 0x916E
+        
+- platform: template
+  name: "User2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6A00
+        command: 0x8679
+        
+- platform: template
+  name: "Gamma"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6A00
+        command: 0x728D
+        
+- platform: template
+  name: "Hide"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6A00
+        command: 0xA758
+        
+- platform: template
+  name: "Test"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6A00
+        command: 0x708F
+        
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6A00
+        command: 0xBE41
+        
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6A00
+        command: 0x6F90
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6A00
+        command: 0xB847
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6A00
+        command: 0xB54A
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6A00
+        command: 0xB748
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6A00
+        command: 0xB649
+        
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6A00
+        command: 0xA55A
+        
+- platform: template
+  name: "Brightness"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6A00
+        command: 0x6B94
+        
+- platform: template
+  name: "Contrast"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6A00
+        command: 0x659A
+        

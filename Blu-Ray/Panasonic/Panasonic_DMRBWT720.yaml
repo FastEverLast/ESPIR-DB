@@ -1,0 +1,126 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_pronto:
+        d
+
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_pronto:
+        d
+
+- platform: template
+  name: "Info"
+  on_press:
+    - remote_transmitter.transmit_pronto:
+        d
+
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_pronto:
+        d
+
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_pronto:
+        d
+
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_pronto:
+        d
+
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_pronto:
+        d
+
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_pronto:
+        d
+
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_pronto:
+        d
+
+- platform: template
+  name: "Fast_fo"
+  on_press:
+    - remote_transmitter.transmit_pronto:
+        d
+
+- platform: template
+  name: "Fast_ba"
+  on_press:
+    - remote_transmitter.transmit_pronto:
+        d
+
+- platform: template
+  name: "Pause"
+  on_press:
+    - remote_transmitter.transmit_pronto:
+        d
+
+- platform: template
+  name: "Play"
+  on_press:
+    - remote_transmitter.transmit_pronto:
+        d
+
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_pronto:
+        d
+
+- platform: template
+  name: "Ch_next"
+  on_press:
+    - remote_transmitter.transmit_pronto:
+        d
+
+- platform: template
+  name: "Ch_prev"
+  on_press:
+    - remote_transmitter.transmit_pronto:
+        d
+
+- platform: template
+  name: "Subtitle"
+  on_press:
+    - remote_transmitter.transmit_pronto:
+        d
+
+- platform: template
+  name: "PopUpMenu"
+  on_press:
+    - remote_transmitter.transmit_pronto:
+        d
+
+- platform: template
+  name: "PageUp"
+  on_press:
+    - remote_transmitter.transmit_pronto:
+        d
+
+- platform: template
+  name: "PageDown"
+  on_press:
+    - remote_transmitter.transmit_pronto:
+        d
+
+- platform: template
+  name: "Record"
+  on_press:
+    - remote_transmitter.transmit_pronto:
+        d

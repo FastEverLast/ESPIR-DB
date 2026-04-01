@@ -1,0 +1,57 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: []
+    
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: []
+    
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [3000, -1000, 750, -1500, 1500, -750, 750, -1500, 750, -1500, 750, -1500, 750, -1500, 750, -1500, 1500]
+    
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [3000, -1000, 750, -1500, 1500, -750, 750, -1500, 750, -1500, 750, -1500, 1500, -750, 1500, -750, 1500]
+    
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [3000, -1000, 750, -1500, 1500, -750, 750, -1500, 750, -1500, 750, -1500, 750, -1500, 1500, -750, 1500]
+    
+- platform: template
+  name: "Home"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: []
+    
+- platform: template
+  name: "Mode"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: []
+    
+- platform: template
+  name: "Max"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: []
+    

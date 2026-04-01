@@ -1,0 +1,64 @@
+
+- platform: template
+  name: "1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xE51A
+        
+- platform: template
+  name: "2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xFB04
+        
+- platform: template
+  name: "3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xF906
+        
+- platform: template
+  name: "Pip"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xF50A
+        
+- platform: template
+  name: "Sel"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xE41B
+        
+- platform: template
+  name: "Enter"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9273, -4476, 605, -534, 608, -533, 608, -559, 582, -528, 603, -533, 608, -528, 603, -533, 609, -1634, 608, -1636, 606, -1638, 604, -1643, 609, -1636, 606, -1637, 605, -1637, 605, -1637, 605, -533, 598, -1642, 600, -1643, 599, -1643, 599, -1643, 599, -1643, 609, -528, 603, -534, 607, -556, 575, -535, 606, -530, 601, -536, 606, -530, 601, -562, 580, -1635, 607, -1636, 606, -1638, 604]
+    
+- platform: template
+  name: "2_0"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xF30C
+        
+- platform: template
+  name: "5_1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xF20D
+        
+- platform: template
+  name: "Tv"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9209, -4486, 605, -565, 587, -528, 603, -537, 605, -534, 607, -529, 602, -538, 614, -529, 613, -1634, 608, -1639, 603, -1644, 608, -1639, 603, -1645, 607, -1640, 602, -1639, 603, -1639, 603, -534, 607, -531, 611, -1632, 610, -1636, 606, -1642, 600, -539, 603, -537, 604, -536, 605, -535, 607, -1637, 605, -536, 605, -534, 608, -532, 610, -1635, 607, -1639, 613, -1633, 609, -1638, 604, -39886, 9104, -2219, 609]
+    

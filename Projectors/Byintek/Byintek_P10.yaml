@@ -1,0 +1,113 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xFE01
+        
+- platform: template
+  name: "UP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xFC03
+        
+- platform: template
+  name: "DOWN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xF708
+        
+- platform: template
+  name: "LEFT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xFA05
+        
+- platform: template
+  name: "RIGHT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xF906
+        
+- platform: template
+  name: "OK"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xF807
+        
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xDA25
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xFD02
+        
+- platform: template
+  name: "Home"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xD827
+        
+- platform: template
+  name: "Volume UP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xD728
+        
+- platform: template
+  name: "Volume DOWN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xD629
+        
+- platform: template
+  name: "Background"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xF609
+        
+- platform: template
+  name: "Settings"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xED12
+        
+- platform: template
+  name: "Mouse Mode"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xCC33
+        
+- platform: template
+  name: "Keystone DOWN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xFB04
+        
+- platform: template
+  name: "Keystone UP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xD926
+        

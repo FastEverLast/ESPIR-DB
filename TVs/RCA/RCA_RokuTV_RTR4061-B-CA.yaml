@@ -1,0 +1,141 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9047, -4385, 682, -474, 682, -1578, 708, -476, 679, -1581, 706, -477, 679, -1582, 705, -1582, 705, -1582, 678, -1583, 679, -1607, 679, -1582, 678, -478, 679, -478, 678, -477, 679, -1582, 705, -1582, 679, -1583, 679, -1608, 704, -1582, 705, -478, 678, -1582, 705, -478, 678, -478, 678, -478, 679, -477, 679, -478, 679, -478, 678, -1582, 705, -478, 678, -1583, 704, -1582, 705, -1582, 679, -39574, 9073, -4387, 679, -478, 678, -1583, 679, -503, 677, -1584, 705, -478, 678, -1582, 705, -1582, 705, -1582, 705, -1582, 705, -1582, 705, -1582, 678, -479, 677, -479, 678, -479, 677, -1583, 679, -1608, 704, -1582, 705, -1582, 705, -1582, 705, -478, 678, -1583, 704, -478, 678, -478, 678, -1582, 680, -478, 703, -453, 704, -453, 703, -1557, 703, -480, 676, -1584, 704, -1583, 704, -478, 678]
+    
+- platform: template
+  name: "Source"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9028, -4408, 682, -474, 681, -1579, 707, -476, 680, -1581, 706, -477, 679, -1582, 705, -1581, 706, -1581, 706, -1581, 679, -1583, 680, -1607, 679, -477, 679, -477, 679, -477, 679, -1582, 705, -1582, 705, -477, 679, -1582, 705, -1582, 678, -1583, 679, -503, 677, -1584, 705, -477, 679, -477, 679, -1582, 705, -477, 679, -477, 679, -477, 679, -1582, 705, -477, 679, -1582, 705, -1582, 705, -39573, 9050, -4385, 706, -477, 679, -1582, 679, -478, 678, -1582, 702, -480, 677, -1584, 705, -1582, 704, -1582, 680, -1607, 704, -1582, 680, -1607, 679, -478, 679, -478, 678, -478, 678, -1583, 702, -1584, 704, -477, 679, -1582, 680, -1607, 680, -1607, 680, -503, 627, -1607, 680, -503, 653, -1607, 678, -1584, 679, -503, 653, -503, 675, -481, 677, -1584, 679, -503, 653, -1608, 679, -503, 653]
+    
+- platform: template
+  name: "Home"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xFC03
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xE619
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xCC33
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xE11E
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xD22D
+        
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xD52A
+        
+- platform: template
+  name: "Rewind 10s"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0x8778
+        
+- platform: template
+  name: "Sleep Timer"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0x1DE2
+        
+- platform: template
+  name: "TV Settings"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0x9E61
+        
+- platform: template
+  name: "Rewind"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xCB34
+        
+- platform: template
+  name: "Fast Forward"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xAA55
+        
+- platform: template
+  name: "Netflix"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xAD52
+        
+- platform: template
+  name: "Roku CH"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0x916E
+        
+- platform: template
+  name: "Google Play"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xAB54
+        
+- platform: template
+  name: "CBS"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0x946B
+        
+- platform: template
+  name: "VOLu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xF00F
+        
+- platform: template
+  name: "VOLD"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xEF10
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xDF20
+        

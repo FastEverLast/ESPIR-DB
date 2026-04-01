@@ -1,0 +1,120 @@
+
+- platform: template
+  name: "POWER_ON"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6DD2
+        command: 0xFB04
+        
+- platform: template
+  name: "POWER_OFF"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6CD2
+        command: 0xB847
+        
+- platform: template
+  name: "SLEEP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6DD2
+        command: 0xA25D
+        
+- platform: template
+  name: "DVD"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6CD2
+        command: 0x738C
+        
+- platform: template
+  name: "VIDEO 1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6DD2
+        command: 0xF00F
+        
+- platform: template
+  name: "VIDEO 2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6DD2
+        command: 0xF10E
+        
+- platform: template
+  name: "VIDEO 3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6DD2
+        command: 0xF20D
+        
+- platform: template
+  name: "VIDEO 4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6DD2
+        command: 0x609F
+        
+- platform: template
+  name: "CD"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6DD2
+        command: 0xF609
+        
+- platform: template
+  name: "PHONO"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6DD2
+        command: 0xF50A
+        
+- platform: template
+  name: "TUNER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6DD2
+        command: 0xF40B
+        
+- platform: template
+  name: "TAPE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6DD2
+        command: 0xF708
+        
+- platform: template
+  name: "FM STEREO"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6CD2
+        command: 0xAA55
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6DD2
+        command: 0xFD02
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6DD2
+        command: 0xFC03
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6DD2
+        command: 0xFA05
+        
+- platform: template
+  name: "TEST-TV/VCR"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6DD2
+        command: 0x659A
+        

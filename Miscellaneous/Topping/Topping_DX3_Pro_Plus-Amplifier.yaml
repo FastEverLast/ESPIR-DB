@@ -1,0 +1,92 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7788
+        command: 0xE718
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7788
+        command: 0xB946
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7788
+        command: 0xE916
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7788
+        command: 0xF906
+        
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7788
+        command: 0xAA55
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7788
+        command: 0xB847
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7788
+        command: 0xEA15
+        
+- platform: template
+  name: "Headphone"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7788
+        command: 0xFB04
+        
+- platform: template
+  name: "Line-out"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7788
+        command: 0xBF40
+        
+- platform: template
+  name: "FIR"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7788
+        command: 0xAB54
+        
+- platform: template
+  name: "GAIN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7788
+        command: 0xAF50
+        
+- platform: template
+  name: "AUTO"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7788
+        command: 0xEF10
+        
+- platform: template
+  name: "Brightness"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7788
+        command: 0xEB14
+        

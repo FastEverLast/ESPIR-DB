@@ -1,0 +1,57 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2182
+        command: 0xE01F
+        
+- platform: template
+  name: "On_timer"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2182
+        command: 0xF807
+        
+- platform: template
+  name: "Off_timer"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2182
+        command: 0xEC13
+        
+- platform: template
+  name: "Ok_timer"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2182
+        command: 0xFC03
+        
+- platform: template
+  name: "Rythm"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2182
+        command: 0xF40B
+        
+- platform: template
+  name: "Sleep_mode"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2182
+        command: 0xE817
+        
+- platform: template
+  name: "Fan_power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2182
+        command: 0xE41B
+        
+- platform: template
+  name: "Osc_horiz"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2182
+        command: 0xF00F
+        

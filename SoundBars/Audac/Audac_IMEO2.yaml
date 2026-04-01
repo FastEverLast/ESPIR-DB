@@ -1,0 +1,113 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF86
+        command: 0xE31C
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF86
+        command: 0xDE21
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF86
+        command: 0xD42B
+        
+- platform: template
+  name: "Usb"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF86
+        command: 0xE41B
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF86
+        command: 0xE21D
+        
+- platform: template
+  name: "Aux"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF86
+        command: 0xEF10
+        
+- platform: template
+  name: "Bluetooth"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF86
+        command: 0xD629
+        
+- platform: template
+  name: "Hdmi"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF86
+        command: 0xED12
+        
+- platform: template
+  name: "Optical"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF86
+        command: 0xDA25
+        
+- platform: template
+  name: "Coaxial"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF86
+        command: 0xDB24
+        
+- platform: template
+  name: "Play"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF86
+        command: 0xD52A
+        
+- platform: template
+  name: "Prev"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF86
+        command: 0xEC13
+        
+- platform: template
+  name: "Next"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF86
+        command: 0xEB14
+        
+- platform: template
+  name: "Flat"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF86
+        command: 0xD22D
+        
+- platform: template
+  name: "Music"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF86
+        command: 0xD32C
+        
+- platform: template
+  name: "Speech"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF86
+        command: 0xD827
+        

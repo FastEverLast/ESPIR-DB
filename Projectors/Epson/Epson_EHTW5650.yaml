@@ -1,0 +1,169 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5583
+        command: 0x6F90
+        
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5583
+        command: 0x659A
+        
+- platform: template
+  name: "Esc"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5583
+        command: 0x7B84
+        
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5583
+        command: 0x7A85
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5583
+        command: 0x4FB0
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5583
+        command: 0x4DB2
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5583
+        command: 0x4CB3
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5583
+        command: 0x4EB1
+        
+- platform: template
+  name: "Fast_fo"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5583
+        command: 0xA35C
+        
+- platform: template
+  name: "Fast_ba"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5583
+        command: 0xA55A
+        
+- platform: template
+  name: "Pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5583
+        command: 0xA45B
+        
+- platform: template
+  name: "Play"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5583
+        command: 0xA15E
+        
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5583
+        command: 0xA659
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5583
+        command: 0x52AD
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5583
+        command: 0x6798
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5583
+        command: 0x6699
+        
+- platform: template
+  name: "HDMI1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5583
+        command: 0x8C73
+        
+- platform: template
+  name: "HDMI2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5583
+        command: 0x8877
+        
+- platform: template
+  name: "PC"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5583
+        command: 0x629D
+        
+- platform: template
+  name: "USB"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5583
+        command: 0x8976
+        
+- platform: template
+  name: "LAN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5583
+        command: 0x8B74
+        
+- platform: template
+  name: "Next"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5583
+        command: 0xA05F
+        
+- platform: template
+  name: "Prev"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5583
+        command: 0xA25D
+        
+- platform: template
+  name: "A_V_Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5583
+        command: 0x6C93
+        

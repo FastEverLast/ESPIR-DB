@@ -1,0 +1,92 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xED85
+        command: 0xF906
+        
+- platform: template
+  name: "Eject"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xED85
+        command: 0xD926
+        
+- platform: template
+  name: "Prev"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xED85
+        command: 0xB946
+        
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xED85
+        command: 0xE817
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xED85
+        command: 0xEA15
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xED85
+        command: 0xEE11
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xED85
+        command: 0xEC13
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xED85
+        command: 0xF00F
+        
+- platform: template
+  name: "Play"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xED85
+        command: 0xE51A
+        
+- platform: template
+  name: "Pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xED85
+        command: 0xE51A
+        
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xED85
+        command: 0xE619
+        
+- platform: template
+  name: "Fast_ba"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xED85
+        command: 0xE11E
+        
+- platform: template
+  name: "Fast_fo"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xED85
+        command: 0xE01F
+        

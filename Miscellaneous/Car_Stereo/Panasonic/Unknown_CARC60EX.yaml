@@ -1,0 +1,57 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6A81
+        command: 0xED12
+        
+- platform: template
+  name: "ATT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6A81
+        command: 0xEB14
+        
+- platform: template
+  name: "VOL-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6A81
+        command: 0xE619
+        
+- platform: template
+  name: "MODE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6A81
+        command: 0xE51A
+        
+- platform: template
+  name: "PRG"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6A81
+        command: 0xE31C
+        
+- platform: template
+  name: "VOL+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6A81
+        command: 0xE21D
+        
+- platform: template
+  name: "Tune/Track_Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6A81
+        command: 0xE11E
+        
+- platform: template
+  name: "Tune/Track_Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6A81
+        command: 0xE01F
+        

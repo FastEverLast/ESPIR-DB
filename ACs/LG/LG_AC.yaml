@@ -1,0 +1,57 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6681
+        command: 0x7E81
+        
+- platform: template
+    name: "OFF"
+    on_press:
+      - remote_transmitter.transmit_raw:
+          carrier_frequency: 38kHz
+          data: [
+            8455, -4196, 542, -1566, 541, -539, 519, -535, 513, -541, 
+            517, -1565, 541, -538, 520, -534, 514, -540, 518, -1563, 
+            544, -1565, 542, -538, 520, -533, 515, -539, 519, -535, 
+            513, -541, 517, -536, 522, -532, 516, -538, 520, -533, 
+            515, -539, 519, -535, 513, -1569, 538, -542, 516, -1566, 
+            541, -539, 519, -534, 514, -540, 518, -1564, 542
+          ]
+        
+- platform: template
+  name: "TEMP-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6681
+        command: 0x758A
+        
+- platform: template
+  name: "TEMP+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6681
+        command: 0x7A85
+        
+- platform: template
+  name: "Fan Speed"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6681
+        command: 0x6699
+        
+- platform: template
+  name: "Timer"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6681
+        command: 0x609F
+        
+- platform: template
+  name: "MODE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6681
+        command: 0x649B
+        

@@ -1,0 +1,134 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x916E
+        command: 0xFD02
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x916E
+        command: 0xF906
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x916E
+        command: 0xF30C
+        
+- platform: template
+  name: "Input"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x916E
+        command: 0xC837
+        
+- platform: template
+  name: "Ch_next"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x916E
+        command: 0xF708
+        
+- platform: template
+  name: "Ch_prev"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x916E
+        command: 0xF10E
+        
+- platform: template
+  name: "Page_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x916E
+        command: 0xBC43
+        
+- platform: template
+  name: "Page_down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x916E
+        command: 0xBB44
+        
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x916E
+        command: 0xC53A
+        
+- platform: template
+  name: "Exit"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x916E
+        command: 0xC43B
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x916E
+        command: 0xFB04
+        
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x916E
+        command: 0xE718
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x916E
+        command: 0xF807
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x916E
+        command: 0xF20D
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x916E
+        command: 0xF609
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x916E
+        command: 0xF40B
+        
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x916E
+        command: 0xF50A
+        
+- platform: template
+  name: "Cc"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x916E
+        command: 0xCF30
+        
+- platform: template
+  name: "Guide"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x916E
+        command: 0xC936
+        

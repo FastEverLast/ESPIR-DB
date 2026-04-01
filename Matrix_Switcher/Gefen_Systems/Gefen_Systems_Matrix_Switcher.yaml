@@ -1,0 +1,225 @@
+
+- platform: template
+  name: "OUT1-IN1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x000B
+        command: 0xBF40
+        
+- platform: template
+  name: "SOURCE1_INPUT1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x000B
+        command: 0xBF40
+        
+- platform: template
+  name: "OUT1-IN2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x000B
+        command: 0xBE41
+        
+- platform: template
+  name: "SOURCE1_INPUT2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x000B
+        command: 0xBE41
+        
+- platform: template
+  name: "OUT1-IN3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x000B
+        command: 0xBD42
+        
+- platform: template
+  name: "SOURCE1_INPUT3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x000B
+        command: 0xBD42
+        
+- platform: template
+  name: "OUT1-IN4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x000B
+        command: 0xBC43
+        
+- platform: template
+  name: "SOURCE1_INPUT4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x000B
+        command: 0xBC43
+        
+- platform: template
+  name: "OUT2-IN1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x000B
+        command: 0xBB44
+        
+- platform: template
+  name: "SOURCE2_INPUT1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x000B
+        command: 0xBB44
+        
+- platform: template
+  name: "OUT2-IN2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x000B
+        command: 0xBA45
+        
+- platform: template
+  name: "SOURCE2_INPUT2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x000B
+        command: 0xBA45
+        
+- platform: template
+  name: "OUT2-IN3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x000B
+        command: 0xB946
+        
+- platform: template
+  name: "SOURCE2_INPUT3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x000B
+        command: 0xB946
+        
+- platform: template
+  name: "OUT2-IN4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x000B
+        command: 0xB847
+        
+- platform: template
+  name: "SOURCE2_INPUT4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x000B
+        command: 0xB847
+        
+- platform: template
+  name: "OUT3-IN1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x000B
+        command: 0xB748
+        
+- platform: template
+  name: "SOURCE3_INPUT1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x000B
+        command: 0xB748
+        
+- platform: template
+  name: "OUT3-IN2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x000B
+        command: 0xB649
+        
+- platform: template
+  name: "SOURCE3_INPUT2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x000B
+        command: 0xB649
+        
+- platform: template
+  name: "OUT3-IN3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x000B
+        command: 0x8D72
+        
+- platform: template
+  name: "SOURCE3_INPUT3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x000B
+        command: 0x8D72
+        
+- platform: template
+  name: "OUT3-IN4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x000B
+        command: 0x8C73
+        
+- platform: template
+  name: "SOURCE3_INPUT4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x000B
+        command: 0x8C73
+        
+- platform: template
+  name: "OUT4-IN1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x000B
+        command: 0x8B74
+        
+- platform: template
+  name: "SOURCE4_INPUT1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x000B
+        command: 0x8B74
+        
+- platform: template
+  name: "OUT4-IN2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x000B
+        command: 0x8A75
+        
+- platform: template
+  name: "SOURCE4_INPUT2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x000B
+        command: 0x8A75
+        
+- platform: template
+  name: "OUT4-IN3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x000B
+        command: 0x8976
+        
+- platform: template
+  name: "SOURCE4_INPUT3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x000B
+        command: 0x8976
+        
+- platform: template
+  name: "OUT4-IN4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x000B
+        command: 0x8877
+        
+- platform: template
+  name: "SOURCE4_INPUT4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x000B
+        command: 0x8877
+        

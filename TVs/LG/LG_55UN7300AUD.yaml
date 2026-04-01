@@ -1,0 +1,106 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB04
+        command: 0xF708
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB04
+        command: 0xF609
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB04
+        command: 0xFC03
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB04
+        command: 0xFD02
+        
+- platform: template
+  name: "Home"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB04
+        command: 0x837C
+        
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB04
+        command: 0xD728
+        
+- platform: template
+  name: "Guide"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB04
+        command: 0x54AB
+        
+- platform: template
+  name: "Netflix"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB04
+        command: 0xA956
+        
+- platform: template
+  name: "Primevideo"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB04
+        command: 0xA35C
+        
+- platform: template
+  name: "Settings"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB04
+        command: 0xBC43
+        
+- platform: template
+  name: "Play"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB04
+        command: 0x4FB0
+        
+- platform: template
+  name: "Pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB04
+        command: 0x45BA
+        
+- platform: template
+  name: "Ch_next"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB04
+        command: 0xFF00
+        
+- platform: template
+  name: "Ch_prev"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB04
+        command: 0xFE01
+        
+- platform: template
+  name: "Input"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB04
+        command: 0xF40B
+        

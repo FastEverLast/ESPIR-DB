@@ -1,0 +1,126 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B40CF3
+        nbits: 32
+
+- platform: template
+  name: "Eject"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B46C93
+        nbits: 32
+
+- platform: template
+  name: "Pause"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B41CE3
+        nbits: 32
+
+- platform: template
+  name: "Play"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B48C73
+        nbits: 32
+
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B49C63
+        nbits: 32
+
+- platform: template
+  name: "Forward"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B4CC33
+        nbits: 32
+
+- platform: template
+  name: "Backward"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B44CB3
+        nbits: 32
+
+- platform: template
+  name: "Chptr_next"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B42CD3
+        nbits: 32
+
+- platform: template
+  name: "Chpter_back"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B4AC53
+        nbits: 32
+
+- platform: template
+  name: "Title_popup"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B452AD
+        nbits: 32
+
+- platform: template
+  name: "Info_menu"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B45CA3
+        nbits: 32
+
+- platform: template
+  name: "Home"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B4E619
+        nbits: 32
+
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B4E21D
+        nbits: 32
+
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B412ED
+        nbits: 32
+
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B49A65
+        nbits: 32
+
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B45AA5
+        nbits: 32
+
+- platform: template
+  name: "Enter"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B41AE5
+        nbits: 32
+
+- platform: template
+  name: "Disc_menu"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B4D22D
+        nbits: 32

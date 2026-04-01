@@ -1,0 +1,148 @@
+
+- platform: template
+  name: "Led"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xBA45
+        
+- platform: template
+  name: "Laser"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xB946
+        
+- platform: template
+  name: "R"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF807
+        
+- platform: template
+  name: "G"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xB847
+        
+- platform: template
+  name: "B"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xE619
+        
+- platform: template
+  name: "W"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF20D
+        
+- platform: template
+  name: "Music"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xE916
+        
+- platform: template
+  name: "V_pluse"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF609
+        
+- platform: template
+  name: "V_min"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xEA15
+        
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xBF40
+        
+- platform: template
+  name: "Skip"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xBC43
+        
+- platform: template
+  name: "Mic"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xBB44
+        
+- platform: template
+  name: "S_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF30C
+        
+- platform: template
+  name: "S__down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF708
+        
+- platform: template
+  name: "Fade1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xE718
+        
+- platform: template
+  name: "Fade2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xE31C
+        
+- platform: template
+  name: "Bright"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xA15E
+        
+- platform: template
+  name: "Laser_fade"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xA55A
+        
+- platform: template
+  name: "Timer_off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xBD42
+        
+- platform: template
+  name: "1h"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xAD52
+        
+- platform: template
+  name: "2h"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xB54A
+        

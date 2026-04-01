@@ -1,0 +1,134 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0xB04F
+        
+- platform: template
+  name: "Power_off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0xB14E
+        
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0xF00F
+        
+- platform: template
+  name: "Auto"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0xF708
+        
+- platform: template
+  name: "Source"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0xFB04
+        
+- platform: template
+  name: "Freeze"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0xFC03
+        
+- platform: template
+  name: "Eco_Blank"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0xF807
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0xF40B
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0xF30C
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0xF20D
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0xF10E
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0xEB14
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0x6897
+        
+- platform: template
+  name: "Vol_down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0x6798
+        
+- platform: template
+  name: "Zoom_in"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0xE718
+        
+- platform: template
+  name: "Zoom_out"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0xE619
+        
+- platform: template
+  name: "Page_next"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0xFA05
+        
+- platform: template
+  name: "Page_prev"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0xF906
+        
+- platform: template
+  name: "Aspect"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0xEC13
+        

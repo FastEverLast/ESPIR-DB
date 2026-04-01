@@ -1,0 +1,113 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xB946
+        
+- platform: template
+  name: "A1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xBB44
+        
+- platform: template
+  name: "A2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xB847
+        
+- platform: template
+  name: "A3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xBB44
+        
+- platform: template
+  name: "A4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xBF40
+        
+- platform: template
+  name: "A5"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xBC43
+        
+- platform: template
+  name: "Color_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF807
+        
+- platform: template
+  name: "Color_down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF807
+        
+- platform: template
+  name: "Speed_down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xE916
+        
+- platform: template
+  name: "Speed_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF20D
+        
+- platform: template
+  name: "Dmx"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xE31C
+        
+- platform: template
+  name: "Dmx_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xA55A
+        
+- platform: template
+  name: "Dmx_down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF708
+        
+- platform: template
+  name: "Ip"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xAD52
+        
+- platform: template
+  name: "Ip_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xB54A
+        
+- platform: template
+  name: "Ip_down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xBD42
+        

@@ -1,0 +1,43 @@
+
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC13E
+        command: 0xE21D
+        
+- platform: template
+  name: "Exit"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC13E
+        command: 0x12ED
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC13E
+        command: 0xD22D
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC13E
+        command: 0x32CD
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC13E
+        command: 0x52AD
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC13E
+        command: 0x926D
+        

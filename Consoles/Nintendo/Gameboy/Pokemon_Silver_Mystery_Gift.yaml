@@ -1,0 +1,8 @@
+
+- platform: template
+  name: "PkmnSlvrMystGftLink"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [241, -551, 340]
+    

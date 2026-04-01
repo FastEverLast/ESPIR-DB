@@ -1,0 +1,316 @@
+
+- platform: template
+  name: "0"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "5"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "6"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "7"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "8"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "9"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "A_-_RED"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "A-B"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "ANGLE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "AUDIO"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "B_-_GREEN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "C_-_BLUE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "CLEAR"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "CURSOR_DOWN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "CURSOR_LEFT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "CURSOR_RIGHT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "CURSOR_UP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "D_-_YELLOW"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "DISPLAY"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "ENTER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "MODE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "OPEN/CLOSE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "PAUSE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "PIP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "PLAY"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "POP-UP_MENU/MENU"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "POWER_ON"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "REPEAT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "RESOLUTION"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "RETURN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "SCAN_-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "SCAN_+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "SEARCH"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "SETUP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "STANDBY"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "STOP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "SUBTITLE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "TOP_MENU"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "TRACK_-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        
+- platform: template
+  name: "TRACK_+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1FD2
+        command: 0xFF00
+        

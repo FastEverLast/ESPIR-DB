@@ -1,0 +1,99 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCE31
+        command: 0x7E81
+        
+- platform: template
+  name: "Freeze"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCE31
+        command: 0x718E
+        
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCE31
+        command: 0x7887
+        
+- platform: template
+  name: "Enter"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCE31
+        command: 0x3AC5
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCE31
+        command: 0x3EC1
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCE31
+        command: 0x3DC2
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCE31
+        command: 0x3CC3
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCE31
+        command: 0x3BC4
+        
+- platform: template
+  name: "Blank"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCE31
+        command: 0x748B
+        
+- platform: template
+  name: "Zoom-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCE31
+        command: 0x728D
+        
+- platform: template
+  name: "Zoom+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCE31
+        command: 0x758A
+        
+- platform: template
+  name: "Source"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCE31
+        command: 0x7C83
+        
+- platform: template
+  name: "Page_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCE31
+        command: 0x34CB
+        
+- platform: template
+  name: "Page_down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCE31
+        command: 0x33CC
+        

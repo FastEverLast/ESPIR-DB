@@ -1,0 +1,22 @@
+
+- platform: template
+  name: "Light"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [16696, -5637, 5659, -5641, 11560, -5666, 5632, -5667, 11561]
+    
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [16648, -5689, 5634, -5663, 5637, -5664, 11538, -5690, 11536]
+    
+- platform: template
+  name: "Rotation"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [16675, -5687, 11562, -5640, 11560, -5665, 5633, -5667, 5659]
+    

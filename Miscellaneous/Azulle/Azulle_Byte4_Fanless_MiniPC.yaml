@@ -1,0 +1,78 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x9F00
+        command: 0xA857
+        
+- platform: template
+  name: "MUTE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x9F00
+        command: 0xA35C
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x9F00
+        command: 0xBC43
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x9F00
+        command: 0xF50A
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x9F00
+        command: 0xF906
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x9F00
+        command: 0xF10E
+        
+- platform: template
+  name: "Select"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x9F00
+        command: 0xFD02
+        
+- platform: template
+  name: "Settings"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x9F00
+        command: 0xE916
+        
+- platform: template
+  name: "Tab"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x9F00
+        command: 0xB847
+        
+- platform: template
+  name: "VOL+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x9F00
+        command: 0xFF00
+        
+- platform: template
+  name: "VOL-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x9F00
+        command: 0xA25D
+        

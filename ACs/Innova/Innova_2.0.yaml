@@ -1,0 +1,85 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xED12
+        
+- platform: template
+  name: "Temp+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF00F
+        
+- platform: template
+  name: "Temp-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF20D
+        
+- platform: template
+  name: "Auto"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xEB14
+        
+- platform: template
+  name: "Heat"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xE21D
+        
+- platform: template
+  name: "Cool"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xE51A
+        
+- platform: template
+  name: "Dehumidifier"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xE619
+        
+- platform: template
+  name: "Ventilation"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xE11E
+        
+- platform: template
+  name: "Fan"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xEC13
+        
+- platform: template
+  name: "Swing"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF906
+        
+- platform: template
+  name: "Timer"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF30C
+        
+- platform: template
+  name: "Night"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xFA05
+        

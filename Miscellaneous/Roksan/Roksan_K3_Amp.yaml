@@ -1,0 +1,50 @@
+
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x9F20
+        command: 0xBB44
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x9F20
+        command: 0xE21D
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x9F20
+        command: 0xBF40
+        
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x9F20
+        command: 0x9A65
+        
+- platform: template
+  name: "Prev_input"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x9F20
+        command: 0xE31C
+        
+- platform: template
+  name: "Next_input"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x9F20
+        command: 0xB748
+        
+- platform: template
+  name: "BT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x9F20
+        command: 0xF10E
+        

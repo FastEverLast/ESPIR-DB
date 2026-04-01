@@ -1,0 +1,126 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x10
+        command: 0x0C
+
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x10
+        command: 0x0D
+
+- platform: template
+  name: "Vol +"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x10
+        command: 0x10
+
+- platform: template
+  name: "Vol -"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x10
+        command: 0x11
+
+- platform: template
+  name: "Sound"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x10
+        command: 0x51
+
+- platform: template
+  name: "Bass +"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x10
+        command: 0x16
+
+- platform: template
+  name: "Bass -"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x10
+        command: 0x17
+
+- platform: template
+  name: "Treble +"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x10
+        command: 0x18
+
+- platform: template
+  name: "Treble -"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x10
+        command: 0x19
+
+- platform: template
+  name: "Aux"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x10
+        command: 0x38
+
+- platform: template
+  name: "Coax IN"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x10
+        command: 0x39
+
+- platform: template
+  name: "Opical IN"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x10
+        command: 0x6C
+
+- platform: template
+  name: "BT"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x10
+        command: 0x69
+
+- platform: template
+  name: "USB"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x10
+        command: 0x7E
+
+- platform: template
+  name: "Audio IN"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x10
+        command: 0x86
+
+- platform: template
+  name: "HDMI ARC"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x10
+        command: 0x87
+
+- platform: template
+  name: "Stereo"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x10
+        command: 0x50
+
+- platform: template
+  name: "Surround"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x10
+        command: 0x52

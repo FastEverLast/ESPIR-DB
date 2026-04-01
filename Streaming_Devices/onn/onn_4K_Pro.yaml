@@ -1,0 +1,141 @@
+
+- platform: template
+  name: "Setup"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7788
+        command: 0xEF10
+        
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7788
+        command: 0xB748
+        
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7788
+        command: 0xE619
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7788
+        command: 0xEA15
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7788
+        command: 0xE916
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7788
+        command: 0xE817
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7788
+        command: 0xE718
+        
+- platform: template
+  name: "Play_pa"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7788
+        command: 0xE619
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xBF00
+        command: 0xF10E
+        
+- platform: template
+  name: "Ch_next"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7788
+        command: 0xCC33
+        
+- platform: template
+  name: "Ch_prev"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7788
+        command: 0xCB34
+        
+- platform: template
+  name: "Star"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7788
+        command: 0x9669
+        
+- platform: template
+  name: "Profile"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7788
+        command: 0xA659
+        
+- platform: template
+  name: "Assistant"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7788
+        command: 0xB946
+        
+- platform: template
+  name: "Home"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7788
+        command: 0xB847
+        
+- platform: template
+  name: "Live_TV_Guide"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7788
+        command: 0xCD32
+        
+- platform: template
+  name: "YouTube"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7788
+        command: 0x9B64
+        
+- platform: template
+  name: "Netflix"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7788
+        command: 0xFF00
+        
+- platform: template
+  name: "Disney+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7788
+        command: 0x9867
+        
+- platform: template
+  name: "Paramount+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7788
+        command: 0x9768
+        

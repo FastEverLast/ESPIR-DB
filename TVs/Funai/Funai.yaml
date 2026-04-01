@@ -1,0 +1,309 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0xDF20
+        
+- platform: template
+  name: "Source"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9103, -4350, 689, -440, 635, -466, 634, -1592, 636, -467, 632, -468, 631, -469, 630, -471, 628, -1601, 627, -500, 601, -500, 601, -500, 601, -500, 601, -500, 601, -1628, 601, -1628, 601, -1628, 601, -500, 601, -500, 601, -500, 601, -500, 601, -500, 601, -500, 601, -1628, 601, -500, 601, -1628, 601, -1628, 601, -1628, 601, -1628, 601, -1628, 601, -1628, 601, -500, 601, -1628, 601, -43367, 9046, -2158, 626, -95445, 9046, -2156, 628, -95420, 9071, -2155, 628, -95417, 9073, -2155, 628, -95443, 9046, -2183, 601]
+    
+- platform: template
+  name: "Sleep"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0xDD22
+        
+- platform: template
+  name: "Picture"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0x7E81
+        
+- platform: template
+  name: "Sound"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0x7D82
+        
+- platform: template
+  name: "1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0xFE01
+        
+- platform: template
+  name: "2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0xFD02
+        
+- platform: template
+  name: "3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0xFC03
+        
+- platform: template
+  name: "4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0xFB04
+        
+- platform: template
+  name: "5"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0xFA05
+        
+- platform: template
+  name: "6"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0xF906
+        
+- platform: template
+  name: "7"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0xF807
+        
+- platform: template
+  name: "8"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0xF708
+        
+- platform: template
+  name: "9"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0xF609
+        
+- platform: template
+  name: "0"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0xFF00
+        
+- platform: template
+  name: "Fav+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0xA659
+        
+- platform: template
+  name: "Fav-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0xA55A
+        
+- platform: template
+  name: "Exit"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0x8679
+        
+- platform: template
+  name: "Fav"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0xA758
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0x8C73
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0x8976
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0x8A75
+        
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0x8877
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0x8B74
+        
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0x8F70
+        
+- platform: template
+  name: "Epg"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0x4FB0
+        
+- platform: template
+  name: "Audio"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0x9A65
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0x9F60
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0x9E61
+        
+- platform: template
+  name: "Ch_next"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0xAF50
+        
+- platform: template
+  name: "Ch_prev"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0xAE51
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0x9B64
+        
+- platform: template
+  name: "Red"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0x857A
+        
+- platform: template
+  name: "Green"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0x847B
+        
+- platform: template
+  name: "Yellow"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0x827D
+        
+- platform: template
+  name: "Blue"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0x837C
+        
+- platform: template
+  name: "Previous"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0x12ED
+        
+- platform: template
+  name: "Play_pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0x11EE
+        
+- platform: template
+  name: "Next"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0x10EF
+        
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0x1DE2
+        
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0x19E6
+        
+- platform: template
+  name: "Forward"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0x1CE3
+        
+- platform: template
+  name: "Display"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0x649B
+        
+- platform: template
+  name: "Rec"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE084
+        command: 0x1BE4
+        

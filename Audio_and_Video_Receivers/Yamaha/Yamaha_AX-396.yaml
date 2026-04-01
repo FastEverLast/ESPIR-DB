@@ -1,0 +1,190 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xE01F
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xE51A
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xE41B
+        
+- platform: template
+  name: "MD"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xE619
+        
+- platform: template
+  name: "TAPE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xE718
+        
+- platform: template
+  name: "CD_DVD"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xEA15
+        
+- platform: template
+  name: "AUX"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xE817
+        
+- platform: template
+  name: "PHONO"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xEB14
+        
+- platform: template
+  name: "TUNER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xE916
+        
+- platform: template
+  name: "TAPE - Record/Pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xFB04
+        
+- platform: template
+  name: "TAPE DECK A/B"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xF906
+        
+- platform: template
+  name: "TAPE RWD"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xFE01
+        
+- platform: template
+  name: "TAPE PLAY"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xFF00
+        
+- platform: template
+  name: "TAPE FFWD"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xFD02
+        
+- platform: template
+  name: "TAPE DIR A"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xF807
+        
+- platform: template
+  name: "TAPE STOP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xFC03
+        
+- platform: template
+  name: "TAPE DIR B"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xBF40
+        
+- platform: template
+  name: "CD DISC SKIP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xB04F
+        
+- platform: template
+  name: "CD BACK"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xF40B
+        
+- platform: template
+  name: "CD PLAY"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xF708
+        
+- platform: template
+  name: "CD FWD"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xF50A
+        
+- platform: template
+  name: "CD REWIND"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xF20D
+        
+- platform: template
+  name: "CD STOP/PAUSE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xF609
+        
+- platform: template
+  name: "CD FFWD"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xF30C
+        
+- platform: template
+  name: "TUNER PRESET-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xEE11
+        
+- platform: template
+  name: "TUNER PRESET+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xEF10
+        
+- platform: template
+  name: "TUNER A/B/C/D/E"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xED12
+        

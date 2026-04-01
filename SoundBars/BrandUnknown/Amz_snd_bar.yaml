@@ -1,0 +1,64 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCA35
+        command: 0xF609
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCA35
+        command: 0xBA45
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCA35
+        command: 0xE41B
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCA35
+        command: 0xAE51
+        
+- platform: template
+  name: "Play_pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCA35
+        command: 0xB946
+        
+- platform: template
+  name: "Rca"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCA35
+        command: 0xA25D
+        
+- platform: template
+  name: "Aux"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCA35
+        command: 0xF10E
+        
+- platform: template
+  name: "Opt"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCA35
+        command: 0xF20D
+        
+- platform: template
+  name: "Bluetooth"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCA35
+        command: 0xEF10
+        

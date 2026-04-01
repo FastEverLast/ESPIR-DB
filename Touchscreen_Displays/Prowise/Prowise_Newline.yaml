@@ -1,0 +1,43 @@
+
+- platform: template
+  name: "Newline"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF03
+        command: 0xF40B
+        
+- platform: template
+  name: "Home"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF03
+        command: 0xEA15
+        
+- platform: template
+  name: "Source"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF03
+        command: 0x8976
+        
+- platform: template
+  name: "Power_extern"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF03
+        command: 0x0DF2
+        
+- platform: template
+  name: "Vol_extern_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF03
+        command: 0x0CF3
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF03
+        command: 0xEC13
+        

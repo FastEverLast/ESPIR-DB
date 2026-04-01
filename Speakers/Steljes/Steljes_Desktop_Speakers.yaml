@@ -1,0 +1,29 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2385
+        command: 0x6699
+        
+- platform: template
+  name: "Vol_plus"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2385
+        command: 0xA857
+        
+- platform: template
+  name: "Vol_minus"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2385
+        command: 0xB847
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2385
+        command: 0x6897
+        

@@ -1,0 +1,57 @@
+
+- platform: template
+  name: "A_Forward"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [170, -43532, 178]
+    
+- platform: template
+  name: "A_Left"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [172, -131030, 179]
+    
+- platform: template
+  name: "A_Right"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [179, -131443, 175]
+    
+- platform: template
+  name: "B_Forward"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [175, -43601, 176, -131166, 170]
+    
+- platform: template
+  name: "B_Left"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [173, -43511, 174]
+    
+- platform: template
+  name: "B_Right"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [175, -43507, 175, -131209, 177]
+    
+- platform: template
+  name: "A_Fire"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [171, -43644, 171]
+    
+- platform: template
+  name: "B_Fire"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [175, -131537, 171]
+    

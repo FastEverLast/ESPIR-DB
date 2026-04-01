@@ -1,0 +1,29 @@
+
+- platform: template
+  name: "1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF82
+        command: 0xFA05
+        
+- platform: template
+  name: "2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF82
+        command: 0xF807
+        
+- platform: template
+  name: "3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF82
+        command: 0xE41B
+        
+- platform: template
+  name: "4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF82
+        command: 0xF609
+        

@@ -1,0 +1,92 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xFF00
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xF20D
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xEA15
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xEF10
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xED12
+        
+- platform: template
+  name: "OK"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xEE11
+        
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xF10E
+        
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xF30C
+        
+- platform: template
+  name: "VOL+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xF906
+        
+- platform: template
+  name: "VOL-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xF609
+        
+- platform: template
+  name: "MUTE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xE51A
+        
+- platform: template
+  name: "3D"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xF708
+        
+- platform: template
+  name: "Home"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xBE41
+        

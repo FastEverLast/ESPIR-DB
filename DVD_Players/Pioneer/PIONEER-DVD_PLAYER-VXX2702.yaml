@@ -1,0 +1,29 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x50AF
+        command: 0x43BC
+        
+- platform: template
+  name: "EJECT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x50AF
+        command: 0x49B6
+        
+- platform: template
+  name: "PLAY"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x50AF
+        command: 0x619E
+        
+- platform: template
+  name: "STOP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x50AF
+        command: 0x6798
+        

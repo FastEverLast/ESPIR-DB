@@ -1,0 +1,35 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xA81
+        nbits: 12
+
+- platform: template
+  name: "Vup"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x481
+        nbits: 12
+
+- platform: template
+  name: "Vdwn"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xC81
+        nbits: 12
+
+- platform: template
+  name: "Func"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x4B09
+        nbits: 15
+
+- platform: template
+  name: "Light"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x6104
+        nbits: 20

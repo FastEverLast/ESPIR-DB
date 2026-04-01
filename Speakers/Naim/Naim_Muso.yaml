@@ -1,0 +1,84 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x15
+        command: 0x0C
+    
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x15
+        command: 0x0D
+    
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x15
+        command: 0x10
+    
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x15
+        command: 0x11
+    
+- platform: template
+  name: "PlayPause"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x15
+        command: 0x35
+    
+- platform: template
+  name: "Skip_fwd"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x15
+        command: 0x20
+    
+- platform: template
+  name: "Skip_bck"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x15
+        command: 0x21
+    
+- platform: template
+  name: "Input_right"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x15
+        command: 0x00
+
+- platform: template
+  name: "Input_left"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x15
+        command: 0x01
+
+- platform: template
+  name: "Radio_right"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x15
+        command: 0x18
+
+- platform: template
+  name: "Radio_left"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x15
+        command: 0x19
+
+- platform: template
+  name: "Brightness"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x15
+        command: 0x07

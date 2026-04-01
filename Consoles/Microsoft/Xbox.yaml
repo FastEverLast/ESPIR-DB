@@ -1,0 +1,50 @@
+
+- platform: template
+  name: "Xbox_POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xD880
+        command: 0xD02F
+        
+- platform: template
+  name: "Xbox_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xD880
+        command: 0xE11E
+        
+- platform: template
+  name: "Xbox_down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xD880
+        command: 0xE01F
+        
+- platform: template
+  name: "Xbox_left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xD880
+        command: 0xDF20
+        
+- platform: template
+  name: "Xbox_right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xD880
+        command: 0xDE21
+        
+- platform: template
+  name: "Xbox_select"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xD880
+        command: 0xDD22
+        
+- platform: template
+  name: "Xbox_back"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xD880
+        command: 0xDC23
+        

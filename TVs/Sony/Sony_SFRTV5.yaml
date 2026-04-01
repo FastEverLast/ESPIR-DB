@@ -1,0 +1,378 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xA90
+        nbits: 12
+
+- platform: template
+  name: "Input"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xA50
+        nbits: 12
+
+- platform: template
+  name: "Pic Reset"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x2BE9
+        nbits: 15
+
+- platform: template
+  name: "Demo Mode"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x1FE9
+        nbits: 15
+
+- platform: template
+  name: "Discover"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x6758
+        nbits: 15
+
+- platform: template
+  name: "Pic Off"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x7D0
+        nbits: 12
+
+- platform: template
+  name: "Red"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x52E9
+        nbits: 15
+
+- platform: template
+  name: "Green"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x32E9
+        nbits: 15
+
+- platform: template
+  name: "Yellow"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x72E9
+        nbits: 15
+
+- platform: template
+  name: "Blue"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x12E9
+        nbits: 15
+
+- platform: template
+  name: "Action"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x6923
+        nbits: 15
+
+- platform: template
+  name: "Options"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x36E9
+        nbits: 15
+
+- platform: template
+  name: "TV"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x250
+        nbits: 12
+
+- platform: template
+  name: "Apps"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x2A23
+        nbits: 15
+
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x62E9
+        nbits: 15
+
+- platform: template
+  name: "Home"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x70
+        nbits: 12
+
+- platform: template
+  name: "Select"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xA70
+        nbits: 12
+
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x2F0
+        nbits: 12
+
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xAF0
+        nbits: 12
+
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x2D0
+        nbits: 12
+
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xCD0
+        nbits: 12
+
+- platform: template
+  name: "Reverse"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x6CE9
+        nbits: 15
+
+- platform: template
+  name: "Forward"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x1CE9
+        nbits: 15
+
+- platform: template
+  name: "Previous"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x1EE9
+        nbits: 15
+
+- platform: template
+  name: "Next"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x5EE9
+        nbits: 15
+
+- platform: template
+  name: "Play"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x2CE9
+        nbits: 15
+
+- platform: template
+  name: "Pause"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x4CE9
+        nbits: 15
+
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xCE9
+        nbits: 15
+
+- platform: template
+  name: "Sync Menu"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xD58
+        nbits: 15
+
+- platform: template
+  name: "Sub+"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x1D0C
+        nbits: 15
+
+- platform: template
+  name: "Sub-"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x5D0C
+        nbits: 15
+
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x770D
+        nbits: 15
+
+- platform: template
+  name: "S.Field"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x3B0D
+        nbits: 15
+
+- platform: template
+  name: "Vert.S"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x7E114
+        nbits: 20
+
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x290
+        nbits: 12
+
+- platform: template
+  name: "S.Bar/TV"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x1223
+        nbits: 15
+
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x490
+        nbits: 12
+
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xC90
+        nbits: 12
+
+- platform: template
+  name: "0Power"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x540C
+        nbits: 15
+
+- platform: template
+  name: "0Input"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x4B0D
+        nbits: 15
+
+- platform: template
+  name: "0Pic Reset"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xFE116
+        nbits: 20
+
+- platform: template
+  name: "0Demo Mode"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x7E116
+        nbits: 20
+
+- platform: template
+  name: "0Blue"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xEE114
+        nbits: 20
+
+- platform: template
+  name: "0Options"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xCE110
+        nbits: 20
+
+- platform: template
+  name: "0Back"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xBE110
+        nbits: 20
+
+- platform: template
+  name: "0Home"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x650C
+        nbits: 15
+
+- platform: template
+  name: "0Select"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x180C
+        nbits: 15
+
+- platform: template
+  name: "0Up"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xF0D
+        nbits: 15
+
+- platform: template
+  name: "0Down"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x4F0D
+        nbits: 15
+
+- platform: template
+  name: "0Left"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x2F0D
+        nbits: 15
+
+- platform: template
+  name: "0Right"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x6F0D
+        nbits: 15
+
+- platform: template
+  name: "0Mute"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x140C
+        nbits: 15
+
+- platform: template
+  name: "0Vol_up"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x240C
+        nbits: 15
+
+- platform: template
+  name: "0Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x640C
+        nbits: 15

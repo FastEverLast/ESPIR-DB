@@ -1,0 +1,169 @@
+
+- platform: template
+  name: "Power_light"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xFF00
+        
+- platform: template
+  name: "Power_motor"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xFE01
+        
+- platform: template
+  name: "Music_mode_1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xFD02
+        
+- platform: template
+  name: "Music_mode_2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xFC03
+        
+- platform: template
+  name: "Light_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xFB04
+        
+- platform: template
+  name: "Light_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xFA05
+        
+- platform: template
+  name: "Motor_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF906
+        
+- platform: template
+  name: "Motor_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF807
+        
+- platform: template
+  name: "Auto"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF708
+        
+- platform: template
+  name: "Red"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF609
+        
+- platform: template
+  name: "Green"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF50A
+        
+- platform: template
+  name: "Blue"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF40B
+        
+- platform: template
+  name: "Pink"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF30C
+        
+- platform: template
+  name: "RedGreen"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF20D
+        
+- platform: template
+  name: "RedBlue"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF10E
+        
+- platform: template
+  name: "GreenBlue"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF00F
+        
+- platform: template
+  name: "RedPink"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xEF10
+        
+- platform: template
+  name: "GreenPink"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xEE11
+        
+- platform: template
+  name: "BluePink"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xED12
+        
+- platform: template
+  name: "RedGreenBlue"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xEC13
+        
+- platform: template
+  name: "RedGreenPink"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xEB14
+        
+- platform: template
+  name: "RedBluePink"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xEA15
+        
+- platform: template
+  name: "GreenBluePink"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xE916
+        
+- platform: template
+  name: "RedGreenBluePink"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xE817
+        

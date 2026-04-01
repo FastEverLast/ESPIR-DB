@@ -1,0 +1,106 @@
+
+- platform: template
+  name: "CURSOR_UP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA443
+        command: 0xFF00
+        
+- platform: template
+  name: "CURSOR_LEFT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA443
+        command: 0xFE01
+        
+- platform: template
+  name: "CURSOR_DOWN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA443
+        command: 0xFD02
+        
+- platform: template
+  name: "CURSOR_RIGHT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA443
+        command: 0xFC03
+        
+- platform: template
+  name: "DISPLAY_INFO/_SELECT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA443
+        command: 0xFB04
+        
+- platform: template
+  name: "PLAY/PAUSE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA443
+        command: 0xFA05
+        
+- platform: template
+  name: "HOME"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA443
+        command: 0xF906
+        
+- platform: template
+  name: "QUICK_MENU_-TRIANGLE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA443
+        command: 0xF807
+        
+- platform: template
+  name: "QUIT_-CIRCLE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA443
+        command: 0xF708
+        
+- platform: template
+  name: "MENU_DVD_-SQUARE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA443
+        command: 0xF609
+        
+- platform: template
+  name: "OK_-CROSS"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA443
+        command: 0xF50A
+        
+- platform: template
+  name: "L1_-SLIP_<"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA443
+        command: 0xF40B
+        
+- platform: template
+  name: "L2_-REW"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA443
+        command: 0xF30C
+        
+- platform: template
+  name: "R1_-SKIP_>"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA443
+        command: 0xF20D
+        
+- platform: template
+  name: "R2_-FFW"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA443
+        command: 0xF10E
+        

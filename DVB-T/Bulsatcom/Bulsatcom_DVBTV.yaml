@@ -1,0 +1,85 @@
+
+- platform: template
+  name: "Prog_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4040
+        command: 0xE01F
+        
+- platform: template
+  name: "Prog_down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4040
+        command: 0xE11E
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4040
+        command: 0xEA15
+        
+- platform: template
+  name: "Vol_down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4040
+        command: 0xE31C
+        
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4040
+        command: 0xF20D
+        
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4040
+        command: 0xBF40
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4040
+        command: 0xF40B
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4040
+        command: 0xF10E
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4040
+        command: 0xEF10
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4040
+        command: 0xEE11
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4040
+        command: 0xF30C
+        
+- platform: template
+  name: "On_off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4040
+        command: 0xF50A
+        

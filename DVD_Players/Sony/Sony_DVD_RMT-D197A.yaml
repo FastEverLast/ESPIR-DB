@@ -1,0 +1,273 @@
+
+- platform: template
+  name: "Open_Close"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x68B92
+        nbits: 20
+
+- platform: template
+  name: "Tv_Imput"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xA50
+        nbits: 12
+
+- platform: template
+  name: "Tv_pwr"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xA90
+        nbits: 12
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xA8B92
+        nbits: 20
+
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x490
+        nbits: 12
+
+- platform: template
+  name: "Vol_dwn"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xC90
+        nbits: 12
+
+- platform: template
+  name: "1"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xB92
+        nbits: 20
+
+- platform: template
+  name: "2"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x80B92
+        nbits: 20
+
+- platform: template
+  name: "3"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x40B92
+        nbits: 20
+
+- platform: template
+  name: "4"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xC0B92
+        nbits: 20
+
+- platform: template
+  name: "5"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x20B92
+        nbits: 20
+
+- platform: template
+  name: "6"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xA0B92
+        nbits: 20
+
+- platform: template
+  name: "7"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x60B92
+        nbits: 20
+
+- platform: template
+  name: "8"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xE0B92
+        nbits: 20
+
+- platform: template
+  name: "9"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x10B92
+        nbits: 20
+
+- platform: template
+  name: "0"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x90B92
+        nbits: 20
+
+- platform: template
+  name: "Picture_Navi"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xAB92
+        nbits: 20
+
+- platform: template
+  name: "Subtitle"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xC6B92
+        nbits: 20
+
+- platform: template
+  name: "Audio"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x26B92
+        nbits: 20
+
+- platform: template
+  name: "Clear"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xF0B92
+        nbits: 20
+
+- platform: template
+  name: "Time/Text"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x14B92
+        nbits: 20
+
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xD8B92
+        nbits: 20
+
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x9EB92
+        nbits: 20
+
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x5EB92
+        nbits: 20
+
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x3EB92
+        nbits: 20
+
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xDEB92
+        nbits: 20
+
+- platform: template
+  name: "Enter"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xD0B92
+        nbits: 20
+
+- platform: template
+  name: "Return"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x70B92
+        nbits: 20
+
+- platform: template
+  name: "Display"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x2AB92
+        nbits: 20
+
+- platform: template
+  name: "Next"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x8CB92
+        nbits: 20
+
+- platform: template
+  name: "Prev"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xCB92
+        nbits: 20
+
+- platform: template
+  name: "Advance"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x28B46
+        nbits: 20
+
+- platform: template
+  name: "Replay"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x3AB92
+        nbits: 20
+
+- platform: template
+  name: "Fast_Forward"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xC4B92
+        nbits: 20
+
+- platform: template
+  name: "Rewind"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x44B92
+        nbits: 20
+
+- platform: template
+  name: "Play"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x4CB92
+        nbits: 20
+
+- platform: template
+  name: "Pause"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x9CB92
+        nbits: 20
+
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x1CB92
+        nbits: 20
+
+- platform: template
+  name: "FastSlow_play"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xDCB46
+        nbits: 20

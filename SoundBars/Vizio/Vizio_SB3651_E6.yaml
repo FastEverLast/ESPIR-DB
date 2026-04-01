@@ -1,0 +1,316 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xBF40
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xBE41
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xBA45
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xB748
+        
+- platform: template
+  name: "Play_Pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0x718E
+        
+- platform: template
+  name: "Next"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0x748B
+        
+- platform: template
+  name: "Previous"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0x758A
+        
+- platform: template
+  name: "Src_Dig_Audio"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0x36C9
+        
+- platform: template
+  name: "Src_Optical"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0x37C8
+        
+- platform: template
+  name: "Src_HDMI_In"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0x54AB
+        
+- platform: template
+  name: "Src_ARC"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0x659A
+        
+- platform: template
+  name: "Src_BT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xDD22
+        
+- platform: template
+  name: "Src_USB"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0x5EA1
+        
+- platform: template
+  name: "Src_Aux"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0x4EB1
+        
+- platform: template
+  name: "Bass_Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0x946B
+        
+- platform: template
+  name: "Bass_Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0x956A
+        
+- platform: template
+  name: "Treble_Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0x9669
+        
+- platform: template
+  name: "Treble_Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0x9768
+        
+- platform: template
+  name: "Center_Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0x8F70
+        
+- platform: template
+  name: "Center_Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0x916E
+        
+- platform: template
+  name: "Surr_On"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xDC23
+        
+- platform: template
+  name: "Surr_Off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xDB24
+        
+- platform: template
+  name: "Surr_Vol_Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0x926D
+        
+- platform: template
+  name: "Surr_Vol_Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0x936C
+        
+- platform: template
+  name: "Surr_Bal_Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0x4CB3
+        
+- platform: template
+  name: "Surr_Bal_Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0x4BB4
+        
+- platform: template
+  name: "Subwf_Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xB24D
+        
+- platform: template
+  name: "Subwf_Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xAE51
+        
+- platform: template
+  name: "EQ_Music"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0x9966
+        
+- platform: template
+  name: "EQ_Direct"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0x738C
+        
+- platform: template
+  name: "EQ_Movie"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0x9867
+        
+- platform: template
+  name: "TrueVol_On"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xD728
+        
+- platform: template
+  name: "TrueVol_Off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xBD42
+        
+- platform: template
+  name: "Night_On"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0x9E61
+        
+- platform: template
+  name: "Night_Off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0x9D62
+        
+- platform: template
+  name: "AVDelay_Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0x29D6
+        
+- platform: template
+  name: "AVDelay_Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0x8E71
+        
+- platform: template
+  name: "VZTVRem_On"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xE11E
+        
+- platform: template
+  name: "VZTVRem_Off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xE01F
+        
+- platform: template
+  name: "Eco_On"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xD926
+        
+- platform: template
+  name: "Eco_Off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xD827
+        
+- platform: template
+  name: "Spkr_Test"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0x53AC
+        
+- platform: template
+  name: "BT_Pair"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0x906F
+        
+- platform: template
+  name: "Link_Enable"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0x7887
+        
+- platform: template
+  name: "Reset"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0x9C63
+        

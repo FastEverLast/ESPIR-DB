@@ -1,0 +1,106 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x01
+        command: 0x0C
+    
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x01
+        command: 0x10
+    
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x01
+        command: 0x11
+    
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x01
+        command: 0x0D
+    
+- platform: template
+  name: "Home_menu"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x01
+        command: 0x30
+    
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x01
+        command: 0x0A
+    
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x01
+        command: 0x14
+    
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x01
+        command: 0x13
+    
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x01
+        command: 0x15
+    
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x01
+        command: 0x16
+    
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x01
+        command: 0x35
+    
+- platform: template
+  name: "Exit"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x01
+        command: 0x25
+    
+- platform: template
+  name: "Pause"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x01
+        command: 0x31
+    
+- platform: template
+  name: "Play"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x01
+        command: 0x19
+    
+- platform: template
+  name: "Source"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x01
+        command: 0x38
+    

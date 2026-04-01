@@ -1,0 +1,99 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xFE01
+        
+- platform: template
+  name: "Toggle_mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xFB04
+        
+- platform: template
+  name: "Toggle_vid"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xE01F
+        
+- platform: template
+  name: "Zoom_in"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xF708
+        
+- platform: template
+  name: "Zoom_out"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xF609
+        
+- platform: template
+  name: "Pan_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xED12
+        
+- platform: template
+  name: "Pan_down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xE11E
+        
+- platform: template
+  name: "Pan_left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xFC03
+        
+- platform: template
+  name: "Pan_right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xFD02
+        
+- platform: template
+  name: "Bright_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xE41B
+        
+- platform: template
+  name: "Bright_down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xE31C
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xF906
+        
+- platform: template
+  name: "Vol_down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xFA05
+        
+- platform: template
+  name: "50_60hz"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xE21D
+        

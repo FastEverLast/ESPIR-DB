@@ -1,0 +1,169 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x11
+        command: 0x0C
+    
+- platform: template
+  name: "Cd"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x3F
+    
+- platform: template
+  name: "Aux"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x15
+        command: 0x3F
+    
+- platform: template
+  name: "Tuner"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x11
+        command: 0x3F
+    
+- platform: template
+  name: "Timer"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x10
+        command: 0x19
+
+- platform: template
+  name: "Cdr"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1A
+        command: 0x3F
+    
+- platform: template
+  name: "Sleep"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x10
+        command: 0x26
+    
+- platform: template
+  name: "Dbb"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x10
+        command: 0x06
+
+- platform: template
+  name: "Dsc"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x10
+        command: 0x0F
+
+- platform: template
+  name: "Incr.surr."
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x10
+        command: 0x00
+
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x10
+        command: 0x0D
+    
+- platform: template
+  name: "News_ta"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x10
+        command: 0x1A
+
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x10
+        command: 0x11
+    
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x10
+        command: 0x10
+    
+- platform: template
+  name: "Play_pause"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1A
+        command: 0x35
+    
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1A
+        command: 0x21
+    
+- platform: template
+  name: "Next"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1A
+        command: 0x20
+    
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1A
+        command: 0x36
+    
+- platform: template
+  name: "Rew"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1A
+        command: 0x32
+    
+- platform: template
+  name: "Fwd"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1A
+        command: 0x34
+    
+- platform: template
+  name: "Repeat"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1A
+        command: 0x1D
+    
+- platform: template
+  name: "Shuffle"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1A
+        command: 0x1C
+    
+- platform: template
+  name: "Program"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1A
+        command: 0x24
+    
+- platform: template
+  name: "Band"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x11
+        command: 0x2E
+    

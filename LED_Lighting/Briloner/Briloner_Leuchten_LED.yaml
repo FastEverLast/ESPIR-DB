@@ -1,0 +1,71 @@
+
+- platform: template
+  name: "ON"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xBA45
+        
+- platform: template
+  name: "OFF"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xB847
+        
+- platform: template
+  name: "MAX"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xA55A
+        
+- platform: template
+  name: "DIM"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xE619
+        
+- platform: template
+  name: "BRIGHT UP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xBF40
+        
+- platform: template
+  name: "COLD"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF807
+        
+- platform: template
+  name: "WARM"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF609
+        
+- platform: template
+  name: "OFF 30 MIN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xBD42
+        
+- platform: template
+  name: "CHANGE TEMP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xAD52
+        
+- platform: template
+  name: "NIGHT MODE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xEA15
+        

@@ -1,0 +1,50 @@
+
+- platform: template
+  name: "POWER_TOGGLE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8B84
+        command: 0xFF00
+        
+- platform: template
+  name: "VIDEO_1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8B84
+        command: 0xBF40
+        
+- platform: template
+  name: "VIDEO_2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8B84
+        command: 0xBE41
+        
+- platform: template
+  name: "VIDEO_3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8B84
+        command: 0xBD42
+        
+- platform: template
+  name: "VIDEO_4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8B84
+        command: 0xBC43
+        
+- platform: template
+  name: "RGB1:_DVI-D"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8B84
+        command: 0x9768
+        
+- platform: template
+  name: "RGB2:_D-SUB15"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8B84
+        command: 0x9669
+        

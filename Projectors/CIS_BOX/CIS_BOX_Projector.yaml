@@ -1,0 +1,106 @@
+
+- platform: template
+  name: "INPUT_VIDEO_1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0054
+        command: 0xD52A
+        
+- platform: template
+  name: "INPUT_VIDEO_2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0054
+        command: 0xD42B
+        
+- platform: template
+  name: "INPUT_RGB"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0054
+        command: 0xD32C
+        
+- platform: template
+  name: "PWR_ON"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0054
+        command: 0xD12E
+        
+- platform: template
+  name: "PWR_OFF"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0054
+        command: 0xD02F
+        
+- platform: template
+  name: "SELECT+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0054
+        command: 0xCE31
+        
+- platform: template
+  name: "SELECT_-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0054
+        command: 0xCD32
+        
+- platform: template
+  name: "FOCUS_IN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0054
+        command: 0xBE41
+        
+- platform: template
+  name: "FOCUS_OUT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0054
+        command: 0xBD42
+        
+- platform: template
+  name: "ZOOM_IN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0054
+        command: 0xAB54
+        
+- platform: template
+  name: "ZOOM_OUT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0054
+        command: 0xAA55
+        
+- platform: template
+  name: "AUTO"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0054
+        command: 0xA956
+        
+- platform: template
+  name: "SELECT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0054
+        command: 0xA659
+        
+- platform: template
+  name: "INPUT_S_VIDEO"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0054
+        command: 0xA05F
+        
+- platform: template
+  name: "RESET"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0054
+        command: 0x847B
+        

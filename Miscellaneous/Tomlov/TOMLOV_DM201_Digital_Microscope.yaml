@@ -1,0 +1,22 @@
+
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xFE01
+        
+- platform: template
+  name: "OK"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xFD02
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xFC03
+        

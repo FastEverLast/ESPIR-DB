@@ -1,0 +1,43 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF50A
+        
+- platform: template
+  name: "Switch"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF40B
+        
+- platform: template
+  name: "Color_option"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xFE01
+        
+- platform: template
+  name: "Cloud_speed"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xFC03
+        
+- platform: template
+  name: "Bright"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xFB04
+        
+- platform: template
+  name: "Sound_control"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xFD02
+        

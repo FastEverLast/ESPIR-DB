@@ -1,0 +1,245 @@
+
+- platform: template
+  name: "Standby"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x7A59
+        nbits: 15
+
+- platform: template
+  name: "On"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x3A59
+        nbits: 15
+
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x4A59
+        nbits: 15
+
+- platform: template
+  name: "Picture Mode"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xDAB21
+        nbits: 20
+
+- platform: template
+  name: "Return"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xF6BEC
+        nbits: 20
+
+- platform: template
+  name: "Reset"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x6F59
+        nbits: 15
+
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x5659
+        nbits: 15
+
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x3659
+        nbits: 15
+
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x1659
+        nbits: 15
+
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x6659
+        nbits: 15
+
+- platform: template
+  name: "Enter"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x2D59
+        nbits: 15
+
+- platform: template
+  name: "Focus"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x26B21
+        nbits: 20
+
+- platform: template
+  name: "Zoom"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x46B21
+        nbits: 20
+
+- platform: template
+  name: "Lens Shift"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xC6B21
+        nbits: 20
+
+- platform: template
+  name: "Position"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x18BEC
+        nbits: 20
+
+- platform: template
+  name: "Keystone"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x5CB21
+        nbits: 20
+
+- platform: template
+  name: "Pattern"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x3F59
+        nbits: 15
+
+- platform: template
+  name: "Freeze"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xE6B21
+        nbits: 20
+
+- platform: template
+  name: "Blank"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x1259
+        nbits: 15
+
+- platform: template
+  name: "Muting"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x1459
+        nbits: 15
+
+- platform: template
+  name: "+ D Zoom"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x56B21
+        nbits: 20
+
+- platform: template
+  name: "- D Zoom"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xD6B21
+        nbits: 20
+
+- platform: template
+  name: "Aspect"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x76B21
+        nbits: 20
+
+- platform: template
+  name: "APA"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x6B21
+        nbits: 20
+
+- platform: template
+  name: "+ Volume"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x2459
+        nbits: 15
+
+- platform: template
+  name: "- Volume"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x6459
+        nbits: 15
+
+- platform: template
+  name: "Input"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x7559
+        nbits: 15
+
+- platform: template
+  name: "Twin"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x4F59
+        nbits: 15
+
+- platform: template
+  name: "A"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x6A59
+        nbits: 15
+
+- platform: template
+  name: "B"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x1A59
+        nbits: 15
+
+- platform: template
+  name: "C"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x7B59
+        nbits: 15
+
+- platform: template
+  name: "D"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x759
+        nbits: 15
+
+- platform: template
+  name: "E"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x4759
+        nbits: 15
+
+- platform: template
+  name: "F"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x3059
+        nbits: 15
+
+- platform: template
+  name: "G"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x6BEC
+        nbits: 20

@@ -1,0 +1,71 @@
+
+- platform: template
+  name: "On"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xFF00
+        
+- platform: template
+  name: "Off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xFD02
+        
+- platform: template
+  name: "2h"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xFB04
+        
+- platform: template
+  name: "4h"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF906
+        
+- platform: template
+  name: "6h"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF708
+        
+- platform: template
+  name: "8h"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF50A
+        
+- platform: template
+  name: "Candle"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF30C
+        
+- platform: template
+  name: "Light"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF10E
+        
+- platform: template
+  name: "Dim -"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xEF10
+        
+- platform: template
+  name: "Dim +"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xED12
+        

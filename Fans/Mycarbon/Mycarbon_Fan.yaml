@@ -1,0 +1,50 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCF30
+        command: 0x738C
+        
+- platform: template
+  name: "fan_+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCF30
+        command: 0x6A95
+        
+- platform: template
+  name: "fan_-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCF30
+        command: 0x7A85
+        
+- platform: template
+  name: "Oscillation"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCF30
+        command: 0x7C83
+        
+- platform: template
+  name: "Oscillation"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCF30
+        command: 0x639C
+        
+- platform: template
+  name: "Timer"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCF30
+        command: 0x7887
+        
+- platform: template
+  name: "Mode"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCF30
+        command: 0x7986
+        

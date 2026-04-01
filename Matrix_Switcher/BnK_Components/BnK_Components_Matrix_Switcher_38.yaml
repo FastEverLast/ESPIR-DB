@@ -1,0 +1,400 @@
+
+- platform: template
+  name: "POWER_OFF"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xFE01
+        
+- platform: template
+  name: "POWER_ON"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xFD02
+        
+- platform: template
+  name: "MUTE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xFC03
+        
+- platform: template
+  name: "Unknown"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xFC03
+        
+- platform: template
+  name: "IN_1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xFA05
+        
+- platform: template
+  name: "IN_3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xF906
+        
+- platform: template
+  name: "Unknown"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xF906
+        
+- platform: template
+  name: "IN_8"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xF807
+        
+- platform: template
+  name: "IN_2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xF609
+        
+- platform: template
+  name: "Unknown"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xF609
+        
+- platform: template
+  name: "IN_7"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xF40B
+        
+- platform: template
+  name: "Unknown"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xF40B
+        
+- platform: template
+  name: "IN_4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xF20D
+        
+- platform: template
+  name: "IN_5"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xF00F
+        
+- platform: template
+  name: "STATION_-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xE817
+        
+- platform: template
+  name: "STATION_+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xE718
+        
+- platform: template
+  name: "Unknown"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xE718
+        
+- platform: template
+  name: "TUNE_-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xE41B
+        
+- platform: template
+  name: "Unknown"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xE41B
+        
+- platform: template
+  name: "TIUNE_+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xE31C
+        
+- platform: template
+  name: "TUNE_+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xE31C
+        
+- platform: template
+  name: "VOL-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xDC23
+        
+- platform: template
+  name: "Unknown"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xDC23
+        
+- platform: template
+  name: "VOL+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xDB24
+        
+- platform: template
+  name: "Unknown"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xDB24
+        
+- platform: template
+  name: "+10"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xD629
+        
+- platform: template
+  name: "Unknown"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xD629
+        
+- platform: template
+  name: "ENTER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xCF30
+        
+- platform: template
+  name: "1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xCE31
+        
+- platform: template
+  name: "Unknown"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xCE31
+        
+- platform: template
+  name: "2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xCD32
+        
+- platform: template
+  name: "3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xCC33
+        
+- platform: template
+  name: "Unknown"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xCC33
+        
+- platform: template
+  name: "4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xCA35
+        
+- platform: template
+  name: "5"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xC936
+        
+- platform: template
+  name: "6"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xC837
+        
+- platform: template
+  name: "Unknown"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xC837
+        
+- platform: template
+  name: "7"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xC639
+        
+- platform: template
+  name: "Unknown"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xC639
+        
+- platform: template
+  name: "8"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xC53A
+        
+- platform: template
+  name: "Unknown"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xC53A
+        
+- platform: template
+  name: "9"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xC43B
+        
+- platform: template
+  name: "Unknown"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xC43B
+        
+- platform: template
+  name: "0"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xC13E
+        
+- platform: template
+  name: "IN_6"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xB54A
+        
+- platform: template
+  name: "Unknown"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xB54A
+        
+- platform: template
+  name: "PRE_+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xB44B
+        
+- platform: template
+  name: "Unknown"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xB44B
+        
+- platform: template
+  name: "PRESET_+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xB44B
+        
+- platform: template
+  name: "D-_IN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0xA55A
+        
+- platform: template
+  name: "IN_9"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0x916E
+        
+- platform: template
+  name: "Unknown"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0x916E
+        
+- platform: template
+  name: "AM"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0x8976
+        
+- platform: template
+  name: "Unknown"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0x718E
+        
+- platform: template
+  name: "FM"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0x718E
+        
+- platform: template
+  name: "PRE_-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0x39C6
+        
+- platform: template
+  name: "PRESET_-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x078F
+        command: 0x39C6
+        

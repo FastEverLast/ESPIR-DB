@@ -1,0 +1,133 @@
+
+- platform: template
+  name: "Input - TV"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0D827
+        nbits: 32
+
+- platform: template
+  name: "Input - AV"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E021DE
+        nbits: 32
+
+- platform: template
+  name: "Input - S-Video"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0A15E
+        nbits: 32
+
+- platform: template
+  name: "Input - S-Video 2"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0B748
+        nbits: 32
+
+- platform: template
+  name: "Input - Component"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0619E
+        nbits: 32
+
+- platform: template
+  name: "Input - Component 2"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E011EE
+        nbits: 32
+
+- platform: template
+  name: "Input - HDMI 1"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E09768
+        nbits: 32
+
+- platform: template
+  name: "Input - HDMI 2"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E07D82
+        nbits: 32
+
+- platform: template
+  name: "Input - HDMI 3"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E043BC
+        nbits: 32
+
+- platform: template
+  name: "PIP"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E040FB
+        nbits: 32
+
+- platform: template
+  name: "On Screen Remote"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E039C6
+        nbits: 32
+
+- platform: template
+  name: "Picture Mode"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E014EB
+        nbits: 32
+
+- platform: template
+  name: "Sound Mode"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0D42B
+        nbits: 32
+
+- platform: template
+  name: "Virtual Surround"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E07689
+        nbits: 32
+
+- platform: template
+  name: "Browser"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0D42B
+        nbits: 32
+
+- platform: template
+  name: "Split Screen Browser"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0CD32
+        nbits: 32
+
+- platform: template
+  name: "Smart Hub"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E06E91
+        nbits: 32
+
+- platform: template
+  name: "Energy Saving"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0EE11
+        nbits: 32
+
+- platform: template
+  name: "Sleep"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0C03F
+        nbits: 32

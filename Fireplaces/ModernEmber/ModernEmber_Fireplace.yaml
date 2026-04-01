@@ -1,0 +1,71 @@
+
+- platform: template
+  name: "Power_on_off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xFB04
+        
+- platform: template
+  name: "Temp_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xE01F
+        
+- platform: template
+  name: "Temp_down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xF708
+        
+- platform: template
+  name: "Timer"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xF906
+        
+- platform: template
+  name: "Heat_off_low_high"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xE11E
+        
+- platform: template
+  name: "Flame_brightness"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xF50A
+        
+- platform: template
+  name: "Flame_seed"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xFD02
+        
+- platform: template
+  name: "Flame_color"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xFB04
+        
+- platform: template
+  name: "Ember_brightness"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xE619
+        
+- platform: template
+  name: "Ember_color"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xFF00
+        

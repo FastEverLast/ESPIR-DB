@@ -1,0 +1,64 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB04
+        command: 0xF708
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB04
+        command: 0xFD02
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB04
+        command: 0xFC03
+        
+- platform: template
+  name: "Prog_+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB04
+        command: 0xFF00
+        
+- platform: template
+  name: "Prog_-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB04
+        command: 0xFE01
+        
+- platform: template
+  name: "Input"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB04
+        command: 0xF40B
+        
+- platform: template
+  name: "Guide"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB04
+        command: 0x54AB
+        
+- platform: template
+  name: "Exit"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB04
+        command: 0xA45B
+        
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB04
+        command: 0xBB44
+        

@@ -1,0 +1,106 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0031
+        command: 0x7E81
+        
+- platform: template
+  name: "source"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0031
+        command: 0x7C83
+        
+- platform: template
+  name: "keystone_dec"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0031
+        command: 0x7B84
+        
+- platform: template
+  name: "keystone_inc"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0031
+        command: 0x7A85
+        
+- platform: template
+  name: "auto"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0031
+        command: 0x7986
+        
+- platform: template
+  name: "MENU"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0031
+        command: 0x7887
+        
+- platform: template
+  name: "MUTE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0031
+        command: 0x7689
+        
+- platform: template
+  name: "VOL+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0031
+        command: 0x738C
+        
+- platform: template
+  name: "freeze"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0031
+        command: 0x718E
+        
+- platform: template
+  name: "VOL-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0031
+        command: 0x708F
+        
+- platform: template
+  name: "UP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0031
+        command: 0x3EC1
+        
+- platform: template
+  name: "DOWN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0031
+        command: 0x3DC2
+        
+- platform: template
+  name: "LEFT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0031
+        command: 0x3CC3
+        
+- platform: template
+  name: "RIGHT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0031
+        command: 0x3BC4
+        
+- platform: template
+  name: "ENTER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0031
+        command: 0x3AC5
+        

@@ -1,0 +1,85 @@
+
+- platform: template
+  name: "On"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xFD02
+        
+- platform: template
+  name: "Off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xFC03
+        
+- platform: template
+  name: "Dim"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF906
+        
+- platform: template
+  name: "Red"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF708
+        
+- platform: template
+  name: "Blue"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF50A
+        
+- platform: template
+  name: "Orange"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF40B
+        
+- platform: template
+  name: "Flash_RB"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF30C
+        
+- platform: template
+  name: "Flash_RBO"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF20D
+        
+- platform: template
+  name: "Fade_Red"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF10E
+        
+- platform: template
+  name: "Fade_Orange"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF00F
+        
+- platform: template
+  name: "Fade_All"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xEF10
+        
+- platform: template
+  name: "Blink_Fade"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xEE11
+        

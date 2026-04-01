@@ -1,0 +1,91 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xA81
+        nbits: 12
+
+- platform: template
+  name: "Input"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x4B09
+        nbits: 15
+
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x30B9C
+        nbits: 20
+
+- platform: template
+  name: "Fast_fo"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x2CB9C
+        nbits: 20
+
+- platform: template
+  name: "Fast_ba"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xCCB9C
+        nbits: 20
+
+- platform: template
+  name: "Play_pa"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x4CB9C
+        nbits: 20
+
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x481
+        nbits: 12
+
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xC81
+        nbits: 12
+
+- platform: template
+  name: "Groove"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x5E1
+        nbits: 12
+
+- platform: template
+  name: "Surround"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x109
+        nbits: 15
+
+- platform: template
+  name: "Next_Disc"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x7D1
+        nbits: 12
+
+- platform: template
+  name: "Sleep"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x61
+        nbits: 12
+
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x1CB9C
+        nbits: 20

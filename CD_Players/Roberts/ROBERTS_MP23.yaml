@@ -1,0 +1,224 @@
+
+- platform: template
+  name: "Radio"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x2525807F
+        nbits: 32
+
+- platform: template
+  name: "CD"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x2525906F
+        nbits: 32
+
+- platform: template
+  name: "SD/USB"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x25258877
+        nbits: 32
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x25259867
+        nbits: 32
+
+- platform: template
+  name: "Folder/Time"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x252540BF
+        nbits: 32
+
+- platform: template
+  name: "Alarm"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x252550AF
+        nbits: 32
+
+- platform: template
+  name: "Sleep"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x252548B7
+        nbits: 32
+
+- platform: template
+  name: "Clock"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x252558A7
+        nbits: 32
+
+- platform: template
+  name: "1"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x2525C03F
+        nbits: 32
+
+- platform: template
+  name: "2"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x2525D02F
+        nbits: 32
+
+- platform: template
+  name: "3"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x2525C837
+        nbits: 32
+
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x2525D827
+        nbits: 32
+
+- platform: template
+  name: "4"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x252520DF
+        nbits: 32
+
+- platform: template
+  name: "5"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x252530CF
+        nbits: 32
+
+- platform: template
+  name: "6"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x252528D7
+        nbits: 32
+
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x252538C7
+        nbits: 32
+
+- platform: template
+  name: "7"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x2525A05F
+        nbits: 32
+
+- platform: template
+  name: "8"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x2525B04F
+        nbits: 32
+
+- platform: template
+  name: "9"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x2525A857
+        nbits: 32
+
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x2525B847
+        nbits: 32
+
+- platform: template
+  name: "CD Eject"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x2525609F
+        nbits: 32
+
+- platform: template
+  name: "10/0"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x2525708F
+        nbits: 32
+
+- platform: template
+  name: "10+1"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x25256897
+        nbits: 32
+
+- platform: template
+  name: "EQ"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x25257887
+        nbits: 32
+
+- platform: template
+  name: "Prev"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x2525E01F
+        nbits: 32
+
+- platform: template
+  name: "Next"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x2525F00F
+        nbits: 32
+
+- platform: template
+  name: "Play"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x2525E817
+        nbits: 32
+
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x2525F807
+        nbits: 32
+
+- platform: template
+  name: "OK"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x252504FB
+        nbits: 32
+
+- platform: template
+  name: "Auto_Tune"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x252506F9
+        nbits: 32
+
+- platform: template
+  name: "Setup"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x252505FA
+        nbits: 32
+
+- platform: template
+  name: "Info"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x252507F8
+        nbits: 32

@@ -1,0 +1,22 @@
+
+- platform: template
+  name: "REC"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0061
+        command: 0xEB14
+        
+- platform: template
+  name: "VTR_RECORD"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0061
+        command: 0xEB14
+        
+- platform: template
+  name: "PL"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0061
+        command: 0xBF40
+        

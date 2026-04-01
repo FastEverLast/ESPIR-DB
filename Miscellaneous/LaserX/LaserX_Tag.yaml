@@ -1,0 +1,22 @@
+
+- platform: template
+  name: "Red"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [6329, -528, 581, -464, 1651, -464, 583, -461, 1654, -462, 575, -470, 598, -474, 1590, -526, 572]
+    
+- platform: template
+  name: "Blue"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [6496, -535, 553, -512, 1624, -537, 562, -531, 1626, -509, 559, -534, 534, -533, 555, -511, 1625]
+    
+- platform: template
+  name: "All"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [6467, -536, 563, -504, 1653, -508, 560, -506, 1651, -511, 557, -510, 578, -516, 1620, -541, 1677]
+    

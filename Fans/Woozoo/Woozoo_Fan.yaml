@@ -1,0 +1,64 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDE80
+        command: 0xFF00
+        
+- platform: template
+  name: "Faster"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDE80
+        command: 0xF708
+        
+- platform: template
+  name: "Slower"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDE80
+        command: 0xEF10
+        
+- platform: template
+  name: "Vertical"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDE80
+        command: 0xE916
+        
+- platform: template
+  name: "Horizontal"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDE80
+        command: 0xEA15
+        
+- platform: template
+  name: "Timer_1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDE80
+        command: 0xED12
+        
+- platform: template
+  name: "Timer_2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDE80
+        command: 0xF10E
+        
+- platform: template
+  name: "Timer_4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDE80
+        command: 0xF50A
+        
+- platform: template
+  name: "Breeze"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDE80
+        command: 0xF609
+        

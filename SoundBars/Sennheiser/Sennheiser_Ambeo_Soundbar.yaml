@@ -1,0 +1,99 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x13
+        command: 0x0B
+    
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x13
+        command: 0x0D
+    
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x13
+        command: 0x0E
+    
+- platform: template
+  name: "Source_up"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x13
+        command: 0x11
+    
+- platform: template
+  name: "Source_down"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x13
+        command: 0x12
+    
+- platform: template
+  name: "Night"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x13
+        command: 0x20
+
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x13
+        command: 0x0C
+    
+- platform: template
+  name: "Neutral"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x13
+        command: 0x1F
+
+- platform: template
+  name: "News"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x13
+        command: 0x1D
+
+- platform: template
+  name: "Movie"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x13
+        command: 0x1B
+
+- platform: template
+  name: "Music"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x13
+        command: 0x1C
+
+- platform: template
+  name: "Sport"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x13
+        command: 0x1E
+
+- platform: template
+  name: "Ambeo"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x13
+        command: 0x14
+    
+- platform: template
+  name: "Record"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x13
+        command: 0x35
+    

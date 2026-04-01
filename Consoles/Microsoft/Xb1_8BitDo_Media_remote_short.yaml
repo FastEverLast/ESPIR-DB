@@ -1,0 +1,176 @@
+
+- platform: template
+  name: "Xbox_Button"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xD880
+        command: 0x9B64
+        
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xD880
+        command: 0xDC23
+        
+- platform: template
+  name: "Y"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xD880
+        command: 0x9867
+        
+- platform: template
+  name: "B"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xD880
+        command: 0x9A65
+        
+- platform: template
+  name: "A"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xD880
+        command: 0x9966
+        
+- platform: template
+  name: "X"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xD880
+        command: 0x9768
+        
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xD880
+        command: 0x906F
+        
+- platform: template
+  name: "View"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xD880
+        command: 0x916E
+        
+- platform: template
+  name: "Guide"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xD880
+        command: 0xD926
+        
+- platform: template
+  name: "OK"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xD880
+        command: 0xDD22
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xD880
+        command: 0xE01F
+        
+- platform: template
+  name: "CH+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xD880
+        command: 0xEF10
+        
+- platform: template
+  name: "CH-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xD880
+        command: 0xEE11
+        
+- platform: template
+  name: "Play_pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xD880
+        command: 0x8F70
+        
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xD880
+        command: 0xE619
+        
+- platform: template
+  name: "FFwd"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xD880
+        command: 0xEB14
+        
+- platform: template
+  name: "Rewind"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xD880
+        command: 0xEA15
+        
+- platform: template
+  name: "Skip_Fwd"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xD880
+        command: 0xE51A
+        
+- platform: template
+  name: "Skip_Back"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xD880
+        command: 0xE41B
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xD880
+        command: 0xF10E
+        
+- platform: template
+  name: "VOL-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xD880
+        command: 0xEE11
+        
+- platform: template
+  name: "VOL+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xD880
+        command: 0xEF10
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xD880
+        command: 0xE11E
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xD880
+        command: 0xDF20
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xD880
+        command: 0xDE21
+        

@@ -1,0 +1,92 @@
+
+- platform: template
+  name: "MUTE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4BBA
+        command: 0x2FD0
+        
+- platform: template
+  name: "LEFT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4BBA
+        command: 0x3FC0
+        
+- platform: template
+  name: "RIGHT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4BBA
+        command: 0x3EC1
+        
+- platform: template
+  name: "UP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4BBA
+        command: 0x3CC3
+        
+- platform: template
+  name: "DOWN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4BBA
+        command: 0x3DC2
+        
+- platform: template
+  name: "HOME"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9050, -4381, 658, -469, 682, -1591, 659, -467, 659, -1591, 658, -1592, 657, -1592, 657, -469, 657, -1593, 657, -1593, 657, -1592, 658, -469, 657, -1593, 657, -469, 657, -469, 657, -1593, 657, -469, 657, -1593, 657, -469, 657, -469, 657, -469, 657, -469, 657, -469, 657, -1593, 657, -469, 657, -469, 657, -1593, 657, -1593, 657, -1593, 657, -1593, 657, -1593, 657, -469, 657, -1594, 657]
+    
+- platform: template
+  name: "1"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9045, -4384, 682, -444, 681, -1592, 657, -468, 657, -1593, 656, -1594, 656, -1594, 656, -470, 656, -1594, 656, -1594, 656, -1594, 656, -470, 656, -1594, 656, -470, 656, -470, 656, -1594, 656, -470, 656, -470, 656, -1594, 656, -470, 656, -470, 656, -470, 656, -470, 656, -1594, 656, -470, 656, -1594, 656, -470, 656, -1594, 656, -1594, 656, -1594, 656, -1594, 656, -470, 656, -1595, 656]
+    
+- platform: template
+  name: "2"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9049, -4380, 658, -468, 683, -1569, 681, -467, 659, -1591, 658, -1592, 657, -1592, 657, -469, 657, -1593, 657, -1593, 657, -1593, 657, -469, 657, -1593, 657, -469, 657, -469, 657, -1593, 657, -469, 657, -1593, 657, -1593, 656, -469, 657, -469, 657, -469, 657, -469, 657, -1593, 657, -469, 657, -469, 657, -469, 657, -1593, 657, -1593, 657, -1593, 657, -1593, 657, -469, 657, -1594, 657]
+    
+- platform: template
+  name: "AUTOFRAME"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4BBA
+        command: 0xBB44
+        
+- platform: template
+  name: "VOL+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4BBA
+        command: 0xFC03
+        
+- platform: template
+  name: "VOL-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4BBA
+        command: 0xFD02
+        
+- platform: template
+  name: "ZOOM+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4BBA
+        command: 0x3AC5
+        
+- platform: template
+  name: "ZOOM-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4BBA
+        command: 0x3BC4
+        

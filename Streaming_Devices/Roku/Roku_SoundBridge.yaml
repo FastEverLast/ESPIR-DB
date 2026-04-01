@@ -1,0 +1,134 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x906F
+        command: 0xE817
+        
+- platform: template
+  name: "VOL+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x906F
+        command: 0xBF40
+        
+- platform: template
+  name: "VOL-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x906F
+        command: 0xBE41
+        
+- platform: template
+  name: "Bright"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x906F
+        command: 0xBD42
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x906F
+        command: 0xED12
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x906F
+        command: 0xEC13
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x906F
+        command: 0xEF10
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x906F
+        command: 0xEE11
+        
+- platform: template
+  name: "Play"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x906F
+        command: 0xE619
+        
+- platform: template
+  name: "Prev"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x906F
+        command: 0xE41B
+        
+- platform: template
+  name: "Next"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x906F
+        command: 0xE51A
+        
+- platform: template
+  name: "OK"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x906F
+        command: 0xEB14
+        
+- platform: template
+  name: "Pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x906F
+        command: 0xE31C
+        
+- platform: template
+  name: "Home"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x906F
+        command: 0xE817
+        
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x906F
+        command: 0xEA15
+        
+- platform: template
+  name: "Repeat"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x906F
+        command: 0xE01F
+        
+- platform: template
+  name: "Shuffle"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x906F
+        command: 0xE11E
+        
+- platform: template
+  name: "Search"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x906F
+        command: 0xE718
+        
+- platform: template
+  name: "Plus"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x906F
+        command: 0xE21D
+        

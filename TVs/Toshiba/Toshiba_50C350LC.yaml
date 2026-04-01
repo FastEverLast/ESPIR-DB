@@ -1,0 +1,183 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xB946
+        
+- platform: template
+  name: "Home"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0x609F
+        
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xBA45
+        
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xF20D
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xF30C
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xE619
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xB34C
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xB748
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xB24D
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xB14E
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xB649
+        
+- platform: template
+  name: "Select"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xB54A
+        
+- platform: template
+  name: "Rewind"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xE916
+        
+- platform: template
+  name: "Play_pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xA45B
+        
+- platform: template
+  name: "Fast_forward"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xE817
+        
+- platform: template
+  name: "Guide"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xEB14
+        
+- platform: template
+  name: "Ch_next"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xF00F
+        
+- platform: template
+  name: "Ch_prev"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xA55A
+        
+- platform: template
+  name: "Recent_apps"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0x4EB1
+        
+- platform: template
+  name: "Apps"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0x5DA2
+        
+- platform: template
+  name: "Netflix"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xA05F
+        
+- platform: template
+  name: "Amazon_music"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0x5CA3
+        
+- platform: template
+  name: "Prime_video"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0x5EA1
+        
+- platform: template
+  name: "Settings"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0x6996
+        
+- platform: template
+  name: "Bluetooth"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0x59A6
+        
+- platform: template
+  name: "Alexa"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0x5FA0
+        

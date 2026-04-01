@@ -1,0 +1,77 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x10
+        command: 0x0C
+    
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x10
+        command: 0x10
+    
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x10
+        command: 0x11
+    
+- platform: template
+  name: "Prev"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1B
+        command: 0x21
+    
+- platform: template
+  name: "Next"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1B
+        command: 0x20
+    
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x10
+        command: 0x0D
+    
+- platform: template
+  name: "Pause"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1B
+        command: 0x35
+    
+- platform: template
+  name: "Bluetooth"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1B
+        command: 0x03
+
+- platform: template
+  name: "Optical"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1B
+        command: 0x04
+
+- platform: template
+  name: "Aux"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1B
+        command: 0x05
+
+- platform: template
+  name: "USB"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1B
+        command: 0x06

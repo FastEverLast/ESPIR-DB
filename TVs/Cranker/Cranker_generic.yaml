@@ -1,0 +1,43 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xEF10
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xF10E
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9225, -4476, 586, -1675, 613, -527, 612, -529, 610, -530, 609, -532, 607, -558, 581, -558, 582, -559, 581, -559, 581, -1681, 581, -1681, 581, -1681, 581, -1681, 581, -1681, 581, -1681, 581, -1681, 581, -1683, 581, -1681, 581, -1681, 581, -1681, 581, -559, 581, -559, 581, -558, 582, -559, 580, -559, 581, -559, 581, -559, 581, -559, 581, -1681, 581, -1681, 581, -1682, 580, -1682, 581]
+    
+- platform: template
+  name: "Ch_next"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xF30C
+        
+- platform: template
+  name: "Ch_prev"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xF20D
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xE817
+        

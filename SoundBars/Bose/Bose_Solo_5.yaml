@@ -1,0 +1,85 @@
+
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA0BA
+        command: 0xFE01
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA0BA
+        command: 0xFC03
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA0BA
+        command: 0xFD02
+        
+- platform: template
+  name: "PLAY|PAUSE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA0BA
+        command: 0xAA55
+        
+- platform: template
+  name: "NEXT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA0BA
+        command: 0xA55A
+        
+- platform: template
+  name: "PREVIOUS"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA0BA
+        command: 0xA659
+        
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA0BA
+        command: 0xB34C
+        
+- platform: template
+  name: "AUX"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA0BA
+        command: 0xF20D
+        
+- platform: template
+  name: "BLUETOOTH"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA0BA
+        command: 0x7E81
+        
+- platform: template
+  name: "BASS"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA0BA
+        command: 0x7D82
+        
+- platform: template
+  name: "PAUSE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA0BA
+        command: 0xA956
+        
+- platform: template
+  name: "STOP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA0BA
+        command: 0xE51A
+        

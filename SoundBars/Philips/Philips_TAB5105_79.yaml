@@ -1,0 +1,84 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x10
+        command: 0xC7
+
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x10
+        command: 0x0D
+
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x10
+        command: 0x10
+
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x10
+        command: 0x11
+
+- platform: template
+  name: "BT(Pair)"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x10
+        command: 0x69
+
+- platform: template
+  name: "HDMI(ARC)"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x10
+        command: 0x87
+
+- platform: template
+  name: "EQ"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x10
+        command: 0x51
+
+- platform: template
+  name: "AUX"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x10
+        command: 0x6B
+
+- platform: template
+  name: "Optical"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x10
+        command: 0x6C
+
+- platform: template
+  name: "Next"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x10
+        command: 0x20
+
+- platform: template
+  name: "Prev"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x10
+        command: 0x21
+
+- platform: template
+  name: "Play"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x10
+        command: 0x2C

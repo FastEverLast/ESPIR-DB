@@ -1,0 +1,35 @@
+
+- platform: template
+  name: "1"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xFEB92
+        nbits: 20
+
+- platform: template
+  name: "2"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xA6B92
+        nbits: 20
+
+- platform: template
+  name: "3"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xAAB92
+        nbits: 20
+
+- platform: template
+  name: "4"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xFAB92
+        nbits: 20
+
+- platform: template
+  name: "5"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xA8B92
+        nbits: 20

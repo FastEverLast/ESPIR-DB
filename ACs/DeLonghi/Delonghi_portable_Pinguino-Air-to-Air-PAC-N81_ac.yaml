@@ -1,0 +1,50 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1248
+        command: 0x7788
+        
+- platform: template
+  name: "TEMP+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1248
+        command: 0x7788
+        
+- platform: template
+  name: "TEMP-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1248
+        command: 0x7788
+        
+- platform: template
+  name: "Fan_speed"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1448
+        command: 0x7788
+        
+- platform: template
+  name: "Mode"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4448
+        command: 0x7788
+        
+- platform: template
+  name: "Timer"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4448
+        command: 0x37C8
+        
+- platform: template
+  name: "Celsius_farenhait"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1248
+        command: 0x57A8
+        

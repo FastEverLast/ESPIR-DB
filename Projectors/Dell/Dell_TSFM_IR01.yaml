@@ -1,0 +1,127 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xFD02
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xEC13
+        
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xE817
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xEB14
+        
+- platform: template
+  name: "+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xEA15
+        
+- platform: template
+  name: "-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xE916
+        
+- platform: template
+  name: "Page"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xEE11
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xF00F
+        
+- platform: template
+  name: "Vol+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xF708
+        
+- platform: template
+  name: "Vol-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xF40B
+        
+- platform: template
+  name: "Page+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xFA05
+        
+- platform: template
+  name: "Page-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xF906
+        
+- platform: template
+  name: "Source"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xFB04
+        
+- platform: template
+  name: "Video Mode"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xFC03
+        
+- platform: template
+  name: "Auto Adjust"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xE718
+        
+- platform: template
+  name: "Blank Screen"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xF30C
+        
+- platform: template
+  name: "Keystone+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xF609
+        
+- platform: template
+  name: "Keystone-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xF20D
+        

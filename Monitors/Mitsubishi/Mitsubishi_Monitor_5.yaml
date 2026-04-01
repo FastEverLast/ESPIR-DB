@@ -1,0 +1,8 @@
+
+- platform: template
+  name: "VCR/TV"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0002
+        command: 0xD52A
+        

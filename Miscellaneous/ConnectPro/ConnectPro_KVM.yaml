@@ -1,0 +1,85 @@
+
+- platform: template
+  name: "1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6B86
+        command: 0xFD02
+        
+- platform: template
+  name: "2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6B86
+        command: 0xFA05
+        
+- platform: template
+  name: "3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6B86
+        command: 0xF708
+        
+- platform: template
+  name: "4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6B86
+        command: 0xE41B
+        
+- platform: template
+  name: "1_KVM"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6B86
+        command: 0xFE01
+        
+- platform: template
+  name: "2_KVM"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6B86
+        command: 0xFB04
+        
+- platform: template
+  name: "3_KVM"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6B86
+        command: 0xF807
+        
+- platform: template
+  name: "4_KVM"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6B86
+        command: 0xF50A
+        
+- platform: template
+  name: "1_Audio"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6B86
+        command: 0xFC03
+        
+- platform: template
+  name: "2_Audio"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6B86
+        command: 0xF906
+        
+- platform: template
+  name: "3_Audio"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6B86
+        command: 0xF609
+        
+- platform: template
+  name: "4_Audio"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9011, -4450, 596, -534, 595, -1665, 573, -1662, 565, -565, 575, -529, 589, -541, 567, -563, 1675, -1667, 1664, -595, 1640, -598, 532, -597, 1663, -575, 529, -589, 1671, -566, 1668, -569, 560, -569, 1665, -573, 1662, -597, 1638, -600, 1660, -567, 1667, -592, 539, -569, 561, -568, 536, -593, 537, -571, 559, -570, 534, -595, 534, -574, 557, -572, 1661, -566, 1668, -591, 1644, -594, 39786, -9006, 2221, -597]
+    

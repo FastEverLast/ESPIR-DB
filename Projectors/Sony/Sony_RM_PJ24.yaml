@@ -1,0 +1,259 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x542A
+        nbits: 15
+
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x562A
+        nbits: 15
+
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x162A
+        nbits: 15
+
+- platform: template
+  name: "Enter"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x2D2A
+        nbits: 15
+
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x662A
+        nbits: 15
+
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x362A
+        nbits: 15
+
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x4A2A
+        nbits: 15
+
+- platform: template
+  name: "Input"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x752A
+        nbits: 15
+
+- platform: template
+  name: "Focus"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x26B54
+        nbits: 20
+
+- platform: template
+  name: "Zoom"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x46B54
+        nbits: 20
+
+- platform: template
+  name: "Shift"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xC6B54
+        nbits: 20
+
+- platform: template
+  name: "Position"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x18BE4
+        nbits: 20
+
+- platform: template
+  name: "Reset"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x6F2A
+        nbits: 15
+
+- platform: template
+  name: "Aspect"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x76B54
+        nbits: 20
+
+- platform: template
+  name: "Motion_flow"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x502A
+        nbits: 15
+
+- platform: template
+  name: "3D"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xDCB54
+        nbits: 20
+
+- platform: template
+  name: "Color_space"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xD2B54
+        nbits: 20
+
+- platform: template
+  name: "Color_temp"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x3AB54
+        nbits: 20
+
+- platform: template
+  name: "Reality_creation"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x32B54
+        nbits: 20
+
+- platform: template
+  name: "Gamma_correction"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x7AB54
+        nbits: 20
+
+- platform: template
+  name: "Contrast_enhancer"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x702A
+        nbits: 15
+
+- platform: template
+  name: "Advanced_iris"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xFAB54
+        nbits: 20
+
+- platform: template
+  name: "+Sharpness"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x222A
+        nbits: 15
+
+- platform: template
+  name: "-Sharpness"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x622A
+        nbits: 15
+
+- platform: template
+  name: "+Brightness"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x3C2A
+        nbits: 15
+
+- platform: template
+  name: "-Brightness"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x7C2A
+        nbits: 15
+
+- platform: template
+  name: "+Contrast"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xC2A
+        nbits: 15
+
+- platform: template
+  name: "-Contrast"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x4C2A
+        nbits: 15
+
+- platform: template
+  name: "Film_1"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xCAB54
+        nbits: 20
+
+- platform: template
+  name: "Film_2"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x1AB54
+        nbits: 20
+
+- platform: template
+  name: "Ref"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xAAB54
+        nbits: 20
+
+- platform: template
+  name: "TV"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x4AB54
+        nbits: 20
+
+- platform: template
+  name: "Photo"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xEAB54
+        nbits: 20
+
+- platform: template
+  name: "Game"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x6AB54
+        nbits: 20
+
+- platform: template
+  name: "Brt_cine"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x9AB54
+        nbits: 20
+
+- platform: template
+  name: "Brt_TV"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x8AB54
+        nbits: 20
+
+- platform: template
+  name: "User"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x2AB54
+        nbits: 20

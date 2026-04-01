@@ -1,0 +1,78 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x817E
+        command: 0xD52A
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xE51A
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xE41B
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xE31C
+        
+- platform: template
+  name: "CD"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xEA15
+        
+- platform: template
+  name: "Tuner"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xE916
+        
+- platform: template
+  name: "Line1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0x3EC1
+        
+- platform: template
+  name: "Line2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xE718
+        
+- platform: template
+  name: "Line3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xE619
+        
+- platform: template
+  name: "Phono"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xEB14
+        
+- platform: template
+  name: "Dock"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x017F
+        command: 0xB54A
+        

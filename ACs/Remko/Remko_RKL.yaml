@@ -1,0 +1,50 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6B86
+        command: 0xED12
+        
+- platform: template
+  name: "TEMP+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6B86
+        command: 0xE51A
+        
+- platform: template
+  name: "TEMP-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6B86
+        command: 0xE11E
+        
+- platform: template
+  name: "MODE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6B86
+        command: 0xFD02
+        
+- platform: template
+  name: "SWING"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6B86
+        command: 0xFF00
+        
+- platform: template
+  name: "TIMER_SET"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6B86
+        command: 0xFA05
+        
+- platform: template
+  name: "TIMER_RESET"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6B86
+        command: 0xF708
+        

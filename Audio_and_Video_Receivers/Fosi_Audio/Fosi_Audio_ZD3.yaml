@@ -1,0 +1,92 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x01FA
+        command: 0xFA05
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x01FA
+        command: 0xFD02
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x01FA
+        command: 0xFC03
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x01FA
+        command: 0xF807
+        
+- platform: template
+  name: "Play_pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x01FA
+        command: 0xF50A
+        
+- platform: template
+  name: "Next"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x01FA
+        command: 0xF906
+        
+- platform: template
+  name: "Prev"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x01FA
+        command: 0xFB04
+        
+- platform: template
+  name: "Coax"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x01FA
+        command: 0xF609
+        
+- platform: template
+  name: "Optical"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x01FA
+        command: 0xF708
+        
+- platform: template
+  name: "USB"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x01FA
+        command: 0xEE11
+        
+- platform: template
+  name: "HDMI"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x01FA
+        command: 0xEC13
+        
+- platform: template
+  name: "Bluetooth"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x01FA
+        command: 0xEA15
+        
+- platform: template
+  name: "Display_toggle"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x01FA
+        command: 0xFE01
+        

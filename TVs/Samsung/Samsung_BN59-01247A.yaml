@@ -1,0 +1,308 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E040BF
+        nbits: 32
+
+- platform: template
+  name: "Source"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0807F
+        nbits: 32
+
+- platform: template
+  name: "1"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E020DF
+        nbits: 32
+
+- platform: template
+  name: "2"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0A05F
+        nbits: 32
+
+- platform: template
+  name: "3"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0609F
+        nbits: 32
+
+- platform: template
+  name: "4"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E010EF
+        nbits: 32
+
+- platform: template
+  name: "5"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0906F
+        nbits: 32
+
+- platform: template
+  name: "6"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E050AF
+        nbits: 32
+
+- platform: template
+  name: "7"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E030CF
+        nbits: 32
+
+- platform: template
+  name: "8"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0B04F
+        nbits: 32
+
+- platform: template
+  name: "9"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0708F
+        nbits: 32
+
+- platform: template
+  name: "Txx_mix"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E034CB
+        nbits: 32
+
+- platform: template
+  name: "0"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E08877
+        nbits: 32
+
+- platform: template
+  name: "Pre_ch"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0C837
+        nbits: 32
+
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0E01F
+        nbits: 32
+
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0F00F
+        nbits: 32
+
+- platform: template
+  name: "Ch_next"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E048B7
+        nbits: 32
+
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0D02F
+        nbits: 32
+
+- platform: template
+  name: "Ch_list"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0D629
+        nbits: 32
+
+- platform: template
+  name: "Ch_prev"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E008F7
+        nbits: 32
+
+- platform: template
+  name: "Sports"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E01DE2
+        nbits: 32
+
+- platform: template
+  name: "Home"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E09E61
+        nbits: 32
+
+- platform: template
+  name: "Guide"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0F20D
+        nbits: 32
+
+- platform: template
+  name: "Extra"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0F50A
+        nbits: 32
+
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E006F9
+        nbits: 32
+
+- platform: template
+  name: "Info"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0F807
+        nbits: 32
+
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0A659
+        nbits: 32
+
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E016E9
+        nbits: 32
+
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E046B9
+        nbits: 32
+
+- platform: template
+  name: "Return"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E01AE5
+        nbits: 32
+
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E08679
+        nbits: 32
+
+- platform: template
+  name: "Exit"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0B44B
+        nbits: 32
+
+- platform: template
+  name: "A"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E036C9
+        nbits: 32
+
+- platform: template
+  name: "B"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E028D7
+        nbits: 32
+
+- platform: template
+  name: "C"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [4643, -4362, 687, -1554, 685, -1553, 685, -1553, 684, -433, 685, -435, 632, -488, 631, -487, 632, -487, 632, -1606, 632, -1606, 632, -1607, 631, -488, 631, -488, 631, -489, 656, -487, 632, -487, 631, -1607, 630, -489, 629, -1610, 628, -491, 628, -1611, 627, -492, 627, -492, 627, -492, 627, -492, 627, -1611, 627, -492, 627, -1612, 626, -492, 627, -1611, 627, -1612, 626, -1611, 627]
+    
+- platform: template
+  name: "D"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [4643, -4363, 685, -1554, 684, -1554, 684, -1555, 631, -488, 631, -488, 631, -488, 631, -488, 631, -487, 632, -1607, 631, -1607, 631, -1607, 631, -488, 657, -462, 658, -462, 657, -464, 655, -487, 631, -488, 630, -1609, 629, -1610, 628, -491, 628, -1611, 628, -492, 627, -492, 627, -492, 627, -1611, 627, -492, 627, -492, 627, -1611, 627, -492, 628, -1611, 627, -1612, 627, -1611, 627]
+    
+- platform: template
+  name: "Settings"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [4646, -4365, 683, -1555, 682, -1554, 633, -1607, 631, -487, 632, -487, 632, -488, 631, -488, 631, -488, 631, -1606, 632, -1607, 631, -1607, 659, -461, 658, -461, 658, -461, 658, -462, 656, -486, 632, -488, 630, -1609, 628, -490, 629, -1611, 627, -1611, 627, -492, 627, -492, 627, -492, 627, -1611, 627, -492, 627, -1611, 627, -492, 627, -492, 627, -1611, 628, -1611, 627, -1611, 627]
+    
+- platform: template
+  name: "Ad_subt"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [4646, -4363, 685, -1552, 686, -1554, 683, -1553, 684, -435, 632, -488, 631, -487, 632, -488, 631, -488, 631, -1607, 631, -1607, 631, -1607, 631, -488, 631, -488, 657, -462, 657, -464, 654, -487, 631, -1607, 630, -490, 628, -1610, 628, -491, 628, -492, 627, -1611, 627, -492, 627, -492, 627, -492, 627, -1611, 628, -492, 627, -1612, 627, -1612, 627, -492, 627, -1612, 627, -1612, 627]
+    
+- platform: template
+  name: "Rec"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0926D
+        nbits: 32
+
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [4593, -4416, 632, -1605, 687, -1552, 686, -1551, 686, -433, 685, -433, 684, -435, 632, -487, 631, -487, 632, -1606, 632, -1606, 632, -1606, 631, -489, 630, -489, 630, -513, 606, -513, 632, -487, 631, -487, 631, -1608, 629, -1609, 628, -491, 628, -491, 628, -492, 627, -1611, 627, -492, 627, -1611, 627, -492, 627, -492, 627, -1611, 627, -1611, 627, -1611, 627, -492, 627, -1611, 627]
+    
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0A25D
+        nbits: 32
+
+- platform: template
+  name: "Play"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [4648, -4361, 687, -1552, 686, -1552, 686, -1553, 685, -435, 631, -488, 631, -488, 631, -487, 632, -487, 632, -1607, 631, -1606, 632, -1606, 632, -488, 631, -489, 630, -513, 632, -487, 632, -487, 631, -1607, 630, -1608, 629, -1609, 628, -491, 628, -491, 628, -492, 627, -1611, 627, -492, 627, -492, 627, -492, 627, -492, 627, -1611, 627, -1611, 627, -1611, 627, -492, 627, -1611, 627]
+    
+- platform: template
+  name: "Pause"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E052AD
+        nbits: 32
+
+- platform: template
+  name: "Fast_forward"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E012ED
+        nbits: 32

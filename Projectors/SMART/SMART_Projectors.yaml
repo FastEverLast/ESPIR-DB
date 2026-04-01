@@ -1,0 +1,92 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCA8B
+        command: 0xED12
+        
+- platform: template
+  name: "INPUT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCA8B
+        command: 0xEB14
+        
+- platform: template
+  name: "MENU"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCA8B
+        command: 0xE41B
+        
+- platform: template
+  name: "VOL+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCA8B
+        command: 0xBB44
+        
+- platform: template
+  name: "VOL-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCA8B
+        command: 0xB946
+        
+- platform: template
+  name: "MUTE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCA8B
+        command: 0xEE11
+        
+- platform: template
+  name: "HIDE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCA8B
+        command: 0xEA15
+        
+- platform: template
+  name: "MODE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCA8B
+        command: 0xBA45
+        
+- platform: template
+  name: "ENTER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCA8B
+        command: 0xEC13
+        
+- platform: template
+  name: "UP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCA8B
+        command: 0xBF40
+        
+- platform: template
+  name: "DOWN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCA8B
+        command: 0xBE41
+        
+- platform: template
+  name: "LEFT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCA8B
+        command: 0xBD42
+        
+- platform: template
+  name: "RIGHT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCA8B
+        command: 0xBC43
+        

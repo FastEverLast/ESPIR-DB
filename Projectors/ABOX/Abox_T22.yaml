@@ -1,0 +1,85 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0xE21D
+        
+- platform: template
+  name: "Input_"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0xE01F
+        
+- platform: template
+  name: "Settings"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0xE11E
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0xF609
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0xFE01
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0xF50A
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0xF708
+        
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0xF40B
+        
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0xF20D
+        
+- platform: template
+  name: "Vol_Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0xEA15
+        
+- platform: template
+  name: "Vol_Up"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9032, -4462, 598, -501, 627, -1604, 627, -530, 598, -531, 677, -423, 706, -422, 706, -421, 707, -451, 677, -1554, 677, -451, 598, -1633, 598, -1634, 597, -1634, 598, -1634, 598, -1634, 625, -1606, 681, -1550, 626, -502, 598, -530, 599, -529, 600, -1632, 600, -528, 600, -528, 601, -528, 601, -528, 601, -1631, 600, -1631, 625, -1607, 625, -504, 625, -1607, 624, -1608, 624, -1608, 623]
+    
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0xFD02
+        

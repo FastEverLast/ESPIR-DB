@@ -1,0 +1,50 @@
+
+- platform: template
+  name: "MENU"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E80
+        command: 0xFE01
+        
+- platform: template
+  name: "MODE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E80
+        command: 0xFD02
+        
+- platform: template
+  name: "MEMORY"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E80
+        command: 0xF906
+        
+- platform: template
+  name: "UP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E80
+        command: 0xF50A
+        
+- platform: template
+  name: "DN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E80
+        command: 0xF30C
+        
+- platform: template
+  name: "SAVE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E80
+        command: 0xF20D
+        
+- platform: template
+  name: "PWR"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E80
+        command: 0xE817
+        

@@ -1,0 +1,259 @@
+
+- platform: template
+  name: "On"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x3A2A
+        nbits: 15
+
+- platform: template
+  name: "Standby"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x7A2A
+        nbits: 15
+
+- platform: template
+  name: "Input_A"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x6A2A
+        nbits: 15
+
+- platform: template
+  name: "Input_B"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x1A2A
+        nbits: 15
+
+- platform: template
+  name: "Input_C"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x7B2A
+        nbits: 15
+
+- platform: template
+  name: "Input_D"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x72A
+        nbits: 15
+
+- platform: template
+  name: "Input_E"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x472A
+        nbits: 15
+
+- platform: template
+  name: "Input_F"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x302A
+        nbits: 15
+
+- platform: template
+  name: "Video"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x2A2A
+        nbits: 15
+
+- platform: template
+  name: "Svideo"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x7D2A
+        nbits: 15
+
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x4A2A
+        nbits: 15
+
+- platform: template
+  name: "Eco"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x88BE4
+        nbits: 20
+
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x562A
+        nbits: 15
+
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x162A
+        nbits: 15
+
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x662A
+        nbits: 15
+
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x362A
+        nbits: 15
+
+- platform: template
+  name: "Enter"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x2D2A
+        nbits: 15
+
+- platform: template
+  name: "Return"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xF6BE4
+        nbits: 20
+
+- platform: template
+  name: "Reset"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x6F2A
+        nbits: 15
+
+- platform: template
+  name: "Focus"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x26B54
+        nbits: 20
+
+- platform: template
+  name: "Zoom"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x46B54
+        nbits: 20
+
+- platform: template
+  name: "Lens_shift"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xC6B54
+        nbits: 20
+
+- platform: template
+  name: "Aspect"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x76B54
+        nbits: 20
+
+- platform: template
+  name: "Keystone"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x5CB54
+        nbits: 20
+
+- platform: template
+  name: "Pattern"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x3F2A
+        nbits: 15
+
+- platform: template
+  name: "Zoom_up"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x56B54
+        nbits: 20
+
+- platform: template
+  name: "Zoom_dn"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xD6B54
+        nbits: 20
+
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x242A
+        nbits: 15
+
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x642A
+        nbits: 15
+
+- platform: template
+  name: "Blank"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x122A
+        nbits: 15
+
+- platform: template
+  name: "Muting"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x142A
+        nbits: 15
+
+- platform: template
+  name: "Apa"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x6B54
+        nbits: 20
+
+- platform: template
+  name: "Twin"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x4F2A
+        nbits: 15
+
+- platform: template
+  name: "Freeze"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xE6B54
+        nbits: 20
+
+- platform: template
+  name: "Power_id2"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x74B36
+        nbits: 20
+
+- platform: template
+  name: "Power_id3"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x74B2E
+        nbits: 20
+
+- platform: template
+  name: "Power_id4"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x74BF3
+        nbits: 20

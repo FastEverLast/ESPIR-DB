@@ -1,0 +1,113 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0086
+        command: 0xFF00
+        
+- platform: template
+  name: "VIDEO"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0086
+        command: 0xFA05
+        
+- platform: template
+  name: "VIDEO_1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0086
+        command: 0xFA05
+        
+- platform: template
+  name: "RGB"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0086
+        command: 0xF708
+        
+- platform: template
+  name: "FOCUS_+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0086
+        command: 0xEA15
+        
+- platform: template
+  name: "FOCUS_-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0086
+        command: 0xE916
+        
+- platform: template
+  name: "ZOOM_+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0086
+        command: 0xE817
+        
+- platform: template
+  name: "ZOOM_-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0086
+        command: 0xE718
+        
+- platform: template
+  name: "MENU"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0086
+        command: 0xDE21
+        
+- platform: template
+  name: "BLANK"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0086
+        command: 0xD52A
+        
+- platform: template
+  name: "VOL+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0086
+        command: 0xCF30
+        
+- platform: template
+  name: "VOL-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0086
+        command: 0xCE31
+        
+- platform: template
+  name: "MUTE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0086
+        command: 0xCD32
+        
+- platform: template
+  name: "MAGNIFY"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0086
+        command: 0xC03F
+        
+- platform: template
+  name: "TIMER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0086
+        command: 0xA956
+        
+- platform: template
+  name: "FREEZE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0086
+        command: 0x9C63
+        

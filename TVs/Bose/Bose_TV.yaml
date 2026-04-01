@@ -1,0 +1,29 @@
+
+- platform: template
+  name: "On_off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA0BA
+        command: 0xB34C
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA0BA
+        command: 0xFC03
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA0BA
+        command: 0xFD02
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA0BA
+        command: 0xFE01
+        

@@ -1,0 +1,71 @@
+
+- platform: template
+  name: "Led"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xE31C
+        
+- platform: template
+  name: "Off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xE21D
+        
+- platform: template
+  name: "Auto"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xE11E
+        
+- platform: template
+  name: "Speed"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xE01F
+        
+- platform: template
+  name: "Fade"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF40B
+        
+- platform: template
+  name: "Jump"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF00F
+        
+- platform: template
+  name: "Asyn_fade"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xEC13
+        
+- platform: template
+  name: "Red"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xFF00
+        
+- platform: template
+  name: "Grenn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xFE01
+        
+- platform: template
+  name: "Blue"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xFD02
+        

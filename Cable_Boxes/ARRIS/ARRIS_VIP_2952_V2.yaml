@@ -1,0 +1,260 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 56kHz
+        code: [320, -640, 640, -640, 320, -320, 640, -640, 640, -640, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 640, -640, 640, -320, 320, -640, 320]
+    
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 56kHz
+        code: [320, -640, 640, -640, 320, -320, 640, -640, 640, -640, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 640, -640, 640, -320, 320, -640, 640, -640, 320]
+    
+- platform: template
+  name: "UP"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 56kHz
+        code: [320, -640, 640, -640, 320, -320, 640, -640, 640, -640, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 640, -320, 320, -640, 320, -320, 640]
+    
+- platform: template
+  name: "DOWN"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 56kHz
+        code: [320, -640, 640, -640, 320, -320, 640, -640, 640, -640, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 640, -320, 320, -640, 640, -640, 320]
+    
+- platform: template
+  name: "LEFT"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 56kHz
+        code: [320, -640, 640, -640, 320, -320, 640, -640, 640, -640, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 640, -320, 320, -320, 320, -640, 640]
+    
+- platform: template
+  name: "RIGHT"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 56kHz
+        code: [320, -640, 640, -640, 320, -320, 640, -640, 640, -640, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 640, -640, 320, -320, 320, -320, 320, -320, 640]
+    
+- platform: template
+  name: "OK"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 56kHz
+        code: [320, -640, 640, -640, 320, -320, 640, -640, 640, -640, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 640, -320, 320, -320, 320, -320, 320, -640, 320]
+    
+- platform: template
+  name: "BACK"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 56kHz
+        code: [320, -640, 640, -640, 320, -320, 640, -640, 640, -640, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 640, -640, 320, -320, 640, -320, 320, -640, 320]
+    
+- platform: template
+  name: "PLAY_PAUSE"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 56kHz
+        code: [320, -640, 640, -640, 320, -320, 640, -640, 640, -640, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 640, -320, 320, -640, 640, -320, 320, -640, 320]
+    
+- platform: template
+  name: "REWIND"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 56kHz
+        code: [320, -640, 640, -640, 320, -320, 640, -640, 640, -640, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 640, -640, 320, -320, 320, -320, 320, -320, 640, -640, 320]
+    
+- platform: template
+  name: "FAST_FORWARD"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 56kHz
+        code: [320, -640, 640, -640, 320, -320, 640, -640, 640, -640, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 640, -640, 320, -320, 640, -640, 320, -320, 640]
+    
+- platform: template
+  name: "STOP"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 56kHz
+        code: [320, -640, 640, -640, 320, -320, 640, -640, 640, -640, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 640, -640, 320, -320, 320, -320, 640, -640, 640]
+    
+- platform: template
+  name: "RECORD"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 56kHz
+        code: [320, -640, 640, -640, 320, -320, 640, -640, 640, -640, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 640, -640, 320, -320, 320, -320, 640, -320, 320, -640, 320]
+    
+- platform: template
+  name: "RED"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 56kHz
+        code: [320, -640, 640, -640, 320, -320, 640, -640, 640, -640, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 640, -320, 320, -320, 320, -640, 640, -640, 320]
+    
+- platform: template
+  name: "GREEN"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 56kHz
+        code: [320, -640, 640, -640, 320, -320, 640, -640, 640, -640, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 640, -320, 320, -320, 320, -320, 320, -640, 640]
+    
+- platform: template
+  name: "YELLOW"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 56kHz
+        code: [320, -640, 640, -640, 320, -320, 640, -640, 640, -640, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 640, -320, 320, -320, 320, -320, 320, -320, 320, -640, 320]
+    
+- platform: template
+  name: "BLUE"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 56kHz
+        code: [320, -640, 640, -640, 320, -320, 640, -640, 640, -640, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 640, -640, 320, -320, 320, -320, 320, -320, 320, -320, 640]
+    
+- platform: template
+  name: "CHANNEL_UP"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 56kHz
+        code: [320, -640, 640, -640, 320, -320, 640, -640, 640, -640, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 640, -320, 320, -640, 320, -320, 640, -640, 320]
+    
+- platform: template
+  name: "CHANNEL_DOWN"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 56kHz
+        code: [320, -640, 640, -640, 320, -320, 640, -640, 640, -640, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 640, -320, 320, -320, 320, -640, 320, -320, 640]
+    
+- platform: template
+  name: "VOLUME_UP"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 56kHz
+        code: [320, -640, 640, -640, 320, -320, 640, -640, 640, -640, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 640, -640, 640, -320, 320, -320, 320, -640, 320]
+    
+- platform: template
+  name: "VOLUME_DOWN"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 56kHz
+        code: [320, -640, 640, -640, 320, -320, 640, -640, 640, -640, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 640, -320, 320, -640, 640, -640, 640]
+    
+- platform: template
+  name: "MUTE"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 56kHz
+        code: [320, -640, 640, -640, 320, -320, 640, -640, 640, -640, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 640, -320, 320, -640, 320, -320, 320, -320, 640]
+    
+- platform: template
+  name: "SOURCE"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 56kHz
+        code: [320, -640, 640, -640, 320, -320, 640, -640, 640, -640, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 640, -640, 320, -320, 320, -320, 640, -640, 320]
+    
+- platform: template
+  name: "TEXT"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 56kHz
+        code: [320, -640, 640, -640, 320, -320, 640, -640, 640, -640, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 640, -640, 640, -640, 320, -320, 640, -640, 320]
+    
+- platform: template
+  name: "TV"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 56kHz
+        code: [320, -640, 640, -640, 320, -320, 640, -640, 640, -640, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 640, -640, 640, -640, 320, -320, 640]
+    
+- platform: template
+  name: "GUIDE"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 56kHz
+        code: [320, -640, 640, -640, 320, -320, 640, -640, 640, -640, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 640, -640, 640, -320, 320, -640, 640]
+    
+- platform: template
+  name: "RADIO"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 56kHz
+        code: [320, -640, 640, -640, 320, -320, 640, -640, 640, -640, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 640, -640, 640, -640, 640, -320, 320, -640, 320]
+    
+- platform: template
+  name: "KEY_1"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 56kHz
+        code: [320, -640, 640, -640, 320, -320, 640, -640, 640, -640, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 640, -640, 320]
+    
+- platform: template
+  name: "KEY_2"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 56kHz
+        code: [320, -640, 640, -640, 320, -320, 640, -640, 640, -640, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 640, -640, 640]
+    
+- platform: template
+  name: "KEY_3"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 56kHz
+        code: [320, -640, 640, -640, 320, -320, 640, -640, 640, -640, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 640, -320, 320, -640, 320]
+    
+- platform: template
+  name: "KEY_4"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 56kHz
+        code: [320, -640, 640, -640, 320, -320, 640, -640, 640, -640, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 640, -640, 320, -320, 640]
+    
+- platform: template
+  name: "KEY_5"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 56kHz
+        code: [320, -640, 640, -640, 320, -320, 640, -640, 640, -640, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 640, -640, 640, -640, 320]
+    
+- platform: template
+  name: "KEY_6"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 56kHz
+        code: [320, -640, 640, -640, 320, -320, 640, -640, 640, -640, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 640, -320, 320, -640, 640]
+    
+- platform: template
+  name: "KEY_7"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 56kHz
+        code: [320, -640, 640, -640, 320, -320, 640, -640, 640, -640, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 640, -320, 320, -320, 320, -640, 320]
+    
+- platform: template
+  name: "KEY_8"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 56kHz
+        code: [320, -640, 640, -640, 320, -320, 640, -640, 640, -640, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 640, -640, 320, -320, 320, -320, 640]
+    
+- platform: template
+  name: "KEY_9"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 56kHz
+        code: [320, -640, 640, -640, 320, -320, 640, -640, 640, -640, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 640, -640, 320, -320, 640, -640, 320]
+    
+- platform: template
+  name: "KEY_0"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 56kHz
+        code: [320, -640, 640, -640, 320, -320, 640, -640, 640, -640, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 320, -320, 640, -640, 640, -640, 640]
+    

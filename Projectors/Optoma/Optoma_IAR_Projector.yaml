@@ -1,0 +1,50 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFFFF
+        command: 0x17E8
+        
+- platform: template
+  name: "Freeze"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFFFF
+        command: 0x13EC
+        
+- platform: template
+  name: "VOL+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFFFF
+        command: 0x42BD
+        
+- platform: template
+  name: "VOL-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFFFF
+        command: 0x0DF2
+        
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFFFF
+        command: 0x14EB
+        
+- platform: template
+  name: "HDMI_1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFFFF
+        command: 0x1AE5
+        
+- platform: template
+  name: "Exit"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFFFF
+        command: 0x00FF
+        

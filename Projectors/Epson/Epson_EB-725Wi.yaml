@@ -1,0 +1,71 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5583
+        command: 0x6F90
+        
+- platform: template
+  name: "FREEZE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0381
+        command: 0x0FF0
+        
+- platform: template
+  name: "HOME"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0381
+        command: 0x0FF0
+        
+- platform: template
+  name: "UP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0381
+        command: 0x0FF0
+        
+- platform: template
+  name: "LEFT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0381
+        command: 0x0FF0
+        
+- platform: template
+  name: "DOWN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0381
+        command: 0x0FF0
+        
+- platform: template
+  name: "RIGHT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0381
+        command: 0x0FF0
+        
+- platform: template
+  name: "ENTER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0381
+        command: 0x0FF0
+        
+- platform: template
+  name: "VOL+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0381
+        command: 0x0FF0
+        
+- platform: template
+  name: "VOL-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0381
+        command: 0x0FF0
+        

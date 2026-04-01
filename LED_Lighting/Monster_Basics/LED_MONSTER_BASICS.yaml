@@ -1,0 +1,141 @@
+
+- platform: template
+  name: "On"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xFF00
+        
+- platform: template
+  name: "Off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xFE01
+        
+- platform: template
+  name: "Dimmer_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xFC03
+        
+- platform: template
+  name: "Dimmer_down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF807
+        
+- platform: template
+  name: "Red"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF708
+        
+- platform: template
+  name: "Pink"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF609
+        
+- platform: template
+  name: "Orange"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF50A
+        
+- platform: template
+  name: "White"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF40B
+        
+- platform: template
+  name: "Green"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF30C
+        
+- platform: template
+  name: "Teal"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF20D
+        
+- platform: template
+  name: "Light_blue"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF10E
+        
+- platform: template
+  name: "Blue"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF00F
+        
+- platform: template
+  name: "Dark_blue"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xEF10
+        
+- platform: template
+  name: "Night_light"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xEE11
+        
+- platform: template
+  name: "Purple"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xED12
+        
+- platform: template
+  name: "Hot_pink"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xEC13
+        
+- platform: template
+  name: "Flash"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xEB14
+        
+- platform: template
+  name: "Strobe"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xEA15
+        
+- platform: template
+  name: "Fade"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xE916
+        
+- platform: template
+  name: "Smooth"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xE817
+        

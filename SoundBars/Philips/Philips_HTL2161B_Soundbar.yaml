@@ -1,0 +1,21 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x10
+        command: 0x0C
+
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x10
+        command: 0x10
+
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x10
+        command: 0x11

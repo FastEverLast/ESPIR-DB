@@ -1,0 +1,106 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4BBA
+        command: 0xB34C
+        
+- platform: template
+  name: "Music"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4BBA
+        command: 0x4CB3
+        
+- platform: template
+  name: "TV"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4BBA
+        command: 0xF10E
+        
+- platform: template
+  name: "Bluetooth"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4BBA
+        command: 0x7E81
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4BBA
+        command: 0xFC03
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4BBA
+        command: 0xFD02
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4BBA
+        command: 0xFE01
+        
+- platform: template
+  name: "Rewind"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4BBA
+        command: 0xA857
+        
+- platform: template
+  name: "Play_Pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4BBA
+        command: 0xAA55
+        
+- platform: template
+  name: "1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4BBA
+        command: 0xBE41
+        
+- platform: template
+  name: "2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4BBA
+        command: 0xBD42
+        
+- platform: template
+  name: "3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4BBA
+        command: 0xBC43
+        
+- platform: template
+  name: "4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4BBA
+        command: 0xBB44
+        
+- platform: template
+  name: "5"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4BBA
+        command: 0xBA45
+        
+- platform: template
+  name: "6"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4BBA
+        command: 0xB946
+        

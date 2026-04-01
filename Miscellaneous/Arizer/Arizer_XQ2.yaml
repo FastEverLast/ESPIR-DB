@@ -1,0 +1,92 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xE41B
+        
+- platform: template
+  name: "TEMP+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xFA05
+        
+- platform: template
+  name: "TEMP-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xF50A
+        
+- platform: template
+  name: "Preset_1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xEF10
+        
+- platform: template
+  name: "Preset_2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xF906
+        
+- platform: template
+  name: "Preset_3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xE01F
+        
+- platform: template
+  name: "Fan_Off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xFE01
+        
+- platform: template
+  name: "Fan_Low"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xF609
+        
+- platform: template
+  name: "Fan_Med"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xFB04
+        
+- platform: template
+  name: "Fan_High"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xF807
+        
+- platform: template
+  name: "Beep_Level"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xED12
+        
+- platform: template
+  name: "Auto_Off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xF708
+        
+- platform: template
+  name: "LED"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xE11E
+        

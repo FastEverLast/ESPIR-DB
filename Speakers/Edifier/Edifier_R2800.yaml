@@ -1,0 +1,36 @@
+
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xF609
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xFE01
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xFD02
+        
+- platform: template
+  name: "PC_AUX"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xFF00
+        
+- platform: template
+  name: "OPT_COX"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xFC03
+        

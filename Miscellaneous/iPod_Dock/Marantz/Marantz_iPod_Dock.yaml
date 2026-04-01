@@ -1,0 +1,22 @@
+
+- platform: template
+  name: "VOL+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0010
+        command: 0xEF10
+        
+- platform: template
+  name: "VOL-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0010
+        command: 0xEE11
+        
+- platform: template
+  name: "Unknown"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0010
+        command: 0xEE11
+        

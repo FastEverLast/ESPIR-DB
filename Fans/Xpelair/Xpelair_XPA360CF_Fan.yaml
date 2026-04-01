@@ -1,0 +1,36 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFC00
+        command: 0x7F80
+        
+- platform: template
+  name: "Speed"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFC00
+        command: 0x7A85
+        
+- platform: template
+  name: "Mode"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFC00
+        command: 0x7E81
+        
+- platform: template
+  name: "Timer"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFC00
+        command: 0x7986
+        
+- platform: template
+  name: "Rotation"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFC00
+        command: 0x7D82
+        

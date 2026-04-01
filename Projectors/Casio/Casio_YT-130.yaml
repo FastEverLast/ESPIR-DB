@@ -1,0 +1,127 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF484
+        command: 0xF40B
+        
+- platform: template
+  name: "Input"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF484
+        command: 0xF50A
+        
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF484
+        command: 0xF30C
+        
+- platform: template
+  name: "Zoom_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF484
+        command: 0xE41B
+        
+- platform: template
+  name: "Zoom_dwn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF484
+        command: 0xE51A
+        
+- platform: template
+  name: "Freeze"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF484
+        command: 0xC43B
+        
+- platform: template
+  name: "Focus_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF484
+        command: 0xE21D
+        
+- platform: template
+  name: "Focus_dwn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF484
+        command: 0xE31C
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF484
+        command: 0xB54A
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF484
+        command: 0xB44B
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF484
+        command: 0xB24D
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF484
+        command: 0xB14E
+        
+- platform: template
+  name: "Enter"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF484
+        command: 0xB34C
+        
+- platform: template
+  name: "Keyst_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF484
+        command: 0xD52A
+        
+- platform: template
+  name: "Keyst_d"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF484
+        command: 0xD22D
+        
+- platform: template
+  name: "Auto"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF484
+        command: 0xA45B
+        
+- platform: template
+  name: "Aspect"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF484
+        command: 0xA35C
+        
+- platform: template
+  name: "Eco"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF484
+        command: 0xC33C
+        

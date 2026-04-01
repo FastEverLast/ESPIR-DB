@@ -1,0 +1,302 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x0C
+    
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x0D
+    
+- platform: template
+  name: "Setup"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x3B
+    
+- platform: template
+  name: "Tv/av"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x38
+    
+- platform: template
+  name: "Tv/fm"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x24
+    
+- platform: template
+  name: "Ch_list"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x0B
+    
+- platform: template
+  name: "Sleep"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x26
+    
+- platform: template
+  name: "Last"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x2B
+    
+- platform: template
+  name: "Ch+_uparrow"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x20
+    
+- platform: template
+  name: "Ch-_downarrow"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x21
+    
+- platform: template
+  name: "Vol-_leftarrow"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x11
+    
+- platform: template
+  name: "Vol+_rightarrow"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x10
+    
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x25
+    
+- platform: template
+  name: "Arc"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x1A
+    
+- platform: template
+  name: "Cc"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x3C
+    
+- platform: template
+  name: "Red"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x2A
+    
+- platform: template
+  name: "Green"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x12
+    
+- platform: template
+  name: "White"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x13
+    
+- platform: template
+  name: "Blue"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x14
+    
+- platform: template
+  name: "Psm"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x0E
+    
+- platform: template
+  name: "Ssm"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x16
+    
+- platform: template
+  name: "Sap"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x23
+    
+- platform: template
+  name: "1"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x01
+    
+- platform: template
+  name: "2"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x02
+    
+- platform: template
+  name: "3"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x03
+    
+- platform: template
+  name: "4"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x04
+    
+- platform: template
+  name: "5"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x05
+    
+- platform: template
+  name: "6"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x06
+    
+- platform: template
+  name: "7"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x07
+    
+- platform: template
+  name: "8"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x08
+    
+- platform: template
+  name: "9"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x09
+    
+- platform: template
+  name: "0"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x00
+    
+- platform: template
+  name: "Star"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x15
+    
+- platform: template
+  name: "Dash"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x0A
+    
+- platform: template
+  name: "Text"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x17
+    
+- platform: template
+  name: "Size"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x18
+    
+- platform: template
+  name: "Index"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x19
+    
+- platform: template
+  name: "Reveal"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x1B
+    
+- platform: template
+  name: "Hold"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x1C
+    
+- platform: template
+  name: "Mode"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x1D
+    
+- platform: template
+  name: "Mix"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x1E
+    
+- platform: template
+  name: "Update"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x1F
+    
+- platform: template
+  name: "Subpage"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x2C
+    

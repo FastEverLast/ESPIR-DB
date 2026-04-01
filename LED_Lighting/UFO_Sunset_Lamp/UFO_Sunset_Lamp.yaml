@@ -1,0 +1,57 @@
+
+- platform: template
+  name: "Off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xFD02
+        
+- platform: template
+  name: "On"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xFC03
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xFF00
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xFE01
+        
+- platform: template
+  name: "Flash"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF40B
+        
+- platform: template
+  name: "Strobe"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9206, -4353, 650, -512, 622, -512, 647, -486, 649, -485, 649, -485, 649, -485, 648, -486, 647, -487, 646, -1596, 645, -1597, 644, -1597, 645, -1597, 645, -489, 645, -1597, 645, -1597, 645, -1597, 645, -1597, 645, -1598, 644, -1597, 645, -1598, 644, -490, 644, -490, 644, -490, 644, -490, 644, -490, 644, -490, 644, -490, 644, -490, 644, -1598, 644, -1598, 644, -1598, 644, -1598, 644, -40917, 9123, -2174, 646]
+    
+- platform: template
+  name: "Fade"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xEC13
+        
+- platform: template
+  name: "Smooth"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xE817
+        

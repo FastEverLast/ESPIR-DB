@@ -1,0 +1,71 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE710
+        command: 0xFF00
+        
+- platform: template
+  name: "CLASSIC"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE710
+        command: 0xF10E
+        
+- platform: template
+  name: "DYNAMIC"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE710
+        command: 0xEB14
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE710
+        command: 0xF30C
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE710
+        command: 0xF609
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE710
+        command: 0xFE01
+        
+- platform: template
+  name: "LINE1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE710
+        command: 0xF20D
+        
+- platform: template
+  name: "LINE2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE710
+        command: 0xE916
+        
+- platform: template
+  name: "BT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE710
+        command: 0xEA15
+        
+- platform: template
+  name: "OPTIC"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE710
+        command: 0xF50A
+        

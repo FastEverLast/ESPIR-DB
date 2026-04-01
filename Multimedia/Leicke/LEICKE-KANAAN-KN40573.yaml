@@ -1,0 +1,148 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xE01F
+        
+- platform: template
+  name: "Audio"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xE21D
+        
+- platform: template
+  name: "ARC"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xA35C
+        
+- platform: template
+  name: "PiP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xE41B
+        
+- platform: template
+  name: "Select"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xE51A
+        
+- platform: template
+  name: "Enter"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xE11E
+        
+- platform: template
+  name: "IN 1 -> OUT A"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xFD02
+        
+- platform: template
+  name: "IN 2 -> OUT A"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xF20D
+        
+- platform: template
+  name: "IN 3 -> OUT A"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xF50A
+        
+- platform: template
+  name: "IN 4 -> OUT A"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xED12
+        
+- platform: template
+  name: "IN 5 -> OUT A"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xEE11
+        
+- platform: template
+  name: "IN 6 -> OUT A"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xEF10
+        
+- platform: template
+  name: "IN 1 -> OUT B"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xF10E
+        
+- platform: template
+  name: "IN 2 -> OUT B"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xF30C
+        
+- platform: template
+  name: "IN 3 -> OUT B"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xF00F
+        
+- platform: template
+  name: "IN 4 -> OUT B"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xF609
+        
+- platform: template
+  name: "IN 5 -> OUT B"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xFA05
+        
+- platform: template
+  name: "IN 6 -> OUT B"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xFE01
+        
+- platform: template
+  name: "OUT A"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xF708
+        
+- platform: template
+  name: "A <-> B"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xFB04
+        
+- platform: template
+  name: "OUT B"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xFF00
+        

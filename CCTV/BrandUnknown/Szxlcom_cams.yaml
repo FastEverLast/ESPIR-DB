@@ -1,0 +1,91 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x542B
+        nbits: 15
+
+- platform: template
+  name: "Pan_up"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x58B8A
+        nbits: 20
+
+- platform: template
+  name: "Pan_down"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xD8B8A
+        nbits: 20
+
+- platform: template
+  name: "Pan_left"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xB8B8A
+        nbits: 20
+
+- platform: template
+  name: "Pan_right"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x38B8A
+        nbits: 20
+
+- platform: template
+  name: "Zoom_in_slw"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x2C2B
+        nbits: 15
+
+- platform: template
+  name: "Zoom_out_slow"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x6C2B
+        nbits: 15
+
+- platform: template
+  name: "Zoom_in_fast"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x1C2B
+        nbits: 15
+
+- platform: template
+  name: "Zoom_out_fast"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x5C2B
+        nbits: 15
+
+- platform: template
+  name: "Focus_far"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x222B
+        nbits: 15
+
+- platform: template
+  name: "Focus_near"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x622B
+        nbits: 15
+
+- platform: template
+  name: "Auto_focus"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x3C2B
+        nbits: 15
+
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x28B8A
+        nbits: 20

@@ -1,0 +1,85 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE710
+        command: 0xB946
+        
+- platform: template
+  name: "+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE710
+        command: 0xF906
+        
+- platform: template
+  name: "-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE710
+        command: 0xB847
+        
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE710
+        command: 0xBB44
+        
+- platform: template
+  name: "Play/Pause"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [82, -52035, 78, -49327, 112]
+    
+- platform: template
+  name: "Forward"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE710
+        command: 0xA25D
+        
+- platform: template
+  name: "Opt/Coax"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9011, -4519, 583, -546, 560, -569, 588]
+    
+- platform: template
+  name: "Stereo On"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [76, -45623, 6802]
+    
+- platform: template
+  name: "Stereo Off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE710
+        command: 0xE41B
+        
+- platform: template
+  name: "Line 1/2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE710
+        command: 0xEA15
+        
+- platform: template
+  name: "Bluetooth"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE710
+        command: 0xA35C
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE710
+        command: 0xBE41
+        

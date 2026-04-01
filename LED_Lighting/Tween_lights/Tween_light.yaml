@@ -1,0 +1,43 @@
+
+- platform: template
+  name: "On-off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xFE01
+        
+- platform: template
+  name: "Evening_light"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xE51A
+        
+- platform: template
+  name: "Brightness+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xFD02
+        
+- platform: template
+  name: "Brightness-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xFC03
+        
+- platform: template
+  name: "3000k"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xED12
+        
+- platform: template
+  name: "6500k"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xE11E
+        

@@ -1,0 +1,134 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x03
+        command: 0x0C
+    
+- platform: template
+  name: "Input"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x03
+        command: 0x38
+    
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x03
+        command: 0x10
+    
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x03
+        command: 0x11
+    
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x03
+        command: 0x0D
+    
+- platform: template
+  name: "Ch_next"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x03
+        command: 0x20
+    
+- platform: template
+  name: "Ch_prev"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x03
+        command: 0x21
+    
+- platform: template
+  name: "Home"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x03
+        command: 0x30
+    
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x03
+        command: 0x35
+    
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x03
+        command: 0x0A
+    
+- platform: template
+  name: "Exit"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x03
+        command: 0x25
+    
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x03
+        command: 0x14
+    
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x03
+        command: 0x13
+    
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x03
+        command: 0x15
+    
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x03
+        command: 0x16
+    
+- platform: template
+  name: "Info"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x03
+        command: 0x12
+    
+- platform: template
+  name: "Netflix"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x03
+        command: 0x27
+    
+- platform: template
+  name: "Youtube"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x03
+        command: 0x29
+    
+- platform: template
+  name: "Prime_video"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x03
+        command: 0x3E
+    

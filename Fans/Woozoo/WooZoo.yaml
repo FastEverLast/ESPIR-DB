@@ -1,0 +1,43 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDE80
+        command: 0xFF00
+        
+- platform: template
+  name: "Vertical"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDE80
+        command: 0xE916
+        
+- platform: template
+  name: "Horizontal"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDE80
+        command: 0xEA15
+        
+- platform: template
+  name: "slower"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDE80
+        command: 0xEF10
+        
+- platform: template
+  name: "faster"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDE80
+        command: 0xF708
+        
+- platform: template
+  name: "Natural_breeze"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDE80
+        command: 0xF609
+        

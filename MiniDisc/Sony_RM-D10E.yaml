@@ -1,0 +1,294 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xA9E
+        nbits: 12
+
+- platform: template
+  name: "Eject"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x69E
+        nbits: 12
+
+- platform: template
+  name: "Play"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x55E
+        nbits: 12
+
+- platform: template
+  name: "Pause"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x95E
+        nbits: 12
+
+- platform: template
+  name: "Prev"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x5E
+        nbits: 12
+
+- platform: template
+  name: "Next"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x85E
+        nbits: 12
+
+- platform: template
+  name: "Rew"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xD5E
+        nbits: 12
+
+- platform: template
+  name: "FF"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x35E
+        nbits: 12
+
+- platform: template
+  name: "Record"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xB5E
+        nbits: 12
+
+- platform: template
+  name: "LevelUp"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x9E
+        nbits: 12
+
+- platform: template
+  name: "LevelDn"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x89E
+        nbits: 12
+
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x15E
+        nbits: 12
+
+- platform: template
+  name: "1"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x1E
+        nbits: 12
+
+- platform: template
+  name: "2"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x81E
+        nbits: 12
+
+- platform: template
+  name: "3"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x41E
+        nbits: 12
+
+- platform: template
+  name: "4"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xC1E
+        nbits: 12
+
+- platform: template
+  name: "5"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x21E
+        nbits: 12
+
+- platform: template
+  name: "6"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xA1E
+        nbits: 12
+
+- platform: template
+  name: "7"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x61E
+        nbits: 12
+
+- platform: template
+  name: "8"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xE1E
+        nbits: 12
+
+- platform: template
+  name: "9"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x11E
+        nbits: 12
+
+- platform: template
+  name: "10_0"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x91E
+        nbits: 12
+
+- platform: template
+  name: "Gt10"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x51E
+        nbits: 12
+
+- platform: template
+  name: "TRec"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xDE
+        nbits: 12
+
+- platform: template
+  name: "Clear"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xF1E
+        nbits: 12
+
+- platform: template
+  name: "Input"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x67E
+        nbits: 12
+
+- platform: template
+  name: "Rec_Mode"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x7E
+        nbits: 12
+
+- platform: template
+  name: "Play_Mode"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xE9E
+        nbits: 12
+
+- platform: template
+  name: "Display"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x19E
+        nbits: 12
+
+- platform: template
+  name: "Scroll"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x99E
+        nbits: 12
+
+- platform: template
+  name: "Fader"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x97E
+        nbits: 12
+
+- platform: template
+  name: "Menu_No"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x57E
+        nbits: 12
+
+- platform: template
+  name: "Yes"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xD7E
+        nbits: 12
+
+- platform: template
+  name: "NameEdit_Sel"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x87E
+        nbits: 12
+
+- platform: template
+  name: "CDSync_Stop"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x1D1
+        nbits: 12
+
+- platform: template
+  name: "CDSync_Start"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x55E
+        nbits: 12
+
+- platform: template
+  name: "CDSync_Stby"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x4D1
+        nbits: 12
+
+- platform: template
+  name: "Grp_OnOff"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xCFE
+        nbits: 12
+
+- platform: template
+  name: "Grp_Skip"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x4FE
+        nbits: 12
+
+- platform: template
+  name: "MusicSync"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xFDE
+        nbits: 12
+
+- platform: template
+  name: "Repeat"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x65E
+        nbits: 12
+
+- platform: template
+  name: "A__B"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xE5E
+        nbits: 12

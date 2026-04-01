@@ -1,0 +1,169 @@
+
+- platform: template
+  name: "Src"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x43B9
+        command: 0xEC13
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x43B9
+        command: 0xEB14
+        
+- platform: template
+  name: "Vol_down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x43B9
+        command: 0xEA15
+        
+- platform: template
+  name: "Att"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x43B9
+        command: 0xE916
+        
+- platform: template
+  name: "Disp"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x43B9
+        command: 0xE01F
+        
+- platform: template
+  name: "Angle"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x43B9
+        command: 0xE41B
+        
+- platform: template
+  name: "Phone"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x43B9
+        command: 0xE817
+        
+- platform: template
+  name: "Direct"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x43B9
+        command: 0xF00F
+        
+- platform: template
+  name: "Aspect"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x43B9
+        command: 0xE11E
+        
+- platform: template
+  name: "Left_bk"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x43B9
+        command: 0xF50A
+        
+- platform: template
+  name: "Right_fwd"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x43B9
+        command: 0xF40B
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x43B9
+        command: 0xF20D
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x43B9
+        command: 0xF30C
+        
+- platform: template
+  name: "Play_ok"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x43B9
+        command: 0xF10E
+        
+- platform: template
+  name: "1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x43B9
+        command: 0xFE01
+        
+- platform: template
+  name: "2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x43B9
+        command: 0xFD02
+        
+- platform: template
+  name: "3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x43B9
+        command: 0xFC03
+        
+- platform: template
+  name: "4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x43B9
+        command: 0xFB04
+        
+- platform: template
+  name: "5"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x43B9
+        command: 0xFA05
+        
+- platform: template
+  name: "6"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x43B9
+        command: 0xF906
+        
+- platform: template
+  name: "7"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x43B9
+        command: 0xF807
+        
+- platform: template
+  name: "8"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x43B9
+        command: 0xF708
+        
+- platform: template
+  name: "9"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x43B9
+        command: 0xF609
+        
+- platform: template
+  name: "0"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x43B9
+        command: 0xFF00
+        

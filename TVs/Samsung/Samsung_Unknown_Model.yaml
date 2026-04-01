@@ -1,0 +1,133 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E040BF
+        nbits: 32
+
+- platform: template
+  name: "Netflix"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0CF30
+        nbits: 32
+
+- platform: template
+  name: "Prime"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E02FD0
+        nbits: 32
+
+- platform: template
+  name: "Tv_plus"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E02DD2
+        nbits: 32
+
+- platform: template
+  name: "Home"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E09E61
+        nbits: 32
+
+- platform: template
+  name: "Pause"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E09D62
+        nbits: 32
+
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0E01F
+        nbits: 32
+
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0D02F
+        nbits: 32
+
+- platform: template
+  name: "Ch_next"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E048B7
+        nbits: 32
+
+- platform: template
+  name: "Ch_prev"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E008F7
+        nbits: 32
+
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E01AE5
+        nbits: 32
+
+- platform: template
+  name: "Voice"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0BF40
+        nbits: 32
+
+- platform: template
+  name: "Select"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E016E9
+        nbits: 32
+
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E006F9
+        nbits: 32
+
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E08679
+        nbits: 32
+
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0A659
+        nbits: 32
+
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E046B9
+        nbits: 32
+
+- platform: template
+  name: "123"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E04BB4
+        nbits: 32
+
+- platform: template
+  name: "Extra"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E06F90
+        nbits: 32

@@ -1,0 +1,85 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xBE41
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xAF50
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xBD42
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xBC43
+        
+- platform: template
+  name: "Play_Pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xE41B
+        
+- platform: template
+  name: "Previous"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xE51A
+        
+- platform: template
+  name: "Skip"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xB04F
+        
+- platform: template
+  name: "BT_pair"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9092, -4308, 681, -429, 570, -539, 571, -540, 570, -539, 626, -484, 626, -1587, 626, -484, 626, -487, 571, -1643, 571, -1642, 572, -1642, 572, -1642, 572, -1641, 572, -537, 573, -1641, 572, -1644, 573, -537, 573, -537, 573, -1641, 572, -538, 596, -1618, 596, -514, 596, -514, 596, -518, 595, -1619, 595, -1619, 595, -515, 595, -1619, 595, -516, 594, -1619, 594, -1619, 594, -1620, 594, -40068, 8986, -2194, 571, -94260, 8984, -2193, 572, -94257, 9006, -2171, 596, -94207, 9029, -2176, 594, -94223, 9026, -2178, 592, -94212, 9027, -2176, 593]
+    
+- platform: template
+  name: "Input_choice"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xB24D
+        
+- platform: template
+  name: "EQ_News"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xA956
+        
+- platform: template
+  name: "EQ_Movie"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xA55A
+        
+- platform: template
+  name: "EQ_Music"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xAE51
+        

@@ -1,0 +1,378 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E040BF
+        nbits: 32
+
+- platform: template
+  name: "Source"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0807F
+        nbits: 32
+
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0D02F
+        nbits: 32
+
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0E01F
+        nbits: 32
+
+- platform: template
+  name: "P_min"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E008F7
+        nbits: 32
+
+- platform: template
+  name: "P_max"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E048B7
+        nbits: 32
+
+- platform: template
+  name: "Num_1"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E020DF
+        nbits: 32
+
+- platform: template
+  name: "Num_2"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0A05F
+        nbits: 32
+
+- platform: template
+  name: "Num_3"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0609F
+        nbits: 32
+
+- platform: template
+  name: "Num_4"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E010EF
+        nbits: 32
+
+- platform: template
+  name: "Num_5"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0906F
+        nbits: 32
+
+- platform: template
+  name: "Num_6"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E050AF
+        nbits: 32
+
+- platform: template
+  name: "Num_7"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E030CF
+        nbits: 32
+
+- platform: template
+  name: "Num_8"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0B04F
+        nbits: 32
+
+- platform: template
+  name: "Num_9"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0708F
+        nbits: 32
+
+- platform: template
+  name: "Num_0"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E08877
+        nbits: 32
+
+- platform: template
+  name: "Num_input"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0C43B
+        nbits: 32
+
+- platform: template
+  name: "Pre_ch"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0C837
+        nbits: 32
+
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0F00F
+        nbits: 32
+
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E058A7
+        nbits: 32
+
+- platform: template
+  name: "Exit"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0B44B
+        nbits: 32
+
+- platform: template
+  name: "Enter_ok"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E016E9
+        nbits: 32
+
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E006F9
+        nbits: 32
+
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E08679
+        nbits: 32
+
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0A659
+        nbits: 32
+
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E046B9
+        nbits: 32
+
+- platform: template
+  name: "Return"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E01AE5
+        nbits: 32
+
+- platform: template
+  name: "Info"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0F807
+        nbits: 32
+
+- platform: template
+  name: "Anynet"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0E916
+        nbits: 32
+
+- platform: template
+  name: "Tv"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0BE41
+        nbits: 32
+
+- platform: template
+  name: "Dvd"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E07E81
+        nbits: 32
+
+- platform: template
+  name: "Cable"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0DE21
+        nbits: 32
+
+- platform: template
+  name: "Stb"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0FE01
+        nbits: 32
+
+- platform: template
+  name: "Vcr"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E05EA1
+        nbits: 32
+
+- platform: template
+  name: "Tv_dtv"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0C23D
+        nbits: 32
+
+- platform: template
+  name: "Ch_list"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0D629
+        nbits: 32
+
+- platform: template
+  name: "D_menu"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0718E
+        nbits: 32
+
+- platform: template
+  name: "Rec"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0926D
+        nbits: 32
+
+- platform: template
+  name: "Rew"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0A25D
+        nbits: 32
+
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0629D
+        nbits: 32
+
+- platform: template
+  name: "Play_pause"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0E21D
+        nbits: 32
+
+- platform: template
+  name: "Ff"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E012ED
+        nbits: 32
+
+- platform: template
+  name: "Color_red"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E036C9
+        nbits: 32
+
+- platform: template
+  name: "Color_green"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E028D7
+        nbits: 32
+
+- platform: template
+  name: "Color_yellow"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0A857
+        nbits: 32
+
+- platform: template
+  name: "Color_blue"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E06897
+        nbits: 32
+
+- platform: template
+  name: "Text_mix"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E034CB
+        nbits: 32
+
+- platform: template
+  name: "P_size"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E07C83
+        nbits: 32
+
+- platform: template
+  name: "P_mode"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E014EB
+        nbits: 32
+
+- platform: template
+  name: "Pip"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E040FB
+        nbits: 32
+
+- platform: template
+  name: "Guide"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0F20D
+        nbits: 32
+
+- platform: template
+  name: "Dual_i_ii"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E000FF
+        nbits: 32
+
+- platform: template
+  name: "Still"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E042BD
+        nbits: 32
+
+- platform: template
+  name: "Subtitle"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0A45B
+        nbits: 32

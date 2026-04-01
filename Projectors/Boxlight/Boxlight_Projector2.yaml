@@ -1,0 +1,29 @@
+
+- platform: template
+  name: "MENU"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4E87
+        command: 0xFD02
+        
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4E87
+        command: 0xF20D
+        
+- platform: template
+  name: "COMPUTER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4E87
+        command: 0xE619
+        
+- platform: template
+  name: "VIDEO"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4E87
+        command: 0xE51A
+        

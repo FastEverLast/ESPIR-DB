@@ -1,0 +1,120 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x837C
+        command: 0x7F80
+        
+- platform: template
+  name: "Setup"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x837C
+        command: 0x53AC
+        
+- platform: template
+  name: "Eject"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x837C
+        command: 0x7E81
+        
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x837C
+        command: 0x30CF
+        
+- platform: template
+  name: "Prev"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x837C
+        command: 0x48B7
+        
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x837C
+        command: 0x47B8
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x837C
+        command: 0x4BB4
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x837C
+        command: 0x4CB3
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x837C
+        command: 0x4AB5
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x837C
+        command: 0x49B6
+        
+- platform: template
+  name: "Fast_fo"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x837C
+        command: 0x7887
+        
+- platform: template
+  name: "Fast_ba"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x837C
+        command: 0x7986
+        
+- platform: template
+  name: "Pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x837C
+        command: 0x7C83
+        
+- platform: template
+  name: "Play"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x837C
+        command: 0x7D82
+        
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x837C
+        command: 0x7A85
+        
+- platform: template
+  name: "Audio"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x837C
+        command: 0x52AD
+        
+- platform: template
+  name: "Top_menu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x837C
+        command: 0x4EB1
+        

@@ -1,0 +1,29 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5583
+        command: 0x6F90
+        
+- platform: template
+  name: "Freeze"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5583
+        command: 0x6D92
+        
+- platform: template
+  name: "Home"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5583
+        command: 0x6A95
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5583
+        command: 0x6C93
+        

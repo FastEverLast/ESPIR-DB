@@ -1,0 +1,50 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFC00
+        command: 0x7B84
+        
+- platform: template
+  name: "Heater"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFC00
+        command: 0x7F80
+        
+- platform: template
+  name: "ECO"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFC00
+        command: 0x7A85
+        
+- platform: template
+  name: "SET"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFC00
+        command: 0x7D82
+        
+- platform: template
+  name: "+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFC00
+        command: 0x7986
+        
+- platform: template
+  name: "-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFC00
+        command: 0x7887
+        
+- platform: template
+  name: "OSC"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFC00
+        command: 0x7C83
+        

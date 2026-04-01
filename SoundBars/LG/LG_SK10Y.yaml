@@ -1,0 +1,98 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x34347887
+        nbits: 32
+
+- platform: template
+  name: "V_up"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x3434E817
+        nbits: 32
+
+- platform: template
+  name: "V_dwn"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x34346897
+        nbits: 32
+
+- platform: template
+  name: "Function"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x343451AE
+        nbits: 32
+
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x3434F807
+        nbits: 32
+
+- platform: template
+  name: "Play_Pause"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x3434F20D
+        nbits: 32
+
+- platform: template
+  name: "SkipForward"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x3434E01F
+        nbits: 32
+
+- platform: template
+  name: "SkipBack"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x3434609F
+        nbits: 32
+
+- platform: template
+  name: "SoundEffect"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x3434F40B
+        nbits: 32
+
+- platform: template
+  name: "EQ"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x343419E6
+        nbits: 32
+
+- platform: template
+  name: "AV_Sync"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x34349B64
+        nbits: 32
+
+- platform: template
+  name: "AutoVol"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x343438C7
+        nbits: 32
+
+- platform: template
+  name: "Auto_Power"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x3434C936
+        nbits: 32
+
+- platform: template
+  name: "Info"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x3434C53A
+        nbits: 32

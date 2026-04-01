@@ -1,0 +1,92 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF01
+        command: 0xFF00
+        
+- platform: template
+  name: "Reset"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF01
+        command: 0xFE01
+        
+- platform: template
+  name: "Brighten"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF01
+        command: 0xFA05
+        
+- platform: template
+  name: "Dimmer"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF01
+        command: 0xFB04
+        
+- platform: template
+  name: "Warm"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF01
+        command: 0xFD02
+        
+- platform: template
+  name: "Cool"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF01
+        command: 0xF50A
+        
+- platform: template
+  name: "Night_Light"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF01
+        command: 0xF906
+        
+- platform: template
+  name: "20%"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF01
+        command: 0xFC03
+        
+- platform: template
+  name: "50%"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF01
+        command: 0xF807
+        
+- platform: template
+  name: "100%"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF01
+        command: 0xF40B
+        
+- platform: template
+  name: "Preset_Warm"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF01
+        command: 0xBF40
+        
+- platform: template
+  name: "Preset_Cool"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF01
+        command: 0xB748
+        
+- platform: template
+  name: "White"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF01
+        command: 0xBB44
+        

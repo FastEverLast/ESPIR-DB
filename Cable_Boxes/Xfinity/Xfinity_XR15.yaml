@@ -1,0 +1,36 @@
+
+- platform: template
+  name: "Volume_Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0586
+        command: 0xF30C
+        
+- platform: template
+  name: "Volume_Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0586
+        command: 0xF20D
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0586
+        command: 0xF10E
+        
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0586
+        command: 0xF00F
+        
+- platform: template
+  name: "Tv_Input"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0586
+        command: 0xE21D
+        

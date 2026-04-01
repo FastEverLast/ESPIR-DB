@@ -1,0 +1,28 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xA90
+        nbits: 12
+
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x490
+        nbits: 12
+
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xC90
+        nbits: 12
+
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x290
+        nbits: 12

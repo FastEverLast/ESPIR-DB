@@ -1,0 +1,56 @@
+
+- platform: template
+  name: "Play"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x19
+        command: 0x2C
+
+- platform: template
+  name: "Pause"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x19
+        command: 0x30
+
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x19
+        command: 0x31
+
+- platform: template
+  name: "Prev"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x19
+        command: 0x21
+
+- platform: template
+  name: "Next"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x19
+        command: 0x20
+
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x19
+        command: 0x11
+
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x19
+        command: 0x10
+
+- platform: template
+  name: "CDi/TV"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x19
+        command: 0x43

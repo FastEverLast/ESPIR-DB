@@ -1,0 +1,56 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x34347887
+        nbits: 32
+
+- platform: template
+  name: "Cinema Sound"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x343409F6
+        nbits: 32
+
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x3434E817
+        nbits: 32
+
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x34346897
+        nbits: 32
+
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x3434F807
+        nbits: 32
+
+- platform: template
+  name: "Optical"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x34346D92
+        nbits: 32
+
+- platform: template
+  name: "LG TV"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x34348B74
+        nbits: 32
+
+- platform: template
+  name: "Bluetooth"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x34344CB3
+        nbits: 32

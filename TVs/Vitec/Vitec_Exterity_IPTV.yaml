@@ -1,0 +1,113 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEDAD
+        command: 0x4AB5
+        
+- platform: template
+  name: "Tv"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEDAD
+        command: 0x36C9
+        
+- platform: template
+  name: "Home"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEDAD
+        command: 0x35CA
+        
+- platform: template
+  name: "Guide"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEDAD
+        command: 0x34CB
+        
+- platform: template
+  name: "Text"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEDAD
+        command: 0x54AB
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEDAD
+        command: 0x45BA
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEDAD
+        command: 0x44BB
+        
+- platform: template
+  name: "Ch_next"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEDAD
+        command: 0x4FB0
+        
+- platform: template
+  name: "Ch_prev"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEDAD
+        command: 0x4EB1
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEDAD
+        command: 0x3AC5
+        
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEDAD
+        command: 0x5AA5
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEDAD
+        command: 0x4DB2
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEDAD
+        command: 0x4BB4
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEDAD
+        command: 0x56A9
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEDAD
+        command: 0x42BD
+        
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEDAD
+        command: 0x4CB3
+        

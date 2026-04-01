@@ -1,0 +1,43 @@
+
+- platform: template
+  name: "On"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB708
+        command: 0xFF00
+        
+- platform: template
+  name: "Off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB708
+        command: 0xFD02
+        
+- platform: template
+  name: "Dimmer"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB708
+        command: 0xEF10
+        
+- platform: template
+  name: "Brighter"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB708
+        command: 0xED12
+        
+- platform: template
+  name: "Candle_mode"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB708
+        command: 0xF30C
+        
+- platform: template
+  name: "Light_mode"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB708
+        command: 0xF10E
+        

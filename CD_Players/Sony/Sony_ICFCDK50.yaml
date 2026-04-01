@@ -1,0 +1,70 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xF6BC8
+        nbits: 20
+
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x48BC8
+        nbits: 20
+
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xC8BC8
+        nbits: 20
+
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x28BC8
+        nbits: 20
+
+- platform: template
+  name: "Play"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x98BC8
+        nbits: 20
+
+- platform: template
+  name: "Pause"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x98BC8
+        nbits: 20
+
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x18BC8
+        nbits: 20
+
+- platform: template
+  name: "Next"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xD8BC8
+        nbits: 20
+
+- platform: template
+  name: "Prev"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x58BC8
+        nbits: 20
+
+- platform: template
+  name: "AM_FM"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xF6BC8
+        nbits: 20

@@ -1,0 +1,197 @@
+
+- platform: template
+  name: "On"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x10
+        command: 0x0E
+    
+- platform: template
+  name: "Off"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x10
+        command: 0x0F
+    
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x10
+        command: 0x10
+    
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x10
+        command: 0x11
+    
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x10
+        command: 0x0D
+    
+- platform: template
+  name: "Source"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x10
+        command: 0x08
+    
+- platform: template
+  name: "SpeakerAB"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x10
+        command: 0x14
+    
+- platform: template
+  name: "Eject"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x2D
+    
+- platform: template
+  name: "Dash"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x0E
+    
+- platform: template
+  name: "Prog"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x24
+    
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x21
+    
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x20
+    
+- platform: template
+  name: "Select"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x35
+    
+- platform: template
+  name: "Backward"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x2C
+    
+- platform: template
+  name: "Forward"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x2B
+    
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x36
+    
+- platform: template
+  name: "Pause"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x30
+    
+- platform: template
+  name: "Info"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x15
+    
+- platform: template
+  name: "Brightness"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x28
+    
+- platform: template
+  name: "Remain"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x3D
+    
+- platform: template
+  name: "Random"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x1C
+    
+- platform: template
+  name: "Repeat"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x1D
+    
+- platform: template
+  name: "MP3"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x10
+        command: 0x02
+    
+- platform: template
+  name: "CD"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x10
+        command: 0x05
+    
+- platform: template
+  name: "TunerDAB"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x10
+        command: 0x03
+    
+- platform: template
+  name: "DVD"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x10
+        command: 0x01
+    
+- platform: template
+  name: "Aux"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x10
+        command: 0x04
+    
+- platform: template
+  name: "TapeMon"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x10
+        command: 0x00
+    

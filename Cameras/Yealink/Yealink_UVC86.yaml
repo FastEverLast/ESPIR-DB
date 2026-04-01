@@ -1,0 +1,99 @@
+
+- platform: template
+  name: "Mic"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5B00
+        command: 0xF50A
+        
+- platform: template
+  name: "Cam"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5B00
+        command: 0xF00F
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5B00
+        command: 0xF807
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5B00
+        command: 0xFD02
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5B00
+        command: 0xFF00
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5B00
+        command: 0xFA05
+        
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5B00
+        command: 0xFE01
+        
+- platform: template
+  name: "Scrl_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5B00
+        command: 0xFC03
+        
+- platform: template
+  name: "Scrl_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5B00
+        command: 0xFB04
+        
+- platform: template
+  name: "1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5B00
+        command: 0xED12
+        
+- platform: template
+  name: "2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5B00
+        command: 0xEE11
+        
+- platform: template
+  name: "3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5B00
+        command: 0xEF10
+        
+- platform: template
+  name: "Vol+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5B00
+        command: 0xF40B
+        
+- platform: template
+  name: "Vol-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5B00
+        command: 0xF906
+        

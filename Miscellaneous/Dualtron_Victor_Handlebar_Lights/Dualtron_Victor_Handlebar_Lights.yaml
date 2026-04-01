@@ -1,0 +1,36 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF807
+        
+- platform: template
+  name: "UP_Light"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xFA05
+        
+- platform: template
+  name: "Down_Light"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9277, -4470, 601, -532, 602, -531, 599, -532, 624, -507, 623, -509, 621, -510, 620, -511, 620, -514, 617, -1668, 594, -1644, 618, -1668, 594, -1668, 594, -1668, 594, -1645, 617, -1644, 621, -1645, 622, -513, 595, -538, 623, -1644, 619, -513, 618, -513, 618, -513, 618, -513, 617, -513, 618, -1644, 618, -1645, 617, -513, 618, -1668, 594, -1668, 594, -1668, 594, -1668, 594, -1668, 594, -39676, 9051, -2211, 620]
+    
+- platform: template
+  name: "Move_Light_Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xE718
+        
+- platform: template
+  name: "Move_Light_Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xE51A
+        

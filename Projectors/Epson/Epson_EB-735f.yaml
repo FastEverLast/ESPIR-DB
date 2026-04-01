@@ -1,0 +1,239 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5583
+        command: 0x6F90
+        
+- platform: template
+  name: "SourceSearch"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0381
+        command: 0x0FF0
+        
+- platform: template
+  name: "HDMI"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0381
+        command: 0x0FF0
+        
+- platform: template
+  name: "Computer"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0381
+        command: 0x0FF0
+        
+- platform: template
+  name: "USB"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0381
+        command: 0x0FF0
+        
+- platform: template
+  name: "LAN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0381
+        command: 0x0FF0
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0381
+        command: 0x0FF0
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0381
+        command: 0x0FF0
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0381
+        command: 0x0FF0
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0381
+        command: 0x0FF0
+        
+- platform: template
+  name: "Center"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0381
+        command: 0x0FF0
+        
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0381
+        command: 0x0FF0
+        
+- platform: template
+  name: "Esc"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0381
+        command: 0x0FF0
+        
+- platform: template
+  name: "User"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0381
+        command: 0x0FF0
+        
+- platform: template
+  name: "Default"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0381
+        command: 0x0FF0
+        
+- platform: template
+  name: "ColorMode"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5583
+        command: 0x708F
+        
+- platform: template
+  name: "Aspect"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0381
+        command: 0x0FF0
+        
+- platform: template
+  name: "Ezoom+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0381
+        command: 0x0FF0
+        
+- platform: template
+  name: "Ezoom-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0381
+        command: 0x0FF0
+        
+- platform: template
+  name: "Vol+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0381
+        command: 0x0FF0
+        
+- platform: template
+  name: "Vol-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5583
+        command: 0x6699
+        
+- platform: template
+  name: "AVMute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5583
+        command: 0x6C93
+        
+- platform: template
+  name: "Split"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0381
+        command: 0x0FF0
+        
+- platform: template
+  name: "Freeze"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0381
+        command: 0x0FF0
+        
+- platform: template
+  name: "Home"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0381
+        command: 0x0FF0
+        
+- platform: template
+  name: "1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5583
+        command: 0xDE21
+        
+- platform: template
+  name: "2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0381
+        command: 0x0FF0
+        
+- platform: template
+  name: "3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0381
+        command: 0x0FF0
+        
+- platform: template
+  name: "4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0381
+        command: 0x0FF0
+        
+- platform: template
+  name: "5"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0381
+        command: 0x0FF0
+        
+- platform: template
+  name: "6"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0381
+        command: 0x0FF0
+        
+- platform: template
+  name: "7"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0381
+        command: 0x0FF0
+        
+- platform: template
+  name: "8"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0381
+        command: 0x0FF0
+        
+- platform: template
+  name: "9"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0381
+        command: 0x0FF0
+        

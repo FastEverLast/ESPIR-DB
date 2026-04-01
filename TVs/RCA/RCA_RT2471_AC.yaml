@@ -1,0 +1,169 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5FA0
+        command: 0xA05F
+        
+- platform: template
+  name: "Input"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5FA0
+        command: 0xE51A
+        
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5FA0
+        command: 0xEC13
+        
+- platform: template
+  name: "Info"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5FA0
+        command: 0xE41B
+        
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5FA0
+        command: 0xEF10
+        
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5FA0
+        command: 0xAA55
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5FA0
+        command: 0xA659
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5FA0
+        command: 0xAE51
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5FA0
+        command: 0xA956
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5FA0
+        command: 0xEB14
+        
+- platform: template
+  name: "Next"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5FA0
+        command: 0xB649
+        
+- platform: template
+  name: "Prev"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5FA0
+        command: 0xB54A
+        
+- platform: template
+  name: "Fast_fo"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5FA0
+        command: 0xF708
+        
+- platform: template
+  name: "Fast_ba"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5FA0
+        command: 0xF609
+        
+- platform: template
+  name: "Play_pa"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5FA0
+        command: 0xB24D
+        
+- platform: template
+  name: "Pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5FA0
+        command: 0xB24D
+        
+- platform: template
+  name: "Play"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5FA0
+        command: 0xB24D
+        
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5FA0
+        command: 0xF20D
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5FA0
+        command: 0xE31C
+        
+- platform: template
+  name: "Mode"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5FA0
+        command: 0xA55A
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5FA0
+        command: 0xBF40
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5FA0
+        command: 0xA25D
+        
+- platform: template
+  name: "Ch_next"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5FA0
+        command: 0xFC03
+        
+- platform: template
+  name: "Ch_prev"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5FA0
+        command: 0xE01F
+        

@@ -1,0 +1,64 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E81
+        command: 0x946B
+        
+- platform: template
+  name: "Mode"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E81
+        command: 0x9966
+        
+- platform: template
+  name: "Quiet_Mode"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E81
+        command: 0x9B64
+        
+- platform: template
+  name: "Temp+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E81
+        command: 0x9A65
+        
+- platform: template
+  name: "Temp-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E81
+        command: 0x9768
+        
+- platform: template
+  name: "Fan+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E81
+        command: 0x936C
+        
+- platform: template
+  name: "Fan-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E81
+        command: 0x956A
+        
+- platform: template
+  name: "Timer"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E81
+        command: 0x9669
+        
+- platform: template
+  name: "Fan_Angle"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E81
+        command: 0x9867
+        

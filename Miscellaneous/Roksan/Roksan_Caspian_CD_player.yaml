@@ -1,0 +1,99 @@
+
+- platform: template
+  name: "Play_pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xF708
+        
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xF609
+        
+- platform: template
+  name: "Skip_fwd"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xFF00
+        
+- platform: template
+  name: "Skip_bkwd"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xF20D
+        
+- platform: template
+  name: "Trk_1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xED12
+        
+- platform: template
+  name: "Trk_2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xEC13
+        
+- platform: template
+  name: "Trk_3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xEE11
+        
+- platform: template
+  name: "Trk_4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xEF10
+        
+- platform: template
+  name: "Trk_5"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xF00F
+        
+- platform: template
+  name: "Trk_6"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xE718
+        
+- platform: template
+  name: "Trk_7"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xE817
+        
+- platform: template
+  name: "Trk_8"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xEB14
+        
+- platform: template
+  name: "Trk_9"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xEA15
+        
+- platform: template
+  name: "Trk_0"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xE916
+        

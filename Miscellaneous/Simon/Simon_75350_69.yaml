@@ -1,0 +1,113 @@
+
+- platform: template
+  name: "1"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1F
+        command: 0x01
+    
+- platform: template
+  name: "2"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1F
+        command: 0x02
+    
+- platform: template
+  name: "3"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1F
+        command: 0x03
+    
+- platform: template
+  name: "4"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1F
+        command: 0x04
+    
+- platform: template
+  name: "5"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1F
+        command: 0x05
+    
+- platform: template
+  name: "6"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1F
+        command: 0x3F
+    
+- platform: template
+  name: "7"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1F
+        command: 0x3F
+    
+- platform: template
+  name: "8"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1F
+        command: 0x3F
+    
+- platform: template
+  name: "9"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1F
+        command: 0x3F
+    
+- platform: template
+  name: "0"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1F
+        command: 0x3F
+    
+- platform: template
+  name: "Prog"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1F
+        command: 0x0B
+    
+- platform: template
+  name: "Timer"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1F
+        command: 0x26
+    
+- platform: template
+  name: "Sound"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1F
+        command: 0x3F
+    
+- platform: template
+  name: "Off"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1F
+        command: 0x3D
+    
+- platform: template
+  name: "25percent"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1F
+        command: 0x3B
+    
+- platform: template
+  name: "Total"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1F
+        command: 0x0C
+    

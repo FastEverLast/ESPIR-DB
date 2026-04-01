@@ -1,0 +1,329 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B40CF3
+        nbits: 32
+
+- platform: template
+  name: "Open_close"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B46C93
+        nbits: 32
+
+- platform: template
+  name: "1"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B4DC23
+        nbits: 32
+
+- platform: template
+  name: "2"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B43CC3
+        nbits: 32
+
+- platform: template
+  name: "3"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B4BC43
+        nbits: 32
+
+- platform: template
+  name: "4"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B47C83
+        nbits: 32
+
+- platform: template
+  name: "5"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B4FC03
+        nbits: 32
+
+- platform: template
+  name: "6"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B402FD
+        nbits: 32
+
+- platform: template
+  name: "7"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B4827D
+        nbits: 32
+
+- platform: template
+  name: "8"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B442BD
+        nbits: 32
+
+- platform: template
+  name: "9"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B4C23D
+        nbits: 32
+
+- platform: template
+  name: "0"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B422DD
+        nbits: 32
+
+- platform: template
+  name: "Clear"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B4629D
+        nbits: 32
+
+- platform: template
+  name: "TV_POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB04
+        command: 0xF708
+        
+- platform: template
+  name: "TV_AV"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB04
+        command: 0xF40B
+        
+- platform: template
+  name: "TV_CH-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB04
+        command: 0xFE01
+        
+- platform: template
+  name: "TV_CH+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB04
+        command: 0xFF00
+        
+- platform: template
+  name: "TV_VOL-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB04
+        command: 0xFC03
+        
+- platform: template
+  name: "TV_VOL+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB04
+        command: 0xFD02
+        
+- platform: template
+  name: "Rewind"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B44CB3
+        nbits: 32
+
+- platform: template
+  name: "Forward"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B4CC33
+        nbits: 32
+
+- platform: template
+  name: "Prev"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B4AC53
+        nbits: 32
+
+- platform: template
+  name: "Next"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B42CD3
+        nbits: 32
+
+- platform: template
+  name: "Play"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B48C73
+        nbits: 32
+
+- platform: template
+  name: "Pause"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B41CE3
+        nbits: 32
+
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B49C63
+        nbits: 32
+
+- platform: template
+  name: "Dvd_menu"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B4D22D
+        nbits: 32
+
+- platform: template
+  name: "Title"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B452AD
+        nbits: 32
+
+- platform: template
+  name: "Enter"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B41AE5
+        nbits: 32
+
+- platform: template
+  name: "Display"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B45CA3
+        nbits: 32
+
+- platform: template
+  name: "Return"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B4A25D
+        nbits: 32
+
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B4E21D
+        nbits: 32
+
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B412ED
+        nbits: 32
+
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B49A65
+        nbits: 32
+
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B45AA5
+        nbits: 32
+
+- platform: template
+  name: "Audio"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B4F20D
+        nbits: 32
+
+- platform: template
+  name: "Subtitle"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B40AF5
+        nbits: 32
+
+- platform: template
+  name: "Angle"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B432CD
+        nbits: 32
+
+- platform: template
+  name: "Setup"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B46A95
+        nbits: 32
+
+- platform: template
+  name: "Marker"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B48679
+        nbits: 32
+
+- platform: template
+  name: "Search"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B446B9
+        nbits: 32
+
+- platform: template
+  name: "Program"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B4EA15
+        nbits: 32
+
+- platform: template
+  name: "Zoom"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B426D9
+        nbits: 32
+
+- platform: template
+  name: "Repeat"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B4CA35
+        nbits: 32
+
+- platform: template
+  name: "A_B"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B4AA55
+        nbits: 32
+
+- platform: template
+  name: "Resolution"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B4AF50
+        nbits: 32
+
+- platform: template
+  name: "Star"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xB4B47A85
+        nbits: 32

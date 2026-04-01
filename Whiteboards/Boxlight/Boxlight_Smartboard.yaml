@@ -1,0 +1,106 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xAD52
+        
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xB54A
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xB847
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xB24D
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xB649
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xB44B
+        
+- platform: template
+  name: "Home"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xB748
+        
+- platform: template
+  name: "HDMI"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xF807
+        
+- platform: template
+  name: "VOL+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xFC03
+        
+- platform: template
+  name: "VOL-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xBE41
+        
+- platform: template
+  name: "MUTE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xAC53
+        
+- platform: template
+  name: "Touchlock"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xA35C
+        
+- platform: template
+  name: "Display_off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xB14E
+        
+- platform: template
+  name: "Screenshare"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xF50A
+        
+- platform: template
+  name: "Soundcontrols"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xF20D
+        

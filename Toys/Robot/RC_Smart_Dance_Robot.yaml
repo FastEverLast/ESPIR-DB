@@ -1,0 +1,106 @@
+
+- platform: template
+  name: "Fwd"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [6213, -556, 1618, -658, 624, -1642, 1618, -658, 625, -1642, 1620, -657, 1645, -633, 625, -1645, 624]
+    
+- platform: template
+  name: "Rev"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [6212, -557, 1617, -658, 625, -1642, 1672, -605, 651, -1617, 1642, -635, 648, -1622, 647, -1622, 646]
+    
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [6249, -555, 1618, -658, 623, -1643, 1618, -657, 626, -1642, 1620, -657, 625, -1642, 1620, -657, 626]
+    
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [6273, -522, 1675, -575, 683, -1586, 1675, -628, 654, -1614, 1646, -631, 1645, -632, 1645, -633, 649]
+    
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [6272, -521, 1650, -600, 682, -1586, 1675, -628, 653, -1615, 653, -1616, 651, -1617, 651, -1617, 1645]
+    
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [6244, -526, 1674, -601, 682, -1586, 1675, -603, 679, -1615, 652, -1615, 1644, -633, 649, -1618, 1643]
+    
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [6216, -557, 625, -1644, 625, -1642, 1619, -655, 1647, -630, 1646, -632, 651, -1618, 1644, -634, 649]
+    
+- platform: template
+  name: "Vol_Down"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [6245, -526, 653, -1614, 682, -1586, 1676, -600, 1675, -604, 1669, -630, 1645, -633, 649, -1619, 649]
+    
+- platform: template
+  name: "Vol_Up"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [6243, -526, 680, -1586, 682, -1585, 1676, -600, 1674, -628, 1645, -631, 1644, -633, 1643, -634, 648]
+    
+- platform: template
+  name: "Prog"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [6297, -498, 653, -1586, 1676, -601, 1674, -605, 677, -1613, 1647, -630, 1646, -632, 650, -1618, 650]
+    
+- platform: template
+  name: "Dance"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [6248, -554, 627, -1641, 1619, -655, 1622, -656, 627, -1642, 627, -1641, 1623, -656, 627, -1640, 1623]
+    
+- platform: template
+  name: "Demo"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [6247, -555, 626, -1642, 627, -1641, 1619, -655, 1622, -656, 627, -1641, 1622, -656, 627, -1641, 1622]
+    
+- platform: template
+  name: "Patrol"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [6247, -553, 655, -1613, 655, -1613, 1622, -654, 1647, -628, 1647, -631, 651, -1618, 651, -1619, 650]
+    
+- platform: template
+  name: "Music"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [6302, -495, 680, -1560, 1679, -599, 1677, -627, 655, -1613, 1649, -630, 652, -1618, 651, -1618, 651]
+    
+- platform: template
+  name: "Zig"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [6301, -495, 656, -1584, 1679, -625, 1651, -627, 655, -1613, 1649, -629, 1648, -630, 1647, -632, 651]
+    

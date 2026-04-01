@@ -1,0 +1,71 @@
+
+- platform: template
+  name: "SLEEP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0801
+        command: 0xD827
+        
+- platform: template
+  name: "AIR_SWING"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0801
+        command: 0xD629
+        
+- platform: template
+  name: "TEMP-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0801
+        command: 0xCE31
+        
+- platform: template
+  name: "TEMP+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0801
+        command: 0xCD32
+        
+- platform: template
+  name: "FAN_SPEED"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0801
+        command: 0xCB34
+        
+- platform: template
+  name: "FAN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0801
+        command: 0xC639
+        
+- platform: template
+  name: "COOL"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0801
+        command: 0xC33C
+        
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0801
+        command: 0xC03F
+        
+- platform: template
+  name: "POWER_LONG"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0801
+        command: 0xC03F
+        
+- platform: template
+  name: "POWER_SUSTAIN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0801
+        command: 0xC03F
+        

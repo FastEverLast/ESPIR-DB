@@ -1,0 +1,99 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3383
+        command: 0x8C73
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3383
+        command: 0xA956
+        
+- platform: template
+  name: "Vol_dwn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3383
+        command: 0xA857
+        
+- platform: template
+  name: "Ch_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3383
+        command: 0xA758
+        
+- platform: template
+  name: "Ch_dwn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3383
+        command: 0xA659
+        
+- platform: template
+  name: "Elisa_viihde"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3383
+        command: 0x6996
+        
+- platform: template
+  name: "Netflix"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3383
+        command: 0x7D82
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3383
+        command: 0xBD42
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3383
+        command: 0xBC43
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3383
+        command: 0xBB44
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3383
+        command: 0xBA45
+        
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3383
+        command: 0xBE41
+        
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3383
+        command: 0x6A95
+        
+- platform: template
+  name: "Info"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3383
+        command: 0x6B94
+        

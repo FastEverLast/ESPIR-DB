@@ -1,0 +1,147 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x0C
+    
+- platform: template
+  name: "Disk"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x2D
+    
+- platform: template
+  name: "Source"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x3F
+    
+- platform: template
+  name: "Mode"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x1D
+    
+- platform: template
+  name: "Program"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x24
+    
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x30
+
+- platform: template
+  name: "Skip"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x20
+    
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x21
+    
+- platform: template
+  name: "Pause_Continue"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x35
+    
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x31
+
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x36
+    
+- platform: template
+  name: "Disp"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x15
+        command: 0x8C
+
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x10
+        command: 0x0D
+    
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x10
+        command: 0x10
+    
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x10
+        command: 0x11
+    
+- platform: template
+  name: "Clock"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x10
+        command: 0x2A
+    
+- platform: template
+  name: "Sleep"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x10
+        command: 0x26
+    
+- platform: template
+  name: "Light"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x0F
+    
+- platform: template
+  name: "EQ"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x10
+        command: 0x0F
+
+- platform: template
+  name: "MAX_Sound"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x10
+        command: 0x23
+
+- platform: template
+  name: "Bass_Boost"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x10
+        command: 0x35

@@ -1,0 +1,85 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1067, -137011, 1040]
+    
+- platform: template
+  name: "MUTE"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1143, -137066, 1044]
+    
+- platform: template
+  name: "Tab"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1148, -135515, 1124]
+    
+- platform: template
+  name: "Settings"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1037, -137672, 1037, -136996, 1092]
+    
+- platform: template
+  name: "Select"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1257, -138203, 1251]
+    
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1281, -136803, 1249]
+    
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1276, -140929, 1276, -140927, 1248]
+    
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1200, -138234, 1176]
+    
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1284, -135388, 1232]
+    
+- platform: template
+  name: "Return"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1225, -136742, 1223]
+    
+- platform: template
+  name: "VOL+"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1277, -138128, 1278, -138120, 1201, -138152, 1223, -138110, 1254, -138109, 1256]
+    
+- platform: template
+  name: "VOL-"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1300, -139411, 1307]
+    

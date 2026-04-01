@@ -1,0 +1,169 @@
+
+- platform: template
+  name: "On"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xFE01
+        
+- platform: template
+  name: "Off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xFD02
+        
+- platform: template
+  name: "Lower"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [2597, -769, 839, -789, 449, -705, 504, -605, 737, -626, 208, -7936, 553, -921, 142, -1941, 360, -4248, 292, -1886, 393, -1885, 392, -6502, 162, -4156, 393, -851, 266, -1886, 446, -8685, 384, -1891, 119, -4415, 333, -3088, 336, -1843, 388]
+    
+- platform: template
+  name: "Higher"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xF609
+        
+- platform: template
+  name: "Candle"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [8998, -4474, 503, -615, 553, -1750, 529, -533, 582, -741, 422, -589, 501, -665, 528, -559, 559, -580, 556, -558, 527, -1750, 528, -1727, 528, -1723, 529, -1777, 502, -1751, 476, -1748, 503, -1778, 474, -1751, 504, -636, 504, -638, 502, -743, 421, -1727, 476, -716, 502, -642, 419, -772, 424, -612, 531, -1749, 501, -1722, 505, -1725, 528, -612, 449, -1805, 554, -1777, 449, -1724, 556, -40270, 9056, -2242, 526]
+    
+- platform: template
+  name: "Warm light"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xE916
+        
+- platform: template
+  name: "Normal"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xF50A
+        
+- platform: template
+  name: "Cold light"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xFC03
+        
+- platform: template
+  name: "Child Nightlight"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xED12
+        
+- platform: template
+  name: "Sleep Timer"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xE817
+        
+- platform: template
+  name: "Reading light"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xF40B
+        
+- platform: template
+  name: "Meditation light"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xFB04
+        
+- platform: template
+  name: "Morning"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xEC13
+        
+- platform: template
+  name: "Colour Mode 1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xE718
+        
+- platform: template
+  name: "Colour mode 2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xF30C
+        
+- platform: template
+  name: "Sunset"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xFA05
+        
+- platform: template
+  name: "Forest"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xEB14
+        
+- platform: template
+  name: "Ocean"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xE619
+        
+- platform: template
+  name: "Fire"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xF20D
+        
+- platform: template
+  name: "Heart"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xF906
+        
+- platform: template
+  name: "Pink"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xF10E
+        
+- platform: template
+  name: "Orange"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xF807
+        
+- platform: template
+  name: "Green"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xF708
+        
+- platform: template
+  name: "Blue"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xEA15
+        

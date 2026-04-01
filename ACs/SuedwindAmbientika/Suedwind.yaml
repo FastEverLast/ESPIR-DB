@@ -1,0 +1,113 @@
+
+- platform: template
+  name: "Automatic"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x9669
+        command: 0xD728
+        
+- platform: template
+  name: "Survillance"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x9669
+        command: 0xD629
+        
+- platform: template
+  name: "Manual"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x9669
+        command: 0xD52A
+        
+- platform: template
+  name: "40percent"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x9669
+        command: 0xB54A
+        
+- platform: template
+  name: "60percent"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x9669
+        command: 0xB44B
+        
+- platform: template
+  name: "70percent"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x9669
+        command: 0xB34C
+        
+- platform: template
+  name: "Speed1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x9669
+        command: 0x936C
+        
+- platform: template
+  name: "Speed2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x9669
+        command: 0x926D
+        
+- platform: template
+  name: "Speed3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x9669
+        command: 0x916E
+        
+- platform: template
+  name: "SleepMode"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x9669
+        command: 0xB04F
+        
+- platform: template
+  name: "ExtractMode"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x9669
+        command: 0xD32C
+        
+- platform: template
+  name: "IntakeMode"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x9669
+        command: 0xD22D
+        
+- platform: template
+  name: "MasterSlaveExtract"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x9669
+        command: 0xD12E
+        
+- platform: template
+  name: "SlaveMasterExtract"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x9669
+        command: 0xD02F
+        
+- platform: template
+  name: "20minExtractBurst"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x9669
+        command: 0xB748
+        
+- platform: template
+  name: "ResetFilter"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x9669
+        command: 0xBF40
+        

@@ -1,0 +1,239 @@
+
+- platform: template
+  name: "SET/STELLEN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6482
+        command: 0xFF00
+        
+- platform: template
+  name: "SET"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6482
+        command: 0xFF00
+        
+- platform: template
+  name: "BRT."
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6482
+        command: 0xFE01
+        
+- platform: template
+  name: "CONT."
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6482
+        command: 0xFD02
+        
+- platform: template
+  name: "VOL."
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6482
+        command: 0xFB04
+        
+- platform: template
+  name: "BAL."
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6482
+        command: 0xFA05
+        
+- platform: template
+  name: "DEGAU./ENTMAGN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6482
+        command: 0xF807
+        
+- platform: template
+  name: "DEGAU."
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6482
+        command: 0xF807
+        
+- platform: template
+  name: "DISP.OFF(AUS)"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6482
+        command: 0xF708
+        
+- platform: template
+  name: "MUTE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6482
+        command: 0xF708
+        
+- platform: template
+  name: "TTL"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6482
+        command: 0xF30C
+        
+- platform: template
+  name: "ANALOG_2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6482
+        command: 0xF10E
+        
+- platform: template
+  name: "RGB_2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6482
+        command: 0xF10E
+        
+- platform: template
+  name: "0"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6482
+        command: 0xEF10
+        
+- platform: template
+  name: "9"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6482
+        command: 0xEE11
+        
+- platform: template
+  name: "UP_(+)"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6482
+        command: 0xEC13
+        
+- platform: template
+  name: "UP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6482
+        command: 0xEC13
+        
+- platform: template
+  name: "VIDEO_1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6482
+        command: 0xE916
+        
+- platform: template
+  name: "ENTER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6482
+        command: 0xE817
+        
+- platform: template
+  name: "VIDEO_2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6482
+        command: 0xE718
+        
+- platform: template
+  name: "ANALOG_1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6482
+        command: 0xE11E
+        
+- platform: template
+  name: "RGB_1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6482
+        command: 0xE11E
+        
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6482
+        command: 0xBB44
+        
+- platform: template
+  name: "CAL/CLR"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6482
+        command: 0xBA45
+        
+- platform: template
+  name: "1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6482
+        command: 0xB946
+        
+- platform: template
+  name: "2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6482
+        command: 0xB847
+        
+- platform: template
+  name: "DOWN_(-)"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6482
+        command: 0xB34C
+        
+- platform: template
+  name: "DOWN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6482
+        command: 0xB34C
+        
+- platform: template
+  name: "3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6482
+        command: 0xAF50
+        
+- platform: template
+  name: "8"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6482
+        command: 0xAD52
+        
+- platform: template
+  name: "7"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6482
+        command: 0xAC53
+        
+- platform: template
+  name: "4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6482
+        command: 0xAB54
+        
+- platform: template
+  name: "5"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6482
+        command: 0xAA55
+        
+- platform: template
+  name: "6"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6482
+        command: 0xA956
+        

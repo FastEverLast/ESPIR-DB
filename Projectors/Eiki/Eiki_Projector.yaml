@@ -1,0 +1,134 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0xFF00
+        
+- platform: template
+  name: "Computer"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0xC738
+        
+- platform: template
+  name: "Video"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0xFA05
+        
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0xE31C
+        
+- platform: template
+  name: "Keystone"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0xA45B
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0x738C
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0x728D
+        
+- platform: template
+  name: "VOL-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0xE11E
+        
+- platform: template
+  name: "VOL+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0xE21D
+        
+- platform: template
+  name: "Select"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0xF00F
+        
+- platform: template
+  name: "D_zoom_Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0xFE01
+        
+- platform: template
+  name: "D_zoom_down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0xFD02
+        
+- platform: template
+  name: "Auto_PC"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0x7689
+        
+- platform: template
+  name: "Image"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0xF30C
+        
+- platform: template
+  name: "Freeze"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0xBC43
+        
+- platform: template
+  name: "P_Timer"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0x758A
+        
+- platform: template
+  name: "No_Show"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0xBC43
+        
+- platform: template
+  name: "MUTE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0xF40B
+        
+- platform: template
+  name: "Lamp_Control"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0xE718
+        

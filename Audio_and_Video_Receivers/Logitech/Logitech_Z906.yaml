@@ -1,0 +1,43 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA002
+        command: 0x7F80
+        
+- platform: template
+  name: "Plus"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA002
+        command: 0x55AA
+        
+- platform: template
+  name: "Minus"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA002
+        command: 0x956A
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA002
+        command: 0x15EA
+        
+- platform: template
+  name: "Input"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA002
+        command: 0xF708
+        
+- platform: template
+  name: "Effect"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA002
+        command: 0xF10E
+        

@@ -1,0 +1,29 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D82
+        command: 0xFC03
+        
+- platform: template
+  name: "AC_Mode"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D82
+        command: 0xED12
+        
+- platform: template
+  name: "Fan_Mode"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D82
+        command: 0xF10E
+        
+- platform: template
+  name: "Light"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D82
+        command: 0xF40B
+        

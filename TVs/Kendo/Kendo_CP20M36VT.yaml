@@ -1,0 +1,85 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x0C
+    
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x0D
+    
+- platform: template
+  name: "P+/up"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x20
+    
+- platform: template
+  name: "P-/down"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x21
+    
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x16
+    
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x15
+    
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x11
+    
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x10
+    
+- platform: template
+  name: "Tv"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x3F
+    
+- platform: template
+  name: "Av"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x38
+    
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x30
+    
+- platform: template
+  name: "Info"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x12
+    

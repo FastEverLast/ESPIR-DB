@@ -1,0 +1,127 @@
+
+- platform: template
+  name: "POWER_ON"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8A84
+        command: 0xFE01
+        
+- platform: template
+  name: "POWER_OFF"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8A84
+        command: 0xFD02
+        
+- platform: template
+  name: "DISPLAY"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8A84
+        command: 0xF708
+        
+- platform: template
+  name: "ASPECT_WIDE_(TOG)"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8A84
+        command: 0xEF10
+        
+- platform: template
+  name: "ASPECT_AUTO"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8A84
+        command: 0xEE11
+        
+- platform: template
+  name: "ASPECT_NORMAL"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8A84
+        command: 0xED12
+        
+- platform: template
+  name: "ASPECT_WIDE1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8A84
+        command: 0xEC13
+        
+- platform: template
+  name: "ASPECT_WIDE2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8A84
+        command: 0xEB14
+        
+- platform: template
+  name: "ASPECT_ZOOM1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8A84
+        command: 0xEA15
+        
+- platform: template
+  name: "ASPECT_ZOOM2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8A84
+        command: 0xE916
+        
+- platform: template
+  name: "ADJ_LEFT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8A84
+        command: 0xDF20
+        
+- platform: template
+  name: "ADJ_RIGHT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8A84
+        command: 0xDE21
+        
+- platform: template
+  name: "MENU"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8A84
+        command: 0xDD22
+        
+- platform: template
+  name: "ADJ_UP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8A84
+        command: 0xDC23
+        
+- platform: template
+  name: "ADJ_DOWN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8A84
+        command: 0xDB24
+        
+- platform: template
+  name: "ENTER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8A84
+        command: 0xD926
+        
+- platform: template
+  name: "PICTURE_MODE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8A84
+        command: 0xBB44
+        
+- platform: template
+  name: "PICTURE_MEMORY"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8A84
+        command: 0xB748
+        

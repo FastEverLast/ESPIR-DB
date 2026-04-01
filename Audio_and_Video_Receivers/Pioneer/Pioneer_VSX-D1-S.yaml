@@ -1,0 +1,43 @@
+
+- platform: template
+  name: "Vol+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F00
+        command: 0xF50A
+        
+- platform: template
+  name: "Vol-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F00
+        command: 0xF906
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F00
+        command: 0xA35C
+        
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F00
+        command: 0xE11E
+        
+- platform: template
+  name: "Surround"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F00
+        command: 0xEB14
+        
+- platform: template
+  name: "AmFm_Toggle"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F00
+        command: 0xA857
+        

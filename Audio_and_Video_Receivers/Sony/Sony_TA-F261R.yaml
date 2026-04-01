@@ -1,0 +1,49 @@
+
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x481
+        nbits: 12
+
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xC81
+        nbits: 12
+
+- platform: template
+  name: "Tape1/DAT"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xC41
+        nbits: 12
+
+- platform: template
+  name: "Tape2/MD"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x241
+        nbits: 12
+
+- platform: template
+  name: "CD"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xA41
+        nbits: 12
+
+- platform: template
+  name: "Tuner"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x841
+        nbits: 12
+
+- platform: template
+  name: "Phono"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x41
+        nbits: 12

@@ -1,0 +1,176 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xCE31
+        
+- platform: template
+  name: "Screen Off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xF30C
+        
+- platform: template
+  name: "Source"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xF20D
+        
+- platform: template
+  name: "Disk"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xE718
+        
+- platform: template
+  name: "Input"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xED12
+        
+- platform: template
+  name: "Setting"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xD52A
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xDF20
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xDC23
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xDE21
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xDD22
+        
+- platform: template
+  name: "Fol/Ch Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xD42B
+        
+- platform: template
+  name: "Fol/Ch Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xD32C
+        
+- platform: template
+  name: "Tune Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xF50A
+        
+- platform: template
+  name: "Tune Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xF40B
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xF906
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xF807
+        
+- platform: template
+  name: "Forward"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xE01F
+        
+- platform: template
+  name: "Play/Pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xE11E
+        
+- platform: template
+  name: "Backward"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xE31C
+        
+- platform: template
+  name: "Next"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xF50A
+        
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xE21D
+        
+- platform: template
+  name: "Prev"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xF40B
+        
+- platform: template
+  name: "Top Menu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xE51A
+        
+- platform: template
+  name: "Option"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xEE11
+        
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xE619
+        

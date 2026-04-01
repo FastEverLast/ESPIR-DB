@@ -1,0 +1,71 @@
+
+- platform: template
+  name: "Start_Pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5540
+        command: 0xBB44
+        
+- platform: template
+  name: "Forward"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5540
+        command: 0x55AA
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5540
+        command: 0x33CC
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5540
+        command: 0xDD22
+        
+- platform: template
+  name: "Max"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5540
+        command: 0x9966
+        
+- platform: template
+  name: "Time_Scheduling"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [8998, -4521, 514, -598, 515, -599, 514, -600, 513, -599, 514, -600, 513, -598, 515, -1734, 513, -616, 512, -598, 515, -1732, 514, -598, 514, -1733, 514, -598, 515, -1734, 513, -598, 515, -1748, 514, -600, 514, -599, 515, -599, 515, -600, 513, -599, 514, -599, 515, -600, 514, -614, 514, -1732, 514, -1732, 514, -1732, 514, -1732, 514, -1733, 514, -1731, 515, -1733, 513, -1747, 515, -599, 515, -600, 513, -600, 514, -599, 515, -599, 514, -598, 514, -1732, 513, -1748, 514, -600, 513, -1732, 514, -1732, 514, -1732, 514, -1733, 514, -598, 515, -1733, 514, -620, 514]
+    
+- platform: template
+  name: "Set_current_time"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [8998, -4520, 515, -599, 514, -598, 516, -598, 515, -599, 514, -600, 513, -598, 514, -1732, 514, -614, 514, -598, 514, -1732, 514, -597, 515, -1732, 514, -599, 513, -1733, 513, -598, 514, -1747, 514, -598, 515, -599, 514, -598, 515, -599, 514, -599, 514, -599, 514, -599, 514, -613, 514, -1731, 515, -1732, 514, -1731, 515, -1731, 515, -1732, 514, -1732, 514, -1731, 514, -1747, 514, -599, 514, -598, 515, -599, 514, -598, 515, -599, 514, -599, 513, -1731, 514, -1746, 515, -598, 515, -1731, 515, -1731, 515, -1733, 513, -1731, 515, -1732, 514, -598, 515, -615, 513]
+    
+- platform: template
+  name: "Spot"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5540
+        command: 0x11EE
+        
+- platform: template
+  name: "Home"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5540
+        command: 0xEE11
+        
+- platform: template
+  name: "Edge"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5540
+        command: 0x6699
+        

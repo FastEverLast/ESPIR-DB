@@ -1,0 +1,190 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2287
+        command: 0xBE41
+        
+- platform: template
+  name: "Eject"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2287
+        command: 0xBB44
+        
+- platform: template
+  name: "Home"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2287
+        command: 0x8B74
+        
+- platform: template
+  name: "Disc_menu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2287
+        command: 0x8E71
+        
+- platform: template
+  name: "Mode"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2287
+        command: 0xA35C
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2287
+        command: 0x8877
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2287
+        command: 0x8A75
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2287
+        command: 0x8976
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2287
+        command: 0x8778
+        
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2287
+        command: 0x8D72
+        
+- platform: template
+  name: "Search"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2287
+        command: 0xA857
+        
+- platform: template
+  name: "Return"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2287
+        command: 0x8C73
+        
+- platform: template
+  name: "Rew"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2287
+        command: 0xAD52
+        
+- platform: template
+  name: "Fwd"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2287
+        command: 0xAC53
+        
+- platform: template
+  name: "Play"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2287
+        command: 0xA15E
+        
+- platform: template
+  name: "Prev"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2287
+        command: 0xA25D
+        
+- platform: template
+  name: "Next"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2287
+        command: 0xA05F
+        
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2287
+        command: 0x9F60
+        
+- platform: template
+  name: "Pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2287
+        command: 0xA45B
+        
+- platform: template
+  name: "Display"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2287
+        command: 0xAA55
+        
+- platform: template
+  name: "Repeat"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2287
+        command: 0xAF50
+        
+- platform: template
+  name: "Subtitle"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2287
+        command: 0x857A
+        
+- platform: template
+  name: "Audio"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2287
+        command: 0x847B
+        
+- platform: template
+  name: "R"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2287
+        command: 0x758A
+        
+- platform: template
+  name: "G"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2287
+        command: 0xC13E
+        
+- platform: template
+  name: "B"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2287
+        command: 0x629D
+        
+- platform: template
+  name: "Y"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2287
+        command: 0x748B
+        

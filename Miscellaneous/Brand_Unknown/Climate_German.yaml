@@ -1,0 +1,15 @@
+
+- platform: template
+  name: "Ein_Klima"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1848
+        command: 0x7E81
+        
+- platform: template
+  name: "Aus_Klima"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1848
+        command: 0xF30C
+        

@@ -1,0 +1,120 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xFC03
+        
+- platform: template
+  name: "Off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xFD02
+        
+- platform: template
+  name: "White"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xFB04
+        
+- platform: template
+  name: "R_W_B"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xFA05
+        
+- platform: template
+  name: "Halloween"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [8981, -4163, 177, -127, 595, -531, 591, -534, 588, -537, 596, -529, 593, -532, 590, -535, 587, -537, 596, -529, 593, -1659, 596, -1656, 589, -1664, 591, -1661, 594, -531, 591, -1661, 594, -1658, 597, -1655, 590, -1663, 592, -534, 588, -536, 597, -1655, 590, -536, 597, -528, 594, -531, 591, -533, 589, -535, 587, -1665, 590, -1662, 593, -532, 590, -1662, 593, -1658, 597, -1656, 589, -1664, 591, -40721, 8965, -2235, 592]
+    
+- platform: template
+  name: "Xmas"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF50A
+        
+- platform: template
+  name: "Fade"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xEC13
+        
+- platform: template
+  name: "Quick"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF00F
+        
+- platform: template
+  name: "Pick_Color"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF708
+        
+- platform: template
+  name: "3_Colors"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF30C
+        
+- platform: template
+  name: "7_Colors"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xEF10
+        
+- platform: template
+  name: "16_Colors"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xEB14
+        
+- platform: template
+  name: "Chase_Rt"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF10E
+        
+- platform: template
+  name: "Chase_Lt"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF20D
+        
+- platform: template
+  name: "Single_Rt"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xED12
+        
+- platform: template
+  name: "Single_Lt"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xEE11
+        
+- platform: template
+  name: "Random"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xE817
+        

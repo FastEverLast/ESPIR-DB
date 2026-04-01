@@ -1,0 +1,204 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCD32
+        command: 0x7E81
+        
+- platform: template
+  name: "SWITCH"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9037, -4426, 609, -506, 609, -1622, 609, -507, 609, -506, 609, -1623, 608, -1622, 609, -507, 609, -506, 610, -1622, 609, -507, 608, -1622, 609, -1623, 608, -507, 608, -507, 609, -1623, 608, -1623, 608, -507, 609, -1622, 609, -1622, 609, -1622, 609, -1623, 608, -1623, 609, -507, 609, -506, 610, -1622, 639, -478, 637, -478, 637, -478, 637, -478, 664, -451, 664, -1566, 635, -1596, 609, -39921, 9065, -2155, 637]
+    
+- platform: template
+  name: "SOURCE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCD32
+        command: 0x3CC3
+        
+- platform: template
+  name: "RESYNC"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCD32
+        command: 0x3BC4
+        
+- platform: template
+  name: "L"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCD32
+        command: 0x34CB
+        
+- platform: template
+  name: "R"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCD32
+        command: 0x33CC
+        
+- platform: template
+  name: "UP_DPAD"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCD32
+        command: 0x39C6
+        
+- platform: template
+  name: "LEFT_DPAD"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCD32
+        command: 0x37C8
+        
+- platform: template
+  name: "RIGHT_DPAD"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCD32
+        command: 0x36C9
+        
+- platform: template
+  name: "DOWN_DPAD"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCD32
+        command: 0x38C7
+        
+- platform: template
+  name: "ENTER_DPAD"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCD32
+        command: 0x3AC5
+        
+- platform: template
+  name: "PAGE-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCD32
+        command: 0x3DC2
+        
+- platform: template
+  name: "PAGE+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCD32
+        command: 0x3EC1
+        
+- platform: template
+  name: "KEYSTONE-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCD32
+        command: 0x7B84
+        
+- platform: template
+  name: "KEYSTONE+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCD32
+        command: 0x7A85
+        
+- platform: template
+  name: "VOL-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCD32
+        command: 0x708F
+        
+- platform: template
+  name: "VOL+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCD32
+        command: 0x738C
+        
+- platform: template
+  name: "BRIGHTNESS"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCD32
+        command: 0x7887
+        
+- platform: template
+  name: "MENU"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9065, -4430, 608, -507, 609, -1623, 608, -507, 609, -477, 639, -1622, 609, -1622, 697, -419, 696, -419, 696, -1536, 695, -421, 694, -1537, 694, -1537, 609, -507, 609, -506, 610, -1622, 609, -1622, 609, -507, 609, -506, 610, -507, 639, -1592, 694, -422, 637, -478, 636, -479, 585, -1646, 586, -1645, 586, -1645, 586, -1645, 586, -528, 587, -1645, 586, -1645, 586, -1645, 586, -530, 585, -40182, 9015, -2207, 584, -95980, 9040, -2206, 584]
+    
+- platform: template
+  name: "ZOOM"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCD32
+        command: 0x7689
+        
+- platform: template
+  name: "HDMI_1"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9065, -4399, 637, -478, 665, -1567, 665, -451, 637, -478, 663, -1569, 637, -1594, 610, -506, 610, -506, 610, -1621, 610, -505, 611, -1621, 611, -1621, 611, -505, 611, -505, 611, -1621, 610, -1621, 610, -505, 611, -1620, 612, -1620, 611, -505, 611, -504, 612, -504, 612, -504, 612, -1620, 611, -1621, 610, -505, 610, -505, 611, -1622, 586, -1645, 586, -1646, 585, -1646, 585, -531, 585]
+    
+- platform: template
+  name: "FREEZE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCD32
+        command: 0x748B
+        
+- platform: template
+  name: "MUTE"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9066, -4428, 608, -507, 609, -1622, 609, -507, 609, -507, 609, -1623, 608, -1623, 609, -507, 609, -506, 610, -1623, 609, -507, 609, -1622, 610, -1623, 608, -507, 609, -506, 610, -1622, 609, -1623, 609, -506, 610, -1622, 610, -506, 610, -1623, 637, -478, 690, -425, 638, -478, 637, -1594, 637, -1594, 664, -451, 636, -1594, 610, -506, 610, -1621, 611, -1621, 610, -1621, 610, -505, 611, -40183, 9065, -2156, 637, -95953, 9037, -2185, 608]
+    
+- platform: template
+  name: "HDMI_2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCD32
+        command: 0x649B
+        
+- platform: template
+  name: "VGA_1"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9037, -4428, 608, -507, 609, -1623, 609, -507, 609, -507, 609, -1622, 610, -1623, 608, -507, 609, -506, 610, -1623, 608, -508, 608, -1623, 608, -1622, 610, -507, 609, -507, 609, -1623, 608, -1623, 609, -506, 610, -1623, 608, -1622, 610, -1623, 609, -507, 609, -507, 609, -507, 608, -1623, 609, -1623, 609, -507, 609, -507, 609, -507, 609, -1622, 610, -1622, 638, -1595, 692, -423, 638, -40109, 9012, -2207, 585]
+    
+- platform: template
+  name: "VIDEO"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCD32
+        command: 0x728D
+        
+- platform: template
+  name: "DYNAMIC_BLACK"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCD32
+        command: 0x6996
+        
+- platform: template
+  name: "VGA_2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCD32
+        command: 0x659A
+        
+- platform: template
+  name: "3D"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9064, -4424, 609, -506, 609, -1623, 608, -507, 609, -508, 608, -1624, 607, -1624, 607, -509, 607, -509, 607, -1625, 606, -510, 606, -1627, 604, -1627, 604, -512, 604, -536, 580, -1653, 578, -1653, 578, -1654, 577, -1655, 576, -540, 576, -565, 550, -1681, 550, -566, 549, -567, 549, -1684, 522, -619, 497, -619, 496, -1737, 494, -1764, 467, -648, 468, -1816, 414, -43536, 9037, -2184, 606, -95958, 9065, -2182, 608, -95957, 9064, -2182, 608]
+    

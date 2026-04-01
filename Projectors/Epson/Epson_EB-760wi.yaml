@@ -1,0 +1,8 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [2278, -610, 546, -612, 1124, -610, 572, -612, 544, -1192, 544, -1190, 546, -612, 544, -612, 544, -612, 544, -612, 544, -586, 572, -612, 544, -612, 546, -614, 544]
+    

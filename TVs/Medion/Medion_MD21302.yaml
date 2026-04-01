@@ -1,0 +1,85 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE619
+        command: 0xE718
+        
+- platform: template
+  name: "Sleep"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE619
+        command: 0xF708
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE619
+        command: 0xA956
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE619
+        command: 0xB04F
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE619
+        command: 0xF20D
+        
+- platform: template
+  name: "Ch_next"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE619
+        command: 0xB34C
+        
+- platform: template
+  name: "Ch_prev"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE619
+        command: 0xF00F
+        
+- platform: template
+  name: "Input"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [8984, -4458, 653, -1570, 595, -537, 566, -513, 590, -1633, 595, -1655, 573, -507, 596, -537, 566, -525, 599, -533, 570, -1653, 564, -1633, 595, -511, 592, -540, 574, -1624, 593, -1630, 598, -1664, 574, -506, 597, -1652, 565, -541, 572, -1624, 593, -539, 564, -515, 599, -507, 596, -550, 564, -1632, 596, -537, 566, -1657, 570, -536, 567, -1629, 599, -1652, 565, -1632, 596, -1628, 599]
+    
+- platform: template
+  name: "Info"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE619
+        command: 0xE51A
+        
+- platform: template
+  name: "Exit"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE619
+        command: 0xED12
+        
+- platform: template
+  name: "Play/pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE619
+        command: 0xB946
+        
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE619
+        command: 0xF807
+        

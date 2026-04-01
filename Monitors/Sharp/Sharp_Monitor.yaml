@@ -1,0 +1,71 @@
+
+- platform: template
+  name: "AUDIO/VIDEO"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xEC13
+        
+- platform: template
+  name: "ARROW_RIGHT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xEB14
+        
+- platform: template
+  name: "VOLUME_UP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xEB14
+        
+- platform: template
+  name: "ARROW_DOWN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xEA15
+        
+- platform: template
+  name: "ARROW_LEFT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xEA15
+        
+- platform: template
+  name: "VOLUME_DOWN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xEA15
+        
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xE916
+        
+- platform: template
+  name: "MUTE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xE817
+        
+- platform: template
+  name: "ARROW_UP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xA857
+        
+- platform: template
+  name: "MENU"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0x3BC4
+        

@@ -1,0 +1,43 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCDAB
+        command: 0x5EA1
+        
+- platform: template
+  name: "TEMP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCDAB
+        command: 0x5CA3
+        
+- platform: template
+  name: "Color_Flame"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCDAB
+        command: 0x58A7
+        
+- platform: template
+  name: "Heater"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCDAB
+        command: 0x56A9
+        
+- platform: template
+  name: "Color_LED"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCDAB
+        command: 0x4BB4
+        
+- platform: template
+  name: "Timer"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCDAB
+        command: 0x49B6
+        

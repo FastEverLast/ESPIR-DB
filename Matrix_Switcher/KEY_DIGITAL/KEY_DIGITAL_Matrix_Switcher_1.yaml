@@ -1,0 +1,8 @@
+
+- platform: template
+  name: "ENTER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x001B
+        command: 0xF30C
+        

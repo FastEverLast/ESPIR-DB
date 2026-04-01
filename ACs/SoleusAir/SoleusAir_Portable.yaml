@@ -1,0 +1,78 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE710
+        command: 0xFF00
+        
+- platform: template
+  name: "Timer"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE710
+        command: 0xFE01
+        
+- platform: template
+  name: "C°/F°"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE710
+        command: 0xFB04
+        
+- platform: template
+  name: "Cool"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE710
+        command: 0xEB14
+        
+- platform: template
+  name: "Dry"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE710
+        command: 0xF30C
+        
+- platform: template
+  name: "Fan"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE710
+        command: 0xF708
+        
+- platform: template
+  name: "Temp+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE710
+        command: 0xEA15
+        
+- platform: template
+  name: "Temp-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE710
+        command: 0xF20D
+        
+- platform: template
+  name: "High"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE710
+        command: 0xE916
+        
+- platform: template
+  name: "Low"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE710
+        command: 0xF10E
+        
+- platform: template
+  name: "Sleep"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE710
+        command: 0xF50A
+        

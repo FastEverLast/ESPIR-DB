@@ -1,0 +1,57 @@
+
+- platform: template
+  name: "ON_OFF"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC88C
+        command: 0x7E81
+        
+- platform: template
+  name: "FAN_SPEED"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC88C
+        command: 0xEE11
+        
+- platform: template
+  name: "COOL"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC88C
+        command: 0xFA05
+        
+- platform: template
+  name: "PURIFY"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC88C
+        command: 0xDE21
+        
+- platform: template
+  name: "HEAT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC88C
+        command: 0xF609
+        
+- platform: template
+  name: "OSCILLATE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC88C
+        command: 0x9C63
+        
+- platform: template
+  name: "AUTO_MODE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC88C
+        command: 0xBE41
+        
+- platform: template
+  name: "NIGHT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC88C
+        command: 0x3CC3
+        

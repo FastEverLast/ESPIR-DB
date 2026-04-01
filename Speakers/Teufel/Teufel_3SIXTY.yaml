@@ -1,0 +1,106 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x02FD
+        command: 0x1DE2
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x02FD
+        command: 0x1EE1
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x02FD
+        command: 0x18E7
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x02FD
+        command: 0x46B9
+        
+- platform: template
+  name: "Reverse"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x02FD
+        command: 0x45BA
+        
+- platform: template
+  name: "Forward"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x02FD
+        command: 0x15EA
+        
+- platform: template
+  name: "Play Pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x02FD
+        command: 0x42BD
+        
+- platform: template
+  name: "Input"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x02FD
+        command: 0x03FC
+        
+- platform: template
+  name: "Link"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x02FD
+        command: 0x02FD
+        
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x02FD
+        command: 0x51AE
+        
+- platform: template
+  name: "1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x02FD
+        command: 0x04FB
+        
+- platform: template
+  name: "2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x02FD
+        command: 0x44BB
+        
+- platform: template
+  name: "3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x02FD
+        command: 0x14EB
+        
+- platform: template
+  name: "4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x02FD
+        command: 0x54AB
+        
+- platform: template
+  name: "Favorite"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x02FD
+        command: 0x12ED
+        

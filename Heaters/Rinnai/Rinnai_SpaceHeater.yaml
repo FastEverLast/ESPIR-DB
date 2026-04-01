@@ -1,0 +1,29 @@
+
+- platform: template
+  name: "On"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1078, -59695, 1055, -59690, 1055, -59679, 1086, -59654, 1060]
+    
+- platform: template
+  name: "Off"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1113, -59654, 1087, -59667, 1087]
+    
+- platform: template
+  name: "Temp+"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1135, -59703, 1088, -59656, 1117]
+    
+- platform: template
+  name: "Temp-"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1134, -59686, 1080, -59699, 1080]
+    

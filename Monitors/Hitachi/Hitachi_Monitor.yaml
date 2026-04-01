@@ -1,0 +1,232 @@
+
+- platform: template
+  name: "VTR_8"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0060
+        command: 0xFB04
+        
+- platform: template
+  name: "VTR_9"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0060
+        command: 0xFA05
+        
+- platform: template
+  name: "FF_>>"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0060
+        command: 0xF609
+        
+- platform: template
+  name: "VTR_F.FWD/V.SRCH_>>"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0060
+        command: 0xF609
+        
+- platform: template
+  name: "REW_<<"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0060
+        command: 0xF50A
+        
+- platform: template
+  name: "VTR_REW/V.SRCH_<<"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0060
+        command: 0xF50A
+        
+- platform: template
+  name: "STOP_[]"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0060
+        command: 0xF40B
+        
+- platform: template
+  name: "VTR_STOP_[]"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0060
+        command: 0xF40B
+        
+- platform: template
+  name: "VTR_0"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0060
+        command: 0xF30C
+        
+- platform: template
+  name: "VTR_1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0060
+        command: 0xF20D
+        
+- platform: template
+  name: "VTR_2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0060
+        command: 0xF10E
+        
+- platform: template
+  name: "VTR_3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0060
+        command: 0xF00F
+        
+- platform: template
+  name: "VTR/TV_F.ADV_>"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0060
+        command: 0xEF10
+        
+- platform: template
+  name: "PLAY_>"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0060
+        command: 0xEB14
+        
+- platform: template
+  name: "VTR_PLAY_>"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0060
+        command: 0xEB14
+        
+- platform: template
+  name: "VTR/TV"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0060
+        command: 0xE916
+        
+- platform: template
+  name: "VCR/TV"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0060
+        command: 0xE916
+        
+- platform: template
+  name: "VTR_POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0060
+        command: 0xE817
+        
+- platform: template
+  name: "VTR_CHANNEL_V"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0060
+        command: 0xE718
+        
+- platform: template
+  name: "VTR_CHANNEL_^"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0060
+        command: 0xE619
+        
+- platform: template
+  name: "PAUSE_"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0060
+        command: 0xE51A
+        
+- platform: template
+  name: "VTR_PAUSE/STILL_"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0060
+        command: 0xE51A
+        
+- platform: template
+  name: "EDIT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0060
+        command: 0xE51A
+        
+- platform: template
+  name: "VTR_4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0060
+        command: 0xE31C
+        
+- platform: template
+  name: "VTR_5"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0060
+        command: 0xE21D
+        
+- platform: template
+  name: "VTR_6"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0060
+        command: 0xE11E
+        
+- platform: template
+  name: "VTR_7"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0060
+        command: 0xE01F
+        
+- platform: template
+  name: "GUIDE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0060
+        command: 0xBF40
+        
+- platform: template
+  name: "CLEAR"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0060
+        command: 0xBE41
+        
+- platform: template
+  name: "DISPLAY"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0060
+        command: 0xBD42
+        
+- platform: template
+  name: "MEMORY"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0060
+        command: 0xBB44
+        
+- platform: template
+  name: "INDEX"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0060
+        command: 0xBA45
+        
+- platform: template
+  name: "COUNTER_REMAIN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0060
+        command: 0xB946
+        

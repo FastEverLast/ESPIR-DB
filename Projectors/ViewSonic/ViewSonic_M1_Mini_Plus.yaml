@@ -1,0 +1,85 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF483
+        command: 0xE817
+        
+- platform: template
+  name: "Home"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF483
+        command: 0xE916
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF483
+        command: 0xF40B
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF483
+        command: 0xF30C
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF483
+        command: 0xF10E
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF483
+        command: 0xF00F
+        
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF483
+        command: 0xEA15
+        
+- platform: template
+  name: "Settings"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF483
+        command: 0xCF30
+        
+- platform: template
+  name: "Vol_dwn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF483
+        command: 0x7C83
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF483
+        command: 0xEB14
+        
+- platform: template
+  name: "Vol_Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF483
+        command: 0x7D82
+        
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF483
+        command: 0xD728
+        

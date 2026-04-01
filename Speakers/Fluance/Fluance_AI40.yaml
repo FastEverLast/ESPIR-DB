@@ -1,0 +1,85 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5C3F
+        command: 0xE718
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5C3F
+        command: 0xAA55
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5C3F
+        command: 0xA659
+        
+- platform: template
+  name: "Play_Pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5C3F
+        command: 0xF807
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5C3F
+        command: 0xEA15
+        
+- platform: template
+  name: "Forward"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5C3F
+        command: 0xE916
+        
+- platform: template
+  name: "Backward"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5C3F
+        command: 0xE817
+        
+- platform: template
+  name: "Source"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5C3F
+        command: 0xEF10
+        
+- platform: template
+  name: "Bass_Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5C3F
+        command: 0xF00F
+        
+- platform: template
+  name: "Bass_Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5C3F
+        command: 0xF906
+        
+- platform: template
+  name: "Tremble_Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5C3F
+        command: 0xFA05
+        
+- platform: template
+  name: "Tremble_Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5C3F
+        command: 0xF40B
+        

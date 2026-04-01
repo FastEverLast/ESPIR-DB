@@ -1,0 +1,99 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0x7F80
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0x7788
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0x738C
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0x6B94
+        
+- platform: template
+  name: "LD"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0x3DC2
+        
+- platform: template
+  name: "VIDEO"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0x3FC0
+        
+- platform: template
+  name: "CD"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0x7A85
+        
+- platform: template
+  name: "AUX"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0x649B
+        
+- platform: template
+  name: "TAPE-1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0x728D
+        
+- platform: template
+  name: "TAPE-2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0x6E91
+        
+- platform: template
+  name: "AM"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0x7D82
+        
+- platform: template
+  name: "FM"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0x7E81
+        
+- platform: template
+  name: "Tuner_Dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0x2ED1
+        
+- platform: template
+  name: "Tuner_Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0x2DD2
+        

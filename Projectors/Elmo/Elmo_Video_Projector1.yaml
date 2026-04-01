@@ -1,0 +1,85 @@
+
+- platform: template
+  name: "A_REV"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8686
+        command: 0xF609
+        
+- platform: template
+  name: "A_ZOOM_WIDE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8686
+        command: 0xF50A
+        
+- platform: template
+  name: "A_ZOOM_TELE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8686
+        command: 0xF40B
+        
+- platform: template
+  name: "A_FWD"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8686
+        command: 0xF30C
+        
+- platform: template
+  name: "A_IRIS_CLOSE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8686
+        command: 0xF20D
+        
+- platform: template
+  name: "A_ZERO_RESET_FWD"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8686
+        command: 0xF10E
+        
+- platform: template
+  name: "A_ZERO_RESET_REV"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8686
+        command: 0xF00F
+        
+- platform: template
+  name: "A_FOCUS_F"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8686
+        command: 0xEE11
+        
+- platform: template
+  name: "A_FOCUS_N"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8686
+        command: 0xED12
+        
+- platform: template
+  name: "A_LAMP_ON"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8686
+        command: 0xEC13
+        
+- platform: template
+  name: "A_LAMP_OFF"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8686
+        command: 0xEB14
+        
+- platform: template
+  name: "A_IRIS_OPEN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8686
+        command: 0x1FE0
+        

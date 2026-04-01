@@ -1,0 +1,71 @@
+
+- platform: template
+  name: "On"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB708
+        command: 0xFF00
+        
+- platform: template
+  name: "Off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB708
+        command: 0xFD02
+        
+- platform: template
+  name: "Timer_2hr"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB708
+        command: 0xFB04
+        
+- platform: template
+  name: "Timer_4hr"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB708
+        command: 0xF906
+        
+- platform: template
+  name: "Timer_6hr"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB708
+        command: 0xF708
+        
+- platform: template
+  name: "TImer_8hr"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB708
+        command: 0xF50A
+        
+- platform: template
+  name: "Candle_mode"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB708
+        command: 0xF30C
+        
+- platform: template
+  name: "Light_mode"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB708
+        command: 0xF10E
+        
+- platform: template
+  name: "Dimmer"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB708
+        command: 0xEF10
+        
+- platform: template
+  name: "Brighter"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB708
+        command: 0xED12
+        

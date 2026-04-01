@@ -1,0 +1,78 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDE80
+        command: 0xFF00
+        
+- platform: template
+  name: "Fan_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDE80
+        command: 0xE916
+        
+- platform: template
+  name: "Fan_down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDE80
+        command: 0xEB14
+        
+- platform: template
+  name: "Horizontal"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDE80
+        command: 0xF50A
+        
+- platform: template
+  name: "Vertical"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDE80
+        command: 0xF10E
+        
+- platform: template
+  name: "Breeze"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDE80
+        command: 0xF609
+        
+- platform: template
+  name: "Timer_1h"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDE80
+        command: 0xF708
+        
+- platform: template
+  name: "Timer_2h"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDE80
+        command: 0xF30C
+        
+- platform: template
+  name: "Timer_4h"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDE80
+        command: 0xEF10
+        
+- platform: template
+  name: "Light"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDE80
+        command: 0xF20D
+        
+- platform: template
+  name: "Sound"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDE80
+        command: 0xEE11
+        

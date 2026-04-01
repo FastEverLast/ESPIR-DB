@@ -1,0 +1,106 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3060
+        command: 0xFD02
+        
+- platform: template
+  name: "Input"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3060
+        command: 0xFC03
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3060
+        command: 0xF20D
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3060
+        command: 0xEF10
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3060
+        command: 0xF10E
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3060
+        command: 0xF00F
+        
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3060
+        command: 0xEE11
+        
+- platform: template
+  name: "HDRi"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3060
+        command: 0xE619
+        
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3060
+        command: 0xED12
+        
+- platform: template
+  name: "Bi"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3060
+        command: 0xF906
+        
+- platform: template
+  name: "Low Blue Light"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3060
+        command: 0xFB04
+        
+- platform: template
+  name: "Audio Scenario"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3060
+        command: 0xFA05
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3060
+        command: 0xE916
+        
+- platform: template
+  name: "VOL-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3060
+        command: 0xEA15
+        
+- platform: template
+  name: "VOL+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3060
+        command: 0xEB14
+        

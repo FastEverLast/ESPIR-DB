@@ -1,0 +1,105 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x818100FF
+        nbits: 32
+
+- platform: template
+  name: "Recharge"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x8181807F
+        nbits: 32
+
+- platform: template
+  name: "Auto"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x818140BF
+        nbits: 32
+
+- platform: template
+  name: "Spot"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x8181C03F
+        nbits: 32
+
+- platform: template
+  name: "Max"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x818120DF
+        nbits: 32
+
+- platform: template
+  name: "Start"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x818110EF
+        nbits: 32
+
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x8181A05F
+        nbits: 32
+
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x8181609F
+        nbits: 32
+
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x8181E01F
+        nbits: 32
+
+- platform: template
+  name: "Manual"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x8181906F
+        nbits: 32
+
+- platform: template
+  name: "Turbo"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x818150AF
+        nbits: 32
+
+- platform: template
+  name: "Edge"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x8181D02F
+        nbits: 32
+
+- platform: template
+  name: "Delay"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x818130CF
+        nbits: 32
+
+- platform: template
+  name: "Clock"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x8181B04F
+        nbits: 32
+
+- platform: template
+  name: "Smart_Control"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x8181708F
+        nbits: 32

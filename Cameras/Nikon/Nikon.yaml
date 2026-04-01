@@ -1,0 +1,8 @@
+
+- platform: template
+  name: "Take_photo"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1989, -27513, 408, -1569, 386, -3503, 408, -62013, 1985, -27517, 404, -1573, 382, -3506, 405]
+    

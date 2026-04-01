@@ -1,0 +1,64 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF01
+        command: 0xED12
+        
+- platform: template
+  name: "MODE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF01
+        command: 0xFD02
+        
+- platform: template
+  name: "TEMP-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF01
+        command: 0xEC13
+        
+- platform: template
+  name: "TEMP+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF01
+        command: 0xE51A
+        
+- platform: template
+  name: "Timer"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF01
+        command: 0xE41B
+        
+- platform: template
+  name: "Speed"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF01
+        command: 0xF10E
+        
+- platform: template
+  name: "One_Touch"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF01
+        command: 0xE916
+        
+- platform: template
+  name: "Sleep"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF01
+        command: 0xF50A
+        
+- platform: template
+  name: "Energy_Saver"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF01
+        command: 0xF00F
+        

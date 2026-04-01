@@ -1,0 +1,92 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xBF40
+        
+- platform: template
+  name: "SETTINGS"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xEF10
+        
+- platform: template
+  name: "SOURCE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xE718
+        
+- platform: template
+  name: "UP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xE916
+        
+- platform: template
+  name: "DOWN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xE51A
+        
+- platform: template
+  name: "LEFT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xAE51
+        
+- platform: template
+  name: "RIGHT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xAF50
+        
+- platform: template
+  name: "OK"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xEC13
+        
+- platform: template
+  name: "PLAY_PAUSE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xEA15
+        
+- platform: template
+  name: "BACK"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xE619
+        
+- platform: template
+  name: "VOL-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xB34C
+        
+- platform: template
+  name: "VOL+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE01
+        command: 0xEE11
+        
+- platform: template
+  name: "MUTE"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9107, -4376, 681, -1573, 681, -472, 655, -472, 654, -474, 652, -475, 652, -476, 651, -476, 652, -476, 651, -476, 651, -1604, 651, -1604, 651, -1604, 651, -1603, 652, -1604, 651, -1604, 651, -1604, 651, -1604, 650, -476, 651, -477, 650, -477, 650, -476, 651, -477, 651, -1604, 650, -476, 651, -477, 650, -1604, 651, -1604, 650, -1604, 651, -1604, 650, -1604, 651, -477, 650, -1604, 650, -39498, 9079, -2178, 651]
+    

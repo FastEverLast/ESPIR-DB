@@ -1,0 +1,85 @@
+
+- platform: template
+  name: "Home"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4040
+        command: 0xF50A
+        
+- platform: template
+  name: "Foward"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4040
+        command: 0xF40B
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4040
+        command: 0xEF10
+        
+- platform: template
+  name: "Reverse"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4040
+        command: 0xF10E
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4040
+        command: 0xEE11
+        
+- platform: template
+  name: "Play/Pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4040
+        command: 0xF20D
+        
+- platform: template
+  name: "Spot_clean"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4040
+        command: 0xE916
+        
+- platform: template
+  name: "PwrMop"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4040
+        command: 0xC837
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4040
+        command: 0xBF40
+        
+- platform: template
+  name: "Dec_Pwr"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4040
+        command: 0xE31C
+        
+- platform: template
+  name: "Inc_Pwr"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4040
+        command: 0xEA15
+        
+- platform: template
+  name: "Hyperdrive"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4040
+        command: 0x40BF
+        

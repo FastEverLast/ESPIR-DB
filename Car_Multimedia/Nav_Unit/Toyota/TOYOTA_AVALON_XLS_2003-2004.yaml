@@ -1,0 +1,204 @@
+
+- platform: template
+  name: "MAP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4480
+        command: 0x30CF
+        
+- platform: template
+  name: "MENU"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4480
+        command: 0x31CE
+        
+- platform: template
+  name: "BACK"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4480
+        command: 0x33CC
+        
+- platform: template
+  name: "DEST"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4480
+        command: 0x34CB
+        
+- platform: template
+  name: "ENT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4480
+        command: 0x37C8
+        
+- platform: template
+  name: "Top Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4480
+        command: 0x38C7
+        
+- platform: template
+  name: "Bot Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4480
+        command: 0x39C6
+        
+- platform: template
+  name: "Bot right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4480
+        command: 0x3AC5
+        
+- platform: template
+  name: "Top Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4480
+        command: 0x3BC4
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4480
+        command: 0x3CC3
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4480
+        command: 0x3DC2
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4480
+        command: 0x3EC1
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4480
+        command: 0x3FC0
+        
+- platform: template
+  name: "Minus"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4480
+        command: 0x2ED1
+        
+- platform: template
+  name: "Plus"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4480
+        command: 0x2FD0
+        
+- platform: template
+  name: "INFO"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4480
+        command: 0x6B94
+        
+- platform: template
+  name: "OFF"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4480
+        command: 0x7689
+        
+- platform: template
+  name: "0_Num"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4480
+        command: 0x0FF0
+        
+- platform: template
+  name: "1_Num"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4480
+        command: 0x0EF1
+        
+- platform: template
+  name: "2_Num"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4480
+        command: 0x0DF2
+        
+- platform: template
+  name: "3_Num"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4480
+        command: 0x0CF3
+        
+- platform: template
+  name: "4 Num"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4480
+        command: 0x0BF4
+        
+- platform: template
+  name: "5_Num"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4480
+        command: 0x0AF5
+        
+- platform: template
+  name: "6_Num"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4480
+        command: 0x09F6
+        
+- platform: template
+  name: "7_Num"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4480
+        command: 0x08F7
+        
+- platform: template
+  name: "8_Num"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4480
+        command: 0x07F8
+        
+- platform: template
+  name: "9_Num"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4480
+        command: 0x06F9
+        
+- platform: template
+  name: "Dash_Num"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4480
+        command: 0x04FB
+        
+- platform: template
+  name: "Back_Num"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4480
+        command: 0x00FF
+        

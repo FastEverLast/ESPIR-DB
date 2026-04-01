@@ -1,0 +1,351 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xE51A
+        
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xA35C
+        
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xBD42
+        
+- platform: template
+  name: "Enter"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xAC53
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xE718
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xEF10
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xA857
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xB04F
+        
+- platform: template
+  name: "Profiles"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xDB24
+        
+- platform: template
+  name: "Profile 1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xF40B
+        
+- platform: template
+  name: "Profile 2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xF807
+        
+- platform: template
+  name: "Profile 3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xFC03
+        
+- platform: template
+  name: "Profile 4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xF50A
+        
+- platform: template
+  name: "Profile 5"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xF906
+        
+- platform: template
+  name: "Profile 6"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xFD02
+        
+- platform: template
+  name: "Profile 7"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xF609
+        
+- platform: template
+  name: "Profile 8"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xFA05
+        
+- platform: template
+  name: "Profile 9"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xFE01
+        
+- platform: template
+  name: "Profile 10"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xDA25
+        
+- platform: template
+  name: "Profile 11"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xD926
+        
+- platform: template
+  name: "Profile 12"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xD827
+        
+- platform: template
+  name: "HDMI Output"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xDF20
+        
+- platform: template
+  name: "Input Source"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xEE11
+        
+- platform: template
+  name: "Input Setting"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xDC23
+        
+- platform: template
+  name: "Scale/Crop"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xDE21
+        
+- platform: template
+  name: "SFX Process"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xDD22
+        
+- platform: template
+  name: "Auto Gain"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xD42B
+        
+- platform: template
+  name: "Auto Phase"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xD22D
+        
+- platform: template
+  name: "Gen Lock"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xD32C
+        
+- platform: template
+  name: "Triple Buffer"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xD02F
+        
+- platform: template
+  name: "Pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xA956
+        
+- platform: template
+  name: "Safe"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xD12E
+        
+- platform: template
+  name: "4k"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xCF30
+        
+- platform: template
+  name: "1080p"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xCE31
+        
+- platform: template
+  name: "1440p"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xCD32
+        
+- platform: template
+  name: "480p"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xCC33
+        
+- platform: template
+  name: "Resolution 1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xCB34
+        
+- platform: template
+  name: "Resolution 2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xCA35
+        
+- platform: template
+  name: "Resolution 3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xC936
+        
+- platform: template
+  name: "Resolution 4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xC837
+        
+- platform: template
+  name: "Crop Vert"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xC738
+        
+- platform: template
+  name: "Crop 4:3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xC639
+        
+- platform: template
+  name: "Crop 16:9"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xC53A
+        
+- platform: template
+  name: "AUX 4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xC43B
+        
+- platform: template
+  name: "AUX 5"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xC33C
+        
+- platform: template
+  name: "AUX 6"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xC23D
+        
+- platform: template
+  name: "AUX 7"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xC13E
+        
+- platform: template
+  name: "AUX 8"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xC03F
+        
+- platform: template
+  name: "Diagnostic"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xD728
+        
+- platform: template
+  name: "Status"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB649
+        command: 0xD629
+        

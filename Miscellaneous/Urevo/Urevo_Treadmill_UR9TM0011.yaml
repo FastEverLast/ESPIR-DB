@@ -1,0 +1,22 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDE21
+        command: 0xFE01
+        
+- platform: template
+  name: "SPEED+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDE21
+        command: 0xFD02
+        
+- platform: template
+  name: "SPEED-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDE21
+        command: 0xFC03
+        

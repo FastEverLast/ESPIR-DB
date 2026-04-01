@@ -1,0 +1,224 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x0C
+
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x10
+
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x11
+
+- platform: template
+  name: "1"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x01
+
+- platform: template
+  name: "2"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x02
+
+- platform: template
+  name: "3"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x03
+
+- platform: template
+  name: "4"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x04
+
+- platform: template
+  name: "5"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x05
+
+- platform: template
+  name: "6"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x06
+
+- platform: template
+  name: "7"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x07
+
+- platform: template
+  name: "8"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x08
+
+- platform: template
+  name: "9"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x09
+
+- platform: template
+  name: "0"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x00
+
+- platform: template
+  name: "Screen_settings"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x4B
+
+- platform: template
+  name: "Screen_size"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0xF5
+
+- platform: template
+  name: "Red"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x6D
+
+- platform: template
+  name: "Green"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x6E
+
+- platform: template
+  name: "Yellow"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x6F
+
+- platform: template
+  name: "Blue"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x70
+
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x0D
+
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x0A
+
+- platform: template
+  name: "Iii"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x90
+
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x58
+
+- platform: template
+  name: "Bottom"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x59
+
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x5A
+
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x5B
+
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x5C
+
+- platform: template
+  name: "Book"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0xCC
+
+- platform: template
+  name: "Rwd"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x4D
+
+- platform: template
+  name: "Fwd"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x4C
+
+- platform: template
+  name: "Return"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x40
+
+- platform: template
+  name: "Home"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x54

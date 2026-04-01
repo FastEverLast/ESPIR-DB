@@ -1,0 +1,84 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x540C
+        nbits: 15
+
+- platform: template
+  name: "BD"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x68114
+        nbits: 20
+
+- platform: template
+  name: "DVD"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x5F0C
+        nbits: 15
+
+- platform: template
+  name: "Game"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x1F0C
+        nbits: 15
+
+- platform: template
+  name: "Sat_catv"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x600D
+        nbits: 15
+
+- platform: template
+  name: "Video_1"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x220C
+        nbits: 15
+
+- platform: template
+  name: "Video_2"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x3C0C
+        nbits: 15
+
+- platform: template
+  name: "Video_3"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x210C
+        nbits: 15
+
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x140C
+        nbits: 15
+
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x240C
+        nbits: 15
+
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x640C
+        nbits: 15
+
+- platform: template
+  name: "Home"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xB28
+        nbits: 12

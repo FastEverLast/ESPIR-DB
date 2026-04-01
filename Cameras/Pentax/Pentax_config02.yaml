@@ -1,0 +1,8 @@
+
+- platform: template
+  name: "Shutter"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [12652, -3118, 984, -1016, 958, -1041, 953, -1046, 959, -1041, 954, -1046, 959, -3124, 958]
+    

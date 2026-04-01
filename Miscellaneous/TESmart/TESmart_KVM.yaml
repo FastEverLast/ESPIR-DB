@@ -1,0 +1,57 @@
+
+- platform: template
+  name: "Cycle Displays"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE817
+        command: 0xBA45
+        
+- platform: template
+  name: "Display Mode 2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE817
+        command: 0xB847
+        
+- platform: template
+  name: "PC 1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE817
+        command: 0xBB44
+        
+- platform: template
+  name: "PC 2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE817
+        command: 0xBC43
+        
+- platform: template
+  name: "PC 3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE817
+        command: 0xF807
+        
+- platform: template
+  name: "PC 4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE817
+        command: 0xF609
+        
+- platform: template
+  name: "PC 5"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE817
+        command: 0xE916
+        
+- platform: template
+  name: "Previous Display"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE817
+        command: 0xF20D
+        

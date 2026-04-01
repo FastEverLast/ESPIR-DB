@@ -1,0 +1,71 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF300
+        command: 0x6E91
+        
+- platform: template
+  name: "1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF300
+        command: 0x748B
+        
+- platform: template
+  name: "2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF300
+        command: 0x6F90
+        
+- platform: template
+  name: "3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF300
+        command: 0x758A
+        
+- platform: template
+  name: "4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF300
+        command: 0x6C93
+        
+- platform: template
+  name: "5"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF300
+        command: 0x7788
+        
+- platform: template
+  name: "BOOST"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF300
+        command: 0x708F
+        
+- platform: template
+  name: "TIMER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF300
+        command: 0x6996
+        
+- platform: template
+  name: "LED"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF300
+        command: 0x6897
+        
+- platform: template
+  name: "SLEEP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF300
+        command: 0x718E
+        

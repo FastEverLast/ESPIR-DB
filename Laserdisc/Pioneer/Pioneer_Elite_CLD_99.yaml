@@ -1,0 +1,64 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x57A8
+        command: 0xE31C
+        
+- platform: template
+  name: "PLAY"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x57A8
+        command: 0xE817
+        
+- platform: template
+  name: "PAUSE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x57A8
+        command: 0xE718
+        
+- platform: template
+  name: "NEXT CHAPTER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x57A8
+        command: 0xAD52
+        
+- platform: template
+  name: "PREV CHAPTER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x57A8
+        command: 0xAC53
+        
+- platform: template
+  name: "NEXT FRAME"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x57A8
+        command: 0xAB54
+        
+- platform: template
+  name: "PREV FRAME"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x57A8
+        command: 0xAF50
+        
+- platform: template
+  name: "SIDE A"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x57A8
+        command: 0xB24D
+        
+- platform: template
+  name: "SIDE B"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x57A8
+        command: 0xB14E
+        

@@ -1,0 +1,266 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x540C
+        nbits: 15
+
+- platform: template
+  name: "SLEEP"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x30C
+        nbits: 15
+
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x240C
+        nbits: 15
+
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x640C
+        nbits: 15
+
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x140C
+        nbits: 15
+
+- platform: template
+  name: "PLAY/PAUSE (FM MEMORY)"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x5C110
+        nbits: 20
+
+- platform: template
+  name: "STOP"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x1C110
+        nbits: 20
+
+- platform: template
+  name: "FAST REWIND (FM TUNING-)"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xCC110
+        nbits: 20
+
+- platform: template
+  name: "FAST FORWARD (FM TUNING+)"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x2C110
+        nbits: 20
+
+- platform: template
+  name: "PREVIOUS (FM PRESET-)"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xC110
+        nbits: 20
+
+- platform: template
+  name: "NEXT (FM PRESET+)"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x8C110
+        nbits: 20
+
+- platform: template
+  name: "BLUETOOTH"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x8E114
+        nbits: 20
+
+- platform: template
+  name: "INPUT 1"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x5C0C
+        nbits: 15
+
+- platform: template
+  name: "INPUT 2"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x1B0C
+        nbits: 15
+
+- platform: template
+  name: "INPUT 3"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x3B0C
+        nbits: 15
+
+- platform: template
+  name: "INPUT 4"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x82116
+        nbits: 20
+
+- platform: template
+  name: "PORTABLE IN"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x570C
+        nbits: 15
+
+- platform: template
+  name: "PHONO"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x20C
+        nbits: 15
+
+- platform: template
+  name: "FM"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xC0C
+        nbits: 15
+
+- platform: template
+  name: "FM TUNER 1"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xC
+        nbits: 15
+
+- platform: template
+  name: "FM TUNER 2"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x400C
+        nbits: 15
+
+- platform: template
+  name: "FM TUNER 3"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x200C
+        nbits: 15
+
+- platform: template
+  name: "PAIRING BT"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xEE114
+        nbits: 20
+
+- platform: template
+  name: "BASS-"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x450D
+        nbits: 15
+
+- platform: template
+  name: "BASS+"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x50D
+        nbits: 15
+
+- platform: template
+  name: "TREBLE-"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x750D
+        nbits: 15
+
+- platform: template
+  name: "TREBLE+"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x350D
+        nbits: 15
+
+- platform: template
+  name: "UP"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xF0D
+        nbits: 15
+
+- platform: template
+  name: "DOWN"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x4F0D
+        nbits: 15
+
+- platform: template
+  name: "LEFT"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x2F0D
+        nbits: 15
+
+- platform: template
+  name: "RIGHT"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x6F0D
+        nbits: 15
+
+- platform: template
+  name: "OK"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x180C
+        nbits: 15
+
+- platform: template
+  name: "BACK"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xBE110
+        nbits: 20
+
+- platform: template
+  name: "DISPLAY"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x690C
+        nbits: 15
+
+- platform: template
+  name: "DIMMER"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x590C
+        nbits: 15
+
+- platform: template
+  name: "PURE DIRECT"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x9E114
+        nbits: 20
+
+- platform: template
+  name: "A/B SPEAKERS"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x6116
+        nbits: 20
+
+- platform: template
+  name: "AMP MENU"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x770D
+        nbits: 15

@@ -1,0 +1,400 @@
+
+- platform: template
+  name: "POWER_Receiver"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6CD2
+        command: 0x34CB
+        
+- platform: template
+  name: "POWER_Zone2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x12D2
+        command: 0x34CB
+        
+- platform: template
+  name: "POWER_Source"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x19D2
+        command: 0x7B84
+        
+- platform: template
+  name: "Input BD-DVD"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6CD2
+        command: 0x738C
+        
+- platform: template
+  name: "Input CBL-SAT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6DD2
+        command: 0xF10E
+        
+- platform: template
+  name: "Input GAME"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6DD2
+        command: 0xF20D
+        
+- platform: template
+  name: "Input PC"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6DD2
+        command: 0x639C
+        
+- platform: template
+  name: "Input AUX"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6DD2
+        command: 0x609F
+        
+- platform: template
+  name: "Input TUNER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6DD2
+        command: 0xF40B
+        
+- platform: template
+  name: "Input TV-CD"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6DD2
+        command: 0xF609
+        
+- platform: template
+  name: "Input PHONO"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6DD2
+        command: 0xF50A
+        
+- platform: template
+  name: "Input NET"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x02D2
+        command: 0x7887
+        
+- platform: template
+  name: "Input USB"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xACD2
+        command: 0x619E
+        
+- platform: template
+  name: "POWER_TV"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x19D2
+        command: 0x7B84
+        
+- platform: template
+  name: "TV Input"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x19D2
+        command: 0x7887
+        
+- platform: template
+  name: "TV Vol_max"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x19D2
+        command: 0x7D82
+        
+- platform: template
+  name: "TV Vol_min"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x19D2
+        command: 0x7C83
+        
+- platform: template
+  name: "TV Muting"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x19D2
+        command: 0x7A85
+        
+- platform: template
+  name: "Display"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x19D2
+        command: 0x7986
+        
+- platform: template
+  name: "+ CH DISC"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x19D2
+        command: 0x7F80
+        
+- platform: template
+  name: "- ALBUM"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x19D2
+        command: 0x7E81
+        
+- platform: template
+  name: "Vol_max"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6DD2
+        command: 0xFD02
+        
+- platform: template
+  name: "Vol_min"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6DD2
+        command: 0xFC03
+        
+- platform: template
+  name: "Muting"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6DD2
+        command: 0xFA05
+        
+- platform: template
+  name: "Top menu_SP-Guide"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x19D2
+        command: 0x708F
+        
+- platform: template
+  name: "Menu_Prev CH"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x19D2
+        command: 0x6F90
+        
+- platform: template
+  name: "Q_Setup"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x19D2
+        command: 0x718E
+        
+- platform: template
+  name: "Home_Audio"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1CD2
+        command: 0x3FC0
+        
+- platform: template
+  name: "Return"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x12D2
+        command: 0xAB54
+        
+- platform: template
+  name: "ENTER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6DD2
+        command: 0x6897
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6DD2
+        command: 0x7D82
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6DD2
+        command: 0x7C83
+        
+- platform: template
+  name: "Left_playlist"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6DD2
+        command: 0x7B84
+        
+- platform: template
+  name: "Right_playlist"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6DD2
+        command: 0x7A85
+        
+- platform: template
+  name: "Previous"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x02D2
+        command: 0x6F90
+        
+- platform: template
+  name: "Fast_reverse"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x02D2
+        command: 0x7E81
+        
+- platform: template
+  name: "Fast_forward"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x02D2
+        command: 0x7F80
+        
+- platform: template
+  name: "Next"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x02D2
+        command: 0x708F
+        
+- platform: template
+  name: "Pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x02D2
+        command: 0x6E91
+        
+- platform: template
+  name: "Play"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x02D2
+        command: 0x728D
+        
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x02D2
+        command: 0x718E
+        
+- platform: template
+  name: "A_Red_Mode-TV_Search"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xACD2
+        command: 0x2FD0
+        
+- platform: template
+  name: "B_Green_Music_Repeat"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xACD2
+        command: 0x2ED1
+        
+- platform: template
+  name: "C_Yellow-Game_Random"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xACD2
+        command: 0x2DD2
+        
+- platform: template
+  name: "D_Blue_Stereo_Mode"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6CD2
+        command: 0xB34C
+        
+- platform: template
+  name: "1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x02D2
+        command: 0x2AD5
+        
+- platform: template
+  name: "2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x02D2
+        command: 0x29D6
+        
+- platform: template
+  name: "3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x02D2
+        command: 0x28D7
+        
+- platform: template
+  name: "4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x02D2
+        command: 0x27D8
+        
+- platform: template
+  name: "5"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x02D2
+        command: 0x26D9
+        
+- platform: template
+  name: "6"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x02D2
+        command: 0x25DA
+        
+- platform: template
+  name: "7"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x02D2
+        command: 0x24DB
+        
+- platform: template
+  name: "8"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x02D2
+        command: 0x23DC
+        
+- platform: template
+  name: "9"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x02D2
+        command: 0x22DD
+        
+- platform: template
+  name: "+10_10_D.Tun Dimmer"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6DD2
+        command: 0x6A95
+        
+- platform: template
+  name: "0_11"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x02D2
+        command: 0x21DE
+        
+- platform: template
+  name: "Clr_12_Sleep"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6DD2
+        command: 0xA25D
+        

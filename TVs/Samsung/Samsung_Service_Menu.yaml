@@ -1,0 +1,42 @@
+
+- platform: template
+  name: "Info"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0F807
+        nbits: 32
+
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E058A7
+        nbits: 32
+
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0F00F
+        nbits: 32
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E040BF
+        nbits: 32
+
+- platform: template
+  name: "Factory"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0DC23
+        nbits: 32
+
+- platform: template
+  name: "3speed"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E03CC3
+        nbits: 32

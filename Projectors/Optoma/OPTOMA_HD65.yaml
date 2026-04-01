@@ -1,0 +1,162 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xFD02
+        
+- platform: template
+  name: "Mode"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xFC03
+        
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xEE11
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xEC13
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xEB14
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xE916
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xEA15
+        
+- platform: template
+  name: "Enter"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xE817
+        
+- platform: template
+  name: "HDMI"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xE619
+        
+- platform: template
+  name: "D-sub"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xE41B
+        
+- platform: template
+  name: "YPbPr"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xE31C
+        
+- platform: template
+  name: "S-Video"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xE21D
+        
+- platform: template
+  name: "Video"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xE11E
+        
+- platform: template
+  name: "Source Lock"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xE51A
+        
+- platform: template
+  name: "4:3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xFB04
+        
+- platform: template
+  name: "16:9"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xF906
+        
+- platform: template
+  name: "LBX"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xF807
+        
+- platform: template
+  name: "Native"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xF609
+        
+- platform: template
+  name: "Brightness"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xF50A
+        
+- platform: template
+  name: "EdgeMask"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xF20D
+        
+- platform: template
+  name: "V Keystone"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xF40B
+        
+- platform: template
+  name: "Overscan"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xF10E
+        
+- platform: template
+  name: "Contrast"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xF30C
+        

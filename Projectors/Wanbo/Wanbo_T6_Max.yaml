@@ -1,0 +1,99 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC43B
+        command: 0xFF00
+        
+- platform: template
+  name: "Focus_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC43B
+        command: 0xAE51
+        
+- platform: template
+  name: "Focus_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC43B
+        command: 0xAF50
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC43B
+        command: 0xF50A
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC43B
+        command: 0xF708
+        
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC43B
+        command: 0xF10E
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC43B
+        command: 0xF20D
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC43B
+        command: 0xEA15
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC43B
+        command: 0xEF10
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC43B
+        command: 0xED12
+        
+- platform: template
+  name: "Enter"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC43B
+        command: 0xEE11
+        
+- platform: template
+  name: "Home"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC43B
+        command: 0xEB14
+        
+- platform: template
+  name: "Options"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC43B
+        command: 0xF30C
+        
+- platform: template
+  name: "Mic"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC43B
+        command: 0x9966
+        

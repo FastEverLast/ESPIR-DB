@@ -1,0 +1,43 @@
+
+- platform: template
+  name: "On_off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5D75
+        command: 0xBA45
+        
+- platform: template
+  name: "Delay_start"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5D75
+        command: 0xB847
+        
+- platform: template
+  name: "Mist"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5D75
+        command: 0xF807
+        
+- platform: template
+  name: "Auto_off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5D75
+        command: 0xF609
+        
+- platform: template
+  name: "Humidi_stat"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5D75
+        command: 0xF30C
+        
+- platform: template
+  name: "Anion"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5D75
+        command: 0xA15E
+        

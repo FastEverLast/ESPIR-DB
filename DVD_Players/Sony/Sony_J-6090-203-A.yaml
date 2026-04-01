@@ -1,0 +1,162 @@
+
+- platform: template
+  name: "P.run"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x57A8
+        command: 0xA956
+        
+- platform: template
+  name: "Esc"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x57A8
+        command: 0xA05F
+        
+- platform: template
+  name: "+10"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x57A8
+        command: 0xE01F
+        
+- platform: template
+  name: "3x FF"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x57A8
+        command: 0xAE51
+        
+- platform: template
+  name: "3x REW"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x57A8
+        command: 0xA659
+        
+- platform: template
+  name: "A.Mon"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x57A8
+        command: 0xE11E
+        
+- platform: template
+  name: "SideA"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x57A8
+        command: 0xB24D
+        
+- platform: template
+  name: "SideB"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x57A8
+        command: 0xB14E
+        
+- platform: template
+  name: "CHAP/TIM"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x57A8
+        command: 0xEC13
+        
+- platform: template
+  name: "Chapter"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x57A8
+        command: 0xBF40
+        
+- platform: template
+  name: "CX"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x57A8
+        command: 0xF10E
+        
+- platform: template
+  name: "Dig/Ana"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x57A8
+        command: 0xF30C
+        
+- platform: template
+  name: "FRM/TIM"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x57A8
+        command: 0xBE41
+        
+- platform: template
+  name: "Repeat A"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x57A8
+        command: 0xB748
+        
+- platform: template
+  name: "Repeat B"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x57A8
+        command: 0xBB44
+        
+- platform: template
+  name: "Search"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x57A8
+        command: 0xBD42
+        
+- platform: template
+  name: "Speed down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x57A8
+        command: 0xB946
+        
+- platform: template
+  name: "Speed up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x57A8
+        command: 0xB847
+        
+- platform: template
+  name: "Step Rew"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x57A8
+        command: 0xAF50
+        
+- platform: template
+  name: "Step Fwd"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x57A8
+        command: 0xAB54
+        
+- platform: template
+  name: "Stereo"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x57A8
+        command: 0xB54A
+        
+- platform: template
+  name: "Test"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x57A8
+        command: 0xA15E
+        
+- platform: template
+  name: "TV/LDP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x57A8
+        command: 0xF00F
+        

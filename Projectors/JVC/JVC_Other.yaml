@@ -1,0 +1,372 @@
+
+- platform: template
+  name: "CURSOR_UP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0xFE01
+        
+- platform: template
+  name: "MENU_UP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0xFE01
+        
+- platform: template
+  name: "CURSOR_DOWN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0xFD02
+        
+- platform: template
+  name: "MENU_DOWN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0xFD02
+        
+- platform: template
+  name: "EXIT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0xFC03
+        
+- platform: template
+  name: "POWER_ON"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0xFA05
+        
+- platform: template
+  name: "POWER_OFF"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0xF906
+        
+- platform: template
+  name: "HIDE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0xE21D
+        
+- platform: template
+  name: "MENU"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0xD12E
+        
+- platform: template
+  name: "ENTER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0xD02F
+        
+- platform: template
+  name: "CURSOR_RIGHT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0xCB34
+        
+- platform: template
+  name: "MENU_RIGHT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0xCB34
+        
+- platform: template
+  name: "CURSOR_LEFT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0xC936
+        
+- platform: template
+  name: "MENU_LEFT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0xC936
+        
+- platform: template
+  name: "INPUT:_VIDEO"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0xB44B
+        
+- platform: template
+  name: "VIDEO"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0xB44B
+        
+- platform: template
+  name: "INPUT:_S-VIDEO"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0xB34C
+        
+- platform: template
+  name: "S-VIDEO"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0xB34C
+        
+- platform: template
+  name: "INPUT:_COMPONENT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0xB24D
+        
+- platform: template
+  name: "COMPONENT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0xB24D
+        
+- platform: template
+  name: "TEST"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0xA659
+        
+- platform: template
+  name: "IMAGE:_CINEMA"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0x9669
+        
+- platform: template
+  name: "CINEMA"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0x9669
+        
+- platform: template
+  name: "IMAGE:_NATURAL"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0x956A
+        
+- platform: template
+  name: "NATURAL"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0x956A
+        
+- platform: template
+  name: "IMAGE:_DYNAMIC"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0x946B
+        
+- platform: template
+  name: "DYNAMIC"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0x946B
+        
+- platform: template
+  name: "IMAGE:_USER_1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0x936C
+        
+- platform: template
+  name: "USER_1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0x936C
+        
+- platform: template
+  name: "IMAGE:_USER_2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0x926D
+        
+- platform: template
+  name: "USER_2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0x926D
+        
+- platform: template
+  name: "IMAGE:_USER_3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0x916E
+        
+- platform: template
+  name: "USER_3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0x916E
+        
+- platform: template
+  name: "INPUT:_HDMI_1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0x8F70
+        
+- platform: template
+  name: "HDMI_1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0x8F70
+        
+- platform: template
+  name: "INPUT:_HDMI_2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0x8E71
+        
+- platform: template
+  name: "HDMI_2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0x8E71
+        
+- platform: template
+  name: "INFO"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0x8B74
+        
+- platform: template
+  name: "GAMMA"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0x8A75
+        
+- platform: template
+  name: "COLOR_TEMP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0x8976
+        
+- platform: template
+  name: "ASPECT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0x8877
+        
+- platform: template
+  name: "CONTRAST_+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0x8778
+        
+- platform: template
+  name: "CONTRAST_-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0x8679
+        
+- platform: template
+  name: "BRIGHTNESS_+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0x857A
+        
+- platform: template
+  name: "BRIGHT_+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0x857A
+        
+- platform: template
+  name: "BRIGHTNESS_-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0x847B
+        
+- platform: template
+  name: "BRIGHT_-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0x847B
+        
+- platform: template
+  name: "COLOR_+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0x837C
+        
+- platform: template
+  name: "COLOR_-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0x827D
+        
+- platform: template
+  name: "SHARPNESS_+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0x817E
+        
+- platform: template
+  name: "SHARP_+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0x817E
+        
+- platform: template
+  name: "SHARPNESS_-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0x807F
+        
+- platform: template
+  name: "SHARP_-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0073
+        command: 0x807F
+        

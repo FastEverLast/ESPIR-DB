@@ -1,0 +1,78 @@
+
+- platform: template
+  name: "Logitech_konf"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0x14EB
+        
+- platform: template
+  name: "VOL+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0x946B
+        
+- platform: template
+  name: "VOL-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0x54AB
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0x58A7
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0x48B7
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0x50AF
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0x40BF
+        
+- platform: template
+  name: "Zoom_out"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0x1BE4
+        
+- platform: template
+  name: "Zoom_in"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0x5BA4
+        
+- platform: template
+  name: "Accept_call"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0x18E7
+        
+- platform: template
+  name: "Deny_call"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0x08F7
+        

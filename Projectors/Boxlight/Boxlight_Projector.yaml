@@ -1,0 +1,8 @@
+
+- platform: template
+  name: "Unknown"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCE30
+        command: 0x00FF
+        

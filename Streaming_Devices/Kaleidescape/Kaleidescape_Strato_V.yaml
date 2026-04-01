@@ -1,0 +1,106 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xBA45
+        command: 0xED12
+        
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9077, -4471, 591, -1667, 590, -536, 592, -1620, 637, -536, 592, -536, 592, -537, 591, -1666, 591, -537, 591, -537, 591, -1667, 590, -538, 590, -1665, 592, -1666, 591, -1666, 591, -449, 679, -1666, 591, -536, 592, -1666, 591, -1667, 590, -536, 592, -1665, 592, -537, 591, -537, 591, -536, 592, -1666, 591, -539, 589, -427, 701, -1666, 591, -538, 590, -1666, 591, -1667, 590, -1665, 592, -40418, 9021, -2215, 590]
+    
+- platform: template
+  name: "Search"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xBA45
+        command: 0xD926
+        
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xBA45
+        command: 0xE31C
+        
+- platform: template
+  name: "CC"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xBA45
+        command: 0xD02F
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9018, -4472, 589, -1667, 590, -539, 589, -1667, 590, -538, 590, -537, 591, -539, 589, -1666, 591, -538, 590, -538, 590, -1669, 588, -538, 590, -1667, 590, -1664, 593, -1667, 590, -538, 590, -1668, 589, -540, 588, -539, 589, -538, 590, -539, 590, -539, 589, -538, 590, -463, 665, -1667, 590, -1668, 589, -1668, 589, -1667, 590, -1667, 590, -1667, 590, -1667, 590, -1667, 729, -400, 590, -40420, 9020, -2214, 590]
+    
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xBA45
+        command: 0x7E81
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xBA45
+        command: 0xAE51
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9021, -4472, 590, -1667, 590, -537, 591, -1667, 590, -540, 588, -539, 589, -538, 590, -1667, 590, -539, 589, -539, 589, -1666, 591, -538, 590, -1667, 589, -1667, 591, -1668, 727, -400, 590, -1667, 590, -1667, 727, -401, 590, -1666, 591, -1668, 589, -539, 589, -538, 590, -1666, 591, -537, 591, -538, 590, -1667, 590, -537, 591, -538, 590, -1668, 589, -1666, 591, -539, 589, -1667, 590, -40419, 9021, -2215, 590]
+    
+- platform: template
+  name: "Rewind"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xBA45
+        command: 0xDC23
+        
+- platform: template
+  name: "Forward"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xBA45
+        command: 0xDB24
+        
+- platform: template
+  name: "Play_Pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xBA45
+        command: 0xAA55
+        
+- platform: template
+  name: "Vol_Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xBA45
+        command: 0x9768
+        
+- platform: template
+  name: "Vol_Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xBA45
+        command: 0x9867
+        
+- platform: template
+  name: "Select"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9023, -4358, 703, -1666, 591, -538, 590, -1544, 713, -539, 589, -538, 590, -539, 589, -1668, 589, -538, 590, -538, 590, -1668, 589, -538, 590, -1667, 590, -1668, 589, -1667, 590, -538, 590, -1668, 589, -1667, 590, -538, 590, -538, 590, -538, 590, -539, 589, -1667, 590, -539, 589, -538, 590, -538, 590, -1667, 590, -1668, 589, -1667, 590, -1667, 590, -539, 589, -1667, 590, -1668, 589]
+    

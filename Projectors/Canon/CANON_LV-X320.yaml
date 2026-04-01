@@ -1,0 +1,120 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0681
+        command: 0xBF40
+        
+- platform: template
+  name: "Input"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0681
+        command: 0xA15E
+        
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0681
+        command: 0xBE41
+        
+- platform: template
+  name: "Auto_PC"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0681
+        command: 0xBA45
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0681
+        command: 0xB847
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0681
+        command: 0xB649
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0681
+        command: 0xB54A
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0681
+        command: 0xB748
+        
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0681
+        command: 0xA55A
+        
+- platform: template
+  name: "Blank"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0681
+        command: 0xA758
+        
+- platform: template
+  name: "Freeze"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0681
+        command: 0xAE51
+        
+- platform: template
+  name: "Timer"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0681
+        command: 0xAA55
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0681
+        command: 0xAD52
+        
+- platform: template
+  name: "Vol_down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0681
+        command: 0xAC53
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0681
+        command: 0xAB54
+        
+- platform: template
+  name: "Zoom_down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0681
+        command: 0xA857
+        
+- platform: template
+  name: "Zoom_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0681
+        command: 0xA956
+        

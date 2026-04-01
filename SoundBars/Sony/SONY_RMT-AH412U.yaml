@@ -1,0 +1,154 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x540C
+        nbits: 15
+
+- platform: template
+  name: "Input"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x4B0D
+        nbits: 15
+
+- platform: template
+  name: "Standard"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xB8116
+        nbits: 20
+
+- platform: template
+  name: "Auto_Sound"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xF4116
+        nbits: 20
+
+- platform: template
+  name: "Music"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x490D
+        nbits: 15
+
+- platform: template
+  name: "Cinema"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x610D
+        nbits: 15
+
+- platform: template
+  name: "Night"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x20D
+        nbits: 15
+
+- platform: template
+  name: "Voice"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x9C114
+        nbits: 20
+
+- platform: template
+  name: "Vol_Up"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x240C
+        nbits: 15
+
+- platform: template
+  name: "Vol_Down"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x640C
+        nbits: 15
+
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x140C
+        nbits: 15
+
+- platform: template
+  name: "SW_Up"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x1D0C
+        nbits: 15
+
+- platform: template
+  name: "SW_Down"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x5D0C
+        nbits: 15
+
+- platform: template
+  name: "Dimmer"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x40D
+        nbits: 15
+
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x770D
+        nbits: 15
+
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xBE110
+        nbits: 20
+
+- platform: template
+  name: "Enter"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x180C
+        nbits: 15
+
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xF0D
+        nbits: 15
+
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x4F0D
+        nbits: 15
+
+- platform: template
+  name: "Play_pa"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x5C110
+        nbits: 20
+
+- platform: template
+  name: "Next"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x8C110
+        nbits: 20
+
+- platform: template
+  name: "Prev"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xC110
+        nbits: 20

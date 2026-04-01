@@ -1,0 +1,106 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xF609
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xF10E
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xE51A
+        
+- platform: template
+  name: "VolumeMute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xE01F
+        
+- platform: template
+  name: "Ch_next"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xEE11
+        
+- platform: template
+  name: "Ch_prev"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xFE01
+        
+- platform: template
+  name: "ChUp_2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xE817
+        
+- platform: template
+  name: "ChDown_2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xF00F
+        
+- platform: template
+  name: "Auto"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xEA15
+        
+- platform: template
+  name: "InputNext"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xF20D
+        
+- platform: template
+  name: "Reset"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xE41B
+        
+- platform: template
+  name: "SRS"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xE21D
+        
+- platform: template
+  name: "Stereo"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xED12
+        
+- platform: template
+  name: "SubUp"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xFF00
+        
+- platform: template
+  name: "SubDown"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xFC03
+        

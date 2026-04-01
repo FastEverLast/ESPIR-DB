@@ -1,0 +1,92 @@
+
+- platform: template
+  name: "Video_Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0x06F9
+        
+- platform: template
+  name: "Mirror"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0x17E8
+        
+- platform: template
+  name: "Far_end_control"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0x05FA
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0x59A6
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0x51AE
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0x41BE
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0x49B6
+        
+- platform: template
+  name: "Zoom_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0x5CA3
+        
+- platform: template
+  name: "Zoom_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0x1CE3
+        
+- platform: template
+  name: "Home"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0x04FB
+        
+- platform: template
+  name: "1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0x53AC
+        
+- platform: template
+  name: "2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0x936C
+        
+- platform: template
+  name: "3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0x13EC
+        

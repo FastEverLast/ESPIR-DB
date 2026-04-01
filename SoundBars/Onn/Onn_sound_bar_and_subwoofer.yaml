@@ -1,0 +1,99 @@
+
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2283
+        command: 0xE916
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2283
+        command: 0xF00F
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2283
+        command: 0xEA15
+        
+- platform: template
+  name: "Hdmi_In"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2283
+        command: 0x39C6
+        
+- platform: template
+  name: "Bass_Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2283
+        command: 0xE21D
+        
+- platform: template
+  name: "Bass_Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2283
+        command: 0xF20D
+        
+- platform: template
+  name: "Treble_Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2283
+        command: 0xE41B
+        
+- platform: template
+  name: "Treble_Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2283
+        command: 0xF10E
+        
+- platform: template
+  name: "Bluetooth"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2283
+        command: 0xF906
+        
+- platform: template
+  name: "Aux"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2283
+        command: 0xF807
+        
+- platform: template
+  name: "Optical"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2283
+        command: 0xF609
+        
+- platform: template
+  name: "Aux"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2283
+        command: 0xF807
+        
+- platform: template
+  name: "EQ"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2283
+        command: 0xF708
+        
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2283
+        command: 0xF30C
+        

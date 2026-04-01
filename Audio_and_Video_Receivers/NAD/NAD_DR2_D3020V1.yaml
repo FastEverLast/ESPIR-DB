@@ -1,0 +1,99 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0xDA25
+        
+- platform: template
+  name: "Power_off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0x37C8
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0x7788
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0x738C
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0x6B94
+        
+- platform: template
+  name: "OPT1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0x7689
+        
+- platform: template
+  name: "OPT2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0x728D
+        
+- platform: template
+  name: "COAX"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0x7A85
+        
+- platform: template
+  name: "USB"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0x6E91
+        
+- platform: template
+  name: "AUX1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0x649B
+        
+- platform: template
+  name: "AUX2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0x3FC0
+        
+- platform: template
+  name: "BT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0x3DC2
+        
+- platform: template
+  name: "Next"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0xE51A
+        
+- platform: template
+  name: "Prev"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0xE21D
+        

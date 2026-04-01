@@ -1,0 +1,106 @@
+
+- platform: template
+  name: "Timer start_stop"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xAB06
+        command: 0xFA05
+        
+- platform: template
+  name: "Timer_enter"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xAB06
+        command: 0xFB04
+        
+- platform: template
+  name: "Timer_tempunits"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xAB06
+        command: 0xFD02
+        
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xAB06
+        command: 0xFF00
+        
+- platform: template
+  name: "Set"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xAB06
+        command: 0xFE01
+        
+- platform: template
+  name: "Alarm_set"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9135, -4396, 683, -449, 682, -1605, 657, -1606, 655, -476, 628, -504, 627, -505, 626, -505, 627, -505, 627, -1638, 625, -1637, 626, -505, 626, -1637, 626, -505, 627, -1637, 627, -505, 627, -1637, 626, -1637, 626, -506, 625, -506, 626, -1637, 626, -505, 627, -505, 627, -505, 627, -505, 627, -505, 627, -1637, 626, -1637, 626, -505, 627, -1638, 625, -1637, 626, -1637, 626, -1638, 625, -40823, 9087, -2208, 629, -96246, 9084, -2207, 630]
+    
+- platform: template
+  name: "Plus"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xAB06
+        command: 0xF906
+        
+- platform: template
+  name: "Minus"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xAB06
+        command: 0xF807
+        
+- platform: template
+  name: "Hour"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xAB06
+        command: 0xA55A
+        
+- platform: template
+  name: "Minute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xAB06
+        command: 0xFC03
+        
+- platform: template
+  name: "Second"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xAB06
+        command: 0xF40B
+        
+- platform: template
+  name: "Volume_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xAB06
+        command: 0xBF40
+        
+- platform: template
+  name: "Volume_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xAB06
+        command: 0xB847
+        
+- platform: template
+  name: "Light_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xAB06
+        command: 0xBE41
+        
+- platform: template
+  name: "Light_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xAB06
+        command: 0xB748
+        

@@ -1,0 +1,162 @@
+
+- platform: template
+  name: "Power_On"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E7E
+        command: 0xFA05
+        
+- platform: template
+  name: "Power_Off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E7E
+        command: 0xFB04
+        
+- platform: template
+  name: "Night_Mode"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E7E
+        command: 0xCF30
+        
+- platform: template
+  name: "Bright_Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E7E
+        command: 0xE51A
+        
+- platform: template
+  name: "Bright_Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E7E
+        command: 0xE41B
+        
+- platform: template
+  name: "Bright_Max"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E7E
+        command: 0xE31C
+        
+- platform: template
+  name: "Bright_Min"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E7E
+        command: 0xE21D
+        
+- platform: template
+  name: "T_Dim_Off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E7E
+        command: 0xF20D
+        
+- platform: template
+  name: "T_Dim_5min"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E7E
+        command: 0xF30C
+        
+- platform: template
+  name: "T_Dim_10min"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E7E
+        command: 0xF10E
+        
+- platform: template
+  name: "T_Dim_30min"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E7E
+        command: 0xF00F
+        
+- platform: template
+  name: "T_Off_Off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E7E
+        command: 0xEE11
+        
+- platform: template
+  name: "T_Off_5min"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E7E
+        command: 0xEF10
+        
+- platform: template
+  name: "T_Off_10min"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E7E
+        command: 0xED12
+        
+- platform: template
+  name: "T_Off_30min"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E7E
+        command: 0xEC13
+        
+- platform: template
+  name: "Amb_Lt_Off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E7E
+        command: 0xEA15
+        
+- platform: template
+  name: "Amb_Lt_Ovrcst"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E7E
+        command: 0xEB14
+        
+- platform: template
+  name: "Amb_Lt_Dusk"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E7E
+        command: 0xE916
+        
+- platform: template
+  name: "Amb_Lt_Night"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E7E
+        command: 0xE817
+        
+- platform: template
+  name: "Dist_V_Near"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E7E
+        command: 0xF609
+        
+- platform: template
+  name: "Dist_Near"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E7E
+        command: 0xF708
+        
+- platform: template
+  name: "Dist_Mid"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E7E
+        command: 0xF50A
+        
+- platform: template
+  name: "Dist_Far"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E7E
+        command: 0xF40B
+        

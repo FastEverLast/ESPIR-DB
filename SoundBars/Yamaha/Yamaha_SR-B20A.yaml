@@ -1,0 +1,127 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8778
+        command: 0x33CC
+        
+- platform: template
+  name: "Tv"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8778
+        command: 0x20DF
+        
+- platform: template
+  name: "Optical"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8778
+        command: 0xB649
+        
+- platform: template
+  name: "Bluetooth"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8778
+        command: 0xD629
+        
+- platform: template
+  name: "Info"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8778
+        command: 0xB14E
+        
+- platform: template
+  name: "Clear_voice"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8778
+        command: 0xA35C
+        
+- platform: template
+  name: "3d_surr"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8778
+        command: 0x36C9
+        
+- platform: template
+  name: "Stereo"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8778
+        command: 0xAF50
+        
+- platform: template
+  name: "Standard"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x817E
+        command: 0x0EF1
+        
+- platform: template
+  name: "Movie"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8778
+        command: 0x26D9
+        
+- platform: template
+  name: "Game"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8778
+        command: 0x23DC
+        
+- platform: template
+  name: "Sub_plus"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8778
+        command: 0xB34C
+        
+- platform: template
+  name: "Sub_minus"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8778
+        command: 0xB24D
+        
+- platform: template
+  name: "Bass_ext"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8778
+        command: 0x748B
+        
+- platform: template
+  name: "Dim"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8778
+        command: 0x45BA
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8778
+        command: 0x639C
+        
+- platform: template
+  name: "Vol_plus"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8778
+        command: 0xE11E
+        
+- platform: template
+  name: "Vol_minus"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8778
+        command: 0xE01F
+        

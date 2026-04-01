@@ -1,0 +1,211 @@
+
+- platform: template
+  name: "Vudu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC2EA
+        command: 0xF00F
+        
+- platform: template
+  name: "Amazon_Video"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC2EA
+        command: 0xEF10
+        
+- platform: template
+  name: "Disney+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC2EA
+        command: 0xEE11
+        
+- platform: template
+  name: "HBO_Max"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC2EA
+        command: 0xEC13
+        
+- platform: template
+  name: "AppleTV"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC2EA
+        command: 0xE916
+        
+- platform: template
+  name: "LiveTV"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC2EA
+        command: 0xE31C
+        
+- platform: template
+  name: "Sling"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC2EA
+        command: 0xD827
+        
+- platform: template
+  name: "Discovery+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC2EA
+        command: 0xCA35
+        
+- platform: template
+  name: "ViX"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC2EA
+        command: 0xC936
+        
+- platform: template
+  name: "Rdio"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC2EA
+        command: 0xBF40
+        
+- platform: template
+  name: "YouTube"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC2EA
+        command: 0xBD42
+        
+- platform: template
+  name: "Netflix"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC2EA
+        command: 0xB44B
+        
+- platform: template
+  name: "Hulu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC2EA
+        command: 0xB24D
+        
+- platform: template
+  name: "HBO_Max"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC2EA
+        command: 0xB14E
+        
+- platform: template
+  name: "Showtime"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC2EA
+        command: 0xB04F
+        
+- platform: template
+  name: "Red_Bull_TV"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC2EA
+        command: 0xAF50
+        
+- platform: template
+  name: "Spotify"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC2EA
+        command: 0xAE51
+        
+- platform: template
+  name: "Pandora"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC2EA
+        command: 0xAD52
+        
+- platform: template
+  name: "TED"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC2EA
+        command: 0xAC53
+        
+- platform: template
+  name: "Playstation_Vue"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC2EA
+        command: 0xA857
+        
+- platform: template
+  name: "STARZ"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC2EA
+        command: 0xA659
+        
+- platform: template
+  name: "Store"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC2EA
+        command: 0xA55A
+        
+- platform: template
+  name: "NBA"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC2EA
+        command: 0x9F60
+        
+- platform: template
+  name: "DIRECTV"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC2EA
+        command: 0x9A65
+        
+- platform: template
+  name: "YuppTV"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC2EA
+        command: 0x9768
+        
+- platform: template
+  name: "Roku_Channel"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC2EA
+        command: 0x9669
+        
+- platform: template
+  name: "Paramount+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC2EA
+        command: 0x956A
+        
+- platform: template
+  name: "HappyKids"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC2EA
+        command: 0x857A
+        
+- platform: template
+  name: "ESPN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC2EA
+        command: 0x837C
+        
+- platform: template
+  name: "Crackle"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC2EA
+        command: 0x807F
+        

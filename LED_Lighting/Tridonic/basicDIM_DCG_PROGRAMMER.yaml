@@ -1,0 +1,309 @@
+
+- platform: template
+  name: "Power_on"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1D
+        command: 0x39
+    
+- platform: template
+  name: "Power_off"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1D
+        command: 0x3A
+    
+- platform: template
+  name: "Brightness_up"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1D
+        command: 0x3D
+    
+- platform: template
+  name: "Brightness_dn"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1D
+        command: 0x3E
+    
+- platform: template
+  name: "Automatic_mode"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1D
+        command: 0x38
+    
+- platform: template
+  name: "Set_current_light_level"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x1D
+        command: 0x37
+    
+- platform: template
+  name: "PTM_Set_ON"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [816, -834, 817, -836, 1649, -844, 819, -1657, 1651, -846, 817, -1657, 1651, -847, 817, -833, 818, -833, 818, -832, 819, -833, 818, -834, 817, -832, 818, -1657, 817]
+    
+- platform: template
+  name: "PTM_Set_OFF"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [816, -833, 818, -835, 1649, -846, 817, -1658, 1650, -846, 817, -1657, 817, -834, 817, -834, 817, -833, 818, -834, 817, -833, 818, -833, 818, -834, 817, -834, 817, -834, 817]
+    
+- platform: template
+  name: "Light_level_low"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [818, -833, 818, -834, 817, -835, 1649, -1670, 816, -834, 1650, -1668, 818, -834, 817, -833, 1651, -1671, 1649, -1668, 818, -835, 816, -834, 817, -833, 818]
+    
+- platform: template
+  name: "Light_level_middle"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [816, -835, 816, -834, 817, -836, 1648, -1670, 816, -835, 1649, -1668, 818, -833, 818, -836, 1648, -846, 818, -835, 816, -834, 816, -1658, 816, -835, 816, -834, 817]
+    
+- platform: template
+  name: "Light_level_high"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [816, -834, 817, -833, 818, -834, 1650, -1668, 818, -835, 1649, -1669, 817, -836, 1648, -1668, 818, -833, 818, -834, 1650, -845, 818, -1657, 1651]
+    
+- platform: template
+  name: "Increase_offset_one_step_10prc"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [792, -858, 793, -859, 792, -859, 792, -859, 792, -859, 792, -858, 793, -858, 1627, -870, 793, -858, 793, -857, 793, -1683, 1625, -871, 792, -859, 792, -858, 792, -1683, 791]
+    
+- platform: template
+  name: "Decrease_offset_one_step_10prc"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [816, -834, 817, -832, 819, -833, 818, -833, 818, -834, 817, -834, 817, -834, 1650, -1668, 1651, -845, 818, -1658, 1650, -848, 816, -833, 818, -833, 818, -833, 818]
+    
+- platform: template
+  name: "Offset_Value_0prc"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [816, -833, 818, -832, 819, -832, 819, -832, 819, -833, 818, -831, 820, -832, 1652, -1667, 819, -832, 819, -832, 819, -832, 819, -831, 820, -833, 818, -831, 820, -833, 1651]
+    
+- platform: template
+  name: "Offset_Value_minus30prc"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [842, -808, 843, -809, 842, -807, 844, -808, 843, -808, 843, -808, 843, -809, 1649, -1669, 844, -807, 844, -807, 844, -808, 1650, -846, 843, -1632, 1649, -1669, 843]
+    
+- platform: template
+  name: "Bright_Out_ON"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [818, -834, 817, -833, 818, -834, 817, -836, 1648, -1669, 817, -834, 1650, -1669, 817, -834, 817, -833, 818, -833, 818, -833, 818, -833, 818, -835, 1649, -846, 818]
+    
+- platform: template
+  name: "Bright_Out_OFF"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [815, -836, 815, -836, 815, -836, 815, -835, 1626, -1693, 815, -838, 1624, -1694, 815, -835, 793, -859, 792, -859, 792, -859, 792, -859, 792, -858, 793, -859, 792, -859, 792]
+    
+- platform: template
+  name: "Active_profile_single_office"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [791, -858, 793, -859, 792, -859, 792, -859, 792, -859, 792, -860, 1625, -1695, 790, -861, 790, -860, 791, -859, 792, -859, 792, -859, 792, -860, 791, -860, 1625, -1694, 792]
+    
+- platform: template
+  name: "Active_profile_classroom"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [817, -834, 817, -833, 818, -834, 817, -834, 817, -834, 817, -836, 1648, -1670, 816, -835, 816, -834, 817, -834, 817, -834, 817, -834, 843, -809, 1650, -1669, 843, -808, 843]
+    
+- platform: template
+  name: "Active_profile_corridor"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [817, -835, 816, -834, 817, -834, 817, -834, 817, -835, 816, -837, 1648, -1669, 817, -834, 817, -834, 817, -835, 816, -834, 817, -834, 817, -836, 1648, -848, 816, -835, 816]
+    
+- platform: template
+  name: "Active_profile_toilet"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [792, -859, 792, -860, 791, -859, 792, -861, 790, -859, 792, -860, 1625, -1694, 792, -859, 792, -860, 791, -859, 792, -859, 792, -860, 1625, -1694, 792, -859, 792, -859, 815]
+    
+- platform: template
+  name: "Active_profile_free_standing_luminaire"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [813, -837, 814, -835, 816, -835, 816, -836, 792, -859, 815, -837, 1625, -1693, 816, -836, 815, -836, 792, -858, 816, -837, 791, -860, 1625, -1696, 1623, -872, 791]
+    
+- platform: template
+  name: "Active_profile_test"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1625, -869, 794, -1681, 793, -857, 794, -859, 1626, -1694, 1625, -1693, 793, -857, 794, -858, 793, -858, 793, -858, 793, -858, 793, -858, 793, -858, 793, -859, 792]
+    
+- platform: template
+  name: "Neighbourhood_function_deactivated"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [793, -859, 792, -858, 793, -859, 792, -858, 793, -859, 792, -859, 1626, -871, 791, -1682, 792, -860, 791, -859, 792, -859, 792, -860, 791, -859, 792, -858, 793, -859, 792, -860, 791]
+    
+- platform: template
+  name: "Neighbourhood_function_activated_presence"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [843, -807, 844, -808, 843, -808, 843, -807, 844, -808, 843, -808, 1650, -846, 843, -1631, 844, -807, 844, -808, 843, -808, 843, -809, 842, -808, 843, -808, 1650, -848, 842]
+    
+- platform: template
+  name: "Neighbourhood_function_activated_absence"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [843, -808, 843, -808, 843, -809, 842, -808, 843, -807, 844, -807, 1651, -846, 843, -1632, 842, -808, 843, -808, 843, -807, 844, -809, 842, -809, 1650, -1670, 1649]
+    
+- platform: template
+  name: "PIR_inactive"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [793, -858, 793, -858, 793, -858, 818, -832, 819, -834, 1626, -869, 793, -1680, 794, -858, 793, -858, 793, -857, 794, -858, 793, -858, 793, -858, 793, -858, 793, -858, 793, -858, 793]
+    
+- platform: template
+  name: "PIR_off_only"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [844, -808, 843, -808, 843, -809, 842, -809, 816, -835, 1649, -846, 843, -1633, 1649, -1670, 816, -835, 816, -834, 817, -834, 817, -835, 816, -834, 817, -837, 1647]
+    
+- platform: template
+  name: "PIR_active"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [815, -834, 817, -836, 815, -835, 816, -836, 815, -836, 1649, -846, 817, -1659, 1649, -847, 842, -1632, 843, -808, 843, -808, 843, -808, 844, -808, 843, -808, 843, -808, 843]
+    
+- platform: template
+  name: "Time_delay_1min"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [843, -808, 843, -808, 843, -808, 843, -809, 842, -808, 1650, -845, 845, -806, 844, -1631, 843, -808, 843, -807, 844, -808, 843, -809, 1649, -1669, 844, -808, 843, -808, 843]
+    
+- platform: template
+  name: "Time_delay_10min"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [791, -859, 792, -858, 793, -858, 793, -859, 792, -860, 1625, -870, 794, -859, 791, -1682, 793, -860, 1625, -1695, 1625, -1693, 793, -859, 792, -861, 1624]
+    
+- platform: template
+  name: "Time_delay_20min"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [814, -834, 817, -836, 815, -835, 816, -837, 814, -837, 1625, -872, 791, -858, 815, -1662, 1624, -1695, 1625, -1694, 792, -859, 793, -858, 793, -860, 1625]
+    
+- platform: template
+  name: "Time_delay_automatic"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [793, -859, 792, -858, 793, -859, 792, -860, 791, -860, 1625, -871, 792, -859, 792, -859, 792, -859, 792, -859, 792, -860, 791, -857, 793, -1683, 1625, -1694, 1626]
+    
+- platform: template
+  name: "If_vacant_0min"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [792, -859, 792, -858, 793, -858, 793, -859, 792, -858, 1627, -1695, 1625, -1692, 794, -858, 793, -858, 793, -859, 792, -859, 792, -857, 794, -859, 792, -858, 793, -857, 794]
+    
+- platform: template
+  name: "If_vacant_1min"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [843, -808, 843, -809, 842, -807, 844, -807, 844, -808, 1650, -1670, 1650, -1669, 844, -808, 843, -808, 843, -808, 843, -810, 1648, -1670, 842, -809, 1649]
+    
+- platform: template
+  name: "If_vacant_30min"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [814, -835, 816, -835, 816, -835, 816, -835, 816, -836, 1649, -1671, 1648, -1670, 1650, -847, 817, -835, 816, -833, 817, -1659, 816, -835, 816, -835, 816, -835, 816]
+    
+- platform: template
+  name: "If_vacant_infinite_neverOFF"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [793, -858, 793, -859, 792, -859, 792, -859, 792, -860, 1625, -1695, 1625, -871, 792, -859, 792, -859, 792, -860, 791, -859, 792, -859, 792, -859, 815, -836, 792, -1682, 815]
+    
+- platform: template
+  name: "Sec_Level_1prc"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [792, -858, 793, -858, 793, -859, 1626, -871, 792, -858, 793, -859, 792, -858, 792, -1683, 817, -834, 817, -833, 818, -834, 817, -833, 818, -834, 793, -859, 1626, -1693, 793]
+    
+- platform: template
+  name: "Sec_Level_10prc"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [842, -807, 844, -808, 843, -808, 1651, -848, 842, -807, 844, -808, 843, -808, 843, -807, 843, -1631, 844, -808, 843, -807, 844, -808, 843, -809, 842, -808, 843, -808, 843, -808, 843]
+    
+- platform: template
+  name: "Sec_Level_30prc"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [816, -835, 816, -835, 816, -836, 1626, -872, 815, -836, 815, -836, 815, -836, 815, -834, 816, -1660, 1625, -873, 814, -836, 815, -834, 816, -1660, 1625, -873, 814]
+    
+- platform: template
+  name: "DALI"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [842, -808, 843, -808, 844, -809, 1649, -1670, 1650, -1669, 844, -809, 1649, -848, 842, -807, 844, -807, 844, -808, 843, -807, 844, -808, 843, -807, 843, -1632, 842]
+    
+- platform: template
+  name: "DSI"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [817, -834, 818, -834, 817, -836, 1649, -1670, 1650, -1670, 817, -835, 816, -835, 816, -834, 817, -834, 817, -836, 815, -834, 817, -835, 817, -833, 844, -808, 844, -809, 842]
+    
+- platform: template
+  name: "Power_Up_ON"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [817, -833, 818, -834, 818, -835, 816, -835, 1650, -1671, 1649, -848, 816, -835, 816, -835, 816, -835, 816, -835, 816, -834, 817, -836, 815, -834, 817, -834, 817, -833, 818]
+    
+- platform: template
+  name: "Power_Up_OFF"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [842, -807, 844, -808, 844, -809, 842, -809, 1650, -1670, 1650, -846, 843, -1632, 843, -808, 843, -807, 844, -806, 845, -808, 843, -808, 843, -808, 843, -809, 1649]
+    

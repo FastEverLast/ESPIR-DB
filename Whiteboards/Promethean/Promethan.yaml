@@ -1,0 +1,43 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF33
+        command: 0xFF00
+        
+- platform: template
+  name: "MENU"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF33
+        command: 0xE31C
+        
+- platform: template
+  name: "FREZE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF33
+        command: 0xBC43
+        
+- platform: template
+  name: "UP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF33
+        command: 0x738C
+        
+- platform: template
+  name: "LEFT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF33
+        command: 0xE11E
+        
+- platform: template
+  name: "RIGHT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF33
+        command: 0xE21D
+        

@@ -1,0 +1,71 @@
+
+- platform: template
+  name: "A_up"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [3100, -900, 2100, -900, 2100, -900, 1100, -900, 2100, -900, 1100, -900, 1100, -900, 1100, -900, 2100, -900, 1100, -900, 1100, -900, 2100, -900, 1100, -900, 2100, -900, 2100, -900, 2100, -900, 1100]
+    
+- platform: template
+  name: "A_stop"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [3100, -900, 2100, -900, 2100, -900, 2100, -900, 1100, -900, 1100, -900, 1100, -900, 1100, -900, 2100, -900, 1100, -900, 1100, -900, 1100, -900, 2100, -900, 2100, -900, 2100, -900, 2100, -900, 1100]
+    
+- platform: template
+  name: "A_down"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [3100, -900, 2100, -900, 2100, -900, 1100, -900, 1100, -900, 2100, -900, 1100, -900, 1100, -900, 2100, -900, 1100, -900, 1100, -900, 2100, -900, 2100, -900, 1100, -900, 2100, -900, 2100, -900, 1100]
+    
+- platform: template
+  name: "A_sound"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [3100, -900, 2100, -900, 2100, -900, 1100, -900, 1100, -900, 1100, -900, 1100, -900, 2100, -900, 2100, -900, 1100, -900, 1100, -900, 2100, -900, 2100, -900, 2100, -900, 2100, -900, 1100, -900, 1100]
+    
+- platform: template
+  name: "A_light"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [3100, -900, 2100, -900, 2100, -900, 1100, -900, 1100, -900, 1100, -900, 2100, -900, 1100, -900, 2100, -900, 1100, -900, 1100, -900, 2100, -900, 2100, -900, 2100, -900, 1100, -900, 2100, -900, 1100]
+    
+- platform: template
+  name: "B_up"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [3100, -900, 2100, -900, 1100, -900, 1100, -900, 2100, -900, 1100, -900, 1100, -900, 1100, -900, 2100, -900, 1100, -900, 2100, -900, 2100, -900, 1100, -900, 2100, -900, 2100, -900, 2100, -900, 1100]
+    
+- platform: template
+  name: "B_stop"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [3100, -900, 2100, -900, 1100, -900, 2100, -900, 1100, -900, 1100, -900, 1100, -900, 1100, -900, 2100, -900, 1100, -900, 2100, -900, 1100, -900, 2100, -900, 2100, -900, 2100, -900, 2100, -900, 1100]
+    
+- platform: template
+  name: "B_down"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [3100, -900, 2100, -900, 1100, -900, 1100, -900, 1100, -900, 2100, -900, 1100, -900, 1100, -900, 2100, -900, 1100, -900, 2100, -900, 2100, -900, 2100, -900, 1100, -900, 2100, -900, 2100, -900, 1100]
+    
+- platform: template
+  name: "B_sound"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [3100, -900, 2100, -900, 1100, -900, 1100, -900, 1100, -900, 1100, -900, 1100, -900, 2100, -900, 2100, -900, 1100, -900, 2100, -900, 2100, -900, 2100, -900, 2100, -900, 2100, -900, 1100, -900, 1100]
+    
+- platform: template
+  name: "B_light"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [3100, -900, 2100, -900, 1100, -900, 1100, -900, 1100, -900, 1100, -900, 2100, -900, 1100, -900, 2100, -900, 1100, -900, 2100, -900, 2100, -900, 2100, -900, 2100, -900, 1100, -900, 2100, -900, 1100]
+    

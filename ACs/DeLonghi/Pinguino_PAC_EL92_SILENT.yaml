@@ -1,0 +1,57 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF1F
+        command: 0x7C83
+        
+- platform: template
+  name: "SILENT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF1F
+        command: 0x7986
+        
+- platform: template
+  name: "MODE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF1F
+        command: 0x3EC1
+        
+- platform: template
+  name: "TEMP-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF1F
+        command: 0x7F80
+        
+- platform: template
+  name: "TEMP+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF1F
+        command: 0x7B84
+        
+- platform: template
+  name: "FAN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF1F
+        command: 0x3FC0
+        
+- platform: template
+  name: "TIMER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF1F
+        command: 0x7E81
+        
+- platform: template
+  name: "Swing"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF1F
+        command: 0x7A85
+        

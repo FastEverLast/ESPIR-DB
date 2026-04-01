@@ -1,0 +1,43 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4040
+        command: 0xF50A
+        
+- platform: template
+  name: "Input"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4040
+        command: 0xF30C
+        
+- platform: template
+  name: "Vol_u"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4040
+        command: 0xEA15
+        
+- platform: template
+  name: "Vol_d"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4040
+        command: 0xE31C
+        
+- platform: template
+  name: "Home"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4040
+        command: 0xE51A
+        
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4040
+        command: 0xBF40
+        

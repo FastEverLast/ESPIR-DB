@@ -1,0 +1,50 @@
+
+- platform: template
+  name: "OK"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x87EE
+        command: 0xFB04
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x87EE
+        command: 0xF40B
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x87EE
+        command: 0xF20D
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x87EE
+        command: 0xF708
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x87EE
+        command: 0xF807
+        
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x87EE
+        command: 0xFD02
+        
+- platform: template
+  name: "Unpair"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x87E0
+        command: 0xFA05
+        

@@ -1,0 +1,147 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E040BF
+        nbits: 32
+
+- platform: template
+  name: "123 l Setting"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E08B74
+        nbits: 32
+
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E08B74
+        nbits: 32
+
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E08B74
+        nbits: 32
+
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E08B74
+        nbits: 32
+
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E08B74
+        nbits: 32
+
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E08B74
+        nbits: 32
+
+- platform: template
+  name: "Home"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E08B74
+        nbits: 32
+
+- platform: template
+  name: "Play l Pause"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E08B74
+        nbits: 32
+
+- platform: template
+  name: "Back Button"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E08B74
+        nbits: 32
+
+- platform: template
+  name: "V_Up"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E08B74
+        nbits: 32
+
+- platform: template
+  name: "V_Down"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E08B74
+        nbits: 32
+
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E08B74
+        nbits: 32
+
+- platform: template
+  name: "CH_up"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E08B74
+        nbits: 32
+
+- platform: template
+  name: "CH_down"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E08B74
+        nbits: 32
+
+- platform: template
+  name: "Guide Channel"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E08B74
+        nbits: 32
+
+- platform: template
+  name: "Netflix"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E08B74
+        nbits: 32
+
+- platform: template
+  name: "Samsung_TV"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E08B74
+        nbits: 32
+
+- platform: template
+  name: "Disney"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E08B74
+        nbits: 32
+
+- platform: template
+  name: "Prime Video"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E08B74
+        nbits: 32
+
+- platform: template
+  name: "Mic"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E08B74
+        nbits: 32

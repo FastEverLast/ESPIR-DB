@@ -1,0 +1,92 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB683
+        command: 0xB24D
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB683
+        command: 0xBC43
+        
+- platform: template
+  name: "Pair"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB683
+        command: 0xE31C
+        
+- platform: template
+  name: "Input"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB683
+        command: 0xE21D
+        
+- platform: template
+  name: "Reset"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [112, -21251, 113, -5728, 97, -4743, 328, -2589, 326, -23026, 329, -34586, 327, -642, 111, -32382, 162]
+    
+- platform: template
+  name: "Music"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB683
+        command: 0xBA45
+        
+- platform: template
+  name: "News"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB683
+        command: 0xB14E
+        
+- platform: template
+  name: "Movie"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB683
+        command: 0xB847
+        
+- platform: template
+  name: "3D"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB683
+        command: 0xB34C
+        
+- platform: template
+  name: "Treb_Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB683
+        command: 0xE51A
+        
+- platform: template
+  name: "Treb_Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB683
+        command: 0xBD42
+        
+- platform: template
+  name: "Bass_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB683
+        command: 0xE817
+        
+- platform: template
+  name: "Bass_Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB683
+        command: 0xE718
+        

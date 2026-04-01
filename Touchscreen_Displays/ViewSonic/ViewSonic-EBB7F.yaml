@@ -1,0 +1,85 @@
+
+- platform: template
+  name: "On_off"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x0C
+    
+- platform: template
+  name: "Ch_up"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x20
+    
+- platform: template
+  name: "Ch_down"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x21
+    
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x10
+    
+- platform: template
+  name: "Vol_down"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x11
+    
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x0D
+    
+- platform: template
+  name: "Input"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x28
+    
+- platform: template
+  name: "Sleep"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x26
+    
+- platform: template
+  name: "Display"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x12
+    
+- platform: template
+  name: "P_mode"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x1A
+    
+- platform: template
+  name: "Freeze"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x24
+    
+- platform: template
+  name: "Exit"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x00
+        command: 0x0F
+    

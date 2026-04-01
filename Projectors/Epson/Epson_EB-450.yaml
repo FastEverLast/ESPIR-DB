@@ -1,0 +1,8 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5583
+        command: 0x6F90
+        

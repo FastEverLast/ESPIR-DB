@@ -1,0 +1,295 @@
+
+- platform: template
+  name: "UP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0012
+        command: 0xFB04
+        
+- platform: template
+  name: "CURSOR_UP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0012
+        command: 0xFB04
+        
+- platform: template
+  name: "DOWN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0012
+        command: 0xFA05
+        
+- platform: template
+  name: "CURSOR_DOWN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0012
+        command: 0xFA05
+        
+- platform: template
+  name: ">"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0012
+        command: 0xF906
+        
+- platform: template
+  name: "CURSOR_RIGHT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0012
+        command: 0xF906
+        
+- platform: template
+  name: "<"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0012
+        command: 0xF807
+        
+- platform: template
+  name: "CURSOR_LEFT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0012
+        command: 0xF807
+        
+- platform: template
+  name: "EXIT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0012
+        command: 0xF708
+        
+- platform: template
+  name: "ADJ"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0012
+        command: 0xF609
+        
+- platform: template
+  name: "ADJUST"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0012
+        command: 0xF609
+        
+- platform: template
+  name: "ENTER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0012
+        command: 0xF50A
+        
+- platform: template
+  name: "OK"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0012
+        command: 0xF50A
+        
+- platform: template
+  name: "TEXT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0012
+        command: 0xF20D
+        
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0012
+        command: 0xF10E
+        
+- platform: template
+  name: "STANDBY"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0012
+        command: 0xF10E
+        
+- platform: template
+  name: "PAUSE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0012
+        command: 0xF00F
+        
+- platform: template
+  name: "1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0012
+        command: 0xEF10
+        
+- platform: template
+  name: "Unknown"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0012
+        command: 0xEF10
+        
+- platform: template
+  name: "2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0012
+        command: 0xEE11
+        
+- platform: template
+  name: "3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0012
+        command: 0xED12
+        
+- platform: template
+  name: "4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0012
+        command: 0xEC13
+        
+- platform: template
+  name: "5"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0012
+        command: 0xEB14
+        
+- platform: template
+  name: "Unknown"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0012
+        command: 0xEB14
+        
+- platform: template
+  name: "6"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0012
+        command: 0xEA15
+        
+- platform: template
+  name: "7"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0012
+        command: 0xE916
+        
+- platform: template
+  name: "Unknown"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0012
+        command: 0xE916
+        
+- platform: template
+  name: "8"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0012
+        command: 0xE817
+        
+- platform: template
+  name: "9"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0012
+        command: 0xE718
+        
+- platform: template
+  name: "Unknown"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0012
+        command: 0xE718
+        
+- platform: template
+  name: "0"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0012
+        command: 0xE619
+        
+- platform: template
+  name: "ADDRESS"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0012
+        command: 0xDF20
+        
+- platform: template
+  name: "CONTRAST_+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0012
+        command: 0xD728
+        
+- platform: template
+  name: "CONTRAST_-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0012
+        command: 0xD629
+        
+- platform: template
+  name: "BRIGHTNESS_+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0012
+        command: 0xD52A
+        
+- platform: template
+  name: "BRIGHTNESS_-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0012
+        command: 0xD42B
+        
+- platform: template
+  name: "COLOR_+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0012
+        command: 0xD32C
+        
+- platform: template
+  name: "COLOR_-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0012
+        command: 0xD22D
+        
+- platform: template
+  name: "TINT_+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0012
+        command: 0xD12E
+        
+- platform: template
+  name: "TINT_-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0012
+        command: 0xD02F
+        
+- platform: template
+  name: "SHARPNESS_+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0012
+        command: 0xC936
+        
+- platform: template
+  name: "SHARPNESS_-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0012
+        command: 0xC837
+        

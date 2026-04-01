@@ -1,0 +1,175 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x0C
+
+- platform: template
+  name: "Guide"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0xCC
+
+- platform: template
+  name: "Prevch"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x9F
+
+- platform: template
+  name: "Options"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x40
+
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x58
+
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x59
+
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x5A
+
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x5B
+
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x41
+
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x5C
+
+- platform: template
+  name: "Home"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x54
+
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x10
+
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x11
+
+- platform: template
+  name: "Imput"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x38
+
+- platform: template
+  name: "Ch_next"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x20
+
+- platform: template
+  name: "Ch_prev"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x21
+
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x0D
+
+- platform: template
+  name: "Netfix"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x76
+
+- platform: template
+  name: "Youtube"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x79
+
+- platform: template
+  name: "Paramont"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0xB3
+
+- platform: template
+  name: "Tubi"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0xB4
+
+- platform: template
+  name: "Red"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x6D
+
+- platform: template
+  name: "Green"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x6E
+
+- platform: template
+  name: "Yellow"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x6F
+
+- platform: template
+  name: "Blue"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x00
+        command: 0x70

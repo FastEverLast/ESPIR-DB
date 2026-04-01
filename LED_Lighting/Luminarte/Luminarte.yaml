@@ -1,0 +1,78 @@
+
+- platform: template
+  name: "On"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB7A0
+        command: 0x16E9
+        
+- platform: template
+  name: "Rgb"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB7A0
+        command: 0x0AF5
+        
+- platform: template
+  name: "Plus"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB7A0
+        command: 0x54AB
+        
+- platform: template
+  name: "Minus"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB7A0
+        command: 0x43BC
+        
+- platform: template
+  name: "Warm"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB7A0
+        command: 0x10EF
+        
+- platform: template
+  name: "Cold"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB7A0
+        command: 0x14EB
+        
+- platform: template
+  name: "Change"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB7A0
+        command: 0xF609
+        
+- platform: template
+  name: "Sleeep"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB7A0
+        command: 0xFD02
+        
+- platform: template
+  name: "Cold50"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB7A0
+        command: 0x57A8
+        
+- platform: template
+  name: "Warm50"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB7A0
+        command: 0x05FA
+        
+- platform: template
+  name: "Timer"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB7A0
+        command: 0x53AC
+        

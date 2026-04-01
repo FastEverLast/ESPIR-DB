@@ -1,0 +1,85 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xBE41
+        
+- platform: template
+  name: "Mode"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xAF50
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xBD42
+        
+- platform: template
+  name: "Vol_down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xBC43
+        
+- platform: template
+  name: "Previous"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xE51A
+        
+- platform: template
+  name: "Next"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xB04F
+        
+- platform: template
+  name: "Pause_mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xE41B
+        
+- platform: template
+  name: "Bass_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xEB14
+        
+- platform: template
+  name: "Bass_down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xA956
+        
+- platform: template
+  name: "Treble_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xB24D
+        
+- platform: template
+  name: "Treble_down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xAE51
+        
+- platform: template
+  name: "Eq"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xA55A
+        

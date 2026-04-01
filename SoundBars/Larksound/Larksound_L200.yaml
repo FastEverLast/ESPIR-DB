@@ -1,0 +1,141 @@
+
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0F30
+        command: 0xE619
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0F30
+        command: 0xE916
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0F30
+        command: 0xF609
+        
+- platform: template
+  name: "Next"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0F30
+        command: 0xA15E
+        
+- platform: template
+  name: "Prev"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0F30
+        command: 0xF30C
+        
+- platform: template
+  name: "Play"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0F30
+        command: 0xE718
+        
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0F30
+        command: 0xBA45
+        
+- platform: template
+  name: "Bass_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0F30
+        command: 0xEA15
+        
+- platform: template
+  name: "Bass_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0F30
+        command: 0xF807
+        
+- platform: template
+  name: "HDMI"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0F30
+        command: 0xBB44
+        
+- platform: template
+  name: "BT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0F30
+        command: 0xB847
+        
+- platform: template
+  name: "OP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0F30
+        command: 0xB946
+        
+- platform: template
+  name: "AUX"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0F30
+        command: 0xBF40
+        
+- platform: template
+  name: "STANDARD"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0F30
+        command: 0xF708
+        
+- platform: template
+  name: "MUSIC"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0F30
+        command: 0xE31C
+        
+- platform: template
+  name: "MOVIE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0F30
+        command: 0xA55A
+        
+- platform: template
+  name: "DIALOG"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0F30
+        command: 0xBD42
+        
+- platform: template
+  name: "NIGHT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0F30
+        command: 0xAD52
+        
+- platform: template
+  name: "3D"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0F30
+        command: 0xB54A
+        
+- platform: template
+  name: "Bluetooth"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0F30
+        command: 0xF20D
+        

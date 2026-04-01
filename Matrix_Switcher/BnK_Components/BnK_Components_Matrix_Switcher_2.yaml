@@ -1,0 +1,43 @@
+
+- platform: template
+  name: "021_OFF"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x83C7
+        command: 0xFE01
+        
+- platform: template
+  name: "021_ON"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x83C7
+        command: 0xFD02
+        
+- platform: template
+  name: "021_MUTE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x83C7
+        command: 0xFC03
+        
+- platform: template
+  name: "021_VOL-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x83C7
+        command: 0xDC23
+        
+- platform: template
+  name: "021_VOL+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x83C7
+        command: 0xDB24
+        
+- platform: template
+  name: "021_IN_6"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x83C7
+        command: 0xB54A
+        

@@ -1,0 +1,8 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCE31
+        command: 0x7E81
+        

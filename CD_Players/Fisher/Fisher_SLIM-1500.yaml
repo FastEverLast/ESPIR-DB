@@ -1,0 +1,98 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x4545609F
+        nbits: 32
+
+- platform: template
+  name: "Pause"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x4545C837
+        nbits: 32
+
+- platform: template
+  name: "Play"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x4545C837
+        nbits: 32
+
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x4545D827
+        nbits: 32
+
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x454505FA
+        nbits: 32
+
+- platform: template
+  name: "Mode"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x4545A05F
+        nbits: 32
+
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x454504FB
+        nbits: 32
+
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x454506F9
+        nbits: 32
+
+- platform: template
+  name: "BassUp"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x4545B847
+        nbits: 32
+
+- platform: template
+  name: "Sleep"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x4545E817
+        nbits: 32
+
+- platform: template
+  name: "Shuffle"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x4545B04F
+        nbits: 32
+
+- platform: template
+  name: "Repeat"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x454538C7
+        nbits: 32
+
+- platform: template
+  name: "Prev_Trk"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x454520DF
+        nbits: 32
+
+- platform: template
+  name: "Nxt_Trk"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x454530CF
+        nbits: 32

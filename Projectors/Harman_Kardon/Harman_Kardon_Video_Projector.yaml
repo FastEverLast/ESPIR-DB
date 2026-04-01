@@ -1,0 +1,156 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0000
+        command: 0xFE01
+        
+- platform: template
+  name: "PRESET"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0000
+        command: 0xFC03
+        
+- platform: template
+  name: "MUTE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0000
+        command: 0xF906
+        
+- platform: template
+  name: "TEST"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0000
+        command: 0xF609
+        
+- platform: template
+  name: "STEREO"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0000
+        command: 0xF50A
+        
+- platform: template
+  name: "HY-SON"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0000
+        command: 0xF40B
+        
+- platform: template
+  name: "VIDEO_A"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0000
+        command: 0xEF10
+        
+- platform: template
+  name: "VIDEO_B"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0000
+        command: 0xEE11
+        
+- platform: template
+  name: "RGB"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0000
+        command: 0xED12
+        
+- platform: template
+  name: "ENHANCE_+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0000
+        command: 0xDB24
+        
+- platform: template
+  name: "ENHANCE_-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0000
+        command: 0xDA25
+        
+- platform: template
+  name: "TINT_+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0000
+        command: 0xD728
+        
+- platform: template
+  name: "TINT_-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0000
+        command: 0xD629
+        
+- platform: template
+  name: "BRIGHTNESS_+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0000
+        command: 0xD52A
+        
+- platform: template
+  name: "BRIGHTNESS_-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0000
+        command: 0xD42B
+        
+- platform: template
+  name: "COLOR_+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0000
+        command: 0xD32C
+        
+- platform: template
+  name: "COLOR_-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0000
+        command: 0xD22D
+        
+- platform: template
+  name: "VOL_+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0000
+        command: 0xD12E
+        
+- platform: template
+  name: "VOL_-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0000
+        command: 0xD02F
+        
+- platform: template
+  name: "CONTRAST_+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0000
+        command: 0xCF30
+        
+- platform: template
+  name: "CONTRAST_-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0000
+        command: 0xCE31
+        
+- platform: template
+  name: "QUIT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0007
+        command: 0xF10E
+        
+        

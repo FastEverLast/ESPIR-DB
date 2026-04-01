@@ -1,0 +1,43 @@
+
+- platform: template
+  name: "On"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9174, -4018, 678, -433, 557, -521, 560, -519, 617, -435, 642, -437, 584, -495, 1071, -1116, 1069, -1119, 550]
+    
+- platform: template
+  name: "Off"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9212, -4018, 643, -436, 558, -519, 536, -542, 594, -459, 1131, -1079, 1106, -1079, 591, -461, 587, -493, 557]
+    
+- platform: template
+  name: "Plus"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9207, -4021, 561, -518, 557, -520, 535, -543, 593, -460, 1104, -1107, 536, -544, 1076, -1110, 559, -521, 505]
+    
+- platform: template
+  name: "_"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9163, -4066, 566, -512, 563, -514, 540, -538, 568, -483, 1109, -1102, 568, -511, 1081, -1106, 1050, -1136, 509]
+    
+- platform: template
+  name: "Flickering"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9190, -4034, 599, -512, 539, -539, 540, -538, 569, -482, 1109, -1101, 1083, -1103, 1080, -1083, 559, -544, 510]
+    
+- platform: template
+  name: "Timer"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9186, -4070, 565, -514, 561, -516, 539, -539, 540, -511, 1109, -1102, 1082, -1103, 567, -486, 590, -516, 533]
+    

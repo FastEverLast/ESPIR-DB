@@ -1,0 +1,57 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xAC04
+        command: 0xB54A
+        
+- platform: template
+  name: "Brighter"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xAC04
+        command: 0xEA15
+        
+- platform: template
+  name: "Darker"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xAC04
+        command: 0xB04F
+        
+- platform: template
+  name: "Cooler"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xAC04
+        command: 0xB14E
+        
+- platform: template
+  name: "Warmer"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xAC04
+        command: 0xAA55
+        
+- platform: template
+  name: "K-Toggle"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xAC04
+        command: 0xE11E
+        
+- platform: template
+  name: "Timer"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xAC04
+        command: 0xFD02
+        
+- platform: template
+  name: "Nightmode"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xAC04
+        command: 0xE01F
+        

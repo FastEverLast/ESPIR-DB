@@ -1,0 +1,169 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF00
+        command: 0xE31C
+        
+- platform: template
+  name: "Flip"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF00
+        command: 0xF708
+        
+- platform: template
+  name: "VOL-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF00
+        command: 0xB04F
+        
+- platform: template
+  name: "VOL+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF00
+        command: 0xB44B
+        
+- platform: template
+  name: "Home"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF00
+        command: 0xFC03
+        
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF00
+        command: 0xE718
+        
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF00
+        command: 0xF50A
+        
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF00
+        command: 0xF906
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF00
+        command: 0xE51A
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF00
+        command: 0xB847
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF00
+        command: 0xF807
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF00
+        command: 0xB748
+        
+- platform: template
+  name: "1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF00
+        command: 0xAB54
+        
+- platform: template
+  name: "2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF00
+        command: 0xE916
+        
+- platform: template
+  name: "3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF00
+        command: 0xEA15
+        
+- platform: template
+  name: "4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF00
+        command: 0xAF50
+        
+- platform: template
+  name: "5"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF00
+        command: 0xED12
+        
+- platform: template
+  name: "6"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF00
+        command: 0xEE11
+        
+- platform: template
+  name: "7"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF00
+        command: 0xB34C
+        
+- platform: template
+  name: "8"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF00
+        command: 0xF10E
+        
+- platform: template
+  name: "9"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF00
+        command: 0xF20D
+        
+- platform: template
+  name: "0"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF00
+        command: 0xF30C
+        
+- platform: template
+  name: "Mouse"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF00
+        command: 0xBD42
+        
+- platform: template
+  name: "Del"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF00
+        command: 0xEF10
+        

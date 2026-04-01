@@ -1,0 +1,92 @@
+
+- platform: template
+  name: "On"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0xFF00
+        
+- platform: template
+  name: "Off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0xFD02
+        
+- platform: template
+  name: "Mode"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9150, -4409, 670, -487, 671, -1559, 617, -540, 617, -540, 617, -539, 619, -539, 618, -538, 619, -538, 619, -1611, 619, -539, 643, -1588, 642, -1589, 641, -1616, 614, -1617, 613, -1618, 612, -1618, 613, -1618, 613, -545, 613, -545, 612, -545, 613, -545, 613, -545, 613, -546, 612, -546, 612, -545, 613, -1618, 613, -1618, 612, -1618, 612, -1619, 611, -1618, 613, -1618, 612, -1619, 611, -39195, 9145, -2187, 612, -95453, 9142, -2186, 613]
+    
+- platform: template
+  name: "1"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9154, -4402, 698, -488, 669, -1562, 617, -541, 617, -540, 617, -540, 618, -539, 619, -539, 619, -538, 619, -1611, 619, -538, 619, -1612, 643, -1587, 643, -1588, 642, -1589, 641, -1591, 639, -1617, 613, -544, 613, -544, 613, -1618, 613, -544, 613, -544, 614, -544, 613, -544, 614, -545, 613, -1617, 613, -1618, 612, -545, 613, -1617, 614, -1617, 613, -1618, 612, -1618, 613, -1617, 613, -39194, 9144, -2184, 613, -95455, 9142, -2184, 613]
+    
+- platform: template
+  name: "2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0xF906
+        
+- platform: template
+  name: "3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0xF708
+        
+- platform: template
+  name: "4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0xF50A
+        
+- platform: template
+  name: "5"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0xF30C
+        
+- platform: template
+  name: "6"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0xF10E
+        
+- platform: template
+  name: "7"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0xEF10
+        
+- platform: template
+  name: "8"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [396, -2233, 168]
+    
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD02
+        command: 0xEB14
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9200, -4348, 645, -540, 616, -1613, 617, -541, 616, -540, 617, -540, 617, -539, 618, -539, 618, -538, 619, -1611, 619, -538, 619, -1612, 618, -1612, 642, -1588, 642, -1589, 641, -1590, 639, -1591, 639, -519, 638, -1593, 637, -1593, 637, -521, 636, -1617, 613, -544, 613, -544, 613, -544, 613, -1617, 613, -544, 613, -544, 613, -1617, 613, -545, 612, -1617, 613, -1617, 613, -1618, 612]
+    

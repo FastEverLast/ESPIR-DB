@@ -1,0 +1,120 @@
+
+- platform: template
+  name: "Power_on"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0xDA25
+        
+- platform: template
+  name: "Power_off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0x37C8
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0x6B94
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0x7788
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0x738C
+        
+- platform: template
+  name: "Aux"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0x649B
+        
+- platform: template
+  name: "Disc"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0x7689
+        
+- platform: template
+  name: "CD"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0x7A85
+        
+- platform: template
+  name: "Video"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0x3DC2
+        
+- platform: template
+  name: "Tuner"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0x22DD
+        
+- platform: template
+  name: "Tape"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0x728D
+        
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0xFD02
+        
+- platform: template
+  name: "Pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0xB54A
+        
+- platform: template
+  name: "Play"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0xFE01
+        
+- platform: template
+  name: "Eject"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0xB748
+        
+- platform: template
+  name: "Prev_Track"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0xFA05
+        
+- platform: template
+  name: "Next_Track"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7C87
+        command: 0xF906
+        

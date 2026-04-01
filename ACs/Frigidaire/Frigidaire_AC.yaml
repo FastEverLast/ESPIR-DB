@@ -1,0 +1,78 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF01
+        command: 0xED12
+        
+- platform: template
+  name: "TEMP+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF01
+        command: 0xE51A
+        
+- platform: template
+  name: "TEMP-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF01
+        command: 0xEC13
+        
+- platform: template
+  name: "FanFaster"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF01
+        command: 0xF10E
+        
+- platform: template
+  name: "FanSlower"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF01
+        command: 0xB14E
+        
+- platform: template
+  name: "Mode"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF01
+        command: 0xFD02
+        
+- platform: template
+  name: "Eco"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF01
+        command: 0xB04F
+        
+- platform: template
+  name: "Light"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF01
+        command: 0x9966
+        
+- platform: template
+  name: "Sleep"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF01
+        command: 0xF50A
+        
+- platform: template
+  name: "Remote"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0F01
+        command: 0x926D
+        
+- platform: template
+  name: "Timer"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF01
+        command: 0xE41B
+        

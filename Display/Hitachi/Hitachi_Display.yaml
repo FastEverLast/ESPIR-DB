@@ -1,0 +1,57 @@
+
+- platform: template
+  name: "INPUT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0050
+        command: 0xF609
+        
+- platform: template
+  name: "LAST_CH"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0050
+        command: 0xF50A
+        
+- platform: template
+  name: "MUTE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0050
+        command: 0xF40B
+        
+- platform: template
+  name: "VOL+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0050
+        command: 0xED12
+        
+- platform: template
+  name: "VOL-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0050
+        command: 0xEA15
+        
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0050
+        command: 0xE817
+        
+- platform: template
+  name: "CHANNEL_-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0050
+        command: 0xE718
+        
+- platform: template
+  name: "CHANNEL_+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0050
+        command: 0xE619
+        

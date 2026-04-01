@@ -1,0 +1,239 @@
+
+- platform: template
+  name: "Power_on"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0xB04F
+        
+- platform: template
+  name: "Power_off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0xB14E
+        
+- platform: template
+  name: "3D"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0x728D
+        
+- platform: template
+  name: "Pip"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0xE41B
+        
+- platform: template
+  name: "Auto"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0xF708
+        
+- platform: template
+  name: "Invert"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0x629D
+        
+- platform: template
+  name: "Swap"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0xED12
+        
+- platform: template
+  name: "Eco_blank"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0xF807
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0xF40B
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0xF30C
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0xF20D
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0xF10E
+        
+- platform: template
+  name: "Enter"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0xEA15
+        
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0x7A85
+        
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0xF00F
+        
+- platform: template
+  name: "Source"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0xFB04
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0xEB14
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0x7C83
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0x7D82
+        
+- platform: template
+  name: "Prev"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0x59A6
+        
+- platform: template
+  name: "Play_pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0xDE21
+        
+- platform: template
+  name: "Next"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0x58A7
+        
+- platform: template
+  name: "Rewind"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0x5BA4
+        
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0x55AA
+        
+- platform: template
+  name: "Fast_Forward"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0x5AA5
+        
+- platform: template
+  name: "Keystone"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0xD52A
+        
+- platform: template
+  name: "Mode"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0xEF10
+        
+- platform: template
+  name: "Bright"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0xE916
+        
+- platform: template
+  name: "Contrast"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0xEE11
+        
+- platform: template
+  name: "Color_temp"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0xA05F
+        
+- platform: template
+  name: "Fine_tune"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0xA25D
+        
+- platform: template
+  name: "Gamma"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0xA15E
+        
+- platform: template
+  name: "Color_manage"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0xA45B
+        
+- platform: template
+  name: "Sharp"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3000
+        command: 0x817E
+        

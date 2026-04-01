@@ -1,0 +1,78 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE710
+        command: 0xFF00
+        
+- platform: template
+  name: "Timer"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9120, -4447, 636, -530, 692, -447, 693, -447, 693, -447, 637, -1625, 636, -504, 635, -506, 634, -507, 633, -1630, 632, -1630, 632, -1631, 631, -508, 632, -508, 632, -1631, 631, -1631, 631, -1631, 631, -1633, 631, -509, 631, -509, 631, -509, 631, -509, 631, -509, 631, -509, 631, -509, 631, -509, 631, -1632, 630, -1632, 630, -1632, 630, -1632, 630, -1632, 631, -1633, 630, -1632, 630, -40985, 9117, -2186, 632]
+    
+- platform: template
+  name: "C_F"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE710
+        command: 0xFB04
+        
+- platform: template
+  name: "High"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE710
+        command: 0xE916
+        
+- platform: template
+  name: "Low"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE710
+        command: 0xF10E
+        
+- platform: template
+  name: "Sleep"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9117, -4473, 610, -530, 609, -530, 693, -448, 692, -448, 636, -1625, 636, -504, 635, -505, 634, -507, 633, -1630, 632, -1630, 632, -1631, 631, -509, 631, -509, 631, -1631, 631, -1631, 631, -1631, 631, -511, 631, -1631, 631, -509, 631, -1631, 631, -509, 631, -509, 631, -509, 631, -509, 631, -1631, 631, -509, 631, -1631, 632, -509, 631, -1631, 631, -1632, 630, -1632, 631, -1631, 631, -40993, 9117, -2182, 633]
+    
+- platform: template
+  name: "Temp_Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE710
+        command: 0xEA15
+        
+- platform: template
+  name: "Temp_Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE710
+        command: 0xF20D
+        
+- platform: template
+  name: "Cool"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE710
+        command: 0xEB14
+        
+- platform: template
+  name: "Dry"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE710
+        command: 0xF30C
+        
+- platform: template
+  name: "Fan"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE710
+        command: 0xF708
+        

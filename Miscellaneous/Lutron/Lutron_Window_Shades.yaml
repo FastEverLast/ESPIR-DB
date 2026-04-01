@@ -1,0 +1,78 @@
+
+- platform: template
+  name: "Close"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 40kHz
+        code: [18304, -2288, 11440, -2288, 2288, -6864, 6864, -2288, 2288, -6864, 2288, -4576, 2288, -11440]
+    
+- platform: template
+  name: "Open"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 40kHz
+        code: [18304, -2288, 11440, -2288, 2288, -6864, 6864, -2288, 2288, -6864, 6864, -2288, 2288, -9152]
+    
+- platform: template
+  name: "Lower"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 40kHz
+        code: [18304, -2288, 11440, -2288, 2288, -4576, 2288, -6864, 2288, -9152, 2288, -2288, 2288, -13728]
+    
+- platform: template
+  name: "Raise"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 40kHz
+        code: [18304, -2288, 11440, -2288, 2288, -4576, 2288, -6864, 2288, -6864, 2288, -6864, 2288, -11440]
+    
+- platform: template
+  name: "Preset 1"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 40kHz
+        code: [18304, -2288, 11440, -2288, 2288, -6864, 6864, -2288, 2288, -4576, 2288, -4576, 2288, -11440]
+    
+- platform: template
+  name: "Preset 2"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 40kHz
+        code: [18304, -2288, 11440, -2288, 2288, -6864, 6864, -2288, 2288, -4576, 2288, -2288, 2288, -2288, 4576, -9152]
+    
+- platform: template
+  name: "Preset 3"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 40kHz
+        code: [18304, -2288, 11440, -2288, 2288, -6864, 6864, -2288, 2288, -2288, 6864, -6864, 2288, -9152]
+    
+- platform: template
+  name: "Programming Mode"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 40kHz
+        code: [18304, -2288, 11440, -2288, 2288, -4576, 2288, -2288, 2288, -11440, 2288, -2288, 2288, -16016]
+    
+- platform: template
+  name: "Set Limits"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 40kHz
+        code: [18304, -2288, 11440, -2288, 2288, -4576, 2288, -2288, 2288, -9152, 6864, -4576, 2288, -11440]
+    
+- platform: template
+  name: "Ind Lvl Adj Mode"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 40kHz
+        code: [18304, -2288, 11440, -2288, 2288, -4576, 2288, -2288, 2288, -9152, 11440, -2288, 2288, -9152]
+    
+- platform: template
+  name: "Preset Lock"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 40kHz
+        code: [18304, -2288, 11440, -2288, 2288, -4576, 2288, -2288, 2288, -9152, 2288, -6864, 2288, -13728]
+    

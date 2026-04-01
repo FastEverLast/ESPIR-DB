@@ -1,0 +1,50 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7080
+        command: 0x3FC0
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7080
+        command: 0x3EC1
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7080
+        command: 0x38C7
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7080
+        command: 0x37C8
+        
+- platform: template
+  name: "Sleep"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7080
+        command: 0x24DB
+        
+- platform: template
+  name: "SurroundOff"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7282
+        command: 0x7689
+        
+- platform: template
+  name: "Display"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7080
+        command: 0x23DC
+        

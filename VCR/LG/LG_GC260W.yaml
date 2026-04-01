@@ -1,0 +1,36 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x916E
+        command: 0xEB14
+        
+- platform: template
+  name: "ez POWER OFF"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x916E
+        command: 0x47B8
+        
+- platform: template
+  name: "EJECT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x916E
+        command: 0xFF00
+        
+- platform: template
+  name: "PLAY"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x916E
+        command: 0xF708
+        
+- platform: template
+  name: "STOP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x916E
+        command: 0xFE01
+        

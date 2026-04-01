@@ -1,0 +1,99 @@
+
+- platform: template
+  name: "On_off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCF00
+        command: 0xBF40
+        
+- platform: template
+  name: "Green"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCF00
+        command: 0xA659
+        
+- platform: template
+  name: "Blue"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCF00
+        command: 0xBA45
+        
+- platform: template
+  name: "Red"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCF00
+        command: 0xA758
+        
+- platform: template
+  name: "Orange"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCF00
+        command: 0xAB54
+        
+- platform: template
+  name: "Purp"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCF00
+        command: 0xE11E
+        
+- platform: template
+  name: "Yellow"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCF00
+        command: 0xE718
+        
+- platform: template
+  name: "Slow"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCF00
+        command: 0xEC13
+        
+- platform: template
+  name: "White"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCF00
+        command: 0xBB44
+        
+- platform: template
+  name: "Dark_green"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCF00
+        command: 0xE21D
+        
+- platform: template
+  name: "Up_light"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCF00
+        command: 0xA35C
+        
+- platform: template
+  name: "Down_light"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCF00
+        command: 0xA25D
+        
+- platform: template
+  name: "Flash"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCF00
+        command: 0xF40B
+        
+- platform: template
+  name: "Quik"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCF00
+        command: 0xF00F
+        

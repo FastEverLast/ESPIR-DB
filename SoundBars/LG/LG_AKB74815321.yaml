@@ -1,0 +1,126 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x34347887
+        nbits: 32
+
+- platform: template
+  name: "Function"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x343451AE
+        nbits: 32
+
+- platform: template
+  name: "Sound_effect"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x3434F40B
+        nbits: 32
+
+- platform: template
+  name: "Night_mode"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x34349966
+        nbits: 32
+
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x3434F807
+        nbits: 32
+
+- platform: template
+  name: "Settings"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x343419E6
+        nbits: 32
+
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x3434E817
+        nbits: 32
+
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x34346897
+        nbits: 32
+
+- platform: template
+  name: "Previous"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x3434609F
+        nbits: 32
+
+- platform: template
+  name: "Next"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x3434E01F
+        nbits: 32
+
+- platform: template
+  name: "Play/Pause"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x3434F20D
+        nbits: 32
+
+- platform: template
+  name: "Folder_+"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x343430CF
+        nbits: 32
+
+- platform: template
+  name: "Folder_-"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x3434B04F
+        nbits: 32
+
+- platform: template
+  name: "Repeat"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x3434728D
+        nbits: 32
+
+- platform: template
+  name: "AV_sync"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x34349B64
+        nbits: 32
+
+- platform: template
+  name: "Auto_vol"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x343438C7
+        nbits: 32
+
+- platform: template
+  name: "Auto_power"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x3434C936
+        nbits: 32
+
+- platform: template
+  name: "DRC"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x343446B9
+        nbits: 32

@@ -1,0 +1,141 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA129
+        command: 0x807F
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA129
+        command: 0x649B
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA129
+        command: 0x619E
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA129
+        command: 0x609F
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA129
+        command: 0x629D
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA129
+        command: 0x639C
+        
+- platform: template
+  name: "PlayPause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA129
+        command: 0x659A
+        
+- platform: template
+  name: "Opt"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA129
+        command: 0x57A8
+        
+- platform: template
+  name: "Coax"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA129
+        command: 0x56A9
+        
+- platform: template
+  name: "BT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA129
+        command: 0x32CD
+        
+- platform: template
+  name: "USB"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA129
+        command: 0x31CE
+        
+- platform: template
+  name: "Aux"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA129
+        command: 0x54AB
+        
+- platform: template
+  name: "Movie"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA129
+        command: 0xD52A
+        
+- platform: template
+  name: "Music"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA129
+        command: 0xD42B
+        
+- platform: template
+  name: "Dialog"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA129
+        command: 0x44BB
+        
+- platform: template
+  name: "Treb+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA129
+        command: 0x52AD
+        
+- platform: template
+  name: "Treb-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA129
+        command: 0x51AE
+        
+- platform: template
+  name: "Bass+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA129
+        command: 0x50AF
+        
+- platform: template
+  name: "Bass-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA129
+        command: 0x43BC
+        
+- platform: template
+  name: "Reset"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xA129
+        command: 0xD32C
+        

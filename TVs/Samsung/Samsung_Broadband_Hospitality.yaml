@@ -1,0 +1,259 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E040BF
+        nbits: 32
+
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x98B4E
+        nbits: 20
+
+- platform: template
+  name: "Play"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x58B4E
+        nbits: 20
+
+- platform: template
+  name: "Pause"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x58B4E
+        nbits: 20
+
+- platform: template
+  name: "Reverse"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xD8B4E
+        nbits: 20
+
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x5CB4E
+        nbits: 20
+
+- platform: template
+  name: "Fast_forward"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x38B4E
+        nbits: 20
+
+- platform: template
+  name: "Check"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x1CB4E
+        nbits: 20
+
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x916E
+        command: 0xF807
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x916E
+        command: 0xF20D
+        
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x916E
+        command: 0xF50A
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x916E
+        command: 0xF609
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x916E
+        command: 0xF40B
+        
+- platform: template
+  name: "Left_arrow"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x76B4E
+        nbits: 20
+
+- platform: template
+  name: "Cc"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xFAB4E
+        nbits: 20
+
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0E01F
+        nbits: 32
+
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0D02F
+        nbits: 32
+
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0F00F
+        nbits: 32
+
+- platform: template
+  name: "Info"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x9C21
+        command: 0xE619
+        
+- platform: template
+  name: "Ch_next"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x8B4E
+        nbits: 20
+
+- platform: template
+  name: "Ch_prev"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x88B4E
+        nbits: 20
+
+- platform: template
+  name: "Red_triangle"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [855, -815, 856, -813, 858, -814, 857, -814, 857, -2530, 830, -841, 830, -2530, 831, -2530, 855, -2505, 855, -817, 853, -2508, 851, -822, 849, -2512, 849, -2512, 849, -2512, 849, -2512, 849, -822, 849, -2512, 822, -37968, 3276, -3410, 768, -903, 768, -904, 768, -903, 741, -2621, 768, -904, 389]
+    
+- platform: template
+  name: "Blue_circle"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x8B4E
+        nbits: 20
+
+- platform: template
+  name: "Green_square"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x9C21
+        command: 0xEC13
+        
+- platform: template
+  name: "Yellow_x"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x9C21
+        command: 0xE916
+        
+- platform: template
+  name: "1"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xB4E
+        nbits: 20
+
+- platform: template
+  name: "2"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x80B4E
+        nbits: 20
+
+- platform: template
+  name: "3"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x40B4E
+        nbits: 20
+
+- platform: template
+  name: "4"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xC0B4E
+        nbits: 20
+
+- platform: template
+  name: "5"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x20B4E
+        nbits: 20
+
+- platform: template
+  name: "6"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xA0B4E
+        nbits: 20
+
+- platform: template
+  name: "7"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x60B4E
+        nbits: 20
+
+- platform: template
+  name: "8"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xE0B4E
+        nbits: 20
+
+- platform: template
+  name: "9"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x10B4E
+        nbits: 20
+
+- platform: template
+  name: "Sleep"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [225, -353, 487, -963, 165, -3206, 129, -1021, 117, -2674, 343, -4270, 355, -2676, 323, -3310, 420, -996, 127, -3816, 198, -1969, 119, -353, 199, -689, 481, -12353, 463]
+    
+- platform: template
+  name: "0"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x90B4E
+        nbits: 20
+
+- platform: template
+  name: "Enter"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x52B4E
+        nbits: 20

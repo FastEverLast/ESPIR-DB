@@ -1,0 +1,168 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x08087887
+        nbits: 32
+
+- platform: template
+  name: "Eject"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x080859A6
+        nbits: 32
+
+- platform: template
+  name: "VOL +"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x0808E817
+        nbits: 32
+
+- platform: template
+  name: "VOL -"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x08086897
+        nbits: 32
+
+- platform: template
+  name: "Function"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x0808C03F
+        nbits: 32
+
+- platform: template
+  name: "MUTE"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x0808F807
+        nbits: 32
+
+- platform: template
+  name: "PF +"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x0808C837
+        nbits: 32
+
+- platform: template
+  name: "PF -"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x080848B7
+        nbits: 32
+
+- platform: template
+  name: "Memory"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x0808B24D
+        nbits: 32
+
+- platform: template
+  name: "Repeat"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [4536, -4442, 617, -519, 618, -519, 618, -520, 617, -518, 619, -1658, 589, -520, 618, -520, 617, -521, 618, -522, 671, -492, 645, -492, 645, -492, 645, -1602, 644, -494, 588, -548, 589, -550, 589, -548, 589, -1658, 589, -1658, 615, -1632, 615, -522, 615, -523, 614, -1633, 613, -525, 614, -1634, 613, -524, 613, -525, 612, -525, 612, -1635, 612, -1635, 612, -526, 611, -1636, 612]
+    
+- platform: template
+  name: "Delete"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x08080DF2
+        nbits: 32
+
+- platform: template
+  name: "Sound Effect"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [4534, -4470, 588, -548, 589, -518, 619, -520, 617, -518, 619, -1629, 618, -548, 589, -520, 617, -521, 673, -492, 646, -491, 646, -491, 646, -491, 646, -1601, 589, -548, 589, -548, 589, -550, 589, -548, 589, -548, 615, -522, 615, -522, 615, -522, 614, -523, 614, -1633, 613, -526, 612, -1634, 613, -1635, 612, -1635, 612, -1635, 612, -1635, 612, -1635, 612, -525, 612, -1636, 612, -51305, 4528, -4447, 613, -1635, 613, -95919, 4556, -4446, 613, -1634, 613]
+    
+- platform: template
+  name: "Skip Back"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x0808609F
+        nbits: 32
+
+- platform: template
+  name: "Skip"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x080820DF
+        nbits: 32
+
+- platform: template
+  name: "Play / Pause"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x0808E01F
+        nbits: 32
+
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x0808A05F
+        nbits: 32
+
+- platform: template
+  name: "Info"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x0808EE11
+        nbits: 32
+
+- platform: template
+  name: "Dimmer"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x08087A85
+        nbits: 32
+
+- platform: template
+  name: "Sleep"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x080843BC
+        nbits: 32
+
+- platform: template
+  name: "Clock"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x080830CF
+        nbits: 32
+
+- platform: template
+  name: "Alarm"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x0808B04F
+        nbits: 32
+
+- platform: template
+  name: "RDS / SET"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [4499, -4451, 610, -525, 612, -525, 612, -525, 612, -527, 610, -1635, 611, -526, 611, -525, 612, -526, 612, -524, 612, -523, 667, -469, 614, -522, 670, -1576, 670, -467, 727, -411, 725, -415, 723, -440, 614, -523, 614, -523, 614, -524, 613, -525, 612, -1635, 612, -1635, 612, -527, 612, -1636, 611, -1636, 611, -1636, 611, -1636, 611, -1636, 611, -526, 611, -526, 611, -1637, 610, -51298, 4527, -4448, 612, -1635, 612, -95920, 4554, -4446, 613, -1635, 612]
+    
+- platform: template
+  name: "USB REC"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [4529, -4446, 615, -521, 616, -522, 615, -521, 616, -521, 616, -1632, 615, -522, 615, -521, 616, -523, 749, -388, 615, -522, 615, -522, 615, -523, 614, -1660, 587, -549, 588, -550, 587, -551, 588, -1660, 613, -523, 614, -1633, 614, -524, 613, -1634, 613, -525, 612, -525, 612, -527, 612, -526, 611, -1636, 611, -526, 611, -1636, 611, -526, 611, -1636, 611, -1636, 611, -1637, 610, -51301, 4528, -4447, 612, -1635, 612]
+    
+- platform: template
+  name: "PTY"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x08088E71
+        nbits: 32

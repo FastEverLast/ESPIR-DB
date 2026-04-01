@@ -1,0 +1,50 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCA41
+        command: 0xFF00
+        
+- platform: template
+  name: "UP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCA41
+        command: 0x9768
+        
+- platform: template
+  name: "DOWN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCA41
+        command: 0x57A8
+        
+- platform: template
+  name: "VIDEO"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCA41
+        command: 0x9F60
+        
+- platform: template
+  name: "OPTION"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCA41
+        command: 0xBF40
+        
+- platform: template
+  name: "SIZE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCA41
+        command: 0x7F80
+        
+- platform: template
+  name: "DISPLAY"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCA41
+        command: 0xA758
+        

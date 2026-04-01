@@ -1,0 +1,141 @@
+
+- platform: template
+  name: "VCR_RECORD"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0043
+        command: 0xFD02
+        
+- platform: template
+  name: "VCR_STOP[]"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0043
+        command: 0xFC03
+        
+- platform: template
+  name: "VCR_FFWD>>"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0043
+        command: 0xF906
+        
+- platform: template
+  name: "VCR_REW<<"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0043
+        command: 0xF807
+        
+- platform: template
+  name: "VCR_POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0043
+        command: 0xF40B
+        
+- platform: template
+  name: "VCR_PLAY>"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0043
+        command: 0xF30C
+        
+- platform: template
+  name: "VCR_PAUSE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0043
+        command: 0xF20D
+        
+- platform: template
+  name: "VCR_CH-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0043
+        command: 0xE718
+        
+- platform: template
+  name: "VCR_CH+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0043
+        command: 0xE619
+        
+- platform: template
+  name: "SP/EP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0043
+        command: 0xCE31
+        
+- platform: template
+  name: "TIMER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0043
+        command: 0xCA35
+        
+- platform: template
+  name: "CANCEL/C.RESET/SKIP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0043
+        command: 0xC936
+        
+- platform: template
+  name: "MENU"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0043
+        command: 0xC837
+        
+- platform: template
+  name: "DISPLAY"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0043
+        command: 0xC738
+        
+- platform: template
+  name: "SELECT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0043
+        command: 0xC33C
+        
+- platform: template
+  name: "ENTER/OSD"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0043
+        command: 0xC13E
+        
+- platform: template
+  name: "C_MEMORY/ADD"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0043
+        command: 0x6F90
+        
+- platform: template
+  name: "SKIP_SEARCH"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0043
+        command: 0x6996
+        
+- platform: template
+  name: "RE-VIEW"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0043
+        command: 0x3CC3
+        
+- platform: template
+  name: "VCR_RECORD(REC&PLAY)"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0043
+        command: 0x33CC
+        

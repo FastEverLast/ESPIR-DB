@@ -1,0 +1,57 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCF30
+        command: 0x7788
+        
+- platform: template
+  name: "Dry_clothing"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCF30
+        command: 0x7986
+        
+- platform: template
+  name: "Osc_vert"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCF30
+        command: 0x6A95
+        
+- platform: template
+  name: "Osc_horiz"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCF30
+        command: 0x7C83
+        
+- platform: template
+  name: "Speed_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCF30
+        command: 0x738C
+        
+- platform: template
+  name: "Speed_down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCF30
+        command: 0x7887
+        
+- platform: template
+  name: "On_timer"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCF30
+        command: 0x7A85
+        
+- platform: template
+  name: "Off_timer"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCF30
+        command: 0x639C
+        

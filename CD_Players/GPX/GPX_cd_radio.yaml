@@ -1,0 +1,42 @@
+
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x8181906F
+        nbits: 32
+
+- platform: template
+  name: "Play_pause"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x8181807F
+        nbits: 32
+
+- platform: template
+  name: "Skip_bck"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x81819867
+        nbits: 32
+
+- platform: template
+  name: "Skip_fwd"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x81818877
+        nbits: 32
+
+- platform: template
+  name: "Prog"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x818158A7
+        nbits: 32
+
+- platform: template
+  name: "Repeat"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x818140BF
+        nbits: 32

@@ -1,0 +1,29 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFC00
+        command: 0x7B84
+        
+- platform: template
+  name: "1300_2500"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFC00
+        command: 0x7D82
+        
+- platform: template
+  name: "Timer"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFC00
+        command: 0x7986
+        
+- platform: template
+  name: "Oscilate"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFC00
+        command: 0x7887
+        

@@ -1,0 +1,35 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x04
+        command: 0x0C
+
+- platform: template
+  name: "PLAY"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x04
+        command: 0x2C
+
+- platform: template
+  name: "STOP"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x04
+        command: 0x31
+
+- platform: template
+  name: "ZOOM"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x04
+        command: 0xF7
+
+- platform: template
+  name: "MUTE"
+  on_press:
+    - remote_transmitter.transmit_rc6:
+        address: 0x04
+        command: 0x0D

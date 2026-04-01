@@ -1,0 +1,36 @@
+
+- platform: template
+  name: "FULL ON"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 40kHz
+        code: [20592, -6863, 2288, -9152, 2288, -6863, 2288, -4576, 2288, -2288, 11440, -11440]
+    
+- platform: template
+  name: "OFF"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 40kHz
+        code: [20592, -6864, 2288, -9152, 11440, -2288, 2288, -6864, 2288, -2288, 2288, -13728]
+    
+- platform: template
+  name: "Raise"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 40kHz
+        code: [20592, -6864, 2288, -9152, 2288, -9152, 2288, -6864, 2288, -4576, 2288, -13728]
+    
+- platform: template
+  name: "Lower"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 40kHz
+        code: [20592, -6864, 2288, -9152, 2288, -9152, 2288, -9152, 2288, -4576, 2288, -11440]
+    
+- platform: template
+  name: "Favorite"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 40kHz
+        code: [20592, -6864, 2288, -9152, 2288, -6864, 2288, -4576, 2288, -2288, 4576, -6864, 2288, -9152]
+    

@@ -1,0 +1,113 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7B80
+        command: 0xEC13
+        
+- platform: template
+  name: "Eject"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7B80
+        command: 0xB14E
+        
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7B80
+        command: 0xAF50
+        
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7B80
+        command: 0xBA45
+        
+- platform: template
+  name: "Fast_fo"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7B80
+        command: 0xE718
+        
+- platform: template
+  name: "Fast_ba"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7B80
+        command: 0xE619
+        
+- platform: template
+  name: "Pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7B80
+        command: 0xE51A
+        
+- platform: template
+  name: "Play"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7B80
+        command: 0xE916
+        
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7B80
+        command: 0xE817
+        
+- platform: template
+  name: "Ch_next"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7B80
+        command: 0xF50A
+        
+- platform: template
+  name: "Ch_prev"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7B80
+        command: 0xF40B
+        
+- platform: template
+  name: "Record"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7B80
+        command: 0xEA15
+        
+- platform: template
+  name: "Cancel"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7B80
+        command: 0xB54A
+        
+- platform: template
+  name: "AutoTrack"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7B80
+        command: 0xAD52
+        
+- platform: template
+  name: "Index"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7B80
+        command: 0xEB14
+        
+- platform: template
+  name: "ZeroReturn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7B80
+        command: 0xB44B
+        

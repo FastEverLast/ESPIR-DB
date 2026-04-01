@@ -1,0 +1,78 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF508
+        command: 0xEE11
+        
+- platform: template
+  name: "TEMP+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF508
+        command: 0xF10E
+        
+- platform: template
+  name: "TEMP-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF508
+        command: 0xF20D
+        
+- platform: template
+  name: "Cool"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF508
+        command: 0xF609
+        
+- platform: template
+  name: "High"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF508
+        command: 0xFF00
+        
+- platform: template
+  name: "Med"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF508
+        command: 0xFE01
+        
+- platform: template
+  name: "Low"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF508
+        command: 0xFB04
+        
+- platform: template
+  name: "Timer"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF508
+        command: 0xF906
+        
+- platform: template
+  name: "One Touch"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF508
+        command: 0xF00F
+        
+- platform: template
+  name: "Fan Only"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF508
+        command: 0xF807
+        
+- platform: template
+  name: "POWER Saver"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF508
+        command: 0xFD02
+        

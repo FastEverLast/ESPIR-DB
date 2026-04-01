@@ -1,0 +1,64 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xFD02
+        
+- platform: template
+  name: "Mode"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xF609
+        
+- platform: template
+  name: "Fan_auto"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xF40B
+        
+- platform: template
+  name: "Fan_3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xEC13
+        
+- platform: template
+  name: "Fan_2"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [8983, -3497, 180, -797, 563, -567, 570, -560, 567, -563, 543, -560, 567, -563, 564, -1669, 565, -565, 562, -541, 565, -1694, 561, -1673, 571, -1662, 572, -1688, 567, -1667, 567, -563, 564, -1670, 564, -1669, 565, -565, 572, -558, 569, -561, 545, -558, 569, -1690, 544, -560, 567, -563, 564, -565, 541, -1692, 563, -1671, 563, -1671, 563, -1670, 595, -562, 544, -1689, 566, -1668, 566, -1667, 567, -39806, 8977, -2247, 649]
+    
+- platform: template
+  name: "Fan_1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xFF00
+        
+- platform: template
+  name: "TEMP+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xF50A
+        
+- platform: template
+  name: "TEMP-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xEE11
+        
+- platform: template
+  name: "Timer"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xDF20
+        command: 0xE619
+        

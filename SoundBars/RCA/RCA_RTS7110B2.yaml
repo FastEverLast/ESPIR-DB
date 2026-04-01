@@ -1,0 +1,64 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x758A
+        command: 0xA35C
+        
+- platform: template
+  name: "Pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x758A
+        command: 0xBA45
+        
+- platform: template
+  name: "Play"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x758A
+        command: 0xBA45
+        
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x758A
+        command: 0xBA45
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x758A
+        command: 0xB14E
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x758A
+        command: 0xAA55
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x758A
+        command: 0xA659
+        
+- platform: template
+  name: "Input+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x758A
+        command: 0xA857
+        
+- platform: template
+  name: "Input-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x758A
+        command: 0xA45B
+        

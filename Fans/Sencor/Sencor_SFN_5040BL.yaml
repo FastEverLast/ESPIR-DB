@@ -1,0 +1,43 @@
+
+- platform: template
+  name: "ON_Speed"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFC00
+        command: 0x7B84
+        
+- platform: template
+  name: "OFF"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFC00
+        command: 0x7F80
+        
+- platform: template
+  name: "Mode_1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFC00
+        command: 0x7A85
+        
+- platform: template
+  name: "Swing_2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFC00
+        command: 0x7E81
+        
+- platform: template
+  name: "Timer_3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFC00
+        command: 0x7986
+        
+- platform: template
+  name: "Shift"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFC00
+        command: 0x7D82
+        

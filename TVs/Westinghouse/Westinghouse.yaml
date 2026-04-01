@@ -1,0 +1,106 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xB946
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xF30C
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xE619
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xB748
+        
+- platform: template
+  name: "Dwn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xB24D
+        
+- platform: template
+  name: "Rt"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xB649
+        
+- platform: template
+  name: "Lft"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xB14E
+        
+- platform: template
+  name: "Enter"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xB54A
+        
+- platform: template
+  name: "Exit"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xF20D
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xB34C
+        
+- platform: template
+  name: "Source"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xB44B
+        
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xBA45
+        
+- platform: template
+  name: "Ch_next"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xF00F
+        
+- platform: template
+  name: "Ch_prev"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xA55A
+        
+- platform: template
+  name: "Return"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xE916
+        

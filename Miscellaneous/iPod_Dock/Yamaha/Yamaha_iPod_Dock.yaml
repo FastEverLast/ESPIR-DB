@@ -1,0 +1,85 @@
+
+- platform: template
+  name: "CURSOR_UP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x017F
+        command: 0xF10E
+        
+- platform: template
+  name: "MENU"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x017F
+        command: 0xF00F
+        
+- platform: template
+  name: "ENTER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x017F
+        command: 0xEE11
+        
+- platform: template
+  name: "CURSOR_DOWN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x017F
+        command: 0xEB14
+        
+- platform: template
+  name: "DISPLAY"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x017F
+        command: 0xEA15
+        
+- platform: template
+  name: "REW"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x017F
+        command: 0xE817
+        
+- platform: template
+  name: "FF"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x017F
+        command: 0xE718
+        
+- platform: template
+  name: "PAUSE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x017F
+        command: 0xE51A
+        
+- platform: template
+  name: "SKIP_<<"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x017F
+        command: 0xE41B
+        
+- platform: template
+  name: "SKIP_>>"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x017F
+        command: 0xE31C
+        
+- platform: template
+  name: "STOP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x017F
+        command: 0xE21D
+        
+- platform: template
+  name: "PLAY"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x017F
+        command: 0xE11E
+        

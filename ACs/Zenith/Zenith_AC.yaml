@@ -1,0 +1,50 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6681
+        command: 0x7E81
+        
+- platform: template
+  name: "TEMP-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6681
+        command: 0x758A
+        
+- platform: template
+  name: "TEMP+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6681
+        command: 0x7A85
+        
+- platform: template
+  name: "Fan_speed"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6681
+        command: 0x6699
+        
+- platform: template
+  name: "Timer"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6681
+        command: 0x609F
+        
+- platform: template
+  name: "MODE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6681
+        command: 0x649B
+        
+- platform: template
+  name: "Energy_saver"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6681
+        command: 0x7D82
+        

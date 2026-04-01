@@ -1,0 +1,29 @@
+
+- platform: template
+  name: "Abzugsh_1"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1506, -1380, 784, -1407, 2176, -1410, 780, -1413, 777, -692, 750, -1441, 750, -2190, 719]
+    
+- platform: template
+  name: "Abzugsh_2"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1477, -1439, 750, -2935, 749, -2191, 3529, -2200, 2135]
+    
+- platform: template
+  name: "Abzugsh_3"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [745, -2220, 2805, -2947, 2135, -702, 742, -2223, 2108]
+    
+- platform: template
+  name: "Abzugsh_Licht"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [717, -1448, 741, -704, 1438, -755, 689, -1476, 716, -729, 1412, -2946, 742, -728, 714, -731, 1356]
+    

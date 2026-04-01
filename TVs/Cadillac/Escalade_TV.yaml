@@ -1,0 +1,85 @@
+
+- platform: template
+  name: "Escalade_tv_power"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [176, -67152, 1091]
+    
+- platform: template
+  name: "Play_pause"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [415, -4426, 210]
+    
+- platform: template
+  name: "Media"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1062, -135490, 388]
+    
+- platform: template
+  name: "Skip_fwd"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [181, -1120, 131, -1539, 561]
+    
+- platform: template
+  name: "Skip_bck"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [235, -132206, 1116]
+    
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [330, -666, 288]
+    
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [206, -3069, 232]
+    
+- platform: template
+  name: "Enter"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xBA45
+        command: 0xDE21
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xBA45
+        command: 0xB24D
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xBA45
+        command: 0xAE51
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xBA45
+        command: 0x7F80
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1061, -57464, 176]
+    

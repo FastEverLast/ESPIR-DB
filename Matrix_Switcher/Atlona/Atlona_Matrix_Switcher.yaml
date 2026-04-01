@@ -1,0 +1,120 @@
+
+- platform: template
+  name: "OUTPUT_D:_INPUT_2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6B86
+        command: 0xFF00
+        
+- platform: template
+  name: "OUTPUT_A:_INPUT_1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6B86
+        command: 0xFE01
+        
+- platform: template
+  name: "OUTPUT_A:_INPUT_2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6B86
+        command: 0xFD02
+        
+- platform: template
+  name: "OUTPUT_A:_INPUT_3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6B86
+        command: 0xFC03
+        
+- platform: template
+  name: "OUTPUT_B:_INPUT_1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6B86
+        command: 0xFB04
+        
+- platform: template
+  name: "OUTPUT_B:_INPUT_2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6B86
+        command: 0xFA05
+        
+- platform: template
+  name: "OUTPUT_B:_INPUT_3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6B86
+        command: 0xF906
+        
+- platform: template
+  name: "OUTPUT_C:_INPUT_1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6B86
+        command: 0xF807
+        
+- platform: template
+  name: "OUTPUT_C:_INPUT_2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6B86
+        command: 0xF708
+        
+- platform: template
+  name: "OUTPUT_C:_INPUT_3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6B86
+        command: 0xF609
+        
+- platform: template
+  name: "OUTPUT_D:_INPUT_1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6B86
+        command: 0xEE11
+        
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6B86
+        command: 0xED12
+        
+- platform: template
+  name: "OUTPUT_D:_INPUT_3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6B86
+        command: 0xE817
+        
+- platform: template
+  name: "OUTPUT_A:_INPUT_4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6B86
+        command: 0xE51A
+        
+- platform: template
+  name: "OUTPUT_C:_INPUT_4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6B86
+        command: 0xE41B
+        
+- platform: template
+  name: "OUTPUT_B:_INPUT_4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6B86
+        command: 0xE11E
+        
+- platform: template
+  name: "OUTPUT_D:_INPUT_4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6B86
+        command: 0xE01F
+        

@@ -1,0 +1,78 @@
+
+- platform: template
+  name: "Enter"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D82
+        command: 0xFC03
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D82
+        command: 0xF40B
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D82
+        command: 0xF906
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D82
+        command: 0xFD02
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D82
+        command: 0xF20D
+        
+- platform: template
+  name: "Exit"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D82
+        command: 0xF00F
+        
+- platform: template
+  name: "Slide_Show"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D82
+        command: 0xFB04
+        
+- platform: template
+  name: "Zoom"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D82
+        command: 0xF50A
+        
+- platform: template
+  name: "Rotate"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D82
+        command: 0xF609
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D82
+        command: 0xF708
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D82
+        command: 0xF10E
+        

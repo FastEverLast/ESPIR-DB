@@ -1,0 +1,99 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xBD02
+        command: 0xAC53
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xBD02
+        command: 0x52AD
+        
+- platform: template
+  name: "Play/Pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xBD02
+        command: 0xF20D
+        
+- platform: template
+  name: "Vol+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xBD02
+        command: 0xD926
+        
+- platform: template
+  name: "Vol-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xBD02
+        command: 0xD728
+        
+- platform: template
+  name: "Next"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xBD02
+        command: 0xD827
+        
+- platform: template
+  name: "Previous"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xBD02
+        command: 0xDA25
+        
+- platform: template
+  name: "HDMI ARC"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xBD02
+        command: 0x926D
+        
+- platform: template
+  name: "OPTICAL"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xBD02
+        command: 0xB24D
+        
+- platform: template
+  name: "BT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xBD02
+        command: 0xE41B
+        
+- platform: template
+  name: "VOICE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xBD02
+        command: 0xE916
+        
+- platform: template
+  name: "NEWS"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xBD02
+        command: 0x946B
+        
+- platform: template
+  name: "MUSIC"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xBD02
+        command: 0xDF20
+        
+- platform: template
+  name: "MOVIE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xBD02
+        command: 0xF708
+        

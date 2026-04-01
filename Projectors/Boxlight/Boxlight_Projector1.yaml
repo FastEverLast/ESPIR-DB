@@ -1,0 +1,113 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0030
+        command: 0xFF00
+        
+- platform: template
+  name: "D_ZOOM+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0030
+        command: 0xFE01
+        
+- platform: template
+  name: "D_ZOOM-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0030
+        command: 0xFD02
+        
+- platform: template
+  name: "VIDEO_1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0030
+        command: 0xFA05
+        
+- platform: template
+  name: "COMPUTER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0030
+        command: 0xF807
+        
+- platform: template
+  name: "MENU"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0030
+        command: 0xE31C
+        
+- platform: template
+  name: "NORMAL"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0030
+        command: 0xE01F
+        
+- platform: template
+  name: "FREEZE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0030
+        command: 0xBC43
+        
+- platform: template
+  name: "ZOOM-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0030
+        command: 0xB946
+        
+- platform: template
+  name: "ZOOM+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0030
+        command: 0xB847
+        
+- platform: template
+  name: "FOCUS+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0030
+        command: 0xB54A
+        
+- platform: template
+  name: "FOCUS-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0030
+        command: 0xB44B
+        
+- platform: template
+  name: "AUTP_IMAGE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0030
+        command: 0x7689
+        
+- platform: template
+  name: "NO_SHOW"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0030
+        command: 0x748B
+        
+- platform: template
+  name: "KEYSTONE+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0030
+        command: 0x718E
+        
+- platform: template
+  name: "KEYSTONE-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0030
+        command: 0x708F
+        

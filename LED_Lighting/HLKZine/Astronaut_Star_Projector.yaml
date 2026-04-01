@@ -1,0 +1,85 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD07
+        command: 0x00FF
+        
+- platform: template
+  name: "La-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD07
+        command: 0xF30C
+        
+- platform: template
+  name: "La+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD07
+        command: 0xF20D
+        
+- platform: template
+  name: "La-mode"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD07
+        command: 0xF10E
+        
+- platform: template
+  name: "La power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD07
+        command: 0xF00F
+        
+- platform: template
+  name: "Reset"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD07
+        command: 0xE51A
+        
+- platform: template
+  name: "B+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD07
+        command: 0xFE01
+        
+- platform: template
+  name: "B-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD07
+        command: 0xFA05
+        
+- platform: template
+  name: "S-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD07
+        command: 0xFD02
+        
+- platform: template
+  name: "S+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD07
+        command: 0xFB04
+        
+- platform: template
+  name: "Nebula"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD07
+        command: 0xFC03
+        
+- platform: template
+  name: "Timer"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFD07
+        command: 0xF40B
+        

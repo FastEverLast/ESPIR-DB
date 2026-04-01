@@ -1,0 +1,169 @@
+
+- platform: template
+  name: "ON"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF807
+        
+- platform: template
+  name: "OFF"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF906
+        
+- platform: template
+  name: "FLASH"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF00F
+        
+- platform: template
+  name: "STROBE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xE817
+        
+- platform: template
+  name: "FADE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xE41B
+        
+- platform: template
+  name: "SMOOTH"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xEC13
+        
+- platform: template
+  name: "BRIGHTNES-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xFB04
+        
+- platform: template
+  name: "BRIGHTNES+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xFA05
+        
+- platform: template
+  name: "WHITE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF40B
+        
+- platform: template
+  name: "RED"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF609
+        
+- platform: template
+  name: "GREEN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF708
+        
+- platform: template
+  name: "BLUE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF50A
+        
+- platform: template
+  name: "LIGHT_RED"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF20D
+        
+- platform: template
+  name: "LIGHT_GREEN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF30C
+        
+- platform: template
+  name: "LIGHT_BLUE"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9144, -4440, 608, -530, 503, -664, 421, -689, 580, -559, 608, -529, 582, -587, 547, -535, 635, -529, 609, -1615, 609, -1671, 607, -1722, 395, -1802, 554, -1668, 610, -1642, 611, -1694, 527, -1670, 582, -556, 608, -1642, 609, -1641, 611, -1640, 633, -506, 581, -586, 580, -532, 607, -555, 582, -1616, 633, -587, 552, -531, 607, -556, 554, -1697, 555, -1670, 609, -1669, 551, -1699, 582, -39942, 9039, -2322, 500, -96415, 9122, -2187, 636, -96369, 9143, -2189, 635, -96411, 9093, -2188, 637, -96406, 9009, -2269, 608, -96435, 9118, -2214, 449, -96570, 9065, -2186, 635, -96402, 9066, -2214, 637, -96436, 9064, -2188, 608, -96410, 9123, -2182, 641, -96365, 9154, -2156, 669, -96360, 9153, -2180, 644, -96370, 9153, -2184, 641, -96367, 9150, -2184, 641, -96374, 9151, -2184, 640, -96357, 9149, -2184, 640, -96358, 9151, -2184, 641, -96362, 9150, -2183, 641, -96359, 9150, -2184, 641, -96371, 9151, -2183, 641]
+    
+- platform: template
+  name: "ORANGE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xEA15
+        
+- platform: template
+  name: "LIGHT_CYAN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xEB14
+        
+- platform: template
+  name: "DARK_PURPLE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xE916
+        
+- platform: template
+  name: "LIGHT_ORANGE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xE619
+        
+- platform: template
+  name: "CYAN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xE718
+        
+- platform: template
+  name: "PURPLE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xE51A
+        
+- platform: template
+  name: "YELLOW"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xEE11
+        
+- platform: template
+  name: "DARK_CYAN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xEF10
+        
+- platform: template
+  name: "PINK"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xED12
+        

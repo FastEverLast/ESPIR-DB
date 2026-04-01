@@ -1,0 +1,113 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x08F7
+        command: 0x28D7
+        
+- platform: template
+  name: "Home"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x08F7
+        command: 0x2ED1
+        
+- platform: template
+  name: "OK"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x08F7
+        command: 0x649B
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x08F7
+        command: 0x6D92
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x08F7
+        command: 0x27D8
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x08F7
+        command: 0x6897
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x08F7
+        command: 0x609F
+        
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x08F7
+        command: 0x23DC
+        
+- platform: template
+  name: "Option"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x08F7
+        command: 0x3CC3
+        
+- platform: template
+  name: "Input"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x08F7
+        command: 0x2CD3
+        
+- platform: template
+  name: "Remote"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x08F7
+        command: 0x5CA3
+        
+- platform: template
+  name: "Pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x08F7
+        command: 0x24DB
+        
+- platform: template
+  name: "Screen_Shade"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x08F7
+        command: 0x748B
+        
+- platform: template
+  name: "Volume_Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x08F7
+        command: 0x7986
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x08F7
+        command: 0x20DF
+        
+- platform: template
+  name: "Volume_Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x08F7
+        command: 0x7C83
+        

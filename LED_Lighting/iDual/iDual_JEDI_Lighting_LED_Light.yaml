@@ -1,0 +1,183 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xFE01
+        
+- platform: template
+  name: "Off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xFD02
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xF609
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xEF10
+        
+- platform: template
+  name: "Cold_White"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xFC03
+        
+- platform: template
+  name: "Neutral_White"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xF50A
+        
+- platform: template
+  name: "Warm_White"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xE916
+        
+- platform: template
+  name: "Cozy_White"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xEE11
+        
+- platform: template
+  name: "Relaxing"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xFB04
+        
+- platform: template
+  name: "Working"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xF40B
+        
+- platform: template
+  name: "Sleeping"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xE817
+        
+- platform: template
+  name: "Night_Light"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xED12
+        
+- platform: template
+  name: "Sunrise"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xEC13
+        
+- platform: template
+  name: "Pastel_Colours"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xE718
+        
+- platform: template
+  name: "Party"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xF30C
+        
+- platform: template
+  name: "Sunset"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xFA05
+        
+- platform: template
+  name: "Forest"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xEB14
+        
+- platform: template
+  name: "Ocean"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xE619
+        
+- platform: template
+  name: "Fireplace"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xF20D
+        
+- platform: template
+  name: "Romance"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xF906
+        
+- platform: template
+  name: "Red"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xF10E
+        
+- platform: template
+  name: "Yellow"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xF807
+        
+- platform: template
+  name: "Green"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xF708
+        
+- platform: template
+  name: "Blue"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xEA15
+        
+- platform: template
+  name: "Vivid_Shift"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xE51A
+        
+- platform: template
+  name: "Pastel_Shift"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFE02
+        command: 0xF00F
+        

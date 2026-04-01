@@ -1,0 +1,85 @@
+
+- platform: template
+  name: "Open_Close"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x2D
+    
+- platform: template
+  name: "Time"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x0B
+    
+- platform: template
+  name: "Scan"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x2B
+    
+- platform: template
+  name: "Repeat"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x1D
+    
+- platform: template
+  name: "Shuffle"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [892, -882, 900, -873, 899, -875, 1778, -1778, 1787, -878, 894, -880, 892, -1773, 890, -883, 899]
+    
+- platform: template
+  name: "Play"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x35
+    
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x36
+    
+- platform: template
+  name: "Pause"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x30
+    
+- platform: template
+  name: "Prev"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x21
+    
+- platform: template
+  name: "Next"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x20
+    
+- platform: template
+  name: "Vol-"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x11
+    
+- platform: template
+  name: "Vol+"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x10
+    

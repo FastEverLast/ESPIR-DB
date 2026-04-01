@@ -1,0 +1,85 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8877
+        command: 0x0EF1
+        
+- platform: template
+  name: "Info"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8877
+        command: 0x0DF2
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8877
+        command: 0x0CF3
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8877
+        command: 0x0BF4
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8877
+        command: 0x0AF5
+        
+- platform: template
+  name: "Forward"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8877
+        command: 0x08F7
+        
+- platform: template
+  name: "Reverse"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8877
+        command: 0x09F6
+        
+- platform: template
+  name: "Play_pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8877
+        command: 0x07F8
+        
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8877
+        command: 0x06F9
+        
+- platform: template
+  name: "Clock"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8877
+        command: 0x05FA
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8877
+        command: 0x04FB
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8877
+        command: 0x03FC
+        

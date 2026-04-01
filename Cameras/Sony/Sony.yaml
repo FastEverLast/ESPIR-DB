@@ -1,0 +1,175 @@
+
+- platform: template
+  name: "Photo"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xB4B8F
+        nbits: 20
+
+- platform: template
+  name: "Continuous Photo"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xA6B8F
+        nbits: 20
+
+- platform: template
+  name: "Photo_2s"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xECB8F
+        nbits: 20
+
+- platform: template
+  name: "Rec"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x12B8F
+        nbits: 20
+
+- platform: template
+  name: "Scale Up (+)"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x52B8F
+        nbits: 20
+
+- platform: template
+  name: "Scale Down (-)"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xD2B8F
+        nbits: 20
+
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x1CB8F
+        nbits: 20
+
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x5CB8F
+        nbits: 20
+
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xDCB8F
+        nbits: 20
+
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x7CB8F
+        nbits: 20
+
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xFCB8F
+        nbits: 20
+
+- platform: template
+  name: "Enter"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x9CB8F
+        nbits: 20
+
+- platform: template
+  name: "Playback"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x3CB8F
+        nbits: 20
+
+- platform: template
+  name: "Delete"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xBCB8F
+        nbits: 20
+
+- platform: template
+  name: "Rotate"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x4CB8F
+        nbits: 20
+
+- platform: template
+  name: "Display"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x28B8F
+        nbits: 20
+
+- platform: template
+  name: "Index"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x4B8F
+        nbits: 20
+
+- platform: template
+  name: "Histogram"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xD8B8F
+        nbits: 20
+
+- platform: template
+  name: "Slideshow"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xE2B8F
+        nbits: 20
+
+- platform: template
+  name: "Print"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x88B8F
+        nbits: 20
+
+- platform: template
+  name: "Focus"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x94B8F
+        nbits: 20
+
+- platform: template
+  name: "Scale Up (+)"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x32B8F
+        nbits: 20
+
+- platform: template
+  name: "Scale Down (-)"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xB2B8F
+        nbits: 20
+
+- platform: template
+  name: "Shutter-Lock"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x66B8F
+        nbits: 20
+
+- platform: template
+  name: "Shutter-Unlock"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xE6B8F
+        nbits: 20

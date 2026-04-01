@@ -1,0 +1,113 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2283
+        command: 0xF708
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2283
+        command: 0xF30C
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2283
+        command: 0xF50A
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2283
+        command: 0xFE01
+        
+- platform: template
+  name: "Play_Pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2283
+        command: 0xF609
+        
+- platform: template
+  name: "Previous"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2283
+        command: 0xF807
+        
+- platform: template
+  name: "Next"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2283
+        command: 0xF906
+        
+- platform: template
+  name: "Display"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2283
+        command: 0xFF00
+        
+- platform: template
+  name: "LED"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2283
+        command: 0xFD02
+        
+- platform: template
+  name: "Bass"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2283
+        command: 0xF00F
+        
+- platform: template
+  name: "Mode"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2283
+        command: 0xE916
+        
+- platform: template
+  name: "Bluetooth"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2283
+        command: 0xE31C
+        
+- platform: template
+  name: "USB"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2283
+        command: 0xEA15
+        
+- platform: template
+  name: "Computer"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2283
+        command: 0xEC13
+        
+- platform: template
+  name: "Optical"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2283
+        command: 0xEE11
+        
+- platform: template
+  name: "AUX"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2283
+        command: 0xED12
+        

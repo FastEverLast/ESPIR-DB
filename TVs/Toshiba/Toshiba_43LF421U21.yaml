@@ -1,0 +1,8 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xB946
+        

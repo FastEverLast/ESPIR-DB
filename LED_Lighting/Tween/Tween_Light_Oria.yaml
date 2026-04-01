@@ -1,0 +1,78 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4DB2
+        command: 0x23DC
+        
+- platform: template
+  name: "Toogle_light-ambiente"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4DB2
+        command: 0x31CE
+        
+- platform: template
+  name: "Sleep"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4DB2
+        command: 0x7D82
+        
+- platform: template
+  name: "Brightness+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4DB2
+        command: 0x35CA
+        
+- platform: template
+  name: "Brightness-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4DB2
+        command: 0x2DD2
+        
+- platform: template
+  name: "3000k"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4DB2
+        command: 0x3EC1
+        
+- platform: template
+  name: "6500k"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4DB2
+        command: 0x6699
+        
+- platform: template
+  name: "RGB"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4DB2
+        command: 0x3AC5
+        
+- platform: template
+  name: "Fade"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4DB2
+        command: 0x7F80
+        
+- platform: template
+  name: "Flash"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4DB2
+        command: 0x7E81
+        
+- platform: template
+  name: "Smooth"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4DB2
+        command: 0x7788
+        

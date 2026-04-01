@@ -1,0 +1,127 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x91C8
+        command: 0xFF00
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x91C8
+        command: 0xDF20
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x91C8
+        command: 0xE11E
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x91C8
+        command: 0xE01F
+        
+- platform: template
+  name: "Night_Effect"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x91C8
+        command: 0x8E71
+        
+- platform: template
+  name: "Bass_Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x91C8
+        command: 0xA35C
+        
+- platform: template
+  name: "Bass_Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x91C8
+        command: 0xA25D
+        
+- platform: template
+  name: "Voice_Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x91C8
+        command: 0x956A
+        
+- platform: template
+  name: "Voice_Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x91C8
+        command: 0x946B
+        
+- platform: template
+  name: "Play_Pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x91C8
+        command: 0xDE21
+        
+- platform: template
+  name: "Track_back"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x91C8
+        command: 0xD926
+        
+- platform: template
+  name: "Track_fwd"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x91C8
+        command: 0xDB24
+        
+- platform: template
+  name: "SRC_TV_ARC"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x91C8
+        command: 0xF00F
+        
+- platform: template
+  name: "SRC_OPTICAL"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x91C8
+        command: 0xF10E
+        
+- platform: template
+  name: "SRC_AUX"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x91C8
+        command: 0xF20D
+        
+- platform: template
+  name: "Movie_mode"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x91C8
+        command: 0x8877
+        
+- platform: template
+  name: "Sports_mode"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x91C8
+        command: 0x8679
+        
+- platform: template
+  name: "Music_mode"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x91C8
+        command: 0x8778
+        

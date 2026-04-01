@@ -1,0 +1,29 @@
+
+- platform: template
+  name: "SKIP_SEARCH"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0077
+        command: 0xFC03
+        
+- platform: template
+  name: "AUDIO_TV/VCR"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0077
+        command: 0xFA05
+        
+- platform: template
+  name: "AUDIO_VCR/TV"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0077
+        command: 0xFA05
+        
+- platform: template
+  name: "REPEAT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0077
+        command: 0xE817
+        

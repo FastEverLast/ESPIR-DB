@@ -1,0 +1,29 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x144B
+        command: 0x7F80
+        
+- platform: template
+  name: "MODE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x144B
+        command: 0xDF20
+        
+- platform: template
+  name: "SWING"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x144B
+        command: 0x3FC0
+        
+- platform: template
+  name: "TIMER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x144B
+        command: 0x5FA0
+        

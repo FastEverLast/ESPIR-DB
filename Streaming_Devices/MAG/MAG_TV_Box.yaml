@@ -1,0 +1,197 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [834, -878, 1684, -876, 836, -1714, 866, -850, 864, -848, 1684, -876, 864, -850, 864, -1688, 864, -850, 1712, -848, 860]
+    
+- platform: template
+  name: "UP"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [830, -876, 838, -878, 1686, -1712, 866, -850, 836, -878, 1686, -1712, 864, -850, 864, -850, 864, -850, 1710, -1690, 862]
+    
+- platform: template
+  name: "DOWN"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [828, -876, 1684, -876, 836, -1714, 864, -848, 864, -850, 1684, -1712, 866, -846, 864, -850, 862, -850, 862, -852, 1710]
+    
+- platform: template
+  name: "LEFT"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [856, -852, 862, -854, 1706, -1684, 894, -848, 864, -848, 1712, -1684, 864, -848, 864, -848, 864, -850, 864, -850, 862, -852, 862]
+    
+- platform: template
+  name: "RIGHT"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [828, -878, 1684, -876, 836, -1716, 864, -848, 836, -878, 1682, -1714, 1710, -1684, 1710, -1688, 860, -854, 860]
+    
+- platform: template
+  name: "OK"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [826, -878, 836, -878, 1682, -1714, 864, -848, 864, -850, 1710, -1686, 1712, -1686, 862, -852, 1708, -852, 860]
+    
+- platform: template
+  name: "SOURCES"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [830, -878, 1682, -876, 838, -1714, 866, -848, 864, -850, 1682, -876, 864, -1686, 864, -850, 864, -850, 862, -852, 1708]
+    
+- platform: template
+  name: "VOL_up"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [828, -876, 838, -876, 1684, -1714, 866, -848, 836, -878, 1684, -876, 864, -1686, 1710, -850, 862, -1690, 1708]
+    
+- platform: template
+  name: "VOL_dn"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [826, -878, 1686, -878, 834, -1714, 866, -848, 836, -878, 1712, -848, 864, -1686, 1712, -850, 862, -1690, 862, -854, 862]
+    
+- platform: template
+  name: "Chan_next"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [828, -878, 836, -878, 1684, -1712, 864, -848, 864, -850, 1684, -1712, 864, -852, 860, -850, 864, -850, 1710, -852, 860]
+    
+- platform: template
+  name: "Chan_prev"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [828, -878, 1686, -874, 836, -1716, 864, -848, 836, -878, 1684, -874, 864, -1686, 1710, -850, 862, -852, 862, -1690, 860]
+    
+- platform: template
+  name: "MUTE"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [828, -878, 838, -876, 1684, -1714, 866, -848, 864, -850, 1684, -1712, 864, -850, 1710, -850, 862, -852, 862, -852, 862]
+    
+- platform: template
+  name: "SETTINGS"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [858, -876, 1684, -876, 836, -1714, 866, -848, 864, -850, 1682, -1712, 864, -850, 1710, -850, 862, -1690, 862, -852, 862]
+    
+- platform: template
+  name: "NETFLIX"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [830, -876, 838, -876, 1684, -1714, 864, -848, 866, -848, 1682, -1712, 836, -878, 862, -850, 1710, -850, 862, -852, 862]
+    
+- platform: template
+  name: "HOME"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [830, -876, 1684, -876, 836, -1714, 864, -848, 836, -878, 1710, -848, 864, -850, 864, -1686, 864, -850, 1710, -1690, 860]
+    
+- platform: template
+  name: "BACK"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [828, -876, 838, -876, 1686, -1712, 864, -848, 864, -848, 1684, -876, 864, -850, 864, -1686, 864, -850, 862, -852, 862, -852, 862]
+    
+- platform: template
+  name: "EXIT"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [856, -876, 1684, -876, 838, -1714, 864, -848, 836, -878, 1710, -848, 864, -848, 864, -1686, 864, -852, 860, -854, 858, -856, 858]
+    
+- platform: template
+  name: "SMART"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [828, -878, 836, -876, 1684, -1714, 864, -848, 836, -876, 1710, -848, 864, -848, 864, -1686, 1708, -1690, 1706]
+    
+- platform: template
+  name: "1"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [856, -852, 1710, -850, 864, -1714, 866, -848, 866, -848, 1714, -846, 866, -848, 866, -848, 864, -850, 862, -852, 862, -1688, 862]
+    
+- platform: template
+  name: "2"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [880, -826, 836, -878, 1684, -1714, 836, -878, 836, -876, 1684, -876, 836, -878, 862, -850, 862, -852, 860, -1718, 1680]
+    
+- platform: template
+  name: "3"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [878, -824, 1684, -876, 836, -1714, 834, -878, 836, -878, 1682, -876, 836, -876, 864, -850, 862, -852, 860, -1692, 858, -856, 856]
+    
+- platform: template
+  name: "4"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [826, -878, 836, -876, 1684, -1712, 836, -876, 836, -878, 1684, -874, 864, -850, 864, -850, 862, -1690, 1708, -854, 858]
+    
+- platform: template
+  name: "5"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [826, -878, 1684, -876, 836, -1714, 836, -878, 836, -878, 1682, -876, 836, -876, 864, -850, 862, -1690, 1706, -1716, 832]
+    
+- platform: template
+  name: "6"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [880, -826, 836, -878, 1684, -1714, 836, -878, 836, -878, 1684, -876, 836, -876, 864, -850, 862, -1690, 860, -856, 1706]
+    
+- platform: template
+  name: "7"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [828, -878, 1684, -874, 836, -1716, 866, -848, 864, -848, 1682, -876, 864, -848, 864, -848, 864, -1688, 862, -852, 862, -854, 860]
+    
+- platform: template
+  name: "8"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [880, -824, 836, -878, 1684, -1714, 836, -878, 836, -878, 1684, -876, 836, -876, 862, -1688, 1708, -856, 856, -880, 832]
+    
+- platform: template
+  name: "9"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [858, -878, 1684, -874, 836, -1714, 836, -876, 838, -876, 1680, -876, 836, -878, 834, -1716, 1706, -854, 858, -1694, 856]
+    
+- platform: template
+  name: "0"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [828, -878, 836, -876, 1684, -1714, 836, -878, 834, -876, 1684, -874, 836, -876, 862, -852, 862, -854, 860, -880, 832, -882, 806]
+    

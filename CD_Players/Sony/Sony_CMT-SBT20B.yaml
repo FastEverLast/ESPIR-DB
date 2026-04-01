@@ -1,0 +1,252 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xA81
+        nbits: 12
+
+- platform: template
+  name: "Display"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xD21
+        nbits: 12
+
+- platform: template
+  name: "Timer Menu"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xA61
+        nbits: 12
+
+- platform: template
+  name: "Sleep"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x61
+        nbits: 12
+
+- platform: template
+  name: "CD"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xA41
+        nbits: 12
+
+- platform: template
+  name: "USB"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xE8104
+        nbits: 20
+
+- platform: template
+  name: "Bluetooth"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x8E104
+        nbits: 20
+
+- platform: template
+  name: "FM/DAB"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x841
+        nbits: 12
+
+- platform: template
+  name: "Audio in"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x761
+        nbits: 12
+
+- platform: template
+  name: "Bluetooth Menu"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xEE104
+        nbits: 20
+
+- platform: template
+  name: "Memory 1"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x1
+        nbits: 12
+
+- platform: template
+  name: "Memory 2"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x801
+        nbits: 12
+
+- platform: template
+  name: "Memory 3"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x401
+        nbits: 12
+
+- platform: template
+  name: "Memory 4"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xC01
+        nbits: 12
+
+- platform: template
+  name: "EQ"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x6909
+        nbits: 15
+
+- platform: template
+  name: "Mega Bass"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x5909
+        nbits: 15
+
+- platform: template
+  name: "Tuner Memory"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x701
+        nbits: 12
+
+- platform: template
+  name: "Play Mode/Tuning Mode"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x14B9C
+        nbits: 20
+
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x281
+        nbits: 12
+
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x1EB9C
+        nbits: 20
+
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x9EB9C
+        nbits: 20
+
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x5EB9C
+        nbits: 20
+
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xDEB9C
+        nbits: 20
+
+- platform: template
+  name: "Middle"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x3EB9C
+        nbits: 20
+
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x481
+        nbits: 12
+
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xC81
+        nbits: 12
+
+- platform: template
+  name: "Return"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xBEB9C
+        nbits: 20
+
+- platform: template
+  name: "Repeat"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xB4B9C
+        nbits: 20
+
+- platform: template
+  name: "Clear"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xF0B9C
+        nbits: 20
+
+- platform: template
+  name: "Preset -"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xCB9C
+        nbits: 20
+
+- platform: template
+  name: "Preset +"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x8CB9C
+        nbits: 20
+
+- platform: template
+  name: "Tuning -"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xCCB9C
+        nbits: 20
+
+- platform: template
+  name: "Tuning +"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x2CB9C
+        nbits: 20
+
+- platform: template
+  name: "Play"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x9CB9C
+        nbits: 20
+
+- platform: template
+  name: "Pause"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x4CB9C
+        nbits: 20
+
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x1CB9C
+        nbits: 20

@@ -1,0 +1,148 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xF30C
+        
+- platform: template
+  name: "ENTER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xD728
+        
+- platform: template
+  name: "UP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xDF20
+        
+- platform: template
+  name: "DOWN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xDE21
+        
+- platform: template
+  name: "LEFT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xDD22
+        
+- platform: template
+  name: "RIGHT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xDC23
+        
+- platform: template
+  name: "CHAPTER+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xF50A
+        
+- platform: template
+  name: "CHAPTER-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xF40B
+        
+- platform: template
+  name: "FOLDER+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xB14E
+        
+- platform: template
+  name: "FOLDER-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xB04F
+        
+- platform: template
+  name: "TOP_MENU"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xE51A
+        
+- platform: template
+  name: "MENU"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xE619
+        
+- platform: template
+  name: "REWIND"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xE31C
+        
+- platform: template
+  name: "PLAY/PAUSE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xE11E
+        
+- platform: template
+  name: "FORWARD"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xE01F
+        
+- platform: template
+  name: "DVD"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xE718
+        
+- platform: template
+  name: "SPLIT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xD629
+        
+- platform: template
+  name: "VIDEO"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xED12
+        
+- platform: template
+  name: "OPTION"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xEE11
+        
+- platform: template
+  name: "SIZE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xE916
+        
+- platform: template
+  name: "DISPLAY"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xE780
+        command: 0xEA15
+        

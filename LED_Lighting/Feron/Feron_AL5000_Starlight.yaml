@@ -1,0 +1,22 @@
+
+- platform: template
+  name: "power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB7A0
+        command: 0x16E9
+        
+- platform: template
+  name: "bright_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB7A0
+        command: 0x54AB
+        
+- platform: template
+  name: "bright_down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xB7A0
+        command: 0x43BC
+        

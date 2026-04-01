@@ -1,0 +1,57 @@
+
+- platform: template
+  name: "Clean"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5540
+        command: 0xBB44
+        
+- platform: template
+  name: "Spiral"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5540
+        command: 0x11EE
+        
+- platform: template
+  name: "Home"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5540
+        command: 0xEE11
+        
+- platform: template
+  name: "Edge_clean"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5540
+        command: 0x6699
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5540
+        command: 0x55AA
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5540
+        command: 0x9966
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5540
+        command: 0x33CC
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [315, -70185, 9227, -4516, 616, -529, 615, -505, 640, -505, 639, -507, 610, -536, 611, -536, 610, -1656, 634, -509, 635, -1655, 609, -536, 610, -1657, 634, -509, 635, -1655, 610, -536, 609, -1656, 633, -509, 635, -510, 608, -1683, 609, -535, 610, -510, 636, -510, 633, -1656, 609, -536, 609, -535, 609, -1656, 633, -511, 608, -1683, 608, -1656, 635, -1657, 608, -538, 609, -1682, 609, -1657, 635]
+    

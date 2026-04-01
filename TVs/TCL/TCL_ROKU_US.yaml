@@ -1,0 +1,57 @@
+
+- platform: template
+  name: "Power_tcl"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xE817
+        
+- platform: template
+  name: "Back_tcl"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0x9966
+        
+- platform: template
+  name: "Home_tcl"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xFC03
+        
+- platform: template
+  name: "Left_tcl"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xE11E
+        
+- platform: template
+  name: "Up_tcl"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xE619
+        
+- platform: template
+  name: "Right_tcl"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xD22D
+        
+- platform: template
+  name: "Down_tcl"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xCC33
+        
+- platform: template
+  name: "Select_tcl"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xD52A
+        

@@ -1,0 +1,120 @@
+
+- platform: template
+  name: "STOP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFEFC
+        command: 0x7F80
+        
+- platform: template
+  name: "Posterior Wash"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFEFC
+        command: 0xBF40
+        
+- platform: template
+  name: "F Wash"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFEFC
+        command: 0x3FC0
+        
+- platform: template
+  name: "Dry wash area"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFEFC
+        command: 0xDF20
+        
+- platform: template
+  name: "Vortex wash"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFEFC
+        command: 0x5FA0
+        
+- platform: template
+  name: "Retract_Nozzle shower"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFEFC
+        command: 0xFF00
+        
+- platform: template
+  name: "Oscillate during posterior wash"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFEFC
+        command: 0x1FE0
+        
+- platform: template
+  name: "Oscillate during fem wash"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFEFC
+        command: 0x1FE0
+        
+- platform: template
+  name: "Oscillate during vortex"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFEFC
+        command: 0x1FE0
+        
+- platform: template
+  name: "Auto"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFEFC
+        command: 0x9F60
+        
+- platform: template
+  name: "Deodorize off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFEFC
+        command: 0xF708
+        
+- platform: template
+  name: "Deodorize on"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFEFC
+        command: 0xF708
+        
+- platform: template
+  name: "Water temperature"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFEFC
+        command: 0x8778
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFEFC
+        command: 0xDB24
+        
+- platform: template
+  name: "Seat Temp"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFEFC
+        command: 0x47B8
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFEFC
+        command: 0xDB24
+        
+- platform: template
+  name: "SAVE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFEFC
+        command: 0xEB14
+        

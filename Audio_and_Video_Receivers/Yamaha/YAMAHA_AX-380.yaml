@@ -1,0 +1,64 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xE01F
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xE51A
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xE41B
+        
+- platform: template
+  name: "INPUT_CD"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xEA15
+        
+- platform: template
+  name: "INPUT_AUX"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xE817
+        
+- platform: template
+  name: "INPUT_TUNER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xE916
+        
+- platform: template
+  name: "INPUT_PHONO"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xEB14
+        
+- platform: template
+  name: "MONITOR_TAPE1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xE718
+        
+- platform: template
+  name: "MONITOR_TAPE2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x857A
+        command: 0xE619
+        

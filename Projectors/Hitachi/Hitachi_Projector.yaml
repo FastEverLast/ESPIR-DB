@@ -1,0 +1,680 @@
+
+- platform: template
+  name: "RGB1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xEF10
+        
+- platform: template
+  name: "PC"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xEF10
+        
+- platform: template
+  name: "RGB2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xEE11
+        
+- platform: template
+  name: "DVI"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xED12
+        
+- platform: template
+  name: "HDMI"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xED12
+        
+- platform: template
+  name: "COMPOSITE_VIDEO"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xEC13
+        
+- platform: template
+  name: "VIDEO"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xEC13
+        
+- platform: template
+  name: "S_VIDEO"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xEB14
+        
+- platform: template
+  name: "S-VIDEO"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xEB14
+        
+- platform: template
+  name: "COMPONENT_VIDEO_1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xEA15
+        
+- platform: template
+  name: "COMPONENT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xEA15
+        
+- platform: template
+  name: "WIRELESS"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xE916
+        
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xE817
+        
+- platform: template
+  name: "STANDBY_/_ON"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xE817
+        
+- platform: template
+  name: "POWER_ON/OFF"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xE817
+        
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xE817
+        
+- platform: template
+  name: "RGB"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xE718
+        
+- platform: template
+  name: "VIDEO"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xE619
+        
+- platform: template
+  name: "SEARCH"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xE51A
+        
+- platform: template
+  name: "ONE_TOUCH"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xE51A
+        
+- platform: template
+  name: "COMPONENT_VIDEO2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xE41B
+        
+- platform: template
+  name: "POWER_ON"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xE21D
+        
+- platform: template
+  name: "POWER_OFF"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xE11E
+        
+- platform: template
+  name: "MENU"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xDF20
+        
+- platform: template
+  name: "ENTER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xDE21
+        
+- platform: template
+  name: "MENU_SELECT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xDE21
+        
+- platform: template
+  name: "RESET"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xDD22
+        
+- platform: template
+  name: "AUTO"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xDB24
+        
+- platform: template
+  name: "CURSOR_UP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xD728
+        
+- platform: template
+  name: "ARROW_UP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xD728
+        
+- platform: template
+  name: "CURSOR_RIGHT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xD52A
+        
+- platform: template
+  name: "ARROW_RIGHT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xD52A
+        
+- platform: template
+  name: "CURSOR_DOWN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xD32C
+        
+- platform: template
+  name: "ARROW_DOWN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xD32C
+        
+- platform: template
+  name: "CURSOR_LEFT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xD12E
+        
+- platform: template
+  name: "ARROW_LEFT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xD12E
+        
+- platform: template
+  name: "POSITION"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xCF30
+        
+- platform: template
+  name: "TIMER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xBF40
+        
+- platform: template
+  name: "BLANK"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xBE41
+        
+- platform: template
+  name: "VOL-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xAF50
+        
+- platform: template
+  name: "VOLUME_DOWN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xAF50
+        
+- platform: template
+  name: "VOL+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xAE51
+        
+- platform: template
+  name: "VOLUME_UP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xAE51
+        
+- platform: template
+  name: "MUTE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xAD52
+        
+- platform: template
+  name: "MUTE_ON/OFF"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xAD52
+        
+- platform: template
+  name: "VOLUME_ON"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xAC53
+        
+- platform: template
+  name: "VOL+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xAC53
+        
+- platform: template
+  name: "ZOOM_+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x9F60
+        
+- platform: template
+  name: "ZOOM_-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x9E61
+        
+- platform: template
+  name: "FOCUS_+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x9D62
+        
+- platform: template
+  name: "FOCUS_-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x9C63
+        
+- platform: template
+  name: "LENS_SHIFT_+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x956A
+        
+- platform: template
+  name: "LENS_SHIFT_-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x946B
+        
+- platform: template
+  name: "IRIS"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x926D
+        
+- platform: template
+  name: "BRIGHT_+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x8D72
+        
+- platform: template
+  name: "BRIGHTNESS_+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x8D72
+        
+- platform: template
+  name: "BRIGHT_-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x8C73
+        
+- platform: template
+  name: "BRIGHTNESS_-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x8C73
+        
+- platform: template
+  name: "CONTRAST_+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x8B74
+        
+- platform: template
+  name: "CONTRAST_-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x8A75
+        
+- platform: template
+  name: "COLOR_+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x8976
+        
+- platform: template
+  name: "COLOR_-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x8877
+        
+- platform: template
+  name: "C._TEMP."
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x8679
+        
+- platform: template
+  name: "ASPECT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x857A
+        
+- platform: template
+  name: "GAMMA"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x847B
+        
+- platform: template
+  name: "GAMMA_-1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x837C
+        
+- platform: template
+  name: "GAMMA_-2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x827D
+        
+- platform: template
+  name: "GAMMA_-3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x817E
+        
+- platform: template
+  name: "GAMMA_-4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x807F
+        
+- platform: template
+  name: "MAGNIFY_ON"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x4FB0
+        
+- platform: template
+  name: "MAGNIFY_OFF"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x4EB1
+        
+- platform: template
+  name: "MAGNIFY_+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x4EB1
+        
+- platform: template
+  name: "MAGNIFY_-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x4DB2
+        
+- platform: template
+  name: "MAGNIFY_+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x4CB3
+        
+- platform: template
+  name: "MAGNIFY_OFF"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x4CB3
+        
+- platform: template
+  name: "FREEZE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x4BB4
+        
+- platform: template
+  name: "PINP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x4AB5
+        
+- platform: template
+  name: "KEYSTONE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x49B6
+        
+- platform: template
+  name: "LIGHT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x44BB
+        
+- platform: template
+  name: "VIDEO_MEMORY_1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x3FC0
+        
+- platform: template
+  name: "VIDEO_MEMORY_2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x3EC1
+        
+- platform: template
+  name: "VIDEO_MEMORY_3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x3DC2
+        
+- platform: template
+  name: "VIDEO_MEMORY_4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x3CC3
+        
+- platform: template
+  name: "OPT_BLACK"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x33CC
+        
+- platform: template
+  name: "BLACK"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x33CC
+        
+- platform: template
+  name: "PICTURE_MODE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x32CD
+        
+- platform: template
+  name: "MODE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x32CD
+        
+- platform: template
+  name: "MEMORY"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x31CE
+        
+- platform: template
+  name: "PC_-_P_UP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x2FD0
+        
+- platform: template
+  name: "PAGE_UP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x2FD0
+        
+- platform: template
+  name: "PC_-_P_DOWN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x2ED1
+        
+- platform: template
+  name: "PAGE_DOWN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x2ED1
+        
+- platform: template
+  name: "PC_-_F5_(SLIDE_SHOW)"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x2DD2
+        
+- platform: template
+  name: "PC_-_ESCAPE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x2BD4
+        
+- platform: template
+  name: "ESC"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x2BD4
+        
+- platform: template
+  name: "PC_-_HOME"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x2AD5
+        
+- platform: template
+  name: "PC_-_END"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x29D6
+        

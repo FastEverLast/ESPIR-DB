@@ -1,0 +1,64 @@
+
+- platform: template
+  name: "MODE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0044
+        command: 0xEE11
+        
+- platform: template
+  name: "VOL+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0044
+        command: 0xED12
+        
+- platform: template
+  name: "VOL-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0044
+        command: 0xEC13
+        
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0044
+        command: 0xEA15
+        
+- platform: template
+  name: "SOUND"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0044
+        command: 0xCF30
+        
+- platform: template
+  name: "MEGA_BASS"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0044
+        command: 0xC03F
+        
+- platform: template
+  name: "FUNCTION"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0044
+        command: 0xB847
+        
+- platform: template
+  name: "SLEEP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0044
+        command: 0x9F60
+        
+- platform: template
+  name: "STANDBY"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0044
+        command: 0x9E61
+        

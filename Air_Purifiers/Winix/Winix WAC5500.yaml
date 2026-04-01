@@ -1,0 +1,36 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xED12
+        command: 0xFC03
+        
+- platform: template
+  name: "Plasma"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xED12
+        command: 0xFF00
+        
+- platform: template
+  name: "Turbo"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xED12
+        command: 0xEF10
+        
+- platform: template
+  name: "Fan +"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xED12
+        command: 0xF609
+        
+- platform: template
+  name: "Fan -"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xED12
+        command: 0xF10E
+        

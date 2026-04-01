@@ -1,0 +1,120 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF86
+        command: 0xE31C
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF86
+        command: 0xE21D
+        
+- platform: template
+  name: "Input"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF86
+        command: 0xEF10
+        
+- platform: template
+  name: "Bluetooth"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF86
+        command: 0xD629
+        
+- platform: template
+  name: "HDMI ARC"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF86
+        command: 0xED12
+        
+- platform: template
+  name: "Bass_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF86
+        command: 0xDA25
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF86
+        command: 0xDE21
+        
+- platform: template
+  name: "Treble_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF86
+        command: 0xDB24
+        
+- platform: template
+  name: "Prev"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF86
+        command: 0xEC13
+        
+- platform: template
+  name: "Play_Pause_Pair"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF86
+        command: 0xD52A
+        
+- platform: template
+  name: "Next"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF86
+        command: 0xEB14
+        
+- platform: template
+  name: "Bass_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF86
+        command: 0xDD22
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF86
+        command: 0xD42B
+        
+- platform: template
+  name: "Treble_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF86
+        command: 0xD728
+        
+- platform: template
+  name: "News"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF86
+        command: 0xD22D
+        
+- platform: template
+  name: "Movie"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF86
+        command: 0xD32C
+        
+- platform: template
+  name: "Music"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF86
+        command: 0xD827
+        

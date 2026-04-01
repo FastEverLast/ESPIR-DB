@@ -1,0 +1,120 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF181
+        command: 0xFF00
+        
+- platform: template
+  name: "Light"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF181
+        command: 0xDF20
+        
+- platform: template
+  name: "Next"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF181
+        command: 0xF50A
+        
+- platform: template
+  name: "Prev_dwn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF181
+        command: 0xF40B
+        
+- platform: template
+  name: "Fastforwd"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF181
+        command: 0xF20D
+        
+- platform: template
+  name: "Reverse"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF181
+        command: 0xF30C
+        
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF181
+        command: 0xF807
+        
+- platform: template
+  name: "Setup"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF181
+        command: 0xEC13
+        
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF181
+        command: 0xED12
+        
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF181
+        command: 0xEB14
+        
+- platform: template
+  name: "Play_pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF181
+        command: 0xF708
+        
+- platform: template
+  name: "Slow"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF181
+        command: 0xEE11
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF181
+        command: 0xEF10
+        
+- platform: template
+  name: "Display"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF181
+        command: 0xF906
+        
+- platform: template
+  name: "Mode"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF181
+        command: 0xFE01
+        
+- platform: template
+  name: "Prog_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF181
+        command: 0xFB04
+        
+- platform: template
+  name: "Prog_dwn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF181
+        command: 0xFA05
+        

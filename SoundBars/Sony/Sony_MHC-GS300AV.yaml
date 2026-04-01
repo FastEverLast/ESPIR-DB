@@ -1,0 +1,231 @@
+
+- platform: template
+  name: "Sleep"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x308
+        nbits: 15
+
+- platform: template
+  name: "Balance Left"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x3208
+        nbits: 15
+
+- platform: template
+  name: "Balance Right"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x7208
+        nbits: 15
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x5408
+        nbits: 15
+
+- platform: template
+  name: "Center +"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x1509
+        nbits: 15
+
+- platform: template
+  name: "Center -"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x5509
+        nbits: 15
+
+- platform: template
+  name: "Rear +"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x3909
+        nbits: 15
+
+- platform: template
+  name: "Rear -"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x7909
+        nbits: 15
+
+- platform: template
+  name: "Game"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x1F08
+        nbits: 15
+
+- platform: template
+  name: "Tape"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x6208
+        nbits: 15
+
+- platform: template
+  name: "Display"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x6908
+        nbits: 15
+
+- platform: template
+  name: "Tuning +"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x2CB9C
+        nbits: 20
+
+- platform: template
+  name: "Preset +"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x8CB9C
+        nbits: 20
+
+- platform: template
+  name: "Album +"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x7388
+        nbits: 15
+
+- platform: template
+  name: "Disc +"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x3E88
+        nbits: 15
+
+- platform: template
+  name: "Preset EQ"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x3B09
+        nbits: 15
+
+- platform: template
+  name: "Groove"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x2F08
+        nbits: 15
+
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x2408
+        nbits: 15
+
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x6408
+        nbits: 15
+
+- platform: template
+  name: "Surround"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x109
+        nbits: 15
+
+- platform: template
+  name: "Disc -"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x5E88
+        nbits: 15
+
+- platform: template
+  name: "Album -"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x3388
+        nbits: 15
+
+- platform: template
+  name: "Tuning -"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xCCB9C
+        nbits: 20
+
+- platform: template
+  name: "Preset -"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xCB9C
+        nbits: 20
+
+- platform: template
+  name: "Play"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x4CB9C
+        nbits: 20
+
+- platform: template
+  name: "Pause"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x9CB9C
+        nbits: 20
+
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x1CB9C
+        nbits: 20
+
+- platform: template
+  name: "Tuner/Band"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x7808
+        nbits: 15
+
+- platform: template
+  name: "CD"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x5208
+        nbits: 15
+
+- platform: template
+  name: "Test Tone"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x2909
+        nbits: 15
+
+- platform: template
+  name: "5.1 ch"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x5F08
+        nbits: 15
+
+- platform: template
+  name: "Video (MD)"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x2208
+        nbits: 15
+
+- platform: template
+  name: "Pro Logic"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x2109
+        nbits: 15

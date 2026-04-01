@@ -1,0 +1,56 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x34347887
+        nbits: 32
+
+- platform: template
+  name: "SOURCE"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x343451AE
+        nbits: 32
+
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x3434E817
+        nbits: 32
+
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x34346897
+        nbits: 32
+
+- platform: template
+  name: "SOUND_EFECT"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x3434F40B
+        nbits: 32
+
+- platform: template
+  name: "AUTO_VOLUME"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x343438C7
+        nbits: 32
+
+- platform: template
+  name: "WOOFER_LEVEL"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x34346699
+        nbits: 32
+
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x3434F807
+        nbits: 32

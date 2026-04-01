@@ -1,0 +1,8 @@
+
+- platform: template
+  name: "POWER/SPEED"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xBC43
+        

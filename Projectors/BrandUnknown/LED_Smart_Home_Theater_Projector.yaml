@@ -1,0 +1,85 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1608
+        command: 0x7887
+        
+- platform: template
+  name: "Src"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1608
+        command: 0x23DC
+        
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1608
+        command: 0x758A
+        
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1608
+        command: 0x748B
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1608
+        command: 0x7B84
+        
+- platform: template
+  name: "Dwn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1608
+        command: 0x728D
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1608
+        command: 0x44BB
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1608
+        command: 0x718E
+        
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1608
+        command: 0x4DB2
+        
+- platform: template
+  name: "Vup"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1608
+        command: 0x7689
+        
+- platform: template
+  name: "Vdwn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1608
+        command: 0x4AB5
+        
+- platform: template
+  name: "MUTE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1608
+        command: 0x37C8
+        

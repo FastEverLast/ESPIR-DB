@@ -1,0 +1,78 @@
+
+- platform: template
+  name: "Home"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC2EA
+        command: 0xFC03
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC2EA
+        command: 0x9966
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC2EA
+        command: 0xE619
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC2EA
+        command: 0xCC33
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC2EA
+        command: 0xD22D
+        
+- platform: template
+  name: "Enter"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC2EA
+        command: 0xD52A
+        
+- platform: template
+  name: "Replay"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC2EA
+        command: 0x8778
+        
+- platform: template
+  name: "*"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC2EA
+        command: 0x9E61
+        
+- platform: template
+  name: "Rewind"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC2EA
+        command: 0xCB34
+        
+- platform: template
+  name: "Play/pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC2EA
+        command: 0xB34C
+        
+- platform: template
+  name: "Fast_forward"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC2EA
+        command: 0xAA55
+        

@@ -1,0 +1,78 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xFF00
+        
+- platform: template
+  name: "TEMP_-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xFE01
+        
+- platform: template
+  name: "TEMP_+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xFD02
+        
+- platform: template
+  name: "TIMER_SET_HOUR"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xFC03
+        
+- platform: template
+  name: "TIMER_START"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xFB04
+        
+- platform: template
+  name: "TIMER_STOP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xFA05
+        
+- platform: template
+  name: "TIMER_ON/OFF"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xF906
+        
+- platform: template
+  name: "COOL"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xF807
+        
+- platform: template
+  name: "MONEY_SAVER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xF708
+        
+- platform: template
+  name: "FAN_ONLY"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xF609
+        
+- platform: template
+  name: "FAN_SPEED"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xF50A
+        

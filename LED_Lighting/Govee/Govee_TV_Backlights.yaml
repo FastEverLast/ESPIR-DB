@@ -1,0 +1,113 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xBA45
+        
+- platform: template
+  name: "2H"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9180, -4384, 698, -491, 667, -493, 615, -546, 615, -546, 614, -545, 615, -543, 617, -543, 618, -542, 618, -1616, 617, -1617, 642, -1593, 641, -1594, 640, -1595, 639, -1596, 638, -1622, 612, -1622, 612, -549, 612, -1622, 612, -1623, 611, -549, 612, -549, 612, -549, 612, -1623, 611, -549, 612, -1623, 611, -549, 611, -549, 612, -1623, 611, -1623, 611, -1623, 611, -549, 612, -1623, 611, -39213, 9181, -2162, 639, -95497, 9152, -2183, 639]
+    
+- platform: template
+  name: "4H"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xB847
+        
+- platform: template
+  name: "Mode+"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9233, -4355, 695, -466, 643, -517, 643, -519, 641, -545, 644, -516, 643, -516, 642, -519, 642, -518, 642, -1591, 642, -1592, 641, -1593, 640, -1594, 639, -1596, 637, -1598, 636, -1623, 611, -1623, 611, -550, 610, -550, 610, -550, 610, -550, 610, -550, 610, -550, 610, -1623, 610, -550, 610, -1624, 609, -1624, 609, -1624, 610, -1624, 610, -1624, 610, -1624, 610, -550, 610, -1624, 610, -39212, 9175, -2161, 639]
+    
+- platform: template
+  name: "Mode-"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9257, -4333, 645, -545, 616, -545, 616, -545, 615, -545, 615, -544, 616, -544, 642, -518, 642, -518, 641, -1593, 640, -1596, 637, -1598, 636, -1599, 635, -1600, 634, -1600, 634, -1600, 634, -1600, 634, -1600, 634, -527, 633, -527, 634, -1600, 634, -1601, 633, -551, 609, -527, 634, -527, 633, -527, 633, -1601, 633, -1601, 633, -527, 634, -528, 633, -1601, 633, -1600, 634, -1602, 632, -39219, 9172, -2192, 610]
+    
+- platform: template
+  name: "Speed+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF609
+        
+- platform: template
+  name: "Speed-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF807
+        
+- platform: template
+  name: "Music"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xEA15
+        
+- platform: template
+  name: "Bright+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF30C
+        
+- platform: template
+  name: "Bright-"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9205, -4358, 644, -516, 645, -516, 645, -516, 674, -488, 672, -490, 670, -491, 669, -515, 645, -516, 644, -1591, 642, -1592, 641, -1594, 639, -1596, 638, -1596, 638, -1597, 637, -1597, 637, -1597, 637, -523, 638, -523, 638, -523, 637, -1597, 637, -523, 637, -524, 637, -523, 638, -523, 637, -1597, 637, -1598, 636, -1598, 636, -524, 637, -1598, 636, -1623, 611, -1623, 611, -1623, 611, -39226, 9175, -2164, 637]
+    
+- platform: template
+  name: "Color+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xA15E
+        
+- platform: template
+  name: "Color-"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9239, -4353, 699, -461, 699, -462, 672, -489, 671, -516, 644, -516, 644, -516, 644, -516, 644, -518, 641, -1593, 640, -1594, 640, -1595, 639, -1596, 639, -1596, 638, -1597, 637, -1597, 637, -1597, 638, -523, 638, -1597, 638, -523, 638, -1597, 638, -1597, 638, -523, 638, -1597, 638, -523, 638, -1597, 638, -523, 638, -1597, 638, -523, 638, -523, 638, -1597, 638, -523, 638, -1597, 638, -39224, 9185, -2162, 638]
+    
+- platform: template
+  name: "W"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9304, -4355, 649, -516, 648, -516, 677, -488, 677, -488, 675, -489, 674, -491, 672, -515, 647, -517, 647, -1592, 644, -1594, 643, -1596, 642, -1597, 641, -1597, 641, -1597, 642, -1597, 643, -1598, 643, -526, 639, -524, 644, -1598, 642, -1598, 642, -1598, 641, -524, 641, -525, 641, -525, 640, -1601, 640, -1599, 639, -525, 640, -525, 639, -526, 638, -1600, 638, -1600, 638, -1600, 637]
+    
+- platform: template
+  name: "R"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xBD42
+        
+- platform: template
+  name: "G"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xAD52
+        
+- platform: template
+  name: "B"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9264, -4384, 673, -493, 670, -493, 669, -496, 668, -519, 644, -497, 666, -519, 644, -520, 643, -522, 642, -1596, 641, -1596, 640, -1596, 641, -1596, 640, -1596, 641, -1597, 641, -1597, 640, -1596, 641, -523, 641, -1596, 640, -523, 639, -1596, 640, -523, 639, -523, 640, -1596, 640, -523, 640, -1597, 639, -523, 639, -1597, 639, -523, 640, -1597, 640, -1597, 639, -523, 640, -1597, 639, -39232, 9209, -2161, 640]
+    

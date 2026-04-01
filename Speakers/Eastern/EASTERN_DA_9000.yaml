@@ -1,0 +1,92 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5FA0
+        command: 0xE21D
+        
+- platform: template
+  name: "MASTER_UP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5FA0
+        command: 0xED12
+        
+- platform: template
+  name: "MASTER_DOWN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5FA0
+        command: 0xF50A
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5FA0
+        command: 0xE718
+        
+- platform: template
+  name: "FUNCTION"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5FA0
+        command: 0xF20D
+        
+- platform: template
+  name: "SURR. MODE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5FA0
+        command: 0xF708
+        
+- platform: template
+  name: "CENTER_UP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5FA0
+        command: 0xFE01
+        
+- platform: template
+  name: "CENTER_DOWN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5FA0
+        command: 0xEA15
+        
+- platform: template
+  name: "WOOFER_UP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5FA0
+        command: 0xEE11
+        
+- platform: template
+  name: "WOOFER_DOWN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5FA0
+        command: 0xF609
+        
+- platform: template
+  name: "TEST_TONE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5FA0
+        command: 0xE51A
+        
+- platform: template
+  name: "REAR_UP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5FA0
+        command: 0xFD02
+        
+- platform: template
+  name: "REAR_DOWN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5FA0
+        command: 0xFA05
+        

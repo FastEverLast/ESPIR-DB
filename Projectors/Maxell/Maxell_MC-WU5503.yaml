@@ -1,0 +1,218 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xE817
+        
+- platform: template
+  name: "Input"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xF708
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xD728
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xD32C
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xD12E
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xD52A
+        
+- platform: template
+  name: "Enter"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xDE21
+        
+- platform: template
+  name: "Esc"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x2BD4
+        
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xDF20
+        
+- platform: template
+  name: "OsdMsg"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x43BC
+        
+- platform: template
+  name: "Reset"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xDD22
+        
+- platform: template
+  name: "Aspect"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x857A
+        
+- platform: template
+  name: "PbyP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x4AB5
+        
+- platform: template
+  name: "Auto"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xDB24
+        
+- platform: template
+  name: "Freeze"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x4BB4
+        
+- platform: template
+  name: "MagnifyOn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x4FB0
+        
+- platform: template
+  name: "MagnifyOff"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x4CB3
+        
+- platform: template
+  name: "Focus+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x9D62
+        
+- platform: template
+  name: "Focus-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x9C63
+        
+- platform: template
+  name: "Zoom+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x9F60
+        
+- platform: template
+  name: "Zoom-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x9E61
+        
+- platform: template
+  name: "Vol+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xAE51
+        
+- platform: template
+  name: "Vol-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xAF50
+        
+- platform: template
+  name: "PageUp"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x2FD0
+        
+- platform: template
+  name: "PageDown"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x2ED1
+        
+- platform: template
+  name: "Geometry"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x49B6
+        
+- platform: template
+  name: "Picture"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0x32CD
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xAD52
+        
+- platform: template
+  name: "Interactive"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xCB34
+        
+- platform: template
+  name: "Network"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xB24D
+        
+- platform: template
+  name: "Blank"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4587
+        command: 0xBE41
+        

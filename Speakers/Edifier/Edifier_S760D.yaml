@@ -1,0 +1,183 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xE817
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xF609
+        
+- platform: template
+  name: "Opt"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xEA15
+        
+- platform: template
+  name: "5_1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xB34C
+        
+- platform: template
+  name: "Cox"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xBF40
+        
+- platform: template
+  name: "CD"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xEB14
+        
+- platform: template
+  name: "Aux"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xFC03
+        
+- platform: template
+  name: "Dolby_on"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xE41B
+        
+- platform: template
+  name: "Dolby_off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xFD02
+        
+- platform: template
+  name: "Music"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xE51A
+        
+- platform: template
+  name: "Movie"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xF20D
+        
+- platform: template
+  name: "Emul"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xFE01
+        
+- platform: template
+  name: "Matrix"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xE619
+        
+- platform: template
+  name: "Virtual"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xF30C
+        
+- platform: template
+  name: "Game"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xFF00
+        
+- platform: template
+  name: "Comp_on"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xB748
+        
+- platform: template
+  name: "Comp_off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xEC13
+        
+- platform: template
+  name: "Func"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xAF50
+        
+- platform: template
+  name: "Adj_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xE718
+        
+- platform: template
+  name: "Adj_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xBB44
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xED12
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xEE11
+        
+- platform: template
+  name: "Treb_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xE01F
+        
+- platform: template
+  name: "Treb_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xF807
+        
+- platform: template
+  name: "Bass_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xE21D
+        
+- platform: template
+  name: "Bass_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xFA05
+        

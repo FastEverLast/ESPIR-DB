@@ -1,0 +1,197 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xFD02
+        
+- platform: template
+  name: "Hide"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xFC03
+        
+- platform: template
+  name: "Resync"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xFB04
+        
+- platform: template
+  name: "Freeze"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xF30C
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xF807
+        
+- platform: template
+  name: "Vol_down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xF50A
+        
+- platform: template
+  name: "Page_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xFA05
+        
+- platform: template
+  name: "Page_down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xF906
+        
+- platform: template
+  name: "Keystone_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xF708
+        
+- platform: template
+  name: "Keystone_down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xF40B
+        
+- platform: template
+  name: "Reset"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xF20D
+        
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xEE11
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xEC13
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xE916
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xEA15
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xEB14
+        
+- platform: template
+  name: "Enter"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xE817
+        
+- platform: template
+  name: "Dvi_d"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xE41B
+        
+- platform: template
+  name: "Composit"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xE31C
+        
+- platform: template
+  name: "Svideo"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xE21D
+        
+- platform: template
+  name: "Vga"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xE11E
+        
+- platform: template
+  name: "Unknown_1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xFF00
+        
+- platform: template
+  name: "Unknown_2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xFE01
+        
+- platform: template
+  name: "Unknown_3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xF609
+        
+- platform: template
+  name: "Unknown_4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xF10E
+        
+- platform: template
+  name: "Unknown_5"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xE718
+        
+- platform: template
+  name: "Unknown_6"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xE619
+        
+- platform: template
+  name: "Unknown_7"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x504F
+        command: 0xE51A
+        

@@ -1,0 +1,183 @@
+
+- platform: template
+  name: "VCR_CHANNEL_+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0019
+        command: 0xFF00
+        
+- platform: template
+  name: "VCR_CHANNEL_-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0019
+        command: 0xFE01
+        
+- platform: template
+  name: "VCR_VOL+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0019
+        command: 0xFD02
+        
+- platform: template
+  name: "VCR_VOL-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0019
+        command: 0xFC03
+        
+- platform: template
+  name: "STOP_[]"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0019
+        command: 0xFB04
+        
+- platform: template
+  name: "PLAY_>"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0019
+        command: 0xFA05
+        
+- platform: template
+  name: "RECORD"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0019
+        command: 0xF906
+        
+- platform: template
+  name: "VCR_POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0019
+        command: 0xF708
+        
+- platform: template
+  name: "MUTE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0019
+        command: 0xF609
+        
+- platform: template
+  name: "VCR_TV/VCR"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0019
+        command: 0xF50A
+        
+- platform: template
+  name: "FF/SRCH_>>"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0019
+        command: 0xF30C
+        
+- platform: template
+  name: "REW/SRCH_<<"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0019
+        command: 0xF20D
+        
+- platform: template
+  name: "PAUSE/STILL_"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0019
+        command: 0xF10E
+        
+- platform: template
+  name: "VCR_1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0019
+        command: 0xEF10
+        
+- platform: template
+  name: "VCR_2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0019
+        command: 0xEE11
+        
+- platform: template
+  name: "VCR_3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0019
+        command: 0xED12
+        
+- platform: template
+  name: "VCR_4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0019
+        command: 0xEC13
+        
+- platform: template
+  name: "VCR_5"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0019
+        command: 0xEB14
+        
+- platform: template
+  name: "VCR_6"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0019
+        command: 0xEA15
+        
+- platform: template
+  name: "VCR_7"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0019
+        command: 0xE916
+        
+- platform: template
+  name: "VCR_8"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0019
+        command: 0xE817
+        
+- platform: template
+  name: "VCR_9"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0019
+        command: 0xE718
+        
+- platform: template
+  name: "VCR_ANT/AUX"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0019
+        command: 0xE619
+        
+- platform: template
+  name: "VCR_0"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0019
+        command: 0xE51A
+        
+- platform: template
+  name: "VCR_RECALL"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0019
+        command: 0xE41B
+        
+- platform: template
+  name: "VCR_TIMER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0019
+        command: 0xE31C
+        

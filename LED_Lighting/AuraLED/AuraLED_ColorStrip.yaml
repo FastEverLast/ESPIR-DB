@@ -1,0 +1,169 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xFC03
+        
+- platform: template
+  name: "Off"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9227, -4492, 622, -521, 603, -542, 623, -522, 632, -512, 632, -513, 631, -514, 630, -514, 630, -515, 629, -1628, 630, -1629, 629, -1630, 628, -1633, 604, -545, 630, -1630, 628, -1631, 627, -1631, 627, -518, 626, -1632, 626, -519, 625, -520, 624, -520, 624, -521, 623, -521, 603, -542, 623, -1634, 624, -521, 623, -1634, 624, -1633, 625, -1633, 625, -1632, 605, -1652, 626, -1631, 596]
+    
+- platform: template
+  name: "Bright"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9234, -4488, 626, -519, 625, -520, 634, -510, 634, -511, 633, -512, 632, -513, 631, -515, 629, -516, 628, -1631, 627, -1633, 635, -1625, 633, -1628, 630, -518, 636, -1624, 634, -1627, 631, -1631, 637, -511, 633, -515, 629, -519, 635, -514, 630, -519, 635, -513, 631, -516, 638, -512, 632, -1627, 631, -1631, 637, -1624, 634, -1626, 632, -1628, 630, -1629, 629, -1633, 625, -1634, 634, -41137, 9266, -2204, 631, -96573, 9235, -2204, 631]
+    
+- platform: template
+  name: "Dim"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9349, -4519, 636, -519, 635, -521, 633, -522, 632, -523, 611, -544, 641, -514, 640, -517, 606, -549, 605, -1663, 636, -1631, 637, -1629, 639, -1627, 631, -522, 632, -1633, 635, -1629, 629, -1631, 606, -1653, 625, -520, 624, -521, 633, -512, 632, -513, 631, -514, 630, -516, 628, -516, 628, -518, 626, -1632, 626, -1633, 625, -1634, 634, -1625, 633, -1626, 632, -1626, 632, -1627, 631, -41160, 9200, -2214, 631]
+    
+- platform: template
+  name: "Flash"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9203, -4523, 602, -546, 598, -548, 606, -539, 605, -540, 604, -540, 604, -540, 604, -541, 603, -542, 602, -1654, 604, -1656, 602, -1657, 601, -1658, 600, -546, 598, -1660, 598, -1661, 607, -1651, 607, -1652, 606, -1654, 604, -543, 601, -1656, 602, -544, 600, -545, 599, -545, 599, -546, 598, -546, 598, -546, 598, -1659, 599, -546, 598, -1659, 599, -1659, 599, -1659, 599, -1660, 598, -41200, 9184, -2241, 605]
+    
+- platform: template
+  name: "Strobe"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9218, -4491, 633, -511, 633, -511, 633, -511, 633, -512, 632, -512, 632, -513, 631, -512, 632, -512, 632, -1626, 632, -1627, 631, -1627, 631, -1628, 630, -515, 629, -1630, 628, -1632, 626, -1633, 635, -1624, 634, -1624, 634, -1624, 634, -1625, 633, -513, 631, -514, 630, -515, 629, -515, 629, -516, 628, -516, 628, -517, 627, -518, 626, -1633, 635, -1623, 635, -1625, 633, -1625, 633, -41172, 9198, -2214, 631]
+    
+- platform: template
+  name: "Fade"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xEC13
+        
+- platform: template
+  name: "Holiday"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xE817
+        
+- platform: template
+  name: "Red"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xFB04
+        
+- platform: template
+  name: "Green"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xFA05
+        
+- platform: template
+  name: "Blue"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF906
+        
+- platform: template
+  name: "White"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9223, -4493, 632, -512, 632, -512, 632, -512, 632, -513, 631, -513, 631, -513, 631, -514, 630, -514, 630, -1629, 629, -1629, 629, -1630, 628, -1631, 627, -518, 626, -1632, 626, -1633, 625, -1634, 624, -1635, 633, -1625, 633, -1626, 632, -513, 631, -513, 631, -513, 631, -512, 632, -512, 632, -512, 632, -512, 632, -512, 622, -1635, 623, -1634, 624, -1634, 624, -1633, 625, -1632, 626, -41178, 9189, -2219, 627]
+    
+- platform: template
+  name: "Orange_Yellow"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF708
+        
+- platform: template
+  name: "Green_Turquoise"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF609
+        
+- platform: template
+  name: "Blue_Purple"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF50A
+        
+- platform: template
+  name: "Yellow_Orange"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF30C
+        
+- platform: template
+  name: "Blue_Turquoise"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF20D
+        
+- platform: template
+  name: "Purple"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF10E
+        
+- platform: template
+  name: "Yellow_Orange"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xEF10
+        
+- platform: template
+  name: "Light_Blue_Turquoise"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xEE11
+        
+- platform: template
+  name: "Light_Purple"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xED12
+        
+- platform: template
+  name: "Yellow"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xEB14
+        
+- platform: template
+  name: "Light_Blue"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xEA15
+        
+- platform: template
+  name: "Pink_Purple"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xE916
+        

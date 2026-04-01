@@ -1,0 +1,120 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xB946
+        
+- platform: template
+  name: "Enter"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xB54A
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xB748
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xB24D
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xB14E
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xB649
+        
+- platform: template
+  name: "Channel_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xF00F
+        
+- platform: template
+  name: "Channel_down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xA55A
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xF30C
+        
+- platform: template
+  name: "Vol_down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xE619
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xB34C
+        
+- platform: template
+  name: "Settings"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0x6996
+        
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xF20D
+        
+- platform: template
+  name: "Home"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0x609F
+        
+- platform: template
+  name: "Play_pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xA45B
+        
+- platform: template
+  name: "Rewind"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xE916
+        
+- platform: template
+  name: "Fast_forward"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7D02
+        command: 0xE817
+        

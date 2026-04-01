@@ -1,0 +1,378 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E040BF
+        nbits: 32
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E06798
+        nbits: 32
+
+- platform: template
+  name: "Power_off_only"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E019E6
+        nbits: 32
+
+- platform: template
+  name: "Smart_hub"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0629D
+        nbits: 32
+
+- platform: template
+  name: "Smart_hub"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E06E91
+        nbits: 32
+
+- platform: template
+  name: "Smart_hub"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E09E61
+        nbits: 32
+
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E006F9
+        nbits: 32
+
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E08679
+        nbits: 32
+
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E046B9
+        nbits: 32
+
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0A659
+        nbits: 32
+
+- platform: template
+  name: "Select"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E016E9
+        nbits: 32
+
+- platform: template
+  name: "Play"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0E21D
+        nbits: 32
+
+- platform: template
+  name: "Pause"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E052AD
+        nbits: 32
+
+- platform: template
+  name: "Play/pause"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E09D62
+        nbits: 32
+
+- platform: template
+  name: "Rewind"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0A25D
+        nbits: 32
+
+- platform: template
+  name: "Fast_forward"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E012ED
+        nbits: 32
+
+- platform: template
+  name: "Return"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E01AE5
+        nbits: 32
+
+- platform: template
+  name: "Ambient_mode"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E06F90
+        nbits: 32
+
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0E01F
+        nbits: 32
+
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0D02F
+        nbits: 32
+
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0F00F
+        nbits: 32
+
+- platform: template
+  name: "Ch_next"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E048B7
+        nbits: 32
+
+- platform: template
+  name: "Ch_prev"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E008F7
+        nbits: 32
+
+- platform: template
+  name: "Netflix"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0CF30
+        nbits: 32
+
+- platform: template
+  name: "Amazon"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E02FD0
+        nbits: 32
+
+- platform: template
+  name: "Hulu"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0DD22
+        nbits: 32
+
+- platform: template
+  name: "Sound"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0D42B
+        nbits: 32
+
+- platform: template
+  name: "Pair_bluetooth"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E08B74
+        nbits: 32
+
+- platform: template
+  name: "Source"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0807F
+        nbits: 32
+
+- platform: template
+  name: "Source"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0D12E
+        nbits: 32
+
+- platform: template
+  name: "Accessibility_shortcut"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0A45B
+        nbits: 32
+
+- platform: template
+  name: "Accessibility_shortcut"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0E41B
+        nbits: 32
+
+- platform: template
+  name: "Accessibility_shortcut"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E09A65
+        nbits: 32
+
+- platform: template
+  name: "Virtual_numarical_pad"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E039C6
+        nbits: 32
+
+- platform: template
+  name: "Virtual_numarical_pad"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E04BB4
+        nbits: 32
+
+- platform: template
+  name: "Colored_buttons"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0738C
+        nbits: 32
+
+- platform: template
+  name: "Bixby"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0CE31
+        nbits: 32
+
+- platform: template
+  name: "Bixby"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E005FA
+        nbits: 32
+
+- platform: template
+  name: "Hdmi_1"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E09768
+        nbits: 32
+
+- platform: template
+  name: "Hdmi_2"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E07D82
+        nbits: 32
+
+- platform: template
+  name: "Hdmi_3"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E043BC
+        nbits: 32
+
+- platform: template
+  name: "Hdmi_4"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0A35C
+        nbits: 32
+
+- platform: template
+  name: "Sleep"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0C03F
+        nbits: 32
+
+- platform: template
+  name: "Picture"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E058A7
+        nbits: 32
+
+- platform: template
+  name: "Picture_mode"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E014EB
+        nbits: 32
+
+- platform: template
+  name: "Fps_(rate/quality)"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0F807
+        nbits: 32
+
+- platform: template
+  name: "Not_availible"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E040FB
+        nbits: 32
+
+- platform: template
+  name: "Not_availible"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0DC23
+        nbits: 32
+
+- platform: template
+  name: "Not_availible"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E07C83
+        nbits: 32
+
+- platform: template
+  name: "Guide"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0F20D
+        nbits: 32
+
+- platform: template
+  name: "Internet_browser"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0EC13
+        nbits: 32
+
+- platform: template
+  name: "Exit_application"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0B44B
+        nbits: 32
+
+- platform: template
+  name: "E-manual"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E0FC03
+        nbits: 32
+
+- platform: template
+  name: "Unknown_application"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0xE0E03DC2
+        nbits: 32

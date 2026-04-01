@@ -1,0 +1,232 @@
+
+- platform: template
+  name: "On/Off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2448
+        command: 0xF30C
+        
+- platform: template
+  name: "UP_Volume"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2448
+        command: 0xEC13
+        
+- platform: template
+  name: "DOWN_Volume"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2448
+        command: 0xEB14
+        
+- platform: template
+  name: "UP_Channel"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9065, -4432, 616, -495, 617, -494, 617, -494, 617, -1635, 616, -495, 616, -496, 616, -1635, 616, -495, 616, -495, 616, -495, 616, -1634, 617, -522, 495, -616, 1636, -615, 495, -617, 496, -615, 1635, -616, 1635, -615, 1635, -616, 496, -616, 1635, -615, 496, -616, 496, -616, 496, -616, 496, -615, 495, -616, 496, -616, 1635, -615, 496, -615, 1635, -616, 1635, -615, 1635, -616, 44642, -9069, 2181, -616]
+    
+- platform: template
+  name: "DOWN_Channel"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2448
+        command: 0xE718
+        
+- platform: template
+  name: "OK"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2448
+        command: 0xE01F
+        
+- platform: template
+  name: "UP_Arrow"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2448
+        command: 0xE51A
+        
+- platform: template
+  name: "BACK_Arrow"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2448
+        command: 0xE41B
+        
+- platform: template
+  name: "LEFT_Arrow"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2448
+        command: 0xE21D
+        
+- platform: template
+  name: "RIGHT_Arrow"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2448
+        command: 0xE31C
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2448
+        command: 0xED12
+        
+- platform: template
+  name: "Guide"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2448
+        command: 0xDA25
+        
+- platform: template
+  name: "Exit"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2448
+        command: 0xF50A
+        
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2448
+        command: 0xE619
+        
+- platform: template
+  name: "Info"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2448
+        command: 0xF20D
+        
+- platform: template
+  name: "0"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2448
+        command: 0xFF00
+        
+- platform: template
+  name: "1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2448
+        command: 0xFE01
+        
+- platform: template
+  name: "2"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9064, -4432, 616, -495, 617, -494, 617, -496, 615, -1635, 615, -497, 614, -496, 616, -1634, 615, -496, 616, -496, 615, -494, 618, -1634, 616, -495, 616, -495, 616, -1635, 616, -497, 614, -497, 615, -495, 616, -1634, 616, -498, 614, -498, 614, -613, 496, -615, 498, -615, 494, -617, 1633, -617, 497, -614, 1635, -616, 1636, -614, 1635, -589, 1661, -614, 1637, -613, 1636, -615, 44641, -9067, 2181, -616]
+    
+- platform: template
+  name: "3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2448
+        command: 0xFC03
+        
+- platform: template
+  name: "4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2448
+        command: 0xFB04
+        
+- platform: template
+  name: "5"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2448
+        command: 0xFA05
+        
+- platform: template
+  name: "6"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2448
+        command: 0xF906
+        
+- platform: template
+  name: "7"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2448
+        command: 0xF807
+        
+- platform: template
+  name: "8"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2448
+        command: 0xF708
+        
+- platform: template
+  name: "9"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2448
+        command: 0xF609
+        
+- platform: template
+  name: "Help"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2448
+        command: 0xEE11
+        
+- platform: template
+  name: "Radio"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2448
+        command: 0xD926
+        
+- platform: template
+  name: "Txt"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2448
+        command: 0xD728
+        
+- platform: template
+  name: "HD_Channels"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2448
+        command: 0xDF20
+        
+- platform: template
+  name: "My_Channels"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2448
+        command: 0xF10E
+        
+- platform: template
+  name: "Get_TV"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2448
+        command: 0xD827
+        
+- platform: template
+  name: "My_Archive"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2448
+        command: 0xF40B
+        
+- platform: template
+  name: "Movie"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x2448
+        command: 0xD629
+        

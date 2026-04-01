@@ -1,0 +1,113 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF708
+        command: 0xF40B
+        
+- platform: template
+  name: "input"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF708
+        command: 0xF30C
+        
+- platform: template
+  name: "rotate"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF708
+        command: 0xF00F
+        
+- platform: template
+  name: "up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF708
+        command: 0xAF50
+        
+- platform: template
+  name: "down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF708
+        command: 0xAC53
+        
+- platform: template
+  name: "left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF708
+        command: 0xAE51
+        
+- platform: template
+  name: "right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF708
+        command: 0xAD52
+        
+- platform: template
+  name: "ok"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF708
+        command: 0xE31C
+        
+- platform: template
+  name: "home"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF708
+        command: 0xE51A
+        
+- platform: template
+  name: "return"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF708
+        command: 0xEA15
+        
+- platform: template
+  name: "menu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF708
+        command: 0xE817
+        
+- platform: template
+  name: "VOL+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF708
+        command: 0xB748
+        
+- platform: template
+  name: "VOL-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF708
+        command: 0xB649
+        
+- platform: template
+  name: "MUTE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF708
+        command: 0xEB14
+        
+- platform: template
+  name: "rewind"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF708
+        command: 0xB54A
+        
+- platform: template
+  name: "fastforward"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xF708
+        command: 0xAB54
+        

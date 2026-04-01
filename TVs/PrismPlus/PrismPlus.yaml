@@ -1,0 +1,98 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x707030CF
+        nbits: 32
+
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x7070B04F
+        nbits: 32
+
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x707042BD
+        nbits: 32
+
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x7070C23D
+        nbits: 32
+
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x707022DD
+        nbits: 32
+
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x7070A25D
+        nbits: 32
+
+- platform: template
+  name: "Home"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x70701EE1
+        nbits: 32
+
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x70708877
+        nbits: 32
+
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x707026D9
+        nbits: 32
+
+- platform: template
+  name: "Exit"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x7070AD52
+        nbits: 32
+
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x7070629D
+        nbits: 32
+
+- platform: template
+  name: "Vol+"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x707028D7
+        nbits: 32
+
+- platform: template
+  name: "Vol-"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x7070A857
+        nbits: 32
+
+- platform: template
+  name: "Google"
+  on_press:
+    - remote_transmitter.transmit_samsung:
+        data: 0x707041BE
+        nbits: 32

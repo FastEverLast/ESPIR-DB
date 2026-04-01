@@ -1,0 +1,211 @@
+
+- platform: template
+  name: "Play"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xF708
+        
+- platform: template
+  name: "Pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xFA05
+        
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xF609
+        
+- platform: template
+  name: "Rewind"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xF20D
+        
+- platform: template
+  name: "Fastforward"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xF30C
+        
+- platform: template
+  name: "MusicSkip_Forwared"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xFF00
+        
+- platform: template
+  name: "MusicSkip_Back"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xFB04
+        
+- platform: template
+  name: "Shuffle"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xF906
+        
+- platform: template
+  name: "Time"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xF50A
+        
+- platform: template
+  name: "Repeat"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xF10E
+        
+- platform: template
+  name: "Intro_Check"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xF807
+        
+- platform: template
+  name: "Memorey_Check"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xE51A
+        
+- platform: template
+  name: "Clear"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xE619
+        
+- platform: template
+  name: "Memory"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xF40B
+        
+- platform: template
+  name: "Disc1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xE41B
+        
+- platform: template
+  name: "Disc2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xE31C
+        
+- platform: template
+  name: "Disc3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xE21D
+        
+- platform: template
+  name: "Disc4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xE11E
+        
+- platform: template
+  name: "Disc5"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xE01F
+        
+- platform: template
+  name: "Disc_Skip"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xFD02
+        
+- platform: template
+  name: "Tape1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xED12
+        
+- platform: template
+  name: "Tape2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xEC13
+        
+- platform: template
+  name: "Tape3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xEE11
+        
+- platform: template
+  name: "Tape4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xEF10
+        
+- platform: template
+  name: "Tape5"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xF00F
+        
+- platform: template
+  name: "Tape6"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xE718
+        
+- platform: template
+  name: "Tape7"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xE817
+        
+- platform: template
+  name: "Tape8"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xEB14
+        
+- platform: template
+  name: "Tape9"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xEA15
+        
+- platform: template
+  name: "Tape0"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6186
+        command: 0xE916
+        

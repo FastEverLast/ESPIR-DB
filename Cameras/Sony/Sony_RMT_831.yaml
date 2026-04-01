@@ -1,0 +1,133 @@
+
+- platform: template
+  name: "Start_stop"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x4C9D
+        nbits: 15
+
+- platform: template
+  name: "Tele"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x2C9B
+        nbits: 15
+
+- platform: template
+  name: "Wide"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x6C9B
+        nbits: 15
+
+- platform: template
+  name: "Photo"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x549D
+        nbits: 15
+
+- platform: template
+  name: "Index"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x4B8F
+        nbits: 20
+
+- platform: template
+  name: "Mem_min"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xD4B8F
+        nbits: 20
+
+- platform: template
+  name: "Mem_plus"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x34B8F
+        nbits: 20
+
+- platform: template
+  name: "Search"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xEBC
+        nbits: 12
+
+- platform: template
+  name: "Play_mem"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x54B8F
+        nbits: 20
+
+- platform: template
+  name: "Skip_back"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xEBC
+        nbits: 12
+
+- platform: template
+  name: "Skip_fwd"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x6BC
+        nbits: 12
+
+- platform: template
+  name: "Rew"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xD9C
+        nbits: 12
+
+- platform: template
+  name: "Play"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x59C
+        nbits: 12
+
+- platform: template
+  name: "Fast_fwd"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x39C
+        nbits: 12
+
+- platform: template
+  name: "Pause"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x99C
+        nbits: 12
+
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x19C
+        nbits: 12
+
+- platform: template
+  name: "Slow"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xC5C
+        nbits: 12
+
+- platform: template
+  name: "Zerosetmem"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xE3C
+        nbits: 12
+
+- platform: template
+  name: "Display"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x5BC
+        nbits: 12

@@ -1,0 +1,288 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xBE41
+        
+- platform: template
+  name: "Off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xBF40
+        
+- platform: template
+  name: "R"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xA758
+        
+- platform: template
+  name: "G"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xA659
+        
+- platform: template
+  name: "B"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xBA45
+        
+- platform: template
+  name: "W"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xBB44
+        
+- platform: template
+  name: "Yellow"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xAB54
+        
+- platform: template
+  name: "Light_blue"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xAA55
+        
+- platform: template
+  name: "Turqouise"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xB649
+        
+- platform: template
+  name: "Pink"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xB748
+        
+- platform: template
+  name: "Orange"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xAF50
+        
+- platform: template
+  name: "Teal"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xAE51
+        
+- platform: template
+  name: "Purple"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xB24D
+        
+- platform: template
+  name: "Other_Pink"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xB34C
+        
+- platform: template
+  name: "Song_1"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [175, -893, 380, -1378, 197, -366, 298, -765, 431, -314, 627, -1024, 177, -330, 196, -5880, 277, -1893, 224, -890, 178, -1226, 175, -779, 197, -995, 201, -910, 179, -1960, 177, -4321, 194, -18031, 196, -4303, 197, -13402, 176, -42880, 353, -737, 306, -386, 227, -916, 199, -757, 178, -247, 197, -2941, 199]
+    
+- platform: template
+  name: "Song_2"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [3924, -313, 331, -308, 4120, -4604, 520, -673, 441, -567, 547, -591, 544, -596, 518, -647, 518, -620, 464, -650, 516, -596, 518, -1755, 515, -1734, 516, -1705, 545, -1729, 521, -1754, 516, -1731, 519, -1729, 521, -1752, 488, -1736, 544, -673, 482, -1684, 545, -1781, 520, -1676, 523, -564, 571, -673, 462, -625, 540, -572, 512, -1761, 519, -620, 494, -644, 491, -594, 520, -1756, 514, -1758, 492, -1758, 543, -40082, 5117, -252, 883, -257, 2433, -2387, 405]
+    
+- platform: template
+  name: "Song_3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xE11E
+        
+- platform: template
+  name: "Song_4"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [600, -333, 301, -365, 780, -69, 171, -363, 178, -302, 178, -834, 3926, -229, 353, -2368, 464]
+    
+- platform: template
+  name: "1H"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [224, -256, 377, -337, 179, -247, 514, -67, 280, -464, 200, -411, 621, -892, 519, -92, 178, -246, 198, -10727, 179, -1252, 179, -587, 430, -894, 251, -674, 179, -1277, 175, -1780, 413, -1859, 431, -1788, 461, -1838, 411, -1754, 516, -1758, 461, -1838, 462, -1915, 304, -703, 432, -732, 249, -783, 515, -1756, 514, -1810, 179, -1041, 201, -778, 490, -992, 178, -1696, 334, -1965, 458, -1894, 355, -703, 432, -652, 513, -1707, 512, -1760, 489, -1784, 435, -40115, 4677, -260, 1713, -92, 178, -429, 199, -278, 1153, -2443, 359]
+    
+- platform: template
+  name: "2H"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xE619
+        
+- platform: template
+  name: "3H"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [279, -5274, 197, -4429, 177, -76285, 177, -566, 226, -676, 177, -1678, 280, -409, 179, -775, 252, -2877, 272]
+    
+- platform: template
+  name: "4H"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [305, -3787, 252, -623, 246, -1374, 200]
+    
+- platform: template
+  name: "Up_Red"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xEB14
+        
+- platform: template
+  name: "Down_Red"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [330, -469, 226, -1028, 173, -11424, 197, -1897, 414, -940, 225, -727, 177, -2022, 176, -1097, 196, -3351, 171, -1784, 179, -4587, 178, -76935, 201, -1419, 171, -105637, 9017, -2286, 515, -96289, 9096, -2258, 513]
+    
+- platform: template
+  name: "Up_Green"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xEA15
+        
+- platform: template
+  name: "Down_Green"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [196, -419, 179, -462, 197, -579, 198, -575, 222, -393, 302, -1031, 277, -470, 675, -419, 179, -487, 177, -7232, 196, -2192, 200, -4468, 169, -23361, 176]
+    
+- platform: template
+  name: "Up_Blue"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [2583, -223, 3345, -599, 198, -11164, 410, -911, 223, -780, 334, -776, 225, -777, 460, -1892, 377, -1974, 306, -4130, 379, -1893, 305, -1861, 178, -2277, 222, -1812, 355, -754, 196, -2258, 195, -2024, 225, -910, 255, -1858, 278, -858, 379, -862, 175, -987, 224, -1889, 329, -860, 356, -700, 199, -2124, 299, -759, 437, -1859, 380, -1894, 304, -1807, 514, -40011, 1706, -277, 4671, -225, 991, -303, 198, -278, 223, -2628, 326]
+    
+- platform: template
+  name: "DIY1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF30C
+        
+- platform: template
+  name: "DIY2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF20D
+        
+- platform: template
+  name: "DIY3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF10E
+        
+- platform: template
+  name: "DIY4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF708
+        
+- platform: template
+  name: "DIY5"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF609
+        
+- platform: template
+  name: "DIY6"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF50A
+        
+- platform: template
+  name: "Quick"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xE817
+        
+- platform: template
+  name: "Slow"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xEC13
+        
+- platform: template
+  name: "Auto"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF00F
+        
+- platform: template
+  name: "Flash"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xF40B
+        
+- platform: template
+  name: "Jump3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xFB04
+        
+- platform: template
+  name: "Jump7"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xFA05
+        
+- platform: template
+  name: "Fade3"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [196, -68, 172, -22157, 176, -11027, 226, -74363, 378, -311, 772, -339, 305, -303, 218, -311, 251, -305, 247, -283, 381, -305, 196, -439, 179, -615, 514, -413, 333, -619, 173, -2786, 307]
+    
+- platform: template
+  name: "Fade7"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [175, -111506, 172]
+    

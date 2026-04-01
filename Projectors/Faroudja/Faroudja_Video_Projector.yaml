@@ -1,0 +1,211 @@
+
+- platform: template
+  name: "CURSOR_ENTER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xFD02
+        
+- platform: template
+  name: "MENU"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xFC03
+        
+- platform: template
+  name: "CURSOR_UP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xFB04
+        
+- platform: template
+  name: "CURSOR_RIGHT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xFA05
+        
+- platform: template
+  name: "CURSOR_LEFT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xF807
+        
+- platform: template
+  name: "VALUE_-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xF807
+        
+- platform: template
+  name: "0"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xF708
+        
+- platform: template
+  name: "2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xF50A
+        
+- platform: template
+  name: "3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xF40B
+        
+- platform: template
+  name: "4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xF30C
+        
+- platform: template
+  name: "5"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xF20D
+        
+- platform: template
+  name: "6"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xF10E
+        
+- platform: template
+  name: "Unknown"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xF10E
+        
+- platform: template
+  name: "7"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xF00F
+        
+- platform: template
+  name: "9"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xEE11
+        
+- platform: template
+  name: "Unknown"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xEE11
+        
+- platform: template
+  name: "TINT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xEA15
+        
+- platform: template
+  name: "NOISE_REDUCTION"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xE817
+        
+- platform: template
+  name: "ASPECT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xE718
+        
+- platform: template
+  name: "S-VIDEO"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xE31C
+        
+- platform: template
+  name: "RGB"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xE21D
+        
+- platform: template
+  name: "YCRCB"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xE11E
+        
+- platform: template
+  name: "4:3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xDF20
+        
+- platform: template
+  name: "ANAMORPHIC"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xDD22
+        
+- platform: template
+  name: "POWER_ON"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xDC23
+        
+- platform: template
+  name: "PST1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xDA25
+        
+- platform: template
+  name: "PST2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xD926
+        
+- platform: template
+  name: "PST3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xD827
+        
+- platform: template
+  name: "PST4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xD728
+        
+- platform: template
+  name: "FACTORY"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0001
+        command: 0xD629
+        

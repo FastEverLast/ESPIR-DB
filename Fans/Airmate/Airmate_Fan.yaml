@@ -1,0 +1,50 @@
+
+- platform: template
+  name: "Oscillation"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0103
+        command: 0xF609
+        
+- platform: template
+  name: "Timer"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0103
+        command: 0xEE11
+        
+- platform: template
+  name: "Fan_mode"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0103
+        command: 0xDE21
+        
+- platform: template
+  name: "Speed"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0103
+        command: 0xBE41
+        
+- platform: template
+  name: "Light"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0103
+        command: 0x9C63
+        
+- platform: template
+  name: "Shutdown"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0103
+        command: 0x7E81
+        
+- platform: template
+  name: "Presets"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0103
+        command: 0x3CC3
+        

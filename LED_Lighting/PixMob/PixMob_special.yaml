@@ -1,0 +1,1128 @@
+
+- platform: template
+  name: "OLD_RAINBOW_MOTION"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 700, -700, 700, -700, 700, -2100, 700, -700, 700, -1400, 700, -2100, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "OLD_GREEN_MOTION"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2800, 700, -1400, 700, -1400, 1400, -1400, 700, -1400, 700, -2100, 700, -700, 700, -700, 700, -2100, 1400, -2800, 700, -2800, 1400, -1400, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "OLD_TURQUOISE_MOTION"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2800, 700, -1400, 700, -1400, 1400, -1400, 700, -1400, 700, -2100, 700, -700, 700, -700, 700, -2100, 700, -700, 700, -2100, 700, -2800, 1400, -1400, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "OLD_TURQUOISE_MOTION_2"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2800, 700, -1400, 700, -1400, 1400, -1400, 700, -1400, 700, -2100, 700, -700, 700, -700, 700, -700, 1400, -1400, 700, -2800, 700, -2100, 700, -2100, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "OLD_TURQUOISE_MOTION_3"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2800, 700, -1400, 700, -1400, 1400, -1400, 700, -1400, 700, -2100, 700, -700, 700, -700, 700, -2100, 700, -700, 700, -2100, 700, -1400, 700, -700, 1400, -1400, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "FAST_WHITE"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -1400, 700, -1400, 700, -700, 1400, -2800, 700, -1400, 700, -1400, 700, -2100, 1400, -1400, 700, -2100, 1400, -1400, 700, -2100, 1400, -2800, 700, -2100, 700, -700, 700, -2100, 1400, -2800, 700]
+    
+- platform: template
+  name: "SLOW_WHITE"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -1400, 700, -1400, 700, -2100, 1400, -1400, 700, -2100, 700, -700, 700, -2100, 700, -2100, 1400, -700, 700, -700, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "SLOW_YELLOW"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -1400, 700, -1400, 700, -2100, 1400, -1400, 700, -2100, 1400, -2800, 700, -2100, 1400, -700, 700, -700, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "SLOW_ORANGE"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -2100, 700, -700, 700, -2100, 1400, -1400, 700, -2100, 1400, -2800, 700, -2100, 1400, -700, 700, -700, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "SLOW_TURQUOISE"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -1400, 700, -1400, 700, -2100, 700, -700, 700, -700, 700, -2100, 700, -700, 700, -2100, 700, -2100, 1400, -700, 700, -700, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "SLOW_GREEN"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -1400, 700, -1400, 700, -2100, 700, -700, 700, -700, 700, -2100, 1400, -2800, 700, -2100, 1400, -700, 700, -700, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "SLOW_YELLOW_2"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -2100, 700, -700, 700, -2100, 700, -700, 700, -700, 700, -2100, 1400, -2800, 700, -2100, 1400, -700, 700, -700, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "SLOW_WHITE_2"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -2100, 700, -700, 700, -2100, 700, -700, 1400, -2800, 700, -700, 700, -2100, 700, -2100, 1400, -700, 700, -700, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "VERY_SLOW_WHITE"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -1400, 700, -1400, 700, -700, 1400, -2800, 700, -1400, 700, -1400, 700, -2100, 1400, -1400, 700, -2100, 1400, -1400, 700, -2100, 1400, -2800, 700, -1400, 700, -700, 1400, -2100, 1400, -2800, 700]
+    
+- platform: template
+  name: "LIGHT_BLUE"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -2100, 1400, -1400, 700, -700, 700, -700, 700, -700, 700, -700, 1400, -1400, 700, -2100, 700, -2100, 1400, -700, 700, -700, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "PINK"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -2100, 1400, -2800, 1400, -700, 1400, -2100, 700, -700, 700, -2100, 700, -2100, 1400, -700, 700, -700, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "WHITISH_BLUE"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -2100, 1400, -2800, 700, -700, 700, -700, 700, -2100, 700, -700, 700, -2100, 700, -2100, 1400, -700, 700, -700, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "MAGENTA"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -2800, 700, -2800, 1400, -700, 1400, -2100, 700, -700, 700, -2100, 700, -2100, 1400, -700, 700, -700, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "MAGENTA_2"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -2100, 700, -2100, 1400, -700, 700, -2100, 1400, -700, 700, -700, 700, -2100, 700, -2100, 1400, -700, 700, -700, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "MAGENTA_3"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -1400, 700, -1400, 700, -700, 700, -700, 1400, -1400, 700, -700, 1400, -1400, 700, -2100, 700, -2100, 1400, -700, 700, -700, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "PURPLE_FADE"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -2100, 1400, -2800, 1400, -1400, 700, -2100, 700, -700, 700, -2100, 700, -2100, 700, -700, 1400, -700, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "VERY_SLOW_PINK"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -1400, 700, -1400, 700, -700, 1400, -2800, 700, -2100, 1400, -2800, 1400, -1400, 700, -2100, 1400, -1400, 700, -2100, 1400, -2800, 700, -1400, 700, -700, 1400, -2100, 1400, -2800, 700]
+    
+- platform: template
+  name: "WHITE_3"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -1400, 700, -1400, 700, -700, 1400, -2800, 700, -1400, 700, -1400, 700, -2100, 1400, -1400, 700, -2100, 1400, -1400, 700, -2100, 1400, -2800, 700, -2800, 1400, -2100, 1400, -2800, 700]
+    
+- platform: template
+  name: "WEIRD_1"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 700, -2800, 1400, -700, 700, -1400, 700, -1400, 700, -2100, 700, -700, 700, -700, 700, -2100, 700, -700, 700, -2100, 1400, -700, 3500, -700, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "WEIRD_2"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 700, -2800, 1400, -700, 700, -2100, 700, -700, 700, -2100, 700, -700, 700, -700, 700, -2100, 700, -700, 700, -2100, 1400, -700, 3500, -700, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "WEIRD_3"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 700, -700, 700, -1400, 1400, -700, 700, -1400, 700, -700, 1400, -2100, 700, -700, 700, -700, 700, -2100, 700, -700, 700, -700, 700, -1400, 700, -700, 3500, -700, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "WEIRD_4"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 700, -700, 1400, -2800, 700, -700, 700, -1400, 700, -2100, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "WEIRD_5"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 700, -700, 1400, -2800, 700, -700, 1400, -700, 700, -2100, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "WEIRD_8"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 700, -700, 700, -700, 1400, -1400, 700, -700, 700, -1400, 700, -2100, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "WEIRD_9"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 700, -700, 700, -1400, 700, -1400, 700, -700, 700, -1400, 700, -2100, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "WEIRD_28"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -1400, 700, -2100, 700, -1400, 700, -700, 700, -1400, 700, -1400, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_29"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -1400, 700, -1400, 700, -2800, 1400, -700, 1400, -1400, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_30"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -1400, 700, -1400, 700, -2100, 700, -700, 700, -700, 1400, -1400, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_31"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -1400, 700, -1400, 700, -1400, 700, -1400, 700, -700, 1400, -1400, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_32"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -1400, 700, -1400, 1400, -1400, 700, -700, 700, -700, 700, -2100, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_33"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -1400, 700, -1400, 1400, -700, 700, -1400, 700, -700, 700, -2100, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_34"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -1400, 700, -700, 1400, -2100, 700, -700, 1400, -700, 700, -1400, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_35"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -1400, 700, -700, 1400, -1400, 700, -1400, 1400, -700, 700, -1400, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_36"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -1400, 1400, -1400, 700, -2100, 700, -2100, 700, -1400, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_37"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -1400, 1400, -700, 700, -2800, 700, -1400, 1400, -1400, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_38"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -1400, 1400, -700, 700, -1400, 700, -2800, 1400, -1400, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_39"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -1400, 1400, -700, 700, -2100, 700, -2100, 1400, -1400, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_41"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -1400, 1400, -700, 1400, -1400, 700, -2100, 700, -2100, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_42"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -1400, 1400, -700, 1400, -700, 700, -2800, 700, -2100, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_51"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -700, 700, -700, 700, -700, 700, -2800, 700, -1400, 1400, -1400, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_43"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -700, 700, -2100, 1400, -2100, 1400, -700, 700, -2100, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_44"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -700, 700, -2100, 1400, -700, 700, -700, 1400, -700, 700, -2100, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_45"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -700, 700, -2800, 700, -2100, 1400, -1400, 700, -1400, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_46"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -700, 700, -2800, 700, -700, 700, -700, 1400, -1400, 700, -1400, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_47"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -700, 700, -2100, 700, -2800, 1400, -700, 1400, -1400, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_48"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -700, 700, -2100, 700, -1400, 700, -700, 1400, -700, 1400, -1400, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_49"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -700, 700, -700, 700, -1400, 700, -2100, 700, -2100, 700, -1400, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_50"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -700, 700, -700, 700, -1400, 700, -1400, 1400, -2100, 700, -1400, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_52"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -700, 700, -700, 700, -700, 700, -1400, 700, -700, 700, -1400, 1400, -1400, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_53"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -700, 700, -700, 700, -700, 1400, -2100, 700, -1400, 700, -2100, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_54"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -700, 700, -700, 700, -700, 1400, -1400, 1400, -1400, 700, -2100, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_55"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -700, 700, -700, 700, -700, 1400, -700, 700, -700, 700, -1400, 700, -2100, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_56"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -700, 700, -700, 1400, -700, 700, -2100, 700, -700, 1400, -2100, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_57"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -700, 700, -700, 1400, -700, 700, -1400, 1400, -700, 1400, -2100, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_58"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -700, 700, -700, 1400, -700, 700, -700, 700, -700, 700, -700, 1400, -2100, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_59"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -700, 1400, -2100, 700, -1400, 700, -700, 700, -1400, 700, -1400, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_60"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -700, 1400, -2100, 700, -700, 700, -1400, 700, -1400, 700, -1400, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_61"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -700, 1400, -1400, 700, -2100, 700, -700, 700, -700, 1400, -1400, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_62"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -700, 1400, -1400, 1400, -1400, 700, -700, 700, -700, 700, -2100, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_63"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -700, 1400, -1400, 1400, -700, 700, -1400, 700, -700, 700, -2100, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_64"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -700, 1400, -700, 1400, -2100, 700, -700, 1400, -700, 700, -1400, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_65"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -700, 1400, -700, 1400, -1400, 700, -1400, 1400, -700, 700, -1400, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_66"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 1400, -2800, 700, -2800, 1400, -700, 1400, -1400, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_67"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 1400, -2800, 700, -1400, 700, -700, 1400, -700, 1400, -1400, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_68"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 1400, -2800, 1400, -2100, 1400, -700, 700, -2100, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_69"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 1400, -2800, 1400, -700, 700, -700, 1400, -700, 700, -2100, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_70"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 1400, -1400, 700, -1400, 700, -1400, 1400, -2100, 700, -1400, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_71"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 1400, -1400, 700, -1400, 700, -700, 700, -700, 700, -2100, 700, -1400, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_72"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 1400, -1400, 700, -700, 700, -2800, 700, -1400, 1400, -1400, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_73"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 1400, -1400, 700, -700, 700, -2100, 1400, -1400, 1400, -1400, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_74"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 1400, -1400, 700, -700, 700, -1400, 700, -700, 700, -1400, 1400, -1400, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_75"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 1400, -1400, 700, -700, 1400, -2100, 700, -1400, 700, -2100, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_76"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 1400, -1400, 700, -700, 1400, -1400, 1400, -1400, 700, -2100, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_77"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 1400, -1400, 700, -700, 1400, -700, 700, -700, 700, -1400, 700, -2100, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_78"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 1400, -1400, 1400, -700, 700, -2100, 700, -700, 1400, -2100, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_79"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 1400, -1400, 1400, -700, 700, -1400, 1400, -700, 1400, -2100, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_80"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 1400, -700, 700, -2100, 700, -1400, 700, -700, 700, -1400, 700, -1400, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_81"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 1400, -700, 700, -2100, 700, -700, 700, -1400, 700, -1400, 700, -1400, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_82"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 1400, -700, 700, -1400, 700, -2100, 700, -700, 700, -700, 1400, -1400, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_83"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 1400, -700, 700, -1400, 700, -1400, 700, -1400, 700, -700, 1400, -1400, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_84"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 1400, -700, 700, -1400, 1400, -1400, 700, -700, 700, -700, 700, -2100, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_85"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 1400, -700, 700, -1400, 1400, -700, 700, -1400, 700, -700, 700, -2100, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_86"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 1400, -700, 700, -700, 1400, -2100, 700, -700, 1400, -700, 700, -1400, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_87"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 1400, -700, 700, -700, 1400, -1400, 700, -1400, 1400, -700, 700, -1400, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_88"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 1400, -700, 1400, -1400, 700, -1400, 700, -2800, 700, -1400, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_89"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 1400, -700, 1400, -700, 700, -2100, 700, -2100, 1400, -1400, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_90"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 1400, -700, 1400, -700, 1400, -1400, 700, -2100, 700, -2100, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_91"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 1400, -700, 1400, -700, 1400, -700, 700, -2800, 700, -2100, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_92"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 1400, -700, 1400, -700, 700, -1400, 700, -2800, 1400, -1400, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_93"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -1400, 700, -2100, 700, -2100, 1400, -1400, 700, -1400, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_100"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -1400, 700, -1400, 1400, -2100, 1400, -700, 700, -2100, 700, -2100, 700]
+    
+- platform: template
+  name: "SPECIAL_RANDOM_SLOW_FADE"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -1400, 700, -2100, 700, -700, 700, -1400, 700, -1400, 700, -1400, 700, -2100, 700]
+    
+- platform: template
+  name: "WEIRD_110"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 700, -2100, 1400, -1400, 700, -700, 700, -1400, 700, -700, 700, -700, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "WEIRD_111"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 700, -2100, 1400, -1400, 700, -700, 700, -1400, 700, -700, 700, -700, 700, -700, 700, -700, 700, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "WEIRD_112"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 700, -1400, 700, -700, 700, -1400, 700, -700, 700, -1400, 700, -700, 700, -700, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "WEIRD_113"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 700, -700, 700, -1400, 700, -1400, 700, -700, 700, -1400, 700, -2100, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "WEIRD_115"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 700, -700, 1400, -2100, 1400, -700, 700, -1400, 700, -700, 1400, -2100, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "SOMETIMES_RANDOM_COLOR_NEW"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 700, -700, 700, -1400, 700, -700, 1400, -700, 700, -1400, 700, -700, 1400, -1400, 700, -700, 700, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "WEIRD_114"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 700, -700, 700, -700, 1400, -1400, 700, -700, 700, -1400, 700, -2100, 700, -2100, 700, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "WEIRD_116"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1400, -1400, 700, -700, 700, -2100, 1400, -1400, 700, -2800, 700, -700, 700, -700, 700, -2100, 700, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "QUICK_RANDOM_INT"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 700, -700, 1400, -700, 700, -1400, 700, -700, 700, -1400, 700, -2100, 700, -2100, 700, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "NEW_YELLOW_INT_MAYBE"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -1400, 700, -700, 700, -2800, 1400, -1400, 700, -2100, 1400, -3500, 700]
+    
+- platform: template
+  name: "NEW_YELLOWGREEN_INT"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1400, -1400, 700, -700, 700, -1400, 700, -2100, 1400, -2800, 700, -2100, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "NEW_YELLOWGREEN_INT_2"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1400, -1400, 700, -700, 700, -1400, 700, -2100, 1400, -2100, 1400, -2100, 700, -2100, 700, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "NEW_RED_INT_2"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [6300, -700, 700, -1400, 700, -700, 700, -2100, 700, -2100, 700, -2100, 1400, -700, 700, -700, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "OLD_GREEN_BLINK"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -700, 1400, -1400, 1400, -700, 700, -1400, 700, -1400, 700, -1400, 700, -1400, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "OLD_GREEN_BLINK_2"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1400, -1400, 700, -700, 700, -2800, 700, -1400, 700, -1400, 700, -700, 700, -700, 700, -700, 700, -2100, 700, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "OLD_DIM_RED_BLINK"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1400, -1400, 700, -700, 700, -2800, 700, -1400, 700, -2800, 700, -700, 700, -700, 700, -2100, 700, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "OLD_DIM_RED_BLINK_3"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1400, -1400, 700, -700, 700, -1400, 700, -700, 700, -1400, 700, -2800, 700, -700, 700, -700, 700, -2100, 700, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "OLD_DIM_RED_BLINK_2"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 700, -1400, 700, -1400, 700, -700, 700, -700, 700, -1400, 700, -700, 700, -700, 700, -700, 700, -700, 700, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "OLD_DIM_YELLOW_BLINK"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1400, -1400, 700, -700, 700, -2800, 700, -1400, 700, -2100, 1400, -700, 700, -700, 700, -2100, 700, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "OLD_GREEN_BLINK_3"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1400, -1400, 700, -700, 700, -2800, 700, -700, 1400, -2800, 700, -2100, 700, -2100, 700, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "OLD_YELLOWGREEN_BLINK"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1400, -1400, 700, -700, 700, -2800, 700, -700, 1400, -2800, 700, -2100, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "OLD_GREEN_BLINK_4"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1400, -1400, 700, -700, 700, -2800, 700, -700, 1400, -2100, 1400, -2100, 700, -2100, 700, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "OLD_GREEN_BLINK_5"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1400, -1400, 700, -700, 700, -2800, 700, -700, 1400, -1400, 700, -700, 700, -2100, 700, -2100, 700, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "OLD_GREEN_BLINK_6"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1400, -1400, 700, -700, 700, -1400, 700, -1400, 700, -700, 700, -1400, 700, -1400, 700, -1400, 700, -1400, 700, -700, 700, -2100, 1400, -2800, 700]
+    
+- platform: template
+  name: "OLD_GREEN_BLINK_7"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1400, -700, 1400, -700, 1400, -700, 700, -700, 700, -1400, 700, -1400, 700, -1400, 700, -1400, 700, -1400, 700, -700, 700, -2100, 1400, -2800, 700]
+    
+- platform: template
+  name: "OLD_REDORANGE_BLINK"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -700, 1400, -1400, 1400, -2800, 1400, -700, 700, -2100, 700, -700, 700, -2100, 700, -2100, 700, -700, 700, -2800, 700]
+    
+- platform: template
+  name: "OLD_BLUE_BLINK"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -1400, 700, -1400, 1400, -700, 700, -1400, 700, -1400, 700, -700, 700, -700, 700, -700, 700, -2100, 700, -2800, 700, -700, 1400, -1400, 700]
+    
+- platform: template
+  name: "OLD_YELLOW_BLINK"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -2100, 700, -1400, 700, -1400, 700, -700, 700, -2800, 1400, -1400, 700, -2100, 1400, -2800, 700]
+    
+- platform: template
+  name: "OLD_YELLOW_BLINK_2"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -2100, 700, -1400, 700, -1400, 700, -700, 700, -1400, 700, -700, 1400, -1400, 700, -700, 1400, -700, 700, -2800, 700]
+    
+- platform: template
+  name: "RED_INT_OLD_DIM_1"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 700, -1400, 700, -1400, 700, -700, 700, -700, 700, -1400, 700, -700, 700, -700, 700, -2100, 700, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "OLD_DIM_WHITE"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -1400, 1400, -700, 1400, -2100, 700, -1400, 700, -2100, 700, -2100, 700]
+    
+- platform: template
+  name: "NEW_LIGHT_BLUE_2"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2800, 700, -700, 700, -2100, 1400, -1400, 700, -1400, 700, -2100, 700, -700, 700, -700, 700, -2100, 700, -700, 700, -2100, 700, -2800, 1400, -1400, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "NEW_GREEN_TO_TURQUOISE_FADE_ONCE"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 700, -700, 700, -700, 1400, -700, 1400, -1400, 700, -1400, 700, -2100, 700, -700, 700, -700, 700, -2100, 700, -700, 700, -2800, 700, -1400, 700, -700, 1400, -700, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "NEW_RANDOM_COLOR_MAYBE_ONCE"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2800, 700, -1400, 1400, -1400, 700, -1400, 700, -1400, 700, -2100, 700, -700, 700, -700, 700, -2100, 700, -700, 700, -2100, 700, -700, 3500, -1400, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "NEW_LIGHT_BLUE_3"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2100, 1400, -1400, 700, -1400, 1400, -700, 700, -700, 700, -1400, 700, -700, 700, -700, 700, -700, 700, -2100, 700, -2100, 1400, -700, 700, -700, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "NEW_RED_RAND_BLINK_1"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [3500, -700, 700, -1400, 700, -700, 700, -2100, 700, -2100, 700, -2100, 1400, -700, 700, -700, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "NEW_RANDOM_FADE"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -1400, 700, -2100, 700, -700, 700, -700, 1400, -1400, 700, -1400, 700, -2100, 700, -2100, 1400, -700, 700, -700, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "NEW_RANDOM_COLOR_SOMETIMES"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -1400, 700, -1400, 700, -2100, 700, -700, 700, -700, 1400, -1400, 700, -2100, 700, -2100, 700, -700, 1400, -700, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "NEW_RANDOM_COLOR_SOMETIMES_2"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -1400, 700, -1400, 700, -1400, 700, -1400, 700, -700, 1400, -1400, 700, -2100, 700, -2100, 700, -700, 1400, -700, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "NEW_RANDOM_RED_OR_ORANGE_OR_WHITE"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -1400, 700, -1400, 700, -1400, 700, -700, 1400, -700, 1400, -1400, 700, -2100, 700, -2100, 1400, -700, 700, -700, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "NEW_RANDOM_RED_WHITE"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -1400, 1400, -700, 700, -2100, 700, -2100, 1400, -1400, 700, -2100, 700, -2100, 700, -700, 1400, -700, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "NEW_RANDOM_COLOR_SOMETIMES_3"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -1400, 700, -1400, 1400, -1400, 700, -700, 700, -700, 700, -2100, 700, -2100, 700, -2100, 700, -700, 1400, -700, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "NEW_RANDOM_COLOR_SOMETIMES_4"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -1400, 1400, -1400, 700, -2100, 700, -2100, 700, -1400, 700, -2100, 700, -2100, 1400, -700, 700, -700, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "NEW_RANDOM_COLOR_SOMETIMES_5"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -1400, 1400, -1400, 700, -1400, 700, -2800, 700, -1400, 700, -2100, 700, -2100, 700, -700, 1400, -700, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "NEW_RANDOM_COLOR_SOMETIMES_6"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -1400, 1400, -1400, 700, -1400, 1400, -2100, 700, -1400, 700, -2100, 700, -2100, 1400, -700, 700, -700, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "NEW_RANDOM_COLOR_SOMETIMES_7"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -1400, 1400, -700, 700, -2100, 700, -700, 700, -700, 1400, -1400, 700, -2100, 700, -2100, 700, -1400, 700, -700, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "NEW_RANDOM_COLOR_SOMETIMES_8"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -1400, 1400, -700, 700, -2100, 1400, -1400, 1400, -1400, 700, -2100, 700, -2100, 1400, -700, 700, -700, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "NEW_GREEN_INT_3"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -1400, 700, -1400, 1400, -2100, 1400, -1400, 700, -1400, 700, -1400, 700, -1400, 700, -700, 700, -2100, 1400, -2800, 700]
+    
+- platform: template
+  name: "NEW_RANDOM_COLOR_SOMETIMES_FADE_NO_TAIL"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -1400, 700, -1400, 700, -1400, 700, -1400, 700, -700, 1400, -1400, 700, -2100, 700]
+    
+- platform: template
+  name: "NEW_RED_WHITE_RATE_LIMITED"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -700, 700, -1400, 1400, -700, 1400, -700, 700, -2800, 700, -2100, 700, -2100, 700, -2100, 700, -700, 1400, -700, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "OLD_GREEN_INT_5"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -700, 1400, -1400, 1400, -700, 700, -1400, 700, -1400, 700, -700, 1400, -1400, 700, -2100, 700, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "OLD_RED_INT_3"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 700, -1400, 3500, -1400, 1400, -1400, 700, -700, 700, -2100, 700, -2100, 700, -2100, 1400, -700, 700, -700, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "OLD_QUICK_TURQUOISE"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2800, 700, -2100, 700, -1400, 700, -1400, 700, -1400, 700, -2100, 700, -700, 700, -700, 700, -2100, 700, -700, 700, -2100, 700]
+    
+- platform: template
+  name: "OLD_QUICK_TURQUOISE_2"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2800, 700, -700, 700, -700, 700, -1400, 700, -1400, 700, -1400, 700, -2100, 700, -700, 700, -700, 700, -2100, 700, -700, 700, -2100, 700]
+    
+- platform: template
+  name: "OLD_WHITE_THEN_RED"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2800, 700, -700, 700, -1400, 700, -700, 700, -1400, 700, -1400, 700, -2100, 1400, -1400, 700, -2100, 700, -700, 700, -2100, 700, -2100, 1400, -700, 700, -700, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "OLD_TURQUOISE_THEN_ORANGE"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -2100, 700, -700, 1400, -1400, 700, -1400, 700, -2100, 700, -700, 700, -700, 700, -2100, 700, -700, 700, -2100, 700, -2100, 700, -2800, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "OLD_GREEN_THEN_YELLOW"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 700, -2800, 700, -700, 1400, -1400, 700, -1400, 700, -2100, 700, -700, 700, -700, 700, -2100, 700, -700, 700, -2100, 1400, -1400, 700, -1400, 700, -700, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "OLD_TURQUOISE_THEN_YELLOW"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -2100, 700, -1400, 700, -1400, 700, -1400, 700, -2100, 700, -700, 700, -700, 700, -2100, 700, -700, 700, -2100, 700, -1400, 700, -2100, 700, -700, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "OLD_TURQUOISE_THEN_RED"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2800, 700, -700, 700, -1400, 700, -700, 700, -1400, 700, -1400, 700, -2100, 700, -700, 700, -700, 700, -2100, 700, -700, 700, -2100, 700, -2100, 1400, -700, 700, -700, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "OLD_YELLOW_THEN_OFF"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 1400, -1400, 700, -700, 1400, -2800, 1400, -1400, 700, -2800, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "OLD_GREEN_THEN_OFF"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 1400, -700, 700, -1400, 700, -1400, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "OLD_YELLOW_INT_5"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -2100, 1400, -700, 700, -2800, 1400, -1400, 700, -700, 700, -1400, 700, -1400, 1400, -2800, 1400, -2800, 700]
+    
+- platform: template
+  name: "NEW_FADE_PRESET_COLOR"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -1400, 700, -1400, 700, -700, 1400, -1400, 700, -1400, 700, -700, 700, -700, 700, -700, 700, -2100, 700, -2800, 1400, -700, 700, -1400, 700]
+    
+- platform: template
+  name: "NEW_FADE_PRESET_COLOR_2"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [700, -700, 700, -1400, 700, -1400, 700, -700, 1400, -1400, 700, -1400, 700, -700, 700, -700, 700, -700, 700, -2100, 700, -2800, 700, -700, 1400, -1400, 700]
+    

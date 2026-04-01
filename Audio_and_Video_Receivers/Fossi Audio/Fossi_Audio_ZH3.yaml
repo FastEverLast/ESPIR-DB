@@ -1,0 +1,92 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x82EA
+        command: 0x8D72
+        
+- platform: template
+  name: "Lcd_Change"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x82EA
+        command: 0x8C73
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x82EA
+        command: 0x8A75
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x82EA
+        command: 0x8976
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x82EA
+        command: 0x8679
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x82EA
+        command: 0x8877
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x82EA
+        command: 0x8778
+        
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x82EA
+        command: 0x7986
+        
+- platform: template
+  name: "Change_Input"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x82EA
+        command: 0x7F80
+        
+- platform: template
+  name: "Change_Output"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x82EA
+        command: 0x7E81
+        
+- platform: template
+  name: "Change_Filter"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x82EA
+        command: 0x7D82
+        
+- platform: template
+  name: "Change_Auto"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x82EA
+        command: 0x7C83
+        
+- platform: template
+  name: "Home"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x82EA
+        command: 0x7A85
+        

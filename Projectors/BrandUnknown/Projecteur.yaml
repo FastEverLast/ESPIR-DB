@@ -1,0 +1,29 @@
+
+- platform: template
+  name: "Allume"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5583
+        command: 0x6F90
+        
+- platform: template
+  name: "Freeze"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5583
+        command: 0x6D92
+        
+- platform: template
+  name: "Zoom_Plus"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5583
+        command: 0x7788
+        
+- platform: template
+  name: "Zoom_Moins"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x5583
+        command: 0x7689
+        

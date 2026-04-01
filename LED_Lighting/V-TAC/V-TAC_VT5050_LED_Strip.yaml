@@ -1,0 +1,64 @@
+
+- platform: template
+  name: "On"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xFD02
+        
+- platform: template
+  name: "Off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xFD02
+        
+- platform: template
+  name: "Bright_Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xFF00
+        
+- platform: template
+  name: "Bright_Down"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [6611, -147, 2428, -4472, 605, -535, 610, -529, 606, -532, 603, -532, 603, -532, 603, -531, 604, -530, 605, -529, 606, -1632, 596, -1640, 599, -1639, 600, -1639, 600, -538, 607, -1632, 607, -1632, 607, -1632, 607, -1633, 606, -532, 603, -533, 602, -535, 600, -536, 599, -537, 598, -539, 606, -529, 606, -530, 605, -1633, 606, -1633, 606, -1633, 606, -1633, 606, -1633, 606, -1633, 606, -1632, 607, -40787, 9187, -2210, 607]
+    
+- platform: template
+  name: "Red"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xFB04
+        
+- platform: template
+  name: "Green"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xFA05
+        
+- platform: template
+  name: "Blue"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF906
+        
+- platform: template
+  name: "White"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xF807
+        
+- platform: template
+  name: "Yellow"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xEF00
+        command: 0xEB14
+        

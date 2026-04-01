@@ -1,0 +1,22 @@
+
+- platform: template
+  name: "Horn"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [6007, -3829, 2005, -3835, 2001, -3828, 2008, -2181, 2005, -2185, 2001, -2175, 2011, -2180, 2006, -3808, 1977]
+    
+- platform: template
+  name: "Forward"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [6040, -3818, 2028, -3845, 2005, -2152, 2034, -2180, 2006, -2152, 2034, -2153, 2033, -3820, 2030, -3815, 2036]
+    
+- platform: template
+  name: "Backward"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [6040, -3802, 2032, -3804, 2033, -2151, 2035, -3802, 2035, -2155, 2031, -2180, 2006, -3751, 2034, -2156, 2031]
+    

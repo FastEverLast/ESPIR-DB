@@ -1,0 +1,309 @@
+
+- platform: template
+  name: "POWER_ON"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x3FC0
+        
+- platform: template
+  name: "POWER_OFF"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x3EC1
+        
+- platform: template
+  name: "OPEN/CLOSE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x3DC2
+        
+- platform: template
+  name: "DISC_MENU"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x3CC3
+        
+- platform: template
+  name: "SETUP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x3BC4
+        
+- platform: template
+  name: "POPUP/TITLE_MENU"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x3AC5
+        
+- platform: template
+  name: "STATUS"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x39C6
+        
+- platform: template
+  name: "RETURN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x36C9
+        
+- platform: template
+  name: "CURSOR_UP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x35CA
+        
+- platform: template
+  name: "CURSOR_DOWN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x34CB
+        
+- platform: template
+  name: "CURSOR_LEFT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x33CC
+        
+- platform: template
+  name: "CURSOR_RIGHT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x32CD
+        
+- platform: template
+  name: "CURSOR_OK"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x31CE
+        
+- platform: template
+  name: "COLOR_A_RED"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x30CF
+        
+- platform: template
+  name: "COLOR_B_GREEN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x2FD0
+        
+- platform: template
+  name: "COLOR_D_BLUE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x2ED1
+        
+- platform: template
+  name: "COLOR_C_YELLOW"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x2DD2
+        
+- platform: template
+  name: "AUDIO"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x2CD3
+        
+- platform: template
+  name: "SUBTITLE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x2BD4
+        
+- platform: template
+  name: "ANGLE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x2AD5
+        
+- platform: template
+  name: "REPEAT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x29D6
+        
+- platform: template
+  name: "TR_SEARCH_<<"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x25DA
+        
+- platform: template
+  name: "TR_SEARCH_>>"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x24DB
+        
+- platform: template
+  name: "TR_SKIP_<<"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x23DC
+        
+- platform: template
+  name: "TR_SKIP_>>"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x22DD
+        
+- platform: template
+  name: "TR_PLAY"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x21DE
+        
+- platform: template
+  name: "TR_PAUSE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x20DF
+        
+- platform: template
+  name: "0"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x1FE0
+        
+- platform: template
+  name: "1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x1EE1
+        
+- platform: template
+  name: "2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x1DE2
+        
+- platform: template
+  name: "3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x1CE3
+        
+- platform: template
+  name: "4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x1BE4
+        
+- platform: template
+  name: "5"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x1AE5
+        
+- platform: template
+  name: "6"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x19E6
+        
+- platform: template
+  name: "7"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x18E7
+        
+- platform: template
+  name: "8"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x17E8
+        
+- platform: template
+  name: "9"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x16E9
+        
+- platform: template
+  name: "TR_STOP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x15EA
+        
+- platform: template
+  name: "DIMMER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x11EE
+        
+- platform: template
+  name: "CLEAR"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x0EF1
+        
+- platform: template
+  name: "PIP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x0DF2
+        
+- platform: template
+  name: "REPEAT_A-B"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x0CF3
+        
+- platform: template
+  name: "PIP_AUDIO_MONITOR"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x0BF4
+        
+- platform: template
+  name: "FIND"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x0AF5
+        

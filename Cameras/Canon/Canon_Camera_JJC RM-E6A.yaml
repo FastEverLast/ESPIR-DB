@@ -1,0 +1,15 @@
+
+- platform: template
+  name: "Shutter"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [594, -7182, 593]
+    
+- platform: template
+  name: "2sec_Shutter"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [566, -5044, 561]
+    

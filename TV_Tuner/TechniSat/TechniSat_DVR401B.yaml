@@ -1,0 +1,210 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x08
+        command: 0x0C
+    
+- platform: template
+  name: "Input"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x08
+        command: 0x13
+
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x08
+        command: 0x12
+
+- platform: template
+  name: "Info"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x08
+        command: 0x0F
+
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x08
+        command: 0x22
+    
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x08
+        command: 0x17
+
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x08
+        command: 0x10
+
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x08
+        command: 0x11
+
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x08
+        command: 0x15
+
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x08
+        command: 0x16
+
+- platform: template
+  name: "Next"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x08
+        command: 0x35
+
+- platform: template
+  name: "Prev"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x08
+        command: 0x34
+
+- platform: template
+  name: "Fast_fo"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x08
+        command: 0x34
+    
+- platform: template
+  name: "Fast_ba"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x08
+        command: 0x32
+    
+- platform: template
+  name: "Play_pa"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x08
+        command: 0x35
+    
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x08
+        command: 0x36
+    
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x08
+        command: 0x0D
+    
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x08
+        command: 0x10
+    
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x08
+        command: 0x11
+    
+- platform: template
+  name: "Ch_next"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x08
+        command: 0x20
+    
+- platform: template
+  name: "Ch_prev"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x08
+        command: 0x21
+    
+- platform: template
+  name: "OPT"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x08
+        command: 0x0A
+    
+- platform: template
+  name: "NAV"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x08
+        command: 0x29
+
+- platform: template
+  name: "SFI"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x08
+        command: 0x2F
+    
+- platform: template
+  name: "Record"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x08
+        command: 0x37
+    
+- platform: template
+  name: "Red"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x08
+        command: 0x2B
+
+- platform: template
+  name: "Green"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x08
+        command: 0x2C
+
+- platform: template
+  name: "Yellow"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x08
+        command: 0x2D
+
+- platform: template
+  name: "Blue"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x08
+        command: 0x2E
+
+- platform: template
+  name: "WWW"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x08
+        command: 0x3F

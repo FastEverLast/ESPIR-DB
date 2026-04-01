@@ -1,0 +1,50 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1000
+        command: 0xFF00
+        
+- platform: template
+  name: "Tv_radio"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1000
+        command: 0xF20D
+        
+- platform: template
+  name: "Souce"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1000
+        command: 0xFD02
+        
+- platform: template
+  name: "V_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1000
+        command: 0xE01F
+        
+- platform: template
+  name: "C_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1000
+        command: 0xEF10
+        
+- platform: template
+  name: "V_down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1000
+        command: 0xBF40
+        
+- platform: template
+  name: "C_down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x1000
+        command: 0xF00F
+        

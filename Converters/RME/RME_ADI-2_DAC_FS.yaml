@@ -1,0 +1,155 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3412
+        command: 0xDF20
+        
+- platform: template
+  name: "SEL"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3412
+        command: 0xCA35
+        
+- platform: template
+  name: "BT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3412
+        command: 0xD42B
+        
+- platform: template
+  name: "EQ"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3412
+        command: 0xD32C
+        
+- platform: template
+  name: "LD"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3412
+        command: 0xD22D
+        
+- platform: template
+  name: "Bass_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3412
+        command: 0xD02F
+        
+- platform: template
+  name: "Bass_down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3412
+        command: 0xCF30
+        
+- platform: template
+  name: "Treble_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3412
+        command: 0xCE31
+        
+- platform: template
+  name: "Treble_down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3412
+        command: 0xCD32
+        
+- platform: template
+  name: "Volume_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3412
+        command: 0xDD22
+        
+- platform: template
+  name: "Volume_down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3412
+        command: 0xDE21
+        
+- platform: template
+  name: "VOL"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3412
+        command: 0xD12E
+        
+- platform: template
+  name: "Channl_L"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3412
+        command: 0xCC33
+        
+- platform: template
+  name: "Channel_R"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3412
+        command: 0xCB34
+        
+- platform: template
+  name: "5"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3412
+        command: 0xDC23
+        
+- platform: template
+  name: "6"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3412
+        command: 0xDB24
+        
+- platform: template
+  name: "7"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3412
+        command: 0xDA25
+        
+- platform: template
+  name: "1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3412
+        command: 0xD926
+        
+- platform: template
+  name: "2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3412
+        command: 0xD827
+        
+- platform: template
+  name: "3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3412
+        command: 0xD728
+        
+- platform: template
+  name: "4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3412
+        command: 0xD629
+        
+- platform: template
+  name: "Buttom_mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3412
+        command: 0xD52A
+        

@@ -1,0 +1,127 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1221, -1171, 433, -566, 433, -881, 433, -2381, 433, -1486, 434, -565, 434, -1486, 433, -1776, 433, -2380, 433, -565, 434, -2381, 433, -1170, 434, -87358, 1220, -1171, 433, -566, 433, -883, 431, -2381, 433, -1486, 433, -567, 432, -1487, 432, -1775, 434, -2381, 432, -566, 433, -2380, 434, -1171, 433, -86252, 1221, -1172, 432, -565, 434, -880, 435, -2381, 433, -1486, 433, -565, 434, -1487, 432, -1776, 433, -2380, 434, -566, 433, -2379, 434, -1170, 434]
+    
+- platform: template
+  name: "Settings"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1220, -1172, 432, -566, 433, -882, 432, -2381, 433, -1487, 432, -566, 433, -1486, 433, -1169, 435, -1172, 432, -881, 434, -1487, 432, -1172, 432, -88910, 324, -937, 325, -357, 326, -647, 326]
+    
+- platform: template
+  name: "Home"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1195, -1197, 432, -566, 433, -884, 430, -2382, 432, -1488, 431, -568, 431, -884, 430, -2671, 432, -883, 431, -1776, 433, -884, 430, -1777, 432, -87148, 324, -936, 326, -358, 325, -648, 325]
+    
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1196, -1197, 432, -567, 432, -883, 431, -2381, 433, -1488, 431, -568, 431, -882, 433, -1488, 431, -568, 431, -2066, 432, -882, 433, -2382, 432, -87779, 324, -937, 325, -358, 325, -648, 325]
+    
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1219, -1173, 432, -568, 431, -883, 431, -2383, 431, -1489, 430, -569, 430, -882, 432, -2067, 431, -567, 432, -1778, 431, -2067, 431, -2382, 432, -87200, 325, -938, 324, -358, 325, -648, 325]
+    
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1220, -1172, 433, -568, 431, -882, 432, -2381, 432, -1488, 431, -566, 433, -882, 432, -1777, 432, -566, 433, -1777, 432, -2670, 433, -2382, 431]
+    
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1194, -1197, 432, -567, 432, -882, 433, -2382, 431, -1490, 430, -569, 430, -882, 432, -1777, 432, -883, 431, -1778, 431, -2672, 431, -1777, 432]
+    
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1220, -1173, 431, -566, 433, -882, 432, -2381, 433, -1486, 433, -565, 434, -881, 433, -1776, 433, -2066, 432, -1777, 432, -2383, 431, -1776, 433]
+    
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1221, -1172, 432, -566, 433, -882, 432, -2381, 433, -1486, 433, -566, 433, -883, 432, -1777, 431, -1173, 431, -1776, 433, -2670, 433, -1175, 429]
+    
+- platform: template
+  name: "Play_pa"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1222, -1171, 433, -566, 433, -881, 433, -2380, 434, -1487, 432, -565, 434, -1171, 433, -2671, 432, -881, 433, -1170, 434, -882, 433, -1776, 433]
+    
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1221, -1173, 431, -566, 433, -882, 432, -2382, 432, -1487, 432, -566, 433, -565, 434, -566, 433, -2671, 432, -2670, 433, -2381, 433, -566, 433, -87411, 324, -937, 325, -358, 325, -647, 326]
+    
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1221, -1172, 432, -566, 433, -882, 433, -2381, 432, -1486, 434, -566, 433, -565, 434, -882, 433, -1486, 434, -2669, 434, -2065, 433, -566, 433, -87779, 324, -936, 326, -358, 325, -647, 326]
+    
+- platform: template
+  name: "Ch_next"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1221, -1172, 432, -567, 432, -882, 432, -2380, 434, -1486, 433, -567, 432, -565, 434, -1171, 433, -1170, 434, -2670, 433, -1485, 434, -1172, 432, -87923, 325, -923, 326, -358, 325, -647, 326]
+    
+- platform: template
+  name: "Ch_prev"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1220, -1171, 433, -565, 434, -882, 432, -2381, 433, -1486, 433, -566, 433, -566, 433, -1172, 432, -564, 435, -2670, 433, -1485, 434, -2381, 432, -87384, 325, -936, 326, -358, 325, -646, 327]
+    
+- platform: template
+  name: "Netflix"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1171, -1221, 430, -570, 430, -883, 408, -2407, 431, -1488, 431, -568, 431, -1489, 430, -2383, 431, -1488, 432, -568, 430, -1488, 431, -567, 431, -89017, 299, -960, 302, -383, 300, -672, 325]
+    
+- platform: template
+  name: "Samsung_tv_plus"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1170, -1221, 407, -592, 407, -907, 407, -2406, 408, -1514, 405, -592, 407, -1197, 407, -2407, 407, -1803, 406, -1197, 407, -1198, 406, -2408, 405, -86908, 299, -964, 298, -384, 299, -676, 297]
+    
+- platform: template
+  name: "Disney_plus"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1196, -1197, 431, -568, 431, -885, 429, -2380, 433, -1488, 432, -567, 432, -1488, 431, -1488, 431, -2672, 431, -883, 431, -568, 431, -567, 432, -89307, 297, -963, 299, -383, 325, -647, 325]
+    
+- platform: template
+  name: "Prime_video"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1195, -1195, 433, -567, 432, -883, 431, -2382, 432, -1487, 432, -569, 431, -1490, 429, -2382, 432, -1777, 432, -569, 430, -1172, 432, -2382, 431, -86362, 297, -961, 325, -358, 301, -672, 325]
+    

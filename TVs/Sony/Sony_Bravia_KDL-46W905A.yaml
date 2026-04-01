@@ -1,0 +1,133 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xA90
+        nbits: 12
+
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x490
+        nbits: 12
+
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xC90
+        nbits: 12
+
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x290
+        nbits: 12
+
+- platform: template
+  name: "Ch_next"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x90
+        nbits: 12
+
+- platform: template
+  name: "Ch_prev"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x890
+        nbits: 12
+
+- platform: template
+  name: "Play"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x2CE9
+        nbits: 15
+
+- platform: template
+  name: "Pause"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x4CE9
+        nbits: 15
+
+- platform: template
+  name: "Source"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xA50
+        nbits: 12
+
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x2F0
+        nbits: 12
+
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xAF0
+        nbits: 12
+
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x2D0
+        nbits: 12
+
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xCD0
+        nbits: 12
+
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xA70
+        nbits: 12
+
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x62E9
+        nbits: 15
+
+- platform: template
+  name: "Home"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x70
+        nbits: 12
+
+- platform: template
+  name: "Options"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x36E9
+        nbits: 15
+
+- platform: template
+  name: "Analog/digi"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x58EE
+        nbits: 15
+
+- platform: template
+  name: "Tv/radio"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x7558
+        nbits: 15

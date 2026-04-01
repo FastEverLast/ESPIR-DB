@@ -1,0 +1,203 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xA81
+        nbits: 12
+
+- platform: template
+  name: "Sleep"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x61
+        nbits: 12
+
+- platform: template
+  name: "Display"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xD21
+        nbits: 12
+
+- platform: template
+  name: "Mode"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x14B9C
+        nbits: 20
+
+- platform: template
+  name: "Repeat"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xB4B9C
+        nbits: 20
+
+- platform: template
+  name: "Clear"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xF0B9C
+        nbits: 20
+
+- platform: template
+  name: "Eq"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x6309
+        nbits: 15
+
+- platform: template
+  name: "Tuner_memory"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x701
+        nbits: 12
+
+- platform: template
+  name: "Timer_menu"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xA61
+        nbits: 12
+
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x1EB9C
+        nbits: 20
+
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x5EB9C
+        nbits: 20
+
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xDEB9C
+        nbits: 20
+
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x9EB9C
+        nbits: 20
+
+- platform: template
+  name: "Select"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x3EB9C
+        nbits: 20
+
+- platform: template
+  name: "Return"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xBEB9C
+        nbits: 20
+
+- platform: template
+  name: "Tool_menu"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xCEB9C
+        nbits: 20
+
+- platform: template
+  name: "Prev"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xCB9C
+        nbits: 20
+
+- platform: template
+  name: "Next"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x8CB9C
+        nbits: 20
+
+- platform: template
+  name: "Bkwd"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xCCB9C
+        nbits: 20
+
+- platform: template
+  name: "Fwd"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x2CB9C
+        nbits: 20
+
+- platform: template
+  name: "Plus"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xF4B9C
+        nbits: 20
+
+- platform: template
+  name: "Minus"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x74B9C
+        nbits: 20
+
+- platform: template
+  name: "Play"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x4CB9C
+        nbits: 20
+
+- platform: template
+  name: "Pause"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x9CB9C
+        nbits: 20
+
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x1CB9C
+        nbits: 20
+
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x481
+        nbits: 12
+
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0xC81
+        nbits: 12
+
+- platform: template
+  name: "Func_up"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x4B09
+        nbits: 15
+
+- platform: template
+  name: "Func_down"
+  on_press:
+    - remote_transmitter.transmit_sony:
+        data: 0x2B09
+        nbits: 15

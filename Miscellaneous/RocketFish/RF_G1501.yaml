@@ -1,0 +1,36 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF82
+        command: 0xED12
+        
+- platform: template
+  name: "Input 1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF82
+        command: 0xFA05
+        
+- platform: template
+  name: "Input 2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF82
+        command: 0xF807
+        
+- platform: template
+  name: "Input 3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF82
+        command: 0xE41B
+        
+- platform: template
+  name: "Input 4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF82
+        command: 0xF609
+        

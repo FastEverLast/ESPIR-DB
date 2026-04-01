@@ -1,0 +1,8 @@
+
+- platform: template
+  name: "Shutter"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x3B86
+        command: 0xFE01
+        

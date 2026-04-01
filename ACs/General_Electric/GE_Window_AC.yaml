@@ -1,0 +1,50 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6F98
+        command: 0xE619
+        
+- platform: template
+  name: "Fan_speed"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6F98
+        command: 0xFB04
+        
+- platform: template
+  name: "TEMP+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6F98
+        command: 0xFA05
+        
+- platform: template
+  name: "TEMP-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6F98
+        command: 0xF609
+        
+- platform: template
+  name: "Mode"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6F98
+        command: 0xF708
+        
+- platform: template
+  name: "Eco"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6F98
+        command: 0xFC03
+        
+- platform: template
+  name: "Delay"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x6F98
+        command: 0xE51A
+        

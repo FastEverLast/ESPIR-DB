@@ -1,0 +1,64 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7484
+        command: 0x00FF
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7080
+        command: 0x38C7
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7080
+        command: 0x37C8
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7080
+        command: 0x3EC1
+        
+- platform: template
+  name: "Bluetooth"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7080
+        command: 0x45BA
+        
+- platform: template
+  name: "TV"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7080
+        command: 0x4EB1
+        
+- platform: template
+  name: "Virtual Surround"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7080
+        command: 0x51AE
+        
+- platform: template
+  name: "Connect"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7080
+        command: 0x5AA5
+        
+- platform: template
+  name: "Feedback"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7080
+        command: 0x15EA
+        

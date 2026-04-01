@@ -1,0 +1,64 @@
+
+- platform: template
+  name: "On_Off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xFF00
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xE619
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xE31C
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xE718
+        
+- platform: template
+  name: "AUX"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xF708
+        
+- platform: template
+  name: "PC"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xEF10
+        
+- platform: template
+  name: "BT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xF30C
+        
+- platform: template
+  name: "OPT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xF20D
+        
+- platform: template
+  name: "USB"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xEB14
+        

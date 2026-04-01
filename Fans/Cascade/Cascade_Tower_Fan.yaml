@@ -1,0 +1,36 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xBF40
+        
+- platform: template
+  name: "SPIN"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9212, -4481, 611, -529, 612, -528, 613, -529, 612, -529, 613, -529, 612, -528, 612, -528, 612, -528, 612, -1638, 612, -1638, 611, -1637, 612, -1637, 612, -1637, 612, -1637, 612, -1637, 612, -1637, 611, -529, 611, -1638, 610, -1637, 611, -528, 611, -528, 611, -528, 610, -1637, 610, -528, 610, -1637, 610, -529, 610, -528, 611, -1637, 611, -1637, 611, -1637, 611, -529, 610, -1637, 611, -40010, 9160, -2210, 611]
+    
+- platform: template
+  name: "SPEED"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9230, -4449, 644, -522, 617, -523, 617, -524, 615, -526, 613, -529, 611, -530, 610, -530, 610, -531, 609, -1640, 610, -1640, 610, -1640, 609, -1640, 609, -1640, 610, -1640, 609, -1640, 609, -1640, 609, -531, 609, -531, 609, -1640, 609, -531, 609, -531, 609, -531, 609, -1640, 609, -531, 609, -1640, 609, -1641, 608, -532, 608, -1641, 608, -1641, 608, -1641, 608, -532, 608, -1641, 608, -40020, 9177, -2212, 611]
+    
+- platform: template
+  name: "BREEZE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xBC43
+        
+- platform: template
+  name: "TIMER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0xEA15
+        

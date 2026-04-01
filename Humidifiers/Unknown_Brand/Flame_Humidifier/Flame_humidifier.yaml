@@ -1,0 +1,36 @@
+
+- platform: template
+  name: "On/Off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4D4C
+        command: 0xB847
+        
+- platform: template
+  name: "Fire_On"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4D4C
+        command: 0xBA45
+        
+- platform: template
+  name: "Light_On"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4D4C
+        command: 0xE916
+        
+- platform: template
+  name: "Light_Mode"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4D4C
+        command: 0xFD02
+        
+- platform: template
+  name: "Timer"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x4D4C
+        command: 0xE817
+        

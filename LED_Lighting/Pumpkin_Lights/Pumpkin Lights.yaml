@@ -1,0 +1,64 @@
+
+- platform: template
+  name: "On_off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x00FF
+        command: 0x6A95
+        
+- platform: template
+  name: "Plus"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x00FF
+        command: 0x5BA4
+        
+- platform: template
+  name: "Min"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x00FF
+        command: 0x6996
+        
+- platform: template
+  name: "Mode"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x00FF
+        command: 0xDA25
+        
+- platform: template
+  name: "2h"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x00FF
+        command: 0xC936
+        
+- platform: template
+  name: "4h"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x00FF
+        command: 0xAA55
+        
+- platform: template
+  name: "6h"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x00FF
+        command: 0xB946
+        
+- platform: template
+  name: "Flicker"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x00FF
+        command: 0x6C93
+        
+- platform: template
+  name: "Steady"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x00FF
+        command: 0x6B94
+        

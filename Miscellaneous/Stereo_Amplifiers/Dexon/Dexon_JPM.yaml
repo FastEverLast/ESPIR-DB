@@ -1,0 +1,134 @@
+
+- platform: template
+  name: "On_Off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8989
+        command: 0xBF40
+        
+- platform: template
+  name: "Bulb"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8989
+        command: 0xB24D
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8989
+        command: 0xBE41
+        
+- platform: template
+  name: "USB"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8989
+        command: 0xB34C
+        
+- platform: template
+  name: "AUX_in"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8989
+        command: 0xEE11
+        
+- platform: template
+  name: "Option_in"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8989
+        command: 0xEF10
+        
+- platform: template
+  name: "WiFi"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8989
+        command: 0xE619
+        
+- platform: template
+  name: "BT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8989
+        command: 0xE718
+        
+- platform: template
+  name: "Bass_P"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8989
+        command: 0xB14E
+        
+- platform: template
+  name: "Bass_M"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8989
+        command: 0xB54A
+        
+- platform: template
+  name: "Treble_P"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8989
+        command: 0xF20D
+        
+- platform: template
+  name: "Treble_M"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8989
+        command: 0xF609
+        
+- platform: template
+  name: "Flat"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8989
+        command: 0xF30C
+        
+- platform: template
+  name: "D_Bass"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8989
+        command: 0xF708
+        
+- platform: template
+  name: "Up_Plus"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8989
+        command: 0xE916
+        
+- platform: template
+  name: "Down_Minus"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8989
+        command: 0xE51A
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8989
+        command: 0xAE51
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8989
+        command: 0xAF50
+        
+- platform: template
+  name: "OK"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x8989
+        command: 0xEC13
+        

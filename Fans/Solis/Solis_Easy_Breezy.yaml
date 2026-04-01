@@ -1,0 +1,36 @@
+
+- platform: template
+  name: "Sofis_aan"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCF30
+        command: 0x6897
+        
+- platform: template
+  name: "Speed"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCF30
+        command: 0x7986
+        
+- platform: template
+  name: "Mode"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCF30
+        command: 0x7887
+        
+- platform: template
+  name: "Timer"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCF30
+        command: 0x639C
+        
+- platform: template
+  name: "Swing"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xCF30
+        command: 0x6A95
+        

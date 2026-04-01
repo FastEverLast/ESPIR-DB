@@ -1,0 +1,218 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0xFF00
+        
+- platform: template
+  name: "Auto_PC"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0x7689
+        
+- platform: template
+  name: "D_zoom_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0xFE01
+        
+- platform: template
+  name: "D_zoom_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0xFD02
+        
+- platform: template
+  name: "Freeze"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0xBC43
+        
+- platform: template
+  name: "No_show"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0x748B
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0xF40B
+        
+- platform: template
+  name: "Image"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0xF30C
+        
+- platform: template
+  name: "Select"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0xF00F
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0x738C
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0xE11E
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0xE21D
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0x728D
+        
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0xE31C
+        
+- platform: template
+  name: "Keystone"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0xA45B
+        
+- platform: template
+  name: "Mouse_up"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1448, -941, 260, -1335, 259, -564, 235, -1363, 233, -1361, 234, -562, 233, -562, 234, -569, 233, -561, 233, -1362, 233, -1364, 232, -1359, 233, -1364, 232, -591, 206, -593, 206, -564, 231, -1387, 207, -1389, 205, -1392, 206, -1413, 179, -1417, 179, -1421, 179, -615, 179, -619, 178, -615, 179, -5833, 1341]
+    
+- platform: template
+  name: "Mouse_left"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1477, -917, 289, -1303, 288, -508, 289, -1308, 288, -1303, 289, -508, 289, -509, 288, -509, 288, -512, 288, -512, 288, -503, 288, -509, 288, -509, 288, -510, 287, -1307, 288, -515, 287, -506, 288, -510, 287, -1334, 262, -510, 287, -1330, 261, -537, 262, -509, 287, -537, 262, -1333, 262, -10509, 1450, -943, 261, -1335, 261, -531, 261, -1339, 261, -1331, 261, -541, 261, -533, 261, -537, 260, -537, 260, -537, 260, -537, 260, -560, 234, -1335, 260, -563, 234, -1363, 233, -564, 233, -1360, 233, -568, 234, -1359, 233, -1360, 233, -568, 232, -590, 207, -565, 232, -591, 206, -1385, 206, -8946, 1421, -995, 205, -1388, 205, -598, 205, -1385, 205, -1437, 152, -622, 179, -649, 147, -676, 108, -1430, 179]
+    
+- platform: template
+  name: "Mouse_right"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1367, -1023, 179, -1472, 109, -659, 148, -1423, 178, -1444, 148, -642, 152]
+    
+- platform: template
+  name: "Mouse_down"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1421, -992, 207, -1364, 233, -564, 233, -1390, 206, -1360, 232, -591, 206, -591, 206, -592, 205, -621, 179, -589, 205, -592, 205, -592, 205, -1473, 107, -1458, 148, -1448, 148, -1420, 178, -619, 179, -17129, 201]
+    
+- platform: template
+  name: "Left_click"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1586, -806, 377, -1224, 376, -417, 377, -1215, 377, -1218, 377, -425, 377, -418, 376, -422, 377, -421, 378, -419, 376, -420, 377, -421, 376, -420, 377, -417, 377, -421, 376, -1223, 376, -418, 376, -420, 377, -420, 377, -421, 376, -424, 378, -417, 377, -421, 376, -418, 378, -1220, 377, -11984, 1588, -805, 377, -1224, 377, -417, 377, -1216, 376, -1219, 376, -424, 378, -416, 378, -419, 378, -419, 379, -420, 377, -424, 378, -416, 378, -416, 378, -423, 377, -419, 377, -1219, 378, -419, 378, -420, 377, -420, 377, -421, 376, -416, 378, -420, 377, -419, 378, -419, 378, -1217, 378, -11991, 1564, -829, 376, -1215, 377, -421, 376, -1219, 377, -1217, 376, -420, 377, -422, 375, -421, 376, -425, 377, -417, 377, -420, 377, -421, 376, -420, 377, -420, 377, -424, 378, -1215, 377, -419, 376, -419, 377, -423, 376, -420, 377, -420, 377, -421, 376, -420, 377, -420, 376, -1224, 377, -11981, 1588, -808, 375, -1219, 376, -426, 376, -1216, 376, -1215, 377, -422, 377, -425, 377, -415, 376, -425, 377, -418, 376, -420, 377, -421, 376, -421, 376, -420, 377, -426, 376, -1214, 378, -417, 377, -421, 376, -421, 376, -421, 376, -420, 377, -420, 377, -420, 377, -422, 377, -1220, 377, -11987, 1587, -805, 377, -1220, 376, -421, 376, -1214, 378, -1219, 378, -420, 377, -420, 377, -425, 377, -417, 377, -421, 376, -417, 377, -421, 378, -417, 379, -421, 378, -419, 378, -1219, 378, -419, 378, -420, 377, -419, 378, -420, 377, -416, 403, -395, 402, -394, 403, -395, 402, -1194, 402, -11962, 1588, -802, 405, -1192, 403, -392, 405, -1190, 405, -1192, 405, -393, 404, -398, 404, -390, 404, -393, 404, -392, 405, -393, 404, -392, 405, -389, 405, -393, 404, -392, 405, -392, 405, -1191, 404, -394, 405, -392, 405, -391, 406, -397, 405, -390, 404, -392, 405, -390, 406, -1192, 404]
+    
+- platform: template
+  name: "Right_click"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [1587, -806, 450, -1149, 451, -344, 377, -1215, 377, -1218, 377, -426, 376, -417, 377, -422, 377, -423, 375, -420, 376, -421, 376, -421, 376, -421, 376, -418, 376, -421, 376, -420, 377, -1220, 376, -421, 376, -422, 375, -422, 375, -426, 376, -418, 376, -421, 376, -1218, 375, -423, 376, -11985, 1587, -806, 376, -1226, 375, -417, 377, -1216, 376, -1219, 376, -426, 376, -418, 376, -421, 376, -421, 376, -421, 376, -426, 376, -418, 376, -419, 375, -424, 376, -420, 376, -421, 376, -1221, 375, -421, 376, -422, 375, -421, 376, -418, 376, -421, 376, -421, 376, -1219, 376, -420, 377, -11992, 1563, -831, 374, -1215, 377, -421, 376, -1220, 377, -1217, 376, -421, 376, -421, 376, -421, 376, -426, 376, -419, 375, -421, 376, -421, 376, -421, 376, -421, 376, -425, 377, -418, 376, -1217, 376, -419, 377, -423, 376, -422, 375, -421, 376, -422, 375, -422, 375, -1219, 376, -426, 376, -11982, 1587, -806, 377, -1219, 376, -425, 377, -1216, 376, -1215, 377, -423, 376, -426, 376, -415, 376, -425, 377, -418, 376, -422, 375, -421, 376, -420, 377, -419, 378, -425, 377, -417, 377, -1215, 377, -420, 377, -421, 376, -421, 376, -421, 376, -420, 377, -426, 378, -1213, 377, -422, 377, -11986, 1588, -806, 378, -1214, 403, -395, 402, -1193, 404, -1197, 403, -392, 402, -394, 404, -394, 403, -394, 403, -393, 404, -393, 404, -397, 403, -390, 403, -394, 403, -398, 404, -390, 404, -1192, 403, -390, 404, -393, 404, -393, 405, -394, 403, -398, 404, -390, 404, -1190, 405, -399, 403, -11961, 1565, -823, 403, -1192, 405, -390, 404, -1192, 405, -1194, 402, -393, 404, -394, 403, -393, 404, -393, 404, -389, 405, -393, 404, -393, 404, -394, 403, -399, 403, -390, 404, -395, 402, -1191, 404, -398, 404, -390, 404, -393, 404, -394, 403, -393, 404, -390, 404, -397, 403, -1187, 405]
+    
+- platform: template
+  name: "P_timer"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0x758A
+        
+- platform: template
+  name: "Computer_1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0xC738
+        
+- platform: template
+  name: "Computer_2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0xC639
+        
+- platform: template
+  name: "Video"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0xFA05
+        
+- platform: template
+  name: "Zoom_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0xB847
+        
+- platform: template
+  name: "Zoom_down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0xB946
+        
+- platform: template
+  name: "Focus_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0xB54A
+        
+- platform: template
+  name: "Focus_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0xB44B
+        
+- platform: template
+  name: "Lens_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0xA25D
+        
+- platform: template
+  name: "Lens_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0033
+        command: 0xA15E
+        

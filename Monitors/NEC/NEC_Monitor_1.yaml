@@ -1,0 +1,141 @@
+
+- platform: template
+  name: "TV_CHANNEL_^"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0004
+        command: 0xFF00
+        
+- platform: template
+  name: "TV_CHANNEL_V"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0004
+        command: 0xFE01
+        
+- platform: template
+  name: "TV_VOLUME_^"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0004
+        command: 0xFD02
+        
+- platform: template
+  name: "TV_VOLUME_V"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0004
+        command: 0xFC03
+        
+- platform: template
+  name: "TV_POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0004
+        command: 0xF708
+        
+- platform: template
+  name: "TV/VIDEO"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0004
+        command: 0xF609
+        
+- platform: template
+  name: "TV_MUTE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0004
+        command: 0xF50A
+        
+- platform: template
+  name: "TV_ANT/AUX"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0004
+        command: 0xF40B
+        
+- platform: template
+  name: "TV_0"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0004
+        command: 0xEF10
+        
+- platform: template
+  name: "TV_1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0004
+        command: 0xEE11
+        
+- platform: template
+  name: "TV_2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0004
+        command: 0xED12
+        
+- platform: template
+  name: "TV_3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0004
+        command: 0xEC13
+        
+- platform: template
+  name: "TV_4"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0004
+        command: 0xEB14
+        
+- platform: template
+  name: "TV_5"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0004
+        command: 0xEA15
+        
+- platform: template
+  name: "TV_6"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0004
+        command: 0xE916
+        
+- platform: template
+  name: "TV_7"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0004
+        command: 0xE817
+        
+- platform: template
+  name: "TV_8"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0004
+        command: 0xE718
+        
+- platform: template
+  name: "TV_9"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0004
+        command: 0xE619
+        
+- platform: template
+  name: "TV_TIMER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0004
+        command: 0xE51A
+        
+- platform: template
+  name: "TV_RECALL"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0004
+        command: 0xE41B
+        

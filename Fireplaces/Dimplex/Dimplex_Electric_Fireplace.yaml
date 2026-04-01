@@ -1,0 +1,71 @@
+
+- platform: template
+  name: "Power_on_off"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0x7E81
+        
+- platform: template
+  name: "Fire_toggle"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0x7D82
+        
+- platform: template
+  name: "Heat_toggle"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9105, -4479, 619, -575, 565, -576, 543, -572, 567, -574, 566, -575, 544, -570, 569, -572, 567, -573, 546, -1685, 594, -1639, 682, -1629, 568, -1690, 600, -1634, 677, -1634, 573, -1685, 595, -1639, 672, -495, 593, -574, 545, -1686, 593, -575, 544, -1688, 591, -576, 543, -1689, 601, -1632, 679, -1632, 575, -1683, 597, -572, 547, -1684, 595, -573, 546, -1686, 593, -574, 545, -570, 569, -40267, 9103, -2248, 601, -97067, 9081, -2244, 595]
+    
+- platform: template
+  name: "Temp_down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0x6B94
+        
+- platform: template
+  name: "Temp_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0x6A95
+        
+- platform: template
+  name: "Eco_toggle"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0x7C83
+        
+- platform: template
+  name: "Pwr_level_toggle"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0x6996
+        
+- platform: template
+  name: "Light_toggle"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0x3FC0
+        
+- platform: template
+  name: "Light_level_toggle"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0x6897
+        
+- platform: template
+  name: "Timer_toggle"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFF00
+        command: 0x7F80
+        

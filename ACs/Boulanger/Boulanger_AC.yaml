@@ -1,0 +1,64 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E81
+        command: 0x946B
+        
+- platform: template
+  name: "TEMP+"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E81
+        command: 0x9A65
+        
+- platform: template
+  name: "TEMP-"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E81
+        command: 0x9768
+        
+- platform: template
+  name: "Fanspeed"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E81
+        command: 0x9B64
+        
+- platform: template
+  name: "Openangle"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E81
+        command: 0x9867
+        
+- platform: template
+  name: "Timer"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E81
+        command: 0x9669
+        
+- platform: template
+  name: "MODE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E81
+        command: 0x9966
+        
+- platform: template
+  name: "Nightmode"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E81
+        command: 0x956A
+        
+- platform: template
+  name: "Celsiufarenheight"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7E81
+        command: 0x936C
+        

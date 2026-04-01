@@ -1,0 +1,197 @@
+
+- platform: template
+  name: "On"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xBA45
+        
+- platform: template
+  name: "S_video"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xFB04
+        
+- platform: template
+  name: "Aux"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xFA05
+        
+- platform: template
+  name: "Dvd"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xA05F
+        
+- platform: template
+  name: "Hp_vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xF609
+        
+- platform: template
+  name: "Hp_vol_dwn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xF30C
+        
+- platform: template
+  name: "Setup"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9159, -4492, 663, -501, 663, -502, 688, -477, 686, -500, 663, -501, 661, -503, 660, -530, 633, -1722, 633, -1722, 659, -1722, 632, -1722, 632, -1722, 659, -1722, 633, -1722, 632, -1722, 633, -531, 659, -1696, 659, -531, 633, -1722, 632, -1722, 632, -531, 633, -531, 633, -531, 633, -531, 633, -532, 658, -1696, 659, -505, 659, -531, 632, -1723, 632, -1722, 659, -1722, 632, -1643, 606, -37842, 9158, -2219, 634]
+    
+- platform: template
+  name: "Menu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xFC03
+        
+- platform: template
+  name: "Display"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xF00F
+        
+- platform: template
+  name: "Title_chapter"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xEF10
+        
+- platform: template
+  name: "Stop"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xEE11
+        
+- platform: template
+  name: "Pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xED12
+        
+- platform: template
+  name: "Play"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xEC13
+        
+- platform: template
+  name: "Sel_l"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xE31C
+        
+- platform: template
+  name: "Sel_r"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xB748
+        
+- platform: template
+  name: "Sel_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xBB44
+        
+- platform: template
+  name: "Sel_dwn"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9160, -4493, 662, -502, 662, -502, 661, -503, 687, -501, 662, -501, 661, -502, 661, -530, 633, -1721, 633, -1721, 660, -1722, 633, -1722, 632, -1722, 659, -1722, 632, -1722, 633, -1722, 632, -531, 659, -1695, 659, -531, 633, -1722, 633, -1722, 659, -1695, 659, -505, 659, -505, 659, -504, 660, -531, 633, -1722, 632, -531, 633, -531, 633, -531, 633, -1722, 659, -1722, 633, -1643, 606, -37842, 9157, -2220, 634, -96295, 9156, -2246, 607, -96346, 9133, -2244, 607]
+    
+- platform: template
+  name: "Sel_enter"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xAE51
+        
+- platform: template
+  name: "Ch_last"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xA35C
+        
+- platform: template
+  name: "Ch_next"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9160, -4491, 664, -501, 663, -502, 687, -477, 687, -499, 664, -501, 661, -502, 661, -529, 634, -1721, 633, -1721, 660, -1721, 633, -1721, 634, -1721, 660, -1721, 633, -1721, 633, -1721, 634, -530, 634, -530, 634, -531, 659, -1695, 659, -530, 634, -1721, 633, -531, 633, -531, 633, -531, 633, -1721, 660, -1695, 659, -531, 632, -1722, 633, -531, 633, -1721, 660, -1722, 632, -1642, 607, -37840, 9162, -2216, 634, -96320, 9135, -2242, 608, -96346, 9134, -2243, 608]
+    
+- platform: template
+  name: "Rewind"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xEA15
+        
+- platform: template
+  name: "Fforward"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xE619
+        
+- platform: template
+  name: "Format"
+  on_press:
+    - remote_transmitter.transmit_raw:
+        carrier_frequency: 38kHz
+        code: [9160, -4492, 663, -501, 663, -502, 661, -503, 687, -500, 663, -500, 662, -502, 661, -529, 634, -1721, 633, -1721, 660, -1721, 633, -1722, 633, -1721, 660, -1721, 633, -1721, 634, -1721, 634, -531, 633, -531, 633, -531, 633, -531, 633, -531, 633, -531, 633, -530, 660, -1695, 659, -531, 633, -1722, 632, -1722, 659, -1721, 633, -1722, 632, -1722, 659, -1695, 659, -531, 633, -1642, 606, -37842, 9159, -2218, 634]
+    
+- platform: template
+  name: "Language"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xBE41
+        
+- platform: template
+  name: "Subtitles"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xBD42
+        
+- platform: template
+  name: "Angle"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xBC43
+        
+- platform: template
+  name: "Zoom_in"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xAA55
+        
+- platform: template
+  name: "Zoom_out"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x7F80
+        command: 0xA45B
+        

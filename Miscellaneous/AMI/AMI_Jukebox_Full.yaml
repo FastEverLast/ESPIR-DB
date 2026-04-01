@@ -1,0 +1,120 @@
+
+- platform: template
+  name: "POWER"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x0C
+    
+- platform: template
+  name: "Reject"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x36
+    
+- platform: template
+  name: "Play"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x30
+    
+- platform: template
+  name: "Pause"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x35
+    
+- platform: template
+  name: "Ch1_Vol_Up"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x0B
+    
+- platform: template
+  name: "Ch1_Vol_Dn"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x28
+    
+- platform: template
+  name: "Ch2_Vol_Up"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x11
+    
+- platform: template
+  name: "Ch2_Vol_Dn"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x23
+    
+- platform: template
+  name: "Ch3_Vol_Up"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x10
+    
+- platform: template
+  name: "Ch3_Vol_Dn"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x22
+    
+- platform: template
+  name: "Ch4_Vol_Up"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x3B
+    
+- platform: template
+  name: "Ch4_Vol_Dn"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x37
+    
+- platform: template
+  name: "AP_On"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x2B
+    
+- platform: template
+  name: "AP_Off"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x1C
+    
+- platform: template
+  name: "Future"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x2C
+    
+- platform: template
+  name: "Vid_Sel"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x12
+    
+- platform: template
+  name: "Input_Sel"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x14
+        command: 0x0D
+    

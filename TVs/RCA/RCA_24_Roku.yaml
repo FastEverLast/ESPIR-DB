@@ -1,0 +1,120 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xE817
+        
+- platform: template
+  name: "Home"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xFC03
+        
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0x9966
+        
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xD52A
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xE619
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xCC33
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xE11E
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xD22D
+        
+- platform: template
+  name: "Play"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xB34C
+        
+- platform: template
+  name: "Rewind"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xCB34
+        
+- platform: template
+  name: "Forward"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xAA55
+        
+- platform: template
+  name: "Options"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0x9E61
+        
+- platform: template
+  name: "Sleep"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0x9D62
+        
+- platform: template
+  name: "Netflix"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xAD52
+        
+- platform: template
+  name: "Disney"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xF30C
+        
+- platform: template
+  name: "Appletv"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0x8877
+        
+- platform: template
+  name: "Crave"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0x8679
+        

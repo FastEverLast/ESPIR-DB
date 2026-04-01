@@ -1,0 +1,120 @@
+
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB00
+        command: 0xE11E
+        
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB00
+        command: 0xE21D
+        
+- platform: template
+  name: "UP"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB00
+        command: 0xFD02
+        
+- platform: template
+  name: "DOWN"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB00
+        command: 0xFA05
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB00
+        command: 0xE718
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB00
+        command: 0xF50A
+        
+- platform: template
+  name: "OK"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB00
+        command: 0xFB04
+        
+- platform: template
+  name: "PLAY_MODE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB00
+        command: 0xF906
+        
+- platform: template
+  name: "M"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB00
+        command: 0xF807
+        
+- platform: template
+  name: "SOUND"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB00
+        command: 0xF708
+        
+- platform: template
+  name: "1"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB00
+        command: 0xEE11
+        
+- platform: template
+  name: "2"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB00
+        command: 0xF40B
+        
+- platform: template
+  name: "3"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB00
+        command: 0xED12
+        
+- platform: template
+  name: "FAST_REWIND"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB00
+        command: 0xF30C
+        
+- platform: template
+  name: "PLAY_PAUSE"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB00
+        command: 0xE31C
+        
+- platform: template
+  name: "FAST_FORWARD"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB00
+        command: 0xF20D
+        
+- platform: template
+  name: "BLUETOOTH"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xFB00
+        command: 0xF00F
+        

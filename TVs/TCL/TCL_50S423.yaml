@@ -1,0 +1,141 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xE817
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xF00F
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xEF10
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xDF20
+        
+- platform: template
+  name: "Home"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xFC03
+        
+- platform: template
+  name: "Back"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0x9966
+        
+- platform: template
+  name: "Up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xE619
+        
+- platform: template
+  name: "Down"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xCC33
+        
+- platform: template
+  name: "Left"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xE11E
+        
+- platform: template
+  name: "Right"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xD22D
+        
+- platform: template
+  name: "Ok"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xD52A
+        
+- platform: template
+  name: "Instant_replay"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0x8778
+        
+- platform: template
+  name: "Star"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0x9E61
+        
+- platform: template
+  name: "Play/pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xB34C
+        
+- platform: template
+  name: "Rewind"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xCB34
+        
+- platform: template
+  name: "Fast-forward"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xAA55
+        
+- platform: template
+  name: "Hulu"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xB24D
+        
+- platform: template
+  name: "Netflix"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xAD52
+        
+- platform: template
+  name: "Sling"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0xF906
+        
+- platform: template
+  name: "Now"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0xC7EA
+        command: 0x936C
+        

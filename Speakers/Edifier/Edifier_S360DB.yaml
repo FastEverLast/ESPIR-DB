@@ -1,0 +1,78 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xE31C
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xF30C
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xF00F
+        
+- platform: template
+  name: "BT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xF20D
+        
+- platform: template
+  name: "OPT"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xB34C
+        
+- platform: template
+  name: "COX"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xF10E
+        
+- platform: template
+  name: "PC"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xFF00
+        
+- platform: template
+  name: "AUX"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xFE01
+        
+- platform: template
+  name: "Next"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xFC03
+        
+- platform: template
+  name: "Prev"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xBF40
+        
+- platform: template
+  name: "Play_Pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x0E78
+        command: 0xFD02
+        

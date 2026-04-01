@@ -1,0 +1,50 @@
+
+- platform: template
+  name: "Power"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x10
+        command: 0x0C
+    
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x10
+        command: 0x10
+    
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x10
+        command: 0x11
+    
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x10
+        command: 0x0D
+    
+- platform: template
+  name: "SRC+"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x10
+        command: 0x20
+    
+- platform: template
+  name: "SRC-"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x10
+        command: 0x21
+    
+- platform: template
+  name: "SET"
+  on_press:
+    - remote_transmitter.transmit_rc5:
+        address: 0x10
+        command: 0x24
+    

@@ -1,0 +1,78 @@
+
+- platform: template
+  name: "Src"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x46B9
+        command: 0xEC13
+        
+- platform: template
+  name: "Vol_up"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x46B9
+        command: 0xEB14
+        
+- platform: template
+  name: "Vol_dn"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x46B9
+        command: 0xEA15
+        
+- platform: template
+  name: "Mute"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x46B9
+        command: 0xE916
+        
+- platform: template
+  name: "<<Rev"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x46B9
+        command: 0xF50A
+        
+- platform: template
+  name: "Fwd>>"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x46B9
+        command: 0xF40B
+        
+- platform: template
+  name: "Play_Pause"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x46B9
+        command: 0xF10E
+        
+- platform: template
+  name: "AM"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x46B9
+        command: 0xF30C
+        
+- platform: template
+  name: "FM"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x46B9
+        command: 0xF20D
+        
+- platform: template
+  name: "Call_answer"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x46B9
+        command: 0x6D92
+        
+- platform: template
+  name: "Call_end"
+  on_press:
+    - remote_transmitter.transmit_nec:
+        address: 0x46B9
+        command: 0x7788
+        
